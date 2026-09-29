@@ -1,0 +1,51 @@
+{
+  "title": "《核电工程定额管理暂行办法》政策解读",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2025-05-21",
+  "written_date": null,
+  "content_text": "近日，国家能源局印发了《核电工程管理暂行办法》（国能发核电规〔2025〕42号）（以下简称《暂行办法》）。现就《暂行办法》的出台背景和主要内容等解读如下。\n一、出台背景\n定额是指在正常施工条件下完成规定计量单位的合格建筑安装工程所消耗的人工、材料、施工机具台班、工期天数及相关费率等的数量基准。核电工程定额是核电工程编制投资估算、设计概算和最高投标限价的依据，对合理确定核电工程造价，规范核电建设市场秩序，更好保障核电工程质量等具有重要意义，是核电行业管理的基础性工作。为加强核电工程定额管理，根据《中华人民共和国能源法》及国家有关规定，结合核电行业实际，形成了《暂行办法》。\n二、主要内容\n《暂行办法》共14条。\n第1—3条明确了目的依据、适用范围和原则，强调加强核电工程定额管理，规范核电建设市场秩序，合理确定核电工程造价，维护国家利益和核电建设各方的合法权益，保障工程质量，确保核电万无一失。\n第4—7条规定了“国家能源局—定额总站—定额分站”三级管理体系的职责定位及分工，国家能源局履行管理与监督职责，成立专家委员会负责相关技术审查工作，委托相关单位承担定额总站及分站的相关技术支撑工作。\n第8—10条规定了定额编制工作程序，包括工作准备、编制初稿、征求意见、技术审查、批准发布等环节，并建立动态调整机制。\n第11—12条要求定额总站及分站依据本办法建立相关工作制度，并规定定额由国家能源局批准后，由定额总站委托正式出版单位出版。\n第13—14条规定了解释权和有效期等。",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "publish_date": {
+      "meta": "PubDate/publishdate",
+      "value": "2025-05-21 16:21:13"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2025-05-21",
+    "pubdate": "2025-05-21 16:21:13"
+  },
+  "url": "https://www.nea.gov.cn/20250521/c751747957844b63ba72b9e7dbd15235/c.html",
+  "final_url": "https://www.nea.gov.cn/20250521/c751747957844b63ba72b9e7dbd15235/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "147e1c83e57423fb0ef6d2cdf96acb99dc3950bd29e0ffba7c725a208fe23ff1",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "aac677bd109387ab54234342ba6513487605ff652a7b51692ef5570889ab58b6",
+  "source_id": "nf",
+  "column_id": "nf_interpretations",
+  "columns": [
+    {
+      "source_id": "nf",
+      "column_id": "nf_interpretations",
+      "list_url": "https://nfj.nea.gov.cn/xxgk/zcjd/",
+      "list_date": "2025-05-22",
+      "list_date_raw": "2025-05-22",
+      "list_title": "《核电工程定额管理暂行办法》政策解读"
+    }
+  ],
+  "source_ids": [
+    "nf"
+  ],
+  "column_ids": [
+    "nf_interpretations"
+  ],
+  "list_date": "2025-05-22",
+  "first_seen_at": "2026-09-29T09:15:28+00:00",
+  "last_checked_at": "2026-09-29T09:15:28+00:00",
+  "versions": []
+}

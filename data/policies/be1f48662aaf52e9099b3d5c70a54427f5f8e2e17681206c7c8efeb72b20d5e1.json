@@ -1,0 +1,66 @@
+{
+  "title": "一图读懂《中国新型储能发展报告（2026）》",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-07-30",
+  "written_date": null,
+  "content_text": "附：中国新型储能发展报告（2026）",
+  "content_status": "image_only",
+  "attachments": [
+    {
+      "name": "202607303923f7bc890d482892412aaca9aa55e6_20260730448d7f6725834cd483bc3f424739f61f.jpg",
+      "url": "https://www.nea.gov.cn/20260730/3923f7bc890d482892412aaca9aa55e6/202607303923f7bc890d482892412aaca9aa55e6_20260730448d7f6725834cd483bc3f424739f61f.jpg",
+      "format": "jpg",
+      "kind": "inline_image",
+      "size_bytes": 17180083,
+      "sha256": "f1c35e6080cc244ad6952b363c938afad105686206b03130b6aed89dc96ba659",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260730/3923f7bc890d482892412aaca9aa55e6/202607303923f7bc890d482892412aaca9aa55e6_20260730448d7f6725834cd483bc3f424739f61f.jpg",
+      "content_type": "image/jpeg",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "meta": "PubDate/publishdate",
+      "value": "2026-07-30 15:30:00"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-07-30",
+    "pubdate": "2026-07-30 15:30:00"
+  },
+  "url": "https://www.nea.gov.cn/20260730/3923f7bc890d482892412aaca9aa55e6/c.html",
+  "final_url": "https://www.nea.gov.cn/20260730/3923f7bc890d482892412aaca9aa55e6/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "5922cda20d52a76ef4c1a25ff6e2698fda419a9feb850987348243ddf10fda92",
+  "attachments_hash": "ab5f108e08f7c9ac5d9ae6d4ea7247ae3169fe959dab1dcbd6572f89cb919c9d",
+  "schema_version": 1,
+  "id": "be1f48662aaf52e9099b3d5c70a54427f5f8e2e17681206c7c8efeb72b20d5e1",
+  "source_id": "nea",
+  "column_id": "nea_interpretations",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_interpretations",
+      "list_url": "https://www.nea.gov.cn/policy/jd.htm",
+      "list_date": "2026-07-30",
+      "list_date_raw": "2026-07-30 15:31:30",
+      "list_title": "一图读懂《中国新型储能发展报告（2026）》"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_interpretations"
+  ],
+  "list_date": "2026-07-30",
+  "first_seen_at": "2026-09-29T09:12:24+00:00",
+  "last_checked_at": "2026-09-29T09:12:24+00:00",
+  "versions": []
+}

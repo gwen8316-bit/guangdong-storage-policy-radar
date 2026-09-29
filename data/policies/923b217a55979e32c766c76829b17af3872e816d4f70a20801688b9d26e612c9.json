@@ -1,0 +1,66 @@
+{
+  "title": "一图读懂《中国氢能发展报告（2026）》",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-08-11",
+  "written_date": null,
+  "content_text": "附：《中国氢能发展报告（2026）》",
+  "content_status": "image_only",
+  "attachments": [
+    {
+      "name": "20260811e71e1614e2d74961a757f6f214cdb78c_20260811f6029c8bdc5b433ab2ca9ae9e94bc24a.jpg",
+      "url": "https://www.nea.gov.cn/20260811/e71e1614e2d74961a757f6f214cdb78c/20260811e71e1614e2d74961a757f6f214cdb78c_20260811f6029c8bdc5b433ab2ca9ae9e94bc24a.jpg",
+      "format": "jpg",
+      "kind": "inline_image",
+      "size_bytes": 3848889,
+      "sha256": "d9d65483d6a119646e0779fb59c72ddb5bcbfe93214c75b46f8f9957256b3ea7",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260811/e71e1614e2d74961a757f6f214cdb78c/20260811e71e1614e2d74961a757f6f214cdb78c_20260811f6029c8bdc5b433ab2ca9ae9e94bc24a.jpg",
+      "content_type": "image/jpeg",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "meta": "PubDate/publishdate",
+      "value": "2026-08-11 09:52:49"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-08-11",
+    "pubdate": "2026-08-11 09:52:49"
+  },
+  "url": "https://www.nea.gov.cn/20260811/e71e1614e2d74961a757f6f214cdb78c/c.html",
+  "final_url": "https://www.nea.gov.cn/20260811/e71e1614e2d74961a757f6f214cdb78c/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "4e7c76418973892857ff13e1c16d0a6dbfbb930067fb124dbbca568b15fab000",
+  "attachments_hash": "63995343df4be8493482edbacb87d5daf2e1c4e5524dceaff96b36c59ca80001",
+  "schema_version": 1,
+  "id": "923b217a55979e32c766c76829b17af3872e816d4f70a20801688b9d26e612c9",
+  "source_id": "nea",
+  "column_id": "nea_interpretations",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_interpretations",
+      "list_url": "https://www.nea.gov.cn/policy/jd.htm",
+      "list_date": "2026-08-11",
+      "list_date_raw": "2026-08-11 09:52:49",
+      "list_title": "一图读懂《中国氢能发展报告（2026）》"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_interpretations"
+  ],
+  "list_date": "2026-08-11",
+  "first_seen_at": "2026-09-29T09:11:13+00:00",
+  "last_checked_at": "2026-09-29T09:11:13+00:00",
+  "versions": []
+}

@@ -1,0 +1,76 @@
+{
+  "title": "一图读懂《中国新型储能发展报告（2025）》",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2025-07-31",
+  "written_date": null,
+  "content_text": "",
+  "content_status": "image_only",
+  "attachments": [
+    {
+      "name": "dfb808555549483cae6e68e73a189e46.jpg",
+      "url": "https://www.nea.gov.cn/20250731/70660aef5986484a8fe572a5cd17606d/dfb808555549483cae6e68e73a189e46.jpg",
+      "format": "jpg",
+      "kind": "inline_image",
+      "size_bytes": 2386894,
+      "sha256": "90e0100b01d4ba4c8365880d239425d6d0d862f81dcf24a3173f8390412cc471",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20250731/70660aef5986484a8fe572a5cd17606d/dfb808555549483cae6e68e73a189e46.jpg",
+      "content_type": "image/jpeg",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "meta": "PubDate/publishdate",
+      "value": "2025-07-31 17:47:12"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2025-07-31",
+    "pubdate": "2025-07-31 17:47:12"
+  },
+  "url": "https://www.nea.gov.cn/20250731/70660aef5986484a8fe572a5cd17606d/c.html",
+  "final_url": "https://www.nea.gov.cn/20250731/70660aef5986484a8fe572a5cd17606d/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "attachments_hash": "58fa5c0f8f1af4a667720bf04dc242806f7c340dfabc20f1a19c22f7580b0b61",
+  "schema_version": 1,
+  "id": "b236ca5e5dffa0fd189bc705d7a4c3bf53c6cfb3bd18751d55e58f0c49da0cb9",
+  "source_id": "nea",
+  "column_id": "nea_interpretations",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_interpretations",
+      "list_url": "https://www.nea.gov.cn/policy/jd.htm",
+      "list_date": "2025-07-31",
+      "list_date_raw": "2025-07-31 17:47:12",
+      "list_title": "一图读懂《中国新型储能发展报告（2025）》"
+    },
+    {
+      "source_id": "nf",
+      "column_id": "nf_interpretations",
+      "list_url": "https://nfj.nea.gov.cn/xxgk/zcjd/",
+      "list_date": "2025-08-05",
+      "list_date_raw": "2025-08-05",
+      "list_title": "一图读懂《中国新型储能发展报告（2025）》"
+    }
+  ],
+  "source_ids": [
+    "nea",
+    "nf"
+  ],
+  "column_ids": [
+    "nea_interpretations",
+    "nf_interpretations"
+  ],
+  "list_date": "2025-07-31",
+  "first_seen_at": "2026-09-29T09:13:53+00:00",
+  "last_checked_at": "2026-09-29T09:15:14+00:00",
+  "versions": []
+}

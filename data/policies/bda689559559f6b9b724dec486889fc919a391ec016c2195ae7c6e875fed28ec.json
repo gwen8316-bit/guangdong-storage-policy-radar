@@ -1,0 +1,70 @@
+{
+  "title": "一图读懂《中国绿色燃料发展报告（2026）》",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-08-05",
+  "written_date": null,
+  "content_text": "附：《中国绿色燃料发展报告（2026）》",
+  "content_status": "image_only",
+  "attachments": [
+    {
+      "name": "20260805c167e318870a47c6a5401bbfaa51fa3b_20260805fa9a2949b56245e892e4b8ca426afe4c.jpg",
+      "url": "https://www.nea.gov.cn/20260805/c167e318870a47c6a5401bbfaa51fa3b/20260805c167e318870a47c6a5401bbfaa51fa3b_20260805fa9a2949b56245e892e4b8ca426afe4c.jpg",
+      "format": "jpg",
+      "kind": "inline_image",
+      "size_bytes": null,
+      "sha256": null,
+      "status": "failed",
+      "text": "",
+      "error": "RequestError: https://www.nea.gov.cn/20260805/c167e318870a47c6a5401bbfaa51fa3b/20260805c167e318870a47c6a5401bbfaa51fa3b_20260805fa9a2949b56245e892e4b8ca426afe4c.jpg: failed after 1 attempts: TimeoutError: The read operation timed out",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "meta": "PubDate/publishdate",
+      "value": "2026-08-05 09:45:41"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-08-05",
+    "pubdate": "2026-08-05 09:45:41"
+  },
+  "url": "https://www.nea.gov.cn/20260805/c167e318870a47c6a5401bbfaa51fa3b/c.html",
+  "final_url": "https://www.nea.gov.cn/20260805/c167e318870a47c6a5401bbfaa51fa3b/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [
+    {
+      "stage": "attachment",
+      "url": "https://www.nea.gov.cn/20260805/c167e318870a47c6a5401bbfaa51fa3b/20260805c167e318870a47c6a5401bbfaa51fa3b_20260805fa9a2949b56245e892e4b8ca426afe4c.jpg",
+      "reason": "RequestError: https://www.nea.gov.cn/20260805/c167e318870a47c6a5401bbfaa51fa3b/20260805c167e318870a47c6a5401bbfaa51fa3b_20260805fa9a2949b56245e892e4b8ca426afe4c.jpg: failed after 1 attempts: TimeoutError: The read operation timed out"
+    }
+  ],
+  "content_hash": "7470ca68262c1f8426b3f28478059b8309f98dbf4c98906a3dfa7e85c2203dee",
+  "attachments_hash": "49e08ae4063ac835fa661ab79b13e0e14f40ba54e543cd496852ff79241c92a7",
+  "schema_version": 1,
+  "id": "bda689559559f6b9b724dec486889fc919a391ec016c2195ae7c6e875fed28ec",
+  "source_id": "nea",
+  "column_id": "nea_interpretations",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_interpretations",
+      "list_url": "https://www.nea.gov.cn/policy/jd.htm",
+      "list_date": "2026-08-05",
+      "list_date_raw": "2026-08-05 09:45:40",
+      "list_title": "一图读懂《中国绿色燃料发展报告（2026）》"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_interpretations"
+  ],
+  "list_date": "2026-08-05",
+  "first_seen_at": "2026-09-29T09:12:03+00:00",
+  "last_checked_at": "2026-09-29T09:12:03+00:00",
+  "versions": []
+}
