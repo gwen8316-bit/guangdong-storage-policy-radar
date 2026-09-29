@@ -72,18 +72,29 @@ def validate(result, source, config):
 
 
 def prepare(root, config):
-    policies = {p.stem: read_json(p, {}) for p in (root / 'policies').glob('*.json')}
+    policies = {p.stem: read_json(p, {}) for p in sorted((root / 'policies').glob('*.json'))}
     index = []
+    counts = {k: 0 for k in ('直接相关', '间接相关', '无关', '未完成判断', '待核查')}
+    topics = {k: 0 for k in config['topics']}
     for p in policies.values():
         hit = matches(p, config)
         saved = read_json(root / 'analysis' / (p['id'] + '.json'), {})
         current = saved.get('input_hash') == fingerprint(p)
         relevance = saved.get('relevance') if current else None
+        if hit:
+            counts[relevance if relevance in ('直接相关', '间接相关', '无关') else '未完成判断'] += 1
+            if current and saved.get('review_status') == '待核查':
+                counts['待核查'] += 1
+            if current and saved.get('status') == 'complete':
+                for topic in saved.get('interpretation', {}).get('topics', []):
+                    topics[topic] += 1
         index.append({'id': p['id'], 'keywords': hit, 'relevance': relevance,
             'status': saved.get('status', 'pending') if current and hit else ('pending' if hit else 'keyword_no_match'),
             'visible': bool(hit and current and saved.get('status') == 'complete' and relevance in ('直接相关', '间接相关'))})
     summary = {'total': len(index), 'keyword_matches': sum(bool(i['keywords']) for i in index),
-               'sample_ids': config['sample_ids']}
+               'sample_ids': config['sample_ids'], 'rule_version': RULE_VERSION,
+               'counts': counts, 'topics': topics,
+               'notes': '待核查与相关性分类可重叠；主题仅统计通过校验的解读，一份政策可有多个主题。'}
     write_json(root / 'analysis-index.json', index)
     write_json(root / 'analysis-summary.json', summary)
     return policies, summary

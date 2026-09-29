@@ -24,6 +24,11 @@ class AnalysisTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate(result, source, CONFIG)
         result['summary'] = '规范储能工程建设'
+        result['topics'] = CONFIG['topics'][:4]
+        with self.assertRaisesRegex(ValueError, '最多三个'):
+            validate(result, source, CONFIG)
+        result['topics'] = ['安全管理与标准']
+        result['summary'] = '规范储能工程建设'
         result['evidence'][0] = '原文并不存在的证据句子'
         with self.assertRaises(ValueError):
             validate(result, source, CONFIG)
