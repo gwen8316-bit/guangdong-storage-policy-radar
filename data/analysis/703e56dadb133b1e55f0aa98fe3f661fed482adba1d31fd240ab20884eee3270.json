@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "complete",
-  "relevance": "间接相关",
-  "relevance_reason": "原文在重点任务中提出'支持矿区建设充换电站、加氢站，鼓励建设光储充放多功能综合一体站'、'鼓励矿区建设智能微电网，有序开展绿电直连'、'鼓励矿区分布式新能源项目直接参与或以聚合模式参与电力市场'，涉及储能应用场景与电力市场环境，但未对储能自身的考核、补偿、价格、准入或规划作出具体规定，故为间接相关。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "煤炭与新能源融合政策，储能仅在光储充放、微电网等场景中提及，无储能专项规定，不直接影响储能收益。",
   "interpretation": {
     "summary": "国家能源局发布指导意见，以七项重点任务推进煤炭矿区与新能源融合发展。",
     "key_points": [
@@ -16,11 +16,7 @@
       "将煤炭与新能源融合发展纳入“十五五”相关能源规划，支持地方用好中央预算内资金、碳减排支持工具等政策。",
       "要求省级能源主管部门细化政策措施，重点煤炭企业编制融合发展实施方案并推进重点项目落地。"
     ],
-    "topics": [
-      "规划与发展目标",
-      "补贴与示范项目",
-      "新能源配储与并网"
-    ],
+    "topics": [],
     "targets": [],
     "impact": {
       "direction": "中性",
@@ -34,5 +30,16 @@
   },
   "review_status": "自动生成",
   "review_reasons": [],
-  "analyzed_at": "2026-09-29T09:31:30+00:00"
+  "analyzed_at": "2026-09-29T09:31:30+00:00",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:36:21+00:00",
+  "classification": {
+    "relevance": "无关",
+    "reason": "煤炭与新能源融合政策，储能仅在光储充放、微电网等场景中提及，无储能专项规定，不直接影响储能收益。",
+    "evidence": "鼓励建设“光储充放”多功能综合一体站。",
+    "topics": [],
+    "targets": [],
+    "truncated": false,
+    "source_id": "703e56dadb133b1e55f0aa98fe3f661fed482adba1d31fd240ab20884eee3270"
+  }
 }

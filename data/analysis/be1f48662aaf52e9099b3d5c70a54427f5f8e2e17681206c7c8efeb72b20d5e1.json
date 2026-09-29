@@ -8,7 +8,7 @@
   "disclaimer": "AI 生成，以原文为准",
   "status": "complete",
   "relevance": "直接相关",
-  "relevance_reason": "标题与正文均明确指向《中国新型储能发展报告（2026）》，内容直接涉及新型储能。",
+  "relevance_reason": "该政策为新型储能发展报告，直接涉及储能发展规划、目标等核心内容。",
   "interpretation": {
     "summary": "未提供政策原文内容，无法提取具体规定与影响。",
     "key_points": [
@@ -16,8 +16,12 @@
       "原文未载明适用范围与适用对象",
       "原文未载明对储能收益或产业的具体影响"
     ],
-    "topics": [],
-    "targets": [],
+    "topics": [
+      "规划与发展目标"
+    ],
+    "targets": [
+      "储能产业链"
+    ],
     "impact": {
       "direction": "中性",
       "reason": "原文未载明具体政策措施，无法判断影响方向。"
@@ -33,5 +37,26 @@
     "正文不完整",
     "附件解析不完整"
   ],
-  "analyzed_at": "2026-09-29T09:32:34+00:00"
+  "analyzed_at": "2026-09-29T09:32:34+00:00",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:36:34+00:00",
+  "classification": {
+    "relevance": "直接相关",
+    "reason": "该政策为新型储能发展报告，直接涉及储能发展规划、目标等核心内容。",
+    "evidence": "一图读懂《中国新型储能发展报告（2026）》",
+    "topics": [
+      {
+        "label": "规划与发展目标",
+        "evidence": "中国新型储能发展报告（2026）"
+      }
+    ],
+    "targets": [
+      {
+        "label": "储能产业链",
+        "evidence": "中国新型储能发展报告（2026）"
+      }
+    ],
+    "truncated": false,
+    "source_id": "be1f48662aaf52e9099b3d5c70a54427f5f8e2e17681206c7c8efeb72b20d5e1"
+  }
 }

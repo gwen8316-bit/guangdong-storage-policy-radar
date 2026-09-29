@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "complete",
-  "relevance": "间接相关",
-  "relevance_reason": "原文针对用户侧涉网安全管理，提及'源网荷储安全共治'和'源荷混合型用户'，但未明确涉及储能的考核、补偿、价格、准入或规划，仅为可能影响储能运行的市场环境。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "该通知聚焦用户侧涉网安全管理，储能非其直接规范对象，也未设定储能收益相关电价市场规则",
   "interpretation": {
     "summary": "国家能源局发文要求加强用户侧涉网安全管理，明确范围、责任、源头管控与运行监督。",
     "key_points": [
@@ -16,11 +16,7 @@
       "相关电力用户是涉网安全管理责任主体；电网企业及其调度机构负责专业管理；国家能源局派出机构和地方电力管理部门负责监督管理。",
       "220千伏及以上电压等级接入的相关电力用户应在接入系统部分按双重化原则配置纵联差动保护；并网自备电厂应纳入调度机构统一管理。"
     ],
-    "topics": [
-      "安全管理与标准",
-      "新能源配储与并网",
-      "需求响应与虚拟电厂"
-    ],
+    "topics": [],
     "targets": [],
     "impact": {
       "direction": "中性",
@@ -34,5 +30,16 @@
   },
   "review_status": "自动生成",
   "review_reasons": [],
-  "analyzed_at": "2026-09-29T09:29:20+00:00"
+  "analyzed_at": "2026-09-29T09:29:20+00:00",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:35:51+00:00",
+  "classification": {
+    "relevance": "无关",
+    "reason": "该通知聚焦用户侧涉网安全管理，储能非其直接规范对象，也未设定储能收益相关电价市场规则",
+    "evidence": "推进源网荷储安全共治，提升用户侧涉网安全风险管控能力",
+    "topics": [],
+    "targets": [],
+    "truncated": false,
+    "source_id": "07e11da9f7110a49cd9233b969bbd374ef21f07727fced61bdb0f3c9a189ce4c"
+  }
 }

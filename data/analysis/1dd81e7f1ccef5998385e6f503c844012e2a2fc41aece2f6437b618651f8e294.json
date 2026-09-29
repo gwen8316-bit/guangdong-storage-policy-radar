@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "pending_review",
-  "relevance": "直接相关",
-  "relevance_reason": "附件水泥行业任务中明确鼓励水泥企业一体化推进分布式光伏、分散式风电、多元储能等开发运行，条款明确涉及储能。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "重点行业节能降碳改造方案，储能仅作为企业一体化开发的技术举例出现，未设定储能目标或收益规则。",
   "raw_response": {
     "summary": "广东印发重点行业节能降碳改造三年方案，明确钢铁水泥等行业能效目标与差别化电价等保障措施。",
     "key_points": [
@@ -36,5 +36,19 @@
     ]
   },
   "review_status": "待核查",
-  "error": "核心要点须为三条非空文本"
+  "error": "核心要点须为三条非空文本",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:36:48+00:00",
+  "classification": {
+    "relevance": "无关",
+    "reason": "重点行业节能降碳改造方案，储能仅作为企业一体化开发的技术举例出现，未设定储能目标或收益规则。",
+    "evidence": "鼓励水泥企业一体化推进分布式光伏、分散式风电、多元储能等开发运行，推动余热余压发电、供热等高效利用模式",
+    "topics": [],
+    "targets": [],
+    "truncated": true,
+    "source_id": "fda60824157cb93714ad4b88e1f654c57a91024b4400f7a90cd2cfccb76a41ef"
+  },
+  "review_reasons": [
+    "相关性及标签基于正文与附件节选，需核对全文"
+  ]
 }

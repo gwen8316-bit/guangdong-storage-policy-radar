@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "pending_review",
-  "relevance": "直接相关",
-  "relevance_reason": "原文明确涉及江苏宜兴抽水蓄能电站上库坝、下库坝的换证安全注册，属于储能相关电站大坝安全管理事项。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "该复函仅涉及水电站大坝安全注册登记，未提及储能，不影响储能收益或发展。",
   "raw_response": {
     "summary": "国家能源局复函同意43座水电站大坝安全注册登记，并要求加强安全管理。",
     "key_points": [
@@ -31,5 +31,16 @@
     ]
   },
   "review_status": "待核查",
-  "error": "输出包含原文没有的数字"
+  "error": "输出包含原文没有的数字",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:36:54+00:00",
+  "classification": {
+    "relevance": "无关",
+    "reason": "该复函仅涉及水电站大坝安全注册登记，未提及储能，不影响储能收益或发展。",
+    "evidence": "同意四川锅浪跷、冬瓜山水电站大坝首次安全注册",
+    "topics": [],
+    "targets": [],
+    "truncated": false,
+    "source_id": "2e6658057375d2f7098707b9ec463ab140f2ab38226908c6c323511796b4147a"
+  }
 }

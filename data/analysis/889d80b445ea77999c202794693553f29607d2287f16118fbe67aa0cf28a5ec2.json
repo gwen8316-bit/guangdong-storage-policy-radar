@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "complete",
-  "relevance": "直接相关",
-  "relevance_reason": "正文填报范围明确包括风电、光伏项目‘配套建设的支撑性项目（储能、电网等）’，且项目类型包括投资开发类、承包建设类及设备供货类，涉及储能的准入与项目统计。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "该公告为上合组织电力合作项目信息统计，储能仅作为配套项目纳入填报范围，未对储能设定发展目标、价格机制或准入规则，属于项目统计背景，不构成政策相关性。",
   "interpretation": {
     "summary": "国家能源局组织填报上合组织国家风光及配套储能电网项目信息，建立合作项目库。",
     "key_points": [
@@ -16,10 +16,7 @@
       "填报主体为各央企、地方国企、民营企业，所属单位项目原则上由集团总部汇总审核后统一报出。",
       "所有项目信息须在中国—上海合作组织能源合作信息平台填报，每半年定期填报更新，首批截止2026年5月12日。"
     ],
-    "topics": [
-      "规划与发展目标",
-      "新能源配储与并网"
-    ],
+    "topics": [],
     "targets": [],
     "impact": {
       "direction": "中性",
@@ -33,5 +30,16 @@
   },
   "review_status": "自动生成",
   "review_reasons": [],
-  "analyzed_at": "2026-09-29T09:31:45+00:00"
+  "analyzed_at": "2026-09-29T09:31:45+00:00",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:36:24+00:00",
+  "classification": {
+    "relevance": "无关",
+    "reason": "该公告为上合组织电力合作项目信息统计，储能仅作为配套项目纳入填报范围，未对储能设定发展目标、价格机制或准入规则，属于项目统计背景，不构成政策相关性。",
+    "evidence": "以及配套建设的支撑性项目（储能、电网等）",
+    "topics": [],
+    "targets": [],
+    "truncated": false,
+    "source_id": "889d80b445ea77999c202794693553f29607d2287f16118fbe67aa0cf28a5ec2"
+  }
 }

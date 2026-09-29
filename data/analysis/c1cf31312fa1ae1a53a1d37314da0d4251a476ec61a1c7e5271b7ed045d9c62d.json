@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "complete",
-  "relevance": "直接相关",
-  "relevance_reason": "正文明确提到论坛推出首批19项中欧能源合作典型案例涵盖储能领域，并同步举办了储能专题分论坛，属于涉及储能的合作与交流活动。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "中欧能源技术创新合作论坛，涉及技术交流与国际合作，未规定储能政策，储能仅出现在案例名单和分论坛中。",
   "interpretation": {
     "summary": "第四届中欧能源技术创新合作论坛在成都举办，发布储能等领域案例及绿电互认成果。",
     "key_points": [
@@ -16,12 +16,8 @@
       "论坛发布绿电国际互认系列成果，包括绿电园区倡议、认证联合体和绿电供应方式方案集",
       "论坛成立生物质能专项工作组，并同步举办含储能在内的专题分论坛及技术参观活动"
     ],
-    "topics": [
-      "补贴与示范项目"
-    ],
-    "targets": [
-      "储能产业链"
-    ],
+    "topics": [],
+    "targets": [],
     "impact": {
       "direction": "中性",
       "reason": "原文仅将储能列入论坛展示与交流的案例领域，未载明对储能的具体政策规定或收益影响。"
@@ -34,5 +30,16 @@
   },
   "review_status": "自动生成",
   "review_reasons": [],
-  "analyzed_at": "2026-09-29T09:32:38+00:00"
+  "analyzed_at": "2026-09-29T09:32:38+00:00",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:36:34+00:00",
+  "classification": {
+    "relevance": "无关",
+    "reason": "中欧能源技术创新合作论坛，涉及技术交流与国际合作，未规定储能政策，储能仅出现在案例名单和分论坛中。",
+    "evidence": "涵盖氢能、储能、智慧能源、海上风电等重点领域",
+    "topics": [],
+    "targets": [],
+    "truncated": false,
+    "source_id": "c1cf31312fa1ae1a53a1d37314da0d4251a476ec61a1c7e5271b7ed045d9c62d"
+  }
 }

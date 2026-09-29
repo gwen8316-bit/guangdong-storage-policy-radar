@@ -8,7 +8,7 @@
   "disclaimer": "AI 生成，以原文为准",
   "status": "complete",
   "relevance": "间接相关",
-  "relevance_reason": "原文仅提及电力市场计量结算的基本规则，包括市场经营主体的计量结算要求、结算时序、职责划分等，全文未明确涉及储能、新型储能、独立储能或储能电站的考核、补偿、价格、准入或规划。",
+  "relevance_reason": "统一电力市场计量结算规则，规范结算周期与时序，影响储能参与电力市场的结算效率和收益兑现。",
   "interpretation": {
     "summary": "国家层面统一电力市场计量结算规则，规范计量装置、结算流程与时限。",
     "key_points": [
@@ -32,5 +32,21 @@
   },
   "review_status": "自动生成",
   "review_reasons": [],
-  "analyzed_at": "2026-09-29T09:30:17+00:00"
+  "analyzed_at": "2026-09-29T09:30:17+00:00",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:36:56+00:00",
+  "classification": {
+    "relevance": "间接相关",
+    "reason": "统一电力市场计量结算规则，规范结算周期与时序，影响储能参与电力市场的结算效率和收益兑现。",
+    "evidence": "原则上现货市场连续运行地区采用“日清月结”的结算模式",
+    "topics": [
+      {
+        "label": "电力现货市场",
+        "evidence": "原则上现货市场连续运行地区采用“日清月结”的结算模式"
+      }
+    ],
+    "targets": [],
+    "truncated": false,
+    "source_id": "3166cc47aada9bb53f0af18a34350b9a90e6c3d6d994240357962f66dc66f948"
+  }
 }

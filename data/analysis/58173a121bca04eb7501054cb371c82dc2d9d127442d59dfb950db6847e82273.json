@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "pending_review",
-  "relevance": "间接相关",
-  "relevance_reason": "原文仅在‘用户侧灵活性资源的深度激活’部分提及现货市场制度下的余电上网政策能有效激励用户合理配置储能、挖掘自身灵活性资源，未对储能作出考核、补偿、价格、准入或规划等具体规定，故为间接相关。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "该解读为绿电直连政策宣传性评论，未具体规定储能，且出台前发布时间不明，非政策文件本身。",
   "raw_response": {
     "summary": "绿电直连新政允许新能源直连用户，填补用户侧配电改革空白，激发市场活力。",
     "key_points": [
@@ -41,5 +41,16 @@
     ]
   },
   "review_status": "待核查",
-  "error": "三条要点须分别提供原文可核对的引句"
+  "error": "三条要点须分别提供原文可核对的引句",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:36:14+00:00",
+  "classification": {
+    "relevance": "无关",
+    "reason": "该解读为绿电直连政策宣传性评论，未具体规定储能，且出台前发布时间不明，非政策文件本身。",
+    "evidence": "政策解读丨绿电直连政策创新：重塑电力系统生态，赋能双碳目标攻坚",
+    "topics": [],
+    "targets": [],
+    "truncated": false,
+    "source_id": "58173a121bca04eb7501054cb371c82dc2d9d127442d59dfb950db6847e82273"
+  }
 }

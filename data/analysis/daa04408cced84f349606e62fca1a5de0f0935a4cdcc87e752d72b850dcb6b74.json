@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "pending_review",
-  "relevance": "间接相关",
-  "relevance_reason": "原文仅针对用户侧涉网安全管理（责任划分、源头管控、运行管理、监督管理），明确涉及电力用户、并网自备电厂、继电保护、低压脱扣、电力监控系统网络安全及需求响应，但全文未提及储能、新型储能、独立储能或储能电站，亦未涉及储能的考核、补偿、价格、准入或规划，故对储能仅为间接相关。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "该通知聚焦用户侧涉网安全管理，未直接规定储能，也未通过电价或市场规则影响储能收益。",
   "raw_response": {
     "summary": "国家能源局发文加强用户侧涉网安全管理，明确范围、责任、源头与运行管控及监督措施。",
     "key_points": [
@@ -35,5 +35,16 @@
     ]
   },
   "review_status": "待核查",
-  "error": "核心要点须为三条非空文本"
+  "error": "核心要点须为三条非空文本",
+  "classification_version": "2026-09-29-v3",
+  "classified_at": "2026-09-29T11:36:42+00:00",
+  "classification": {
+    "relevance": "无关",
+    "reason": "该通知聚焦用户侧涉网安全管理，未直接规定储能，也未通过电价或市场规则影响储能收益。",
+    "evidence": "国家能源局印发《关于加强用户侧涉网安全管理的通知》",
+    "topics": [],
+    "targets": [],
+    "truncated": false,
+    "source_id": "daa04408cced84f349606e62fca1a5de0f0935a4cdcc87e752d72b850dcb6b74"
+  }
 }
