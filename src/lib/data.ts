@@ -8,6 +8,7 @@ export interface Policy {
   source_ids: string[]; column_ids: string[]; publish_date: string | null; list_date: string | null;
   written_date: string | null; issuer: string | null; doc_number: string | null;
   content_text: string; content_status: string; attachments: Attachment[]; last_checked_at: string;
+  source_links?: { id: string; url: string; column_ids: string[] }[];
 }
 export interface Interpretation {
   summary: string; key_points: string[]; evidence: string[]; topics: string[]; targets: string[];
@@ -17,6 +18,7 @@ export interface Analysis {
   id: string; input_hash: string; rule_version: string; status: string; relevance: string;
   relevance_reason: string; review_status: string; review_reasons: string[];
   interpretation: Interpretation; analyzed_at: string; error?: string;
+  classification?: { topics: { label: string; evidence: string }[]; targets: { label: string; evidence: string }[] };
 }
 interface IndexRow { id: string; visible: boolean; status: string; relevance: string | null; }
 interface Column { column_id: string; source_id: string; name: string; url: string; }
@@ -45,11 +47,20 @@ export function loadData(root = resolve(process.env.POLICY_DATA_DIR || 'data'), 
   const index = read<IndexRow[]>(resolve(root, 'analysis-index.json'));
   const summary = read<{ rule_version: string; keyword_matches: number; counts: Record<string, number> }>(resolve(root, 'analysis-summary.json'));
   const columns = read<{ columns: Column[] }>(resolve(configRoot, 'sources.json')).columns;
-  const policies = readdirSync(resolve(root, 'policies')).filter(f => f.endsWith('.json')).map(f => read<Policy>(resolve(root, 'policies', f)));
+  const rawPolicies = readdirSync(resolve(root, 'policies')).filter(f => f.endsWith('.json')).map(f => read<Policy>(resolve(root, 'policies', f)));
+  const rawById = new Map(rawPolicies.map(p => [p.id, p]));
+  const groups = optional<{ canonical_id: string; member_ids: string[]; source_links: NonNullable<Policy['source_links']> }[]>(resolve(root, 'policy-groups.json'), rawPolicies.map(p => ({ canonical_id: p.id, member_ids: [p.id], source_links: [{ id: p.id, url: p.url, column_ids: p.column_ids }] })));
+  const policies = groups.map(group => {
+    const canonical = rawById.get(group.canonical_id);
+    if (!canonical) throw new Error(`Missing canonical policy: ${group.canonical_id}`);
+    const members = group.member_ids.map(id => rawById.get(id)).filter((p): p is Policy => !!p);
+    return { ...canonical, source_links: group.source_links, source_ids: [...new Set(members.flatMap(p => p.source_ids))], column_ids: [...new Set(members.flatMap(p => p.column_ids))] };
+  });
   const byId = new Map(policies.map(p => [p.id, p]));
   const entries: Entry[] = [];
   const warnings: string[] = [];
   for (const row of index) {
+    if (!byId.has(row.id)) continue; // Alternate URLs share the retained policy page.
     if (!['直接相关', '间接相关'].includes(row.relevance || '')) continue;
     if (!/^[a-f0-9]{64}$/.test(row.id)) throw new Error('Invalid policy ID in analysis index');
     const policy = byId.get(row.id);
@@ -64,7 +75,7 @@ export function loadData(root = resolve(process.env.POLICY_DATA_DIR || 'data'), 
       // Keep known-relevant policies visible, without presenting unvalidated model output.
       analysis.review_status = '待核查';
       analysis.review_reasons = [...(analysis.review_reasons || []), '解读尚未通过校验，请以官方原文为准。'];
-      analysis.interpretation = { summary: '解读尚未完成，请查看官方原文。', key_points: [], evidence: [], topics: [], targets: [], impact: { direction: '待判断', reason: '尚无通过校验的影响判断。' } };
+      analysis.interpretation = { summary: '解读尚未完成，请查看官方原文。', key_points: [], evidence: [], topics: analysis.classification?.topics.map(v => v.label) || [], targets: analysis.classification?.targets.map(v => v.label) || [], impact: { direction: '待判断', reason: '尚无通过校验的影响判断。' } };
     }
     entries.push({ policy, analysis, ...displayDate(policy) });
   }
@@ -72,8 +83,9 @@ export function loadData(root = resolve(process.env.POLICY_DATA_DIR || 'data'), 
   const analyzedAt = optional<{ ended_at?: string }>(resolve(root, 'analysis-last-run.json'), {}).ended_at;
   const updatedAt = optional<{ updated_at?: string }>(resolve(root, 'site-update.json'), {}).updated_at || analyzedAt;
   const taxonomy = read<{ topics: string[]; targets: string[] }>(resolve(configRoot, 'analysis.json'));
-  return { entries, policies, columns, warnings, summary, analyzedAt, updatedAt, taxonomy };
+  return { entries, policies, rawPolicies, columns, warnings, summary, analyzedAt, updatedAt, taxonomy };
 }
+export const latestCompleted = (entries: Entry[], limit = 10) => entries.filter(e => e.analysis.status === 'complete').slice(0, limit);
 export function formatTime(value: string | null | undefined): string {
   if (!value) return '暂无记录';
   const date = new Date(value);

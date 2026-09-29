@@ -41,7 +41,8 @@ class AnalysisTests(unittest.TestCase):
             calls = 0
             def complete(self, system, text):
                 self.calls += 1
-                return {'relevance': '无关', 'reason': 'test'}, {}
+                item = json.loads(text)[0]
+                return {'items': [{'id': item['id'], 'relevance': '无关', 'reason': 'test', 'evidence': item['source'][:12], 'topics': [], 'targets': []}]}, {}
         provider = Fake()
         with tempfile.TemporaryDirectory() as temp:
             run_samples(Path(temp), CONFIG, policies, provider)

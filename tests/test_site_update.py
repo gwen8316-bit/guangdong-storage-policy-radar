@@ -58,13 +58,14 @@ class SiteUpdateTests(unittest.TestCase):
     def test_request_limit_includes_all_attempts(self):
         config = json.loads(Path('config/analysis.json').read_text(encoding='utf-8'))
         config.update(max_calls_per_run=2)
-        policies = {str(i): {'id': str(i), 'title': '储能政策', 'url': 'https://example.com', 'content_text': '储能'} for i in range(4)}
+        policies = {str(i): {'id': str(i), 'title': '储能政策', 'url': 'https://example.com', 'content_text': '储能管理规定原文内容'} for i in range(4)}
         class Fake:
             model = 'test'
             calls = 0
-            def complete(self, *args):
+            def complete(self, system, text):
                 self.calls += 1
-                return {'relevance': '无关', 'reason': 'test'}, {}
+                item = json.loads(text)[0]
+                return {'items': [{'id': item['id'], 'relevance': '无关', 'reason': 'test', 'evidence': item['source'][:12], 'topics': [], 'targets': []}]}, {}
         provider = Fake()
         with tempfile.TemporaryDirectory() as temp:
             self.assertEqual(run_samples(Path(temp), config, policies, provider, all_policies=True), 2)

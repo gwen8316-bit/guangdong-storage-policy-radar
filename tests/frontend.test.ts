@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { resolve, join } from 'node:path';
-import { loadData, fingerprint, safeUrl, displayDate, recentCount, type Entry, type Policy } from '../src/lib/data.ts';
+import { loadData, fingerprint, safeUrl, displayDate, recentCount, latestCompleted, type Entry, type Policy } from '../src/lib/data.ts';
 import { matchesFilters, type Filters } from '../src/lib/filter.ts';
 
 test('real data: current interpretations only, deduplicated and sorted', () => {
@@ -43,8 +43,18 @@ test('stale and irrelevant records are hidden; known-relevant pending reviews re
   assert.equal(load().entries.length, 1);
   assert.equal(load().entries[0].analysis.review_status, '待核查');
   assert.equal(load().entries[0].analysis.interpretation.impact.direction, '待判断');
+  assert.equal(latestCompleted(load().entries).length, 0);
   write('policies/' + p.id + '.json', { ...p, attachments_hash: 'changed' });
   assert.equal(load().entries.length, 0);
+});
+
+test('homepage excludes pending interpretations but preserves completed reviews', () => {
+  const entries = [
+    { analysis: { status: 'pending_review', review_status: '待核查' } },
+    { analysis: { status: 'complete', review_status: '待核查' } },
+    { analysis: { status: 'complete', review_status: '自动生成' } },
+  ] as Entry[];
+  assert.deepEqual(latestCompleted(entries, 1), [entries[1]]);
 });
 
 test('combined filters include secondary source, boundaries and empty dates', () => {
