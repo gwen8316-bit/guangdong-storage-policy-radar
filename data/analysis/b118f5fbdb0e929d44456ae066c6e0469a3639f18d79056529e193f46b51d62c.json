@@ -1,0 +1,15 @@
+{
+  "id": "b118f5fbdb0e929d44456ae066c6e0469a3639f18d79056529e193f46b51d62c",
+  "title": "政策解读丨创新引领 科学有序 协同推进新一代煤电高质量发展",
+  "url": "https://www.nea.gov.cn/20250417/b0d7af274225479d9a30019c6073ab16/c.html",
+  "input_hash": "664ddb397a6d81cb85203dda54cd4f5aa5e0a571c4e0693a9b719ecefeb57899",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "原文全文围绕新一代煤电升级的技术指标体系、实施路径和保障措施展开，涉及煤电的深度调峰、负荷变化速率、启停调峰、宽负荷高效燃烧、安全可靠运行、清洁降碳和智能运行等内容，未提及储能（含新型储能、独立储能、储能电站）的考核、补偿、价格、准入或规划，也未涉及对储能运行或市场环境的影响。",
+  "analyzed_at": "2026-09-29T09:32:17+00:00",
+  "review_reasons": [],
+  "review_status": "自动生成"
+}

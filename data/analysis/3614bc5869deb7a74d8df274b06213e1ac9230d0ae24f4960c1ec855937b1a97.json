@@ -1,0 +1,17 @@
+{
+  "id": "3614bc5869deb7a74d8df274b06213e1ac9230d0ae24f4960c1ec855937b1a97",
+  "title": "广东省能源局关于售电公司退出广东电力市场的公示",
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4947693.html",
+  "input_hash": "7d065cb0f9bc941cf9ebb7990303b62d4d8a61224e2d1e74f5f60a87038496d4",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "原文为售电公司强制退出广东电力市场的公示，涉及售电公司准入条件核查与退市，全文及附件未提及储能、新型储能、独立储能或储能电站的考核、补偿、价格、准入或规划，故与储能无关。",
+  "analyzed_at": "2026-09-29T09:30:18+00:00",
+  "review_reasons": [
+    "附件解析不完整"
+  ],
+  "review_status": "待核查"
+}

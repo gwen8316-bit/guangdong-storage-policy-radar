@@ -1,0 +1,15 @@
+{
+  "id": "eec49e5f1d435994f823defee1158dfb48f77b9b5500634260c3395fe725df17",
+  "title": "国家能源局华中监管局党组关于局党组第三轮巡视整改进展情况的通报",
+  "url": "https://www.nea.gov.cn/20260331/1bf84fffaa9945c29cef4c144a04d8db/c.html",
+  "input_hash": "cb8ae158f601b356222be51a95de2ccd3496880abea177f4bfad5928fd675539",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "原文为华中能源监管局党组巡视整改进展情况通报，涉及电力市场建设、能源安全、民生用电等内容，但全文未出现储能、新型储能、独立储能、储能电站等表述，也未涉及储能的考核、补偿、价格、准入或规划，无法判断与储能相关。",
+  "analyzed_at": "2026-09-29T09:33:20+00:00",
+  "review_reasons": [],
+  "review_status": "自动生成"
+}

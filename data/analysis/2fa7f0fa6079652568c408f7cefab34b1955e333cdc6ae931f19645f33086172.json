@@ -1,0 +1,15 @@
+{
+  "id": "2fa7f0fa6079652568c408f7cefab34b1955e333cdc6ae931f19645f33086172",
+  "title": "政策解读丨满足企业绿色用能需求，促进新能源就地消纳",
+  "url": "https://www.nea.gov.cn/20250609/04e28d8b17234b4fb4a87a2833d283b8/c.html",
+  "input_hash": "331c4eebf84d1ea0445db33a69a85366df74dbf9be60641d16bef10d34b89525",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "原文主要解读绿电直连政策，涉及新能源就近消纳、企业绿色用能、电力市场交易等，但全文及附件均未明确提及储能（含新型储能、独立储能、储能电站）的考核、补偿、价格、准入或规划，也未涉及储能运行或市场环境，故与储能无直接或间接关联。",
+  "analyzed_at": "2026-09-29T09:30:06+00:00",
+  "review_reasons": [],
+  "review_status": "自动生成"
+}

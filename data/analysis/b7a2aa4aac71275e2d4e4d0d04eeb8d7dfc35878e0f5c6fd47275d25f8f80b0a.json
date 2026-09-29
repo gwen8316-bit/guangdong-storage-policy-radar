@@ -1,0 +1,15 @@
+{
+  "id": "b7a2aa4aac71275e2d4e4d0d04eeb8d7dfc35878e0f5c6fd47275d25f8f80b0a",
+  "title": "国家能源局关于印发《鄂尔多斯盆地东部区域煤层气增储上产行动方案（2026—2030年）》的通知",
+  "url": "https://www.nea.gov.cn/20260727/a331c1b872314b86a428a846a0bfd38e/c.html",
+  "input_hash": "1bdc02ea18918687a1ed4f2e1a50e63eda6ded62d97544c5d0c4f42094fdf81f",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "方案主题为鄂尔多斯盆地东部区域煤层气增储上产，涉及煤层气勘探开发、产能建设、科技支撑、管输设施及矿业权政策等；原文仅提及煤层气及天然气储气设施，未涉及新型储能、独立储能或储能电站的考核、补偿、价格、准入或规划。",
+  "analyzed_at": "2026-09-29T09:32:22+00:00",
+  "review_reasons": [],
+  "review_status": "自动生成"
+}

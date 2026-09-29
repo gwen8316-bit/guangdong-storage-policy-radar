@@ -1,0 +1,15 @@
+{
+  "id": "76a69702618dcfc0666b4e29dba25fafbb98af671d6c57bef32226affb67caa8",
+  "title": "广东省发展改革委 广东省能源局关于公布2025年新能源项目机制电价竞价结果的通知",
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4828493.html",
+  "input_hash": "2ea58696361c6efed5c25a49634a6abd71ad600da827cdc895d6633a79b8bc91",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "原文为2025年新能源项目机制电价竞价结果通知，仅涉及分布式光伏项目的机制电量规模、机制电价及执行时间，未提及储能（含新型储能、独立储能、储能电站）的考核、补偿、价格、准入或规划，也未涉及影响储能运行或市场环境的条款。",
+  "analyzed_at": "2026-09-29T09:31:31+00:00",
+  "review_reasons": [],
+  "review_status": "自动生成"
+}

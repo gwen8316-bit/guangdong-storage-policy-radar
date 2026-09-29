@@ -1,0 +1,15 @@
+{
+  "id": "7f5706457f78a54e43c67cf821d6d26620e36114fb0be309fa88c1ecfedff994",
+  "title": "电力业务许可证延续及注销管理办法",
+  "url": "https://www.nea.gov.cn/20260123/3d157b8976b54ba2acc6b0cf223117c2/c.html",
+  "input_hash": "e82611b8ac3c7260a05d0ec6abb268c4daaf0459c6704b58544fc8f042f5a789",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "原文为《电力业务许可证延续及注销管理办法》，规范电力业务许可证的延续、撤回、撤销、吊销、注销程序，全文及附件解析文本未提及储能、新型储能、独立储能或储能电站的考核、补偿、价格、准入或规划内容。",
+  "analyzed_at": "2026-09-29T09:31:41+00:00",
+  "review_reasons": [],
+  "review_status": "自动生成"
+}

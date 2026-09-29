@@ -1,0 +1,15 @@
+{
+  "id": "385b93a6ab0d6376c13a642bfa37d3f1033d7038c024b48c0937a8542b9f09bd",
+  "title": "国家能源局关于印发《可再生能源绿色电力证书管理实施细则（试行）》的通知",
+  "url": "https://www.nea.gov.cn/20260107/9a905f263a8b4aa4a06e1a96855cc8eb/c.html",
+  "input_hash": "a8e757044cabb930e105e11db6c1199ce5c5732b7d8ed07d3074f81b2f50bc5c",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "原文为《可再生能源绿色电力证书管理实施细则（试行）》，适用范围为可再生能源发电项目电量对应绿证的核发、划转、核销及相关管理工作，全文未涉及储能、新型储能、独立储能或储能电站的考核、补偿、价格、准入或规划等内容。",
+  "analyzed_at": "2026-09-29T09:30:21+00:00",
+  "review_reasons": [],
+  "review_status": "自动生成"
+}

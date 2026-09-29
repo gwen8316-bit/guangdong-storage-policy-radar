@@ -1,0 +1,17 @@
+{
+  "id": "ec374ddc3de2f1288b711ddc83fac35c6f40565613f00012112de9cd95a2684c",
+  "title": "广东省发展改革委关于印发10千伏及以上新能源可持续发展价格结算机制存量项目清单的通知",
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4933958.html",
+  "input_hash": "71673464dc74fca76edff94e99a8f07a92b9fcf0ab8d17cea35b9602f36e4592",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "原文为10千伏及以上新能源（海上风电、陆上风电、集中式光伏、分布式光伏）可持续发展价格结算机制存量项目清单通知，未明确涉及储能（含新型储能、独立储能、储能电站）的考核、补偿、价格、准入或规划。",
+  "analyzed_at": "2026-09-29T09:33:14+00:00",
+  "review_reasons": [
+    "附件解析不完整"
+  ],
+  "review_status": "待核查"
+}

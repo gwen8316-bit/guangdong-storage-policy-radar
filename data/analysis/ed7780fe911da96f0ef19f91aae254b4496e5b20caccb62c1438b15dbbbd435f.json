@@ -1,0 +1,15 @@
+{
+  "id": "ed7780fe911da96f0ef19f91aae254b4496e5b20caccb62c1438b15dbbbd435f",
+  "title": "国家能源局湖南监管办党组关于巡视“回头看”整改进展情况的通报",
+  "url": "https://www.nea.gov.cn/20260331/203488b39d454d76a3c9f04fce97eaca/c.html",
+  "input_hash": "091af41754f57377a2e1a590984251082001672d75122f1cfea1e8240fdeaa04",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "通报为巡视整改情况，正文涉及电力市场、新能源消纳、电网公平开放等，但未提及储能（含新型储能、独立储能、储能电站）的考核、补偿、价格、准入或规划，附件解析文本为空。无原文依据判定与储能相关。",
+  "analyzed_at": "2026-09-29T09:33:19+00:00",
+  "review_reasons": [],
+  "review_status": "自动生成"
+}

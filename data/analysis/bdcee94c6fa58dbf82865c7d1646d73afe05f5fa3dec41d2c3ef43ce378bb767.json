@@ -1,0 +1,18 @@
+{
+  "id": "bdcee94c6fa58dbf82865c7d1646d73afe05f5fa3dec41d2c3ef43ce378bb767",
+  "title": "2025年度中国电力市场发展报告",
+  "url": "https://www.nea.gov.cn/20260609/2d1bf220b5a642e2b1199a015bd6cf13/c.html",
+  "input_hash": "022562aca478bf57eaa55c0ed7389ec34c76593231cdfd8b2478c3e2228d3129",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "提供的原文为《2025年度中国电力市场发展报告》的前言、目录及2025年电力供需概况，内容涉及全国发电装机、发电量结构等宏观电力市场数据，未出现'储能''新型储能''独立储能''储能电站'等字样，也未涉及储能的考核、补偿、价格、准入或规划，故无法依据原文判定与储能相关。",
+  "analyzed_at": "2026-09-29T09:32:32+00:00",
+  "review_reasons": [
+    "正文不完整",
+    "附件解析不完整"
+  ],
+  "review_status": "待核查"
+}

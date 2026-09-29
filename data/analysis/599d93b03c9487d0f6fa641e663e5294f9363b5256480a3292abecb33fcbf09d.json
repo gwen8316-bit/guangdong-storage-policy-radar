@@ -1,0 +1,40 @@
+{
+  "id": "599d93b03c9487d0f6fa641e663e5294f9363b5256480a3292abecb33fcbf09d",
+  "title": "广东省能源局关于征集节能降碳改造需求的通知",
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4956939.html",
+  "input_hash": "302c8ebdab3c9042710a22dafed73058d65ec7d3be07f29c84425aa1a38f9eb1",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "complete",
+  "relevance": "直接相关",
+  "relevance_reason": "正文一、征集范围（四）可再生能源应用明确包含储能，将储能列为节能降碳改造需求征集方向之一。",
+  "interpretation": {
+    "summary": "广东征集节能降碳改造需求，含分布式光伏、储能等方向，需10月20日前填报。",
+    "key_points": [
+      "面向全省工业、建筑、交通、公共机构等有节能降碳改造需求的各类单位征集，改造方向含可再生能源应用（分布式光伏、储能等）。",
+      "用能单位需填报《节能降碳改造需求征集表》，于10月20日前发送至指定邮箱nyjjn@gd.gov.cn。",
+      "省能源局将发布改造需求并组织金融机构、合同能源管理企业、设备供应商、技术供应商等与用能单位对接。"
+    ],
+    "topics": [
+      "补贴与示范项目",
+      "规划与发展目标"
+    ],
+    "targets": [],
+    "impact": {
+      "direction": "中性",
+      "reason": "原文仅征集改造需求并组织对接，未载明对储能项目的具体支持政策或收益安排。"
+    },
+    "evidence": [
+      "包括工业、建筑、交通、公共机构等各领域",
+      "可再生能源应用（分布式光伏、储能等）",
+      "于10月20日前发送至指定邮箱（nyjjn@gd.gov.cn）"
+    ]
+  },
+  "review_status": "待核查",
+  "review_reasons": [
+    "正文不完整",
+    "附件解析不完整"
+  ],
+  "analyzed_at": "2026-09-29T09:31:11+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "85926072b9aae954d4917dc92e26831b3526a939e285244a46c0a9438088935c",
+  "title": "广东省能源局关于公开征求《广东省发电用气应急调峰储备管理办法（征求意见稿）》意见的通告",
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4956985.html",
+  "input_hash": "47b137a744335eea3b85191e5766ddba2d80692e836918444a8362131f59a36a",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "正文仅说明就《广东省发电用气应急调峰储备管理办法（征求意见稿）》公开征求意见，附件解析文本仅为意见反馈表格式，均未出现储能、新型储能、独立储能、储能电站等内容，也未涉及储能的考核、补偿、价格、准入或规划。",
+  "analyzed_at": "2026-09-29T09:31:42+00:00",
+  "review_reasons": [
+    "附件解析不完整"
+  ],
+  "review_status": "待核查"
+}

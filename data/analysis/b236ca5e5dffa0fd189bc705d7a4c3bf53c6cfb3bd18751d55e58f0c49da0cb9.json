@@ -1,0 +1,18 @@
+{
+  "id": "b236ca5e5dffa0fd189bc705d7a4c3bf53c6cfb3bd18751d55e58f0c49da0cb9",
+  "title": "一图读懂《中国新型储能发展报告（2025）》",
+  "url": "https://www.nea.gov.cn/20250731/70660aef5986484a8fe572a5cd17606d/c.html",
+  "input_hash": "4e69ed693bcbe0baa854459388284a911aa362053f5f717e718467679ef8ff68",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "提供的原文正文和附件解析文本均为空，仅有标题《一图读懂《中国新型储能发展报告（2025）》》，无任何具体条款、考核、补偿、价格、准入或规划等实质内容可供判断。",
+  "analyzed_at": "2026-09-29T09:32:18+00:00",
+  "review_reasons": [
+    "正文不完整",
+    "附件解析不完整"
+  ],
+  "review_status": "待核查"
+}

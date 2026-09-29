@@ -1,0 +1,15 @@
+{
+  "id": "f8861f03daa6d3b82d1c51819cd43e5e287f5be0a46d01db101c181969d4812f",
+  "title": "能源行业数据分类分级指南（2026年版）",
+  "url": "https://www.nea.gov.cn/20260630/3b456b6f83144abcb989110dcfba4d7d/c.html",
+  "input_hash": "13bcd758d63c4ac759e5f8f3c2e772452deb0975a6429b673f9c373a99c20a96",
+  "model": "deepseek-flash",
+  "rule_version": "2026-09-29-v2",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "原文为能源行业数据分类分级指南，涉及煤炭、石油、电力等能源品种及规划、设计、建设、生产、储运、消费、科研等能源活动，并未明确涉及储能（含新型储能、独立储能、储能电站）的考核、补偿、价格、准入或规划；抽水蓄能电站仅在第八条、第九条中被明确排除，不属于对储能条款。",
+  "analyzed_at": "2026-09-29T09:33:27+00:00",
+  "review_reasons": [],
+  "review_status": "自动生成"
+}
