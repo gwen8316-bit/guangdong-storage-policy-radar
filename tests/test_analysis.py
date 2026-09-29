@@ -2,7 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from analysis.__main__ import matches, validate, run_samples, source_text
+from analysis.__main__ import matches, validate, run_samples, source_text, relevance_text
 
 CONFIG = json.loads(Path('config/analysis.json').read_text(encoding='utf-8'))
 
@@ -43,7 +43,7 @@ class AnalysisTests(unittest.TestCase):
             run_samples(Path(temp), CONFIG, policies, provider)
             self.assertEqual(provider.calls, 3)
         self.assertTrue(all(matches(p, CONFIG) for p in policies.values()))
-        self.assertTrue(source_text(policies[CONFIG['sample_ids'][1]], CONFIG['max_input_chars'])[1])
+        self.assertFalse(source_text(policies[CONFIG['sample_ids'][1]], CONFIG['max_input_chars'])[1])
         self.assertFalse(source_text(policies[CONFIG['sample_ids'][0]], CONFIG['max_input_chars'])[1])
 
     def test_budget_blocks_before_api(self):
@@ -58,6 +58,13 @@ class AnalysisTests(unittest.TestCase):
             self.assertEqual(run_samples(Path(temp), config, {pid: policy}, Never()), 0)
             record = json.loads((Path(temp) / 'analysis' / (pid + '.json')).read_text(encoding='utf-8'))
             self.assertIn('budget', record['error'])
+
+    def test_relevance_attachment_boundaries(self):
+        text = relevance_text({'title': '标题', 'content_text': '甲' * 2001,
+            'attachments': [{'text': '乙' * 1500}, {'text': '丙' * 600}]})
+        self.assertEqual(text.count('甲'), 2000)
+        self.assertEqual(text.count('乙'), 1500)
+        self.assertEqual(text.count('丙'), 499)
 
 if __name__ == '__main__':
     unittest.main()
