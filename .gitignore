@@ -2,3 +2,6 @@ __pycache__/
 reports/
 data/.collector.lock
 *.tmp
+node_modules/
+dist/
+.astro/

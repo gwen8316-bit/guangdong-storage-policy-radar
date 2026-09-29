@@ -1,0 +1,74 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadData, issuerName } from '../../lib/data';
+import PolicyCard from '../../components/PolicyCard.astro';
+const data = loadData();
+const { entries } = data;
+const topics = data.taxonomy.topics;
+const targets = data.taxonomy.targets;
+const issuers = [...new Set(entries.map(e => issuerName(e.policy)))].sort();
+---
+<Layout>
+  <section class="hero"><div><p class="eyebrow">POLICY LIBRARY / 政策研究库</p><h1>政策库</h1><p class="muted">按主题、适用对象和影响方向，查找与你相关的政策。</p></div></section>
+  <section class="workspace"><aside class="filters"><h2>筛选政策</h2><form id="filters">
+    <label>关键词<input type="search" name="q" placeholder="搜索标题和摘要" /></label>
+    <label>发布机构<select name="source"><option value="">全部机构</option>{issuers.map(name => <option>{name}</option>)}</select></label>
+    <label>政策主题<select name="topic"><option value="">全部主题</option>{topics.map(t => <option>{t}</option>)}</select></label>
+    <label>影响对象<select name="target"><option value="">全部对象</option>{targets.map(t => <option>{t}</option>)}</select></label>
+    <label>相关性<select name="relevance"><option value="">全部相关性</option><option>直接相关</option><option>间接相关</option></select></label>
+    <label>影响方向<select name="impact"><option value="">全部方向</option><option>利好</option><option>利空</option><option>中性</option></select></label>
+    <label>核查状态<select name="review"><option value="">全部状态</option><option>自动生成</option><option>待核查</option></select></label>
+    <label>起始日期<input type="date" name="from" /></label><label>截止日期<input type="date" name="to" /></label>
+    <button type="reset" class="secondary">清空筛选</button>
+  </form><p class="fine">日期优先采用发布日期，缺失时采用列表日期。自动生成不表示已人工审核。</p></aside>
+  <section class="results" aria-label="政策列表"><div class="list-heading"><h2>政策动态 <span id="result-count" aria-live="polite">{entries.length} 份</span></h2><label class="sort-label">排序<select id="sort"><option value="desc">日期从新到旧</option><option value="asc">日期从旧到新</option></select></label></div>
+    <noscript><p class="notice">当前显示全部已收录政策；启用 JavaScript 后可筛选和分页。</p></noscript>
+    <div id="policy-list">{entries.map(entry => <PolicyCard entry={entry} searchable />)}</div>
+    <p id="empty" class="empty" hidden>没有符合条件的政策。请调整关键词或筛选条件。</p><div id="pagination" class="pagination" hidden><button id="prev" class="secondary">上一页</button><span id="page-info" aria-live="polite"></span><button id="next" class="secondary">下一页</button></div>
+    <p class="fine">原始采集 {data.policies.length} 份，关键词命中 {data.summary.keyword_matches} 份。展示直接或间接相关的政策；解读未完成的条目保留待核查标记。AI 生成，以原文为准。</p>
+  </section></section>
+</Layout>
+<script>
+  import { matchesFilters, type Filters, type SearchItem } from '../../lib/filter';
+  const form = document.querySelector<HTMLFormElement>('#filters')!;
+  const list = document.querySelector<HTMLElement>('#policy-list')!;
+  const items = Array.from(list.querySelectorAll<HTMLElement>('[data-item]')).map(el => ({ el, item: JSON.parse(el.dataset.item!) as SearchItem }));
+  const fields = ['q', 'source', 'topic', 'target', 'relevance', 'review', 'impact', 'from', 'to'] as const;
+  const sort = document.querySelector<HTMLSelectElement>('#sort')!;
+  const prev = document.querySelector<HTMLButtonElement>('#prev')!;
+  const next = document.querySelector<HTMLButtonElement>('#next')!;
+  let page = 1;
+  function restore() {
+    const params = new URLSearchParams(location.search);
+    for (const name of fields) (form.elements.namedItem(name) as HTMLInputElement).value = params.get(name) || '';
+    sort.value = params.get('sort') === 'asc' ? 'asc' : 'desc';
+    const requestedPage = Number(params.get('page'));
+    page = Number.isFinite(requestedPage) ? Math.max(1, requestedPage || 1) : 1;
+  }
+  function render() {
+    const filters = Object.fromEntries(fields.map(name => [name, (form.elements.namedItem(name) as HTMLInputElement).value])) as unknown as Filters;
+    const selected = items.filter(({ item }) => matchesFilters(item, filters)).sort((a, b) => (sort.value === 'asc' ? 1 : -1) * a.item.date.localeCompare(b.item.date));
+    const pages = Math.max(1, Math.ceil(selected.length / 12));
+    page = Math.min(pages, Math.max(1, Math.floor(page)));
+    items.forEach(({ el }) => { el.hidden = true; });
+    selected.slice((page - 1) * 12, page * 12).forEach(({ el }) => { el.hidden = false; list.append(el); });
+    document.querySelector('#result-count')!.textContent = `${selected.length} 份`;
+    document.querySelector<HTMLElement>('#empty')!.hidden = selected.length > 0;
+    document.querySelector<HTMLElement>('#pagination')!.hidden = selected.length === 0;
+    document.querySelector('#page-info')!.textContent = `第 ${page} / ${pages} 页`;
+    prev.disabled = page <= 1; next.disabled = page >= pages;
+    const params = new URLSearchParams();
+    for (const name of fields) if (filters[name]) params.set(name, filters[name]!);
+    if (sort.value === 'asc') params.set('sort', 'asc');
+    if (page > 1) params.set('page', String(page));
+    history.replaceState(null, '', location.pathname + (params.size ? '?' + params : ''));
+  }
+  form.addEventListener('submit', event => event.preventDefault());
+  form.addEventListener('input', () => { page = 1; render(); });
+  form.addEventListener('reset', () => { setTimeout(() => { page = 1; sort.value = 'desc'; render(); }, 0); });
+  sort.addEventListener('change', () => { page = 1; render(); });
+  prev.addEventListener('click', () => { page--; render(); });
+  next.addEventListener('click', () => { page++; render(); });
+  window.addEventListener('popstate', () => { restore(); render(); });
+  restore(); render();
+</script>

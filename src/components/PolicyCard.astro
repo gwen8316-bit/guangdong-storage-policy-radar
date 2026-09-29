@@ -1,0 +1,14 @@
+---
+import { issuerName, type Entry } from '../lib/data';
+import { link } from '../lib/links';
+interface Props { entry: Entry; searchable?: boolean; }
+const { entry, searchable = false } = Astro.props;
+const { policy: p, analysis: a, date, dateLabel } = entry;
+const impact = a.interpretation.impact.direction;
+const search = { text: `${p.title} ${a.interpretation.summary}`, sources: [issuerName(p)], topics: a.interpretation.topics, targets: a.interpretation.targets, relevance: a.relevance, review: a.review_status, date, impact };
+---
+<article class="policy-card" data-item={searchable ? JSON.stringify(search) : undefined}>
+  <div class="card-meta"><span>{issuerName(p)}</span><span>{dateLabel} {date || '未提供'}</span></div>
+  <h3><a href={link(`policies/${p.id}/`)}>{p.title}</a></h3><p class="summary">{a.interpretation.summary}</p>
+  <div class="tags"><span class="tag relevance">{a.relevance}</span><span class:list={['tag', 'impact', impact === '利好' ? 'positive' : impact === '利空' ? 'negative' : 'neutral']}>{impact}</span>{a.interpretation.topics.map(topic => <a class="tag" href={link(`policies/?topic=${encodeURIComponent(topic)}`)}>{topic}</a>)}{a.review_status === '待核查' && <span class="tag warning">待核查</span>}</div>
+</article>

@@ -1,0 +1,26 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadData, safeUrl, formatTime, issuerName, type Entry } from '../../lib/data';
+import { link } from '../../lib/links';
+import PolicyCard from '../../components/PolicyCard.astro';
+export function getStaticPaths() { return loadData().entries.map(entry => ({ params: { id: entry.policy.id }, props: { entry } })); }
+interface Props { entry: Entry; }
+const { policy: p, analysis: a, date, dateLabel } = Astro.props.entry;
+const interpretation = a.interpretation;
+const data = loadData();
+const columns = data.columns.filter(c => p.column_ids.includes(c.column_id));
+const related = data.entries.filter(e => e.policy.id !== p.id && e.analysis.interpretation.topics.some(topic => interpretation.topics.includes(topic))).slice(0, 5);
+const statusNames: Record<string, string> = { parsed: '已解析', partial: '部分解析，需核查', needs_manual_review: '待人工核读', failed: '获取或解析失败', complete: '已提取文字', image_only: '图片正文，待人工核读' };
+---
+<Layout title={p.title}>
+  <a class="back" href={link('policies/')}>← 返回政策库</a>
+  <article class="detail">
+    <p class="notice">AI 生成，以原文为准。</p>
+    <header class="detail-header"><div class="tags"><span class="tag relevance">{a.relevance}</span><span class:list={['tag', a.review_status === '待核查' && 'warning']}>{a.review_status}</span></div><h1>{p.title}</h1><p class="muted">{issuerName(p)} · {dateLabel} {date || '未提供'}<br />发文字号：{p.doc_number || '未提供'}</p><a class="button" href={safeUrl(p.url)} target="_blank" rel="noopener noreferrer">查看官方原文 ↗</a></header>
+    {a.review_status === '待核查' && <section class="review"><h2>本条解读尚待人工核查</h2><ul>{(a.review_reasons?.length ? a.review_reasons : ['该解读仍需人工核查。']).map(reason => <li>{reason}</li>)}</ul></section>}
+    <section class="panel"><p class="eyebrow">AI 政策解读</p><h2>一句话摘要</h2><p class="lead">{interpretation.summary}</p><h2>核心规定与原文依据</h2><ol class="points">{interpretation.key_points.map((point, i) => <li><p>{point}</p><details><summary>查看对应原文引句</summary><blockquote>{interpretation.evidence[i]}</blockquote></details></li>)}</ol><h2>影响判断 <span class:list={['tag', 'impact', interpretation.impact.direction === '利好' ? 'positive' : interpretation.impact.direction === '利空' ? 'negative' : 'neutral']}>{interpretation.impact.direction}</span></h2><p>{interpretation.impact.reason}</p><dl class="metadata"><div><dt>政策主题</dt><dd>{interpretation.topics.join('、') || '未标注'}</dd></div><div><dt>影响对象</dt><dd>{interpretation.targets.join('、') || '原文未明确适用对象'}</dd></div><div><dt>相关性依据</dt><dd>{a.relevance_reason}</dd></div></dl></section>
+    <section class="panel"><h2>文件信息</h2><dl class="metadata"><div><dt>发文机关</dt><dd>{issuerName(p)}</dd></div><div><dt>发布日期</dt><dd>{p.publish_date || '未提供'}</dd></div><div><dt>成文日期</dt><dd>{p.written_date || '未提供'}</dd></div><div><dt>列表日期</dt><dd>{p.list_date || '未提供'}</dd></div><div><dt>来源栏目</dt><dd>{columns.map(c => <div><a href={safeUrl(c.url)} target="_blank" rel="noopener noreferrer">{c.name} ↗</a></div>)}</dd></div><div><dt>最近检查</dt><dd>{formatTime(p.last_checked_at)}</dd></div><div><dt>解读时间</dt><dd>{formatTime(a.analyzed_at)}</dd></div><div><dt>正文状态</dt><dd>{statusNames[p.content_status] || p.content_status}</dd></div></dl><details class="body-text"><summary>展开已提取正文</summary><div class="pre-wrap">{p.content_text || '暂无可提取文字，请查看官方原文。'}</div></details></section>
+    <section class="panel"><h2>附件与正文图片 <span class="muted">{p.attachments.length}</span></h2>{p.attachments.length === 0 ? <p class="muted">未发现附件或正文图片。</p> : p.attachments.map(file => <div class="attachment"><a href={safeUrl(file.url)} target="_blank" rel="noopener noreferrer">{file.name || '原始附件'} ↗</a><span class:list={['tag', file.status !== 'parsed' && 'warning']}>{statusNames[file.status] || file.status}</span>{file.error && <p class="fine">{file.error}</p>}{file.text && <details><summary>查看已提取文本</summary><div class="pre-wrap">{file.text}</div></details>}</div>)}</section>
+    <section class="related"><h2>同主题相关政策</h2>{related.length ? related.map(entry => <PolicyCard entry={entry} />) : <p class="muted">暂无其他同主题政策。</p>}</section>
+  </article>
+</Layout>

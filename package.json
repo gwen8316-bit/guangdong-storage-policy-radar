@@ -1,0 +1,23 @@
+{
+  "name": "guangdong-storage-policy-radar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "check": "astro check",
+    "test": "node --experimental-strip-types --test tests/frontend.test.ts",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "astro": "7.3.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/node": "22.20.4",
+    "typescript": "5.9.3"
+  }
+}

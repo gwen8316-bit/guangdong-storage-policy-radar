@@ -1,0 +1,108 @@
+name: Update and deploy policy radar
+on:
+  schedule:
+    - cron: '0 0 * * *' # 08:00 Asia/Shanghai
+  workflow_dispatch:
+    inputs:
+      update_data:
+        description: 'Collect and analyze before deploying (false = deploy saved data only)'
+        type: boolean
+        default: true
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'astro.config.mjs'
+      - 'package*.json'
+      - 'tsconfig.json'
+      - '.github/workflows/update-site.yml'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: policy-collection
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set candidate directory
+        run: echo "CANDIDATE=$RUNNER_TEMP/policy-candidate" >> "$GITHUB_ENV"
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22.23.3'
+          cache: npm
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Install and test
+        run: |
+          npm ci
+          python -m pip install -r requirements-collector.txt
+          python -m unittest discover -s tests -v
+          npm test
+          npm run check
+      - name: Collect and analyze candidate
+        id: update
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.update_data)
+        timeout-minutes: 90
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/update_site.py --candidate "$CANDIDATE"
+      - name: Build saved or candidate snapshot
+        env:
+          UPDATE_RESULT: ${{ steps.update.outcome }}
+        run: |
+          if [ "$UPDATE_RESULT" = success ]; then
+            export POLICY_DATA_DIR="$CANDIDATE"
+          fi
+          npm test
+          npm run build
+          node scripts/verify_site.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Promote successfully deployed snapshot
+        if: steps.update.outcome == 'success' && steps.deployment.outcome == 'success'
+        run: |
+          python -c 'import os, shutil; shutil.copytree(os.environ["CANDIDATE"], "data", dirs_exist_ok=True, ignore=shutil.ignore_patterns(".collector.lock", "*.tmp"))'
+      - name: Preserve budget ledger even after interruption
+        if: always()
+        run: |
+          if [ -f "$CANDIDATE/state/ai-budget.json" ]; then
+            cp "$CANDIDATE/state/ai-budget.json" data/state/ai-budget.json
+          fi
+      - name: Save deployed data and budget ledger
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save policy radar snapshot and AI budget'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Keep failed candidate for diagnosis
+        if: failure()
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: failed-policy-candidate
+          path: ${{ env.CANDIDATE }}
+          if-no-files-found: ignore
+          retention-days: 7
