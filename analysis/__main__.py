@@ -128,11 +128,18 @@ def run_samples(root, config, policies, provider):
                            'evidence': ['对应要点1的原文引句', '对应要点2的原文引句', '对应要点3的原文引句']}
                 prompt = SYSTEM + '输出以下 json 结构：' + json.dumps(example, ensure_ascii=False)
                 prompt += 'topics 仅选：' + '、'.join(config['topics']) + '；targets 仅选：' + '、'.join(config['targets'])
-                prompt += '。impact.direction 只能为利好、利空、中性；证据不足选中性并说明。每条 evidence 须连续照抄至少8字原文。不要将征求意见稿当成现行规则。'
-                result = validate(call(prompt, source, pid, 'interpretation'), source, config)
+                prompt += '。key_points 必须恰好包含3个非空字符串，不得返回对象、嵌套数组或更多条目。summary 必须50字以内。'
+                prompt += 'impact.direction 只能为利好、利空、中性；理由应说明原文对应的影响，不得机械地把缺乏收益数字当作没有影响。'
+                prompt += '每条 evidence 须连续照抄至少8字原文。不要将征求意见稿当成现行规则。'
+                raw = call(prompt, source, pid, 'interpretation')
+                # Keep rejected responses for diagnosis instead of losing paid results.
+                record['raw_response'] = raw
+                write_json(path, record)
+                result = validate(raw, source, config)
                 record.update(interpretation=result, status='complete', review_status='待核查' if issues else '自动生成',
                               review_reasons=issues, analyzed_at=now())
                 record.pop('error', None)
+                record.pop('raw_response', None)
         except Exception as exc:
             record.update(status='pending_review', review_status='待核查', error=str(exc))
         write_json(path, record)
