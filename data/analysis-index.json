@@ -647,8 +647,8 @@
       "两个细则"
     ],
     "relevance": "间接相关",
-    "status": "pending_review",
-    "visible": false
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "4291047cce61e1184c365cb756ba5bced5e6bd0f711f07b2028cbf8a763449d9",
@@ -2438,8 +2438,8 @@
       "电力市场"
     ],
     "relevance": "直接相关",
-    "status": "pending_review",
-    "visible": false
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "0701690eb21208d5ee418006e48c8a31ca76fe56c7c94badf1afc1362c24a170",

@@ -101,6 +101,40 @@
         "prompt_cache_hit_tokens": 128,
         "prompt_cache_miss_tokens": 3106
       }
+    },
+    {
+      "at": "2026-09-29T09:22:06+00:00",
+      "policy_id": "47bfb1bb6930140ed1e4cde1e693ff8540219043c5c86c303dd0e704ac79e26b",
+      "stage": "interpretation",
+      "reserved_cny": 1,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 3994,
+        "completion_tokens": 213,
+        "total_tokens": 4207,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 3994
+      }
+    },
+    {
+      "at": "2026-09-29T09:22:08+00:00",
+      "policy_id": "fe10ffb6bf743afacca6a333369128ba2832c60207351b6e089911d2eddafdac",
+      "stage": "interpretation",
+      "reserved_cny": 1,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 3273,
+        "completion_tokens": 353,
+        "total_tokens": 3626,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3145
+      }
     }
   ]
 }
