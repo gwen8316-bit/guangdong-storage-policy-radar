@@ -1,0 +1,13 @@
+{
+  "id": "47bfb1bb6930140ed1e4cde1e693ff8540219043c5c86c303dd0e704ac79e26b",
+  "title": "关于公开征求《南方区域“两个细则”部分条款修订（征求意见稿）》意见的函",
+  "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202608/t20260824_307197.html",
+  "input_hash": "49fc759ff7f715ce816f9e05f66554675c6aaebc2c963ce8d0544cbbc0437613",
+  "model": "deepseek-flash",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "pending_review",
+  "relevance": "间接相关",
+  "relevance_reason": "原文标题为关于公开征求《南方区域“两个细则”部分条款修订（征求意见稿）》意见的函，并附有征求意见稿PDF，属于征求意见阶段；涉及南方区域'两个细则'部分条款修订，但未提供具体条款内容，无法确认是否直接涉及储能自身，仅可能影响储能运行或市场环境。",
+  "review_status": "待核查",
+  "error": "核心要点须为三条非空文本"
+}

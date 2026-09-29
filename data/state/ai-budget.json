@@ -1,0 +1,106 @@
+{
+  "2026-09": [
+    {
+      "at": "2026-09-29T09:20:17+00:00",
+      "policy_id": "cab2ce39d8409b010b46b663eacb9b4a43d5284e36e3f2d21f9e6dba797c17d5",
+      "stage": "relevance",
+      "reserved_cny": 1,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 872,
+        "completion_tokens": 57,
+        "total_tokens": 929,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 872
+      }
+    },
+    {
+      "at": "2026-09-29T09:20:18+00:00",
+      "policy_id": "cab2ce39d8409b010b46b663eacb9b4a43d5284e36e3f2d21f9e6dba797c17d5",
+      "stage": "interpretation",
+      "reserved_cny": 1,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 1038,
+        "completion_tokens": 318,
+        "total_tokens": 1356,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1038
+      }
+    },
+    {
+      "at": "2026-09-29T09:20:20+00:00",
+      "policy_id": "47bfb1bb6930140ed1e4cde1e693ff8540219043c5c86c303dd0e704ac79e26b",
+      "stage": "relevance",
+      "reserved_cny": 1,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 188,
+        "completion_tokens": 80,
+        "total_tokens": 268,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 188
+      }
+    },
+    {
+      "at": "2026-09-29T09:20:21+00:00",
+      "policy_id": "47bfb1bb6930140ed1e4cde1e693ff8540219043c5c86c303dd0e704ac79e26b",
+      "stage": "interpretation",
+      "reserved_cny": 1,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 3955,
+        "completion_tokens": 306,
+        "total_tokens": 4261,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3827
+      }
+    },
+    {
+      "at": "2026-09-29T09:20:23+00:00",
+      "policy_id": "fe10ffb6bf743afacca6a333369128ba2832c60207351b6e089911d2eddafdac",
+      "stage": "relevance",
+      "reserved_cny": 1,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 52,
+        "total_tokens": 1278,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1226
+      }
+    },
+    {
+      "at": "2026-09-29T09:20:24+00:00",
+      "policy_id": "fe10ffb6bf743afacca6a333369128ba2832c60207351b6e089911d2eddafdac",
+      "stage": "interpretation",
+      "reserved_cny": 1,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 3234,
+        "completion_tokens": 239,
+        "total_tokens": 3473,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3106
+      }
+    }
+  ]
+}

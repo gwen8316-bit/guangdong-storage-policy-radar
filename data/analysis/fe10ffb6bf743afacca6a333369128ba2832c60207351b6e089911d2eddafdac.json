@@ -1,0 +1,13 @@
+{
+  "id": "fe10ffb6bf743afacca6a333369128ba2832c60207351b6e089911d2eddafdac",
+  "title": "广东省发展改革委关于印发广东省新型储能电站建设运行管理办法的通知",
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4889388.html",
+  "input_hash": "36433393bd6bd19e16d833409662c10d923a628ae37c5741bc998dc8b0e4a64c",
+  "model": "deepseek-flash",
+  "disclaimer": "AI 生成，以原文为准",
+  "status": "pending_review",
+  "relevance": "直接相关",
+  "relevance_reason": "原文为《广东省新型储能电站建设运行管理办法》，明确针对新型储能电站的规划、建设、备案和运行管理，第二条界定新型储能电站并规定适用范围，属于对储能自身的管理规定。",
+  "review_status": "待核查",
+  "error": "核心要点须为三条非空文本"
+}
