@@ -43,7 +43,8 @@ class AnalysisTests(unittest.TestCase):
             run_samples(Path(temp), CONFIG, policies, provider)
             self.assertEqual(provider.calls, 3)
         self.assertTrue(all(matches(p, CONFIG) for p in policies.values()))
-        self.assertTrue(all(not source_text(p, CONFIG['max_input_chars'])[1] for p in policies.values()))
+        self.assertTrue(source_text(policies[CONFIG['sample_ids'][1]], CONFIG['max_input_chars'])[1])
+        self.assertFalse(source_text(policies[CONFIG['sample_ids'][0]], CONFIG['max_input_chars'])[1])
 
     def test_budget_blocks_before_api(self):
         pid = CONFIG['sample_ids'][0]

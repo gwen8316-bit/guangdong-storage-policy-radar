@@ -29,6 +29,8 @@ def source_text(p, limit):
         if a.get('text'):
             text += '\n附件：' + a['name'] + '\n' + a['text']
     review = []
+    if p.get('attachments') and len(p.get('content_text', '')) < 200:
+        review.append('相关性判断仅使用短正文，未读取附件；可能低估直接相关性')
     if p.get('content_status') != 'complete':
         review.append('正文不完整')
     if any(a.get('status') != 'parsed' for a in p.get('attachments', [])):
