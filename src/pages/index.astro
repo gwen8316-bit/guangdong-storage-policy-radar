@@ -1,18 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import PolicyCard from '../components/PolicyCard.astro';
-import { loadData, formatTime, recentCount, latestCompleted } from '../lib/data';
+import { loadData, formatTime, recentCount } from '../lib/data';
 import { link } from '../lib/links';
 const data = loadData();
-const latest = latestCompleted(data.entries);
 const distribution = data.taxonomy.topics.map(topic => ({ topic, count: data.entries.filter(e => e.analysis.interpretation.topics.includes(topic)).length }));
 const max = Math.max(1, ...distribution.map(t => t.count));
 ---
 <Layout title="首页">
   <section class="hero home-hero"><div><p class="eyebrow">POLICY INTELLIGENCE / 广东 · 储能 · 政策</p><h1>广东储能政策雷达</h1><p class="subtitle">自动追踪国家及广东省储能相关政策，AI 辅助解读</p><p class="update">数据更新于：<time>{formatTime(data.updatedAt)}</time></p></div><a class="button" href={link('policies/')}>浏览政策库 →</a></section>
   <section class="metrics" aria-label="政策统计"><div><span>收录政策总数</span><strong>{data.policies.length}<small>份</small></strong></div><div><span>储能相关政策数</span><strong>{data.entries.length}<small>份</small></strong></div><div><span>近 30 天新增相关政策数</span><strong>{recentCount(data.entries)}<small>份</small></strong></div><div><span>覆盖信源数</span><strong>{new Set(data.columns.map(c => c.source_id)).size}<small>个机构 / {data.columns.length} 个栏目</small></strong></div></section>
-  <p class="fine stat-note">收录总数为去重后的政策数；相关政策包含直接与间接相关。近 30 天按政策日期统计，缺少发布日期时使用列表日期，范围截至本次构建日。</p>
+  <p class="fine stat-note">收录总数为原始采集文件数；相关政策包含直接与间接相关。近 30 天按政策日期统计，缺少发布日期时使用列表日期，范围截至本次构建日。</p>
   <section class="home-content"><aside class="topic-panel"><div class="section-title"><h2>主题分布</h2><span class="fine">9 个研究主题</span></div><p class="fine">点击主题查看政策；一份政策可属于多个主题。</p><div class="topic-chart">{distribution.map(({ topic, count }) => <a class="chart-row" href={link(`policies/?topic=${encodeURIComponent(topic)}`)} aria-label={`${topic}，${count} 份政策`}><span class="chart-label">{topic}<strong>{count}</strong></span><span class="bar-track"><span style={`width:${count / max * 100}%`}></span></span></a>)}</div></aside>
-  <section class="latest"><div class="section-title"><h2>最新动态</h2><a href={link('policies/')}>查看全部 →</a></div><p class="fine">最近 10 条已完成解读的相关政策 · 按政策日期排序</p>{latest.map(entry => <PolicyCard entry={entry} />)}{latest.length === 0 && <p class="empty">暂无已完成解读的相关政策。</p>}</section></section>
+  <section class="latest"><div class="section-title"><h2>最新动态</h2><a href={link('policies/')}>查看全部 →</a></div><p class="fine">最近 10 条相关政策 · 按政策日期排序</p>{data.entries.slice(0, 10).map(entry => <PolicyCard entry={entry} />)}{data.entries.length === 0 && <p class="empty">暂无已完成解读的相关政策。</p>}</section></section>
   <section id="about" class="about"><p class="eyebrow">ABOUT / 关于本项目</p><h2>从官方原文出发，让政策研究有据可循。</h2><div class="about-grid"><div><h3>官方信源</h3><p>覆盖国家能源局、国家能源局南方监管局、广东省发展改革委（含省能源局）3 个机构的 10 个栏目，持续追踪国家及广东政策。</p></div><div><h3>分类体系</h3><p>围绕规划、电价、电力市场、辅助服务等 9 个主题，结合 5 类储能对象，区分直接与间接相关政策，并给出利好、利空或中性的影响判断。</p></div><div><h3>方法与局限</h3><p>关键词初筛后，由 AI 基于正文及可解析附件判断相关性，生成摘要、要点和原文证据。AI 生成，以原文为准；部分解读待人工核查。历史回填尚未完整，图片及部分附件需人工核读。</p></div></div><p class="fine">个人政策研究与自动化展示项目 · 不代表官方解释或投资建议 · <a href="https://github.com/gwen8316-bit/guangdong-storage-policy-radar" target="_blank" rel="noopener noreferrer">查看项目源码 ↗</a></p></section>
 </Layout>

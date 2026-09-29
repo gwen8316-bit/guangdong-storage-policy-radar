@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "促进民营经济发展政策，未规定储能具体事项，仅提及新业态",
+  "status": "complete",
+  "relevance": "间接相关",
+  "relevance_reason": "原文仅在支持发展能源新业态新模式部分提及'主动为民营企业谋划虚拟电厂、智能微电网、充电基础设施、新型储能等新业态新模式'，涉及民营企业在新型储能领域的发展空间，但未对储能自身提出考核、补偿、价格、准入或规划等具体规定，故为间接相关。",
   "interpretation": {
     "summary": "国家能源局发文促进能源领域民营经济发展，从发展动能、市场开放、政务服务三方面部署举措。",
     "key_points": [
@@ -16,7 +16,9 @@
       "从市场准入、要素获取、市场秩序三个维度推动民营企业公平参与市场，包括改革油气管网运销体制、优化承装（修、试）电力设施许可机制、降低160千瓦及以下民营用电企业办电成本、健全公平竞争审查制度。",
       "要求地方能源主管部门结合本地实际细化举措，主动听取民营企业意见，优化投资审批流程，规范涉企行政检查，支持引导民营企业高质量走出去。"
     ],
-    "topics": [],
+    "topics": [
+      "规划与发展目标"
+    ],
     "targets": [],
     "impact": {
       "direction": "利好",
@@ -28,21 +30,7 @@
       "包括160千瓦及以下民营用电企业的报装接电等办电成本"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:29:17+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "无关",
-    "reason": "促进民营经济发展政策，未规定储能具体事项，仅提及新业态",
-    "evidence": "主动为民营企业谋划虚拟电厂、智能微电网、充电基础设施、新型储能等新业态新模式",
-    "topics": [],
-    "targets": [],
-    "truncated": false,
-    "source_id": "07126a59ee55c006be3d84df75c7b2221a18addda87715bc7a2e96f1678bfdf3",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:29:17+00:00"
 }

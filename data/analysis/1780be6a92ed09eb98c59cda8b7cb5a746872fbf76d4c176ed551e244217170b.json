@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "该方案聚焦人工智能与能源双向赋能，储能仅作为技术举例出现在构网型储能与场景罗列中，未对储能设定目标、机制或标准。",
+  "status": "complete",
+  "relevance": "直接相关",
+  "relevance_reason": "原文明确涉及储能：第二部分（二）提高算力设施多元电力供给能力中规定“鼓励算力设施配置构网型储能，增强供电稳定性和对电力系统的主动支撑能力”，属于对储能配置的明确要求。",
   "interpretation": {
     "summary": "四部门印发人工智能与能源双向赋能行动方案，部署算力能源保障与算电协同等任务。",
     "key_points": [
@@ -16,7 +16,11 @@
       "支持算力设施以多种形式参与电能量、辅助服务、需求响应等市场交易",
       "推动新型储能系统运行优化与安全风险预警等能源新业态场景应用"
     ],
-    "topics": [],
+    "topics": [
+      "辅助服务",
+      "需求响应与虚拟电厂",
+      "新能源配储与并网"
+    ],
     "targets": [],
     "impact": {
       "direction": "中性",
@@ -28,22 +32,7 @@
       "新型储能系统运行优化与安全风险预警"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文",
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:29:29+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "无关",
-    "reason": "该方案聚焦人工智能与能源双向赋能，储能仅作为技术举例出现在构网型储能与场景罗列中，未对储能设定目标、机制或标准。",
-    "evidence": "鼓励算力设施配置构网型储能，增强供电稳定性和对电力系统的主动支撑能力。",
-    "topics": [],
-    "targets": [],
-    "truncated": false,
-    "source_id": "1780be6a92ed09eb98c59cda8b7cb5a746872fbf76d4c176ed551e244217170b",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:29:29+00:00"
 }

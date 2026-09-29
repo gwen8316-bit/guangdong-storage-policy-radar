@@ -44,8 +44,6 @@ def restore_analysis_cache(candidate):
             continue
         path = candidate / 'analysis' / (pid + '.json')
         saved = read_json(path, {})
-        if saved.get('input_hash') == item['input_hash'] and saved.get('classification', {}).get('review_method') == 'assistant_source_review':
-            continue  # An older failed-update cache must not undo a source review, even when the summary is pending.
         if saved.get('input_hash') == item['input_hash'] and saved.get('status') in ('complete', 'irrelevant'):
             continue  # Preserve published review annotations.
         write_json(path, item)

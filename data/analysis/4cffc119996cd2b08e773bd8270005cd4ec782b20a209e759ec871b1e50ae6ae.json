@@ -7,8 +7,8 @@
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
   "status": "complete",
-  "relevance": "直接相关",
-  "relevance_reason": "明确充电设施配建储能及光储充容量配置要求。",
+  "relevance": "间接相关",
+  "relevance_reason": "原文围绕电动汽车充电设施（含超充、快充、慢充、充换电设施）的规划建设与改造展开，未明确涉及储能（含新型储能、独立储能、储能电站）的考核、补偿、价格、准入或规划；但大规模充电设施与充换电场站建设会影响储能运行或市场环境，故判定为间接相关。",
   "interpretation": {
     "summary": "广东印发充电设施行动方案，2027年建成300万个以上充电设施。",
     "key_points": [
@@ -17,9 +17,15 @@
       "推进V2G车网互动，2027年底累计建成V2G设施超2500个、反向放电量超300万千瓦时，并探索市场化价格机制。"
     ],
     "topics": [
-      "新能源配储与并网"
+      "规划与发展目标",
+      "需求响应与虚拟电厂",
+      "辅助服务"
     ],
-    "targets": [],
+    "targets": [
+      "工商业用户侧储能",
+      "电网侧储能",
+      "储能产业链"
+    ],
     "impact": {
       "direction": "中性",
       "reason": "原文为充电设施建设方案，仅鼓励配建储能，未明确储能收益或市场规则变化。"
@@ -32,25 +38,7 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "附件解析不完整",
-    "相关性与标签经助手原文复核，尚待人工核查"
+    "附件解析不完整"
   ],
-  "analyzed_at": "2026-09-29T09:31:00+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "直接相关",
-    "reason": "明确充电设施配建储能及光储充容量配置要求。",
-    "evidence": "鼓励充电设施投资企业因地制宜配建储能",
-    "topics": [
-      {
-        "label": "新能源配储与并网",
-        "evidence": "根据充电设施额定功率合理配建光伏和储能的装机容量"
-      }
-    ],
-    "targets": [],
-    "truncated": false,
-    "source_id": "4cffc119996cd2b08e773bd8270005cd4ec782b20a209e759ec871b1e50ae6ae",
-    "review_method": "assistant_source_review"
-  }
+  "analyzed_at": "2026-09-29T09:31:00+00:00"
 }

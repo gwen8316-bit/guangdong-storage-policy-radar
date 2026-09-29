@@ -8,7 +8,7 @@
   "disclaimer": "AI 生成，以原文为准",
   "status": "pending_review",
   "relevance": "间接相关",
-  "relevance_reason": "直连项目余电上网及聚合交易机制改变用户侧储能配置与收益空间。",
+  "relevance_reason": "原文仅在‘用户侧灵活性资源的深度激活’部分提及现货市场制度下的余电上网政策能有效激励用户合理配置储能、挖掘自身灵活性资源，未对储能作出考核、补偿、价格、准入或规划等具体规定，故为间接相关。",
   "raw_response": {
     "summary": "绿电直连新政允许新能源直连用户，填补用户侧配电改革空白，激发市场活力。",
     "key_points": [
@@ -41,29 +41,5 @@
     ]
   },
   "review_status": "待核查",
-  "error": "三条要点须分别提供原文可核对的引句",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "间接相关",
-    "reason": "直连项目余电上网及聚合交易机制改变用户侧储能配置与收益空间。",
-    "evidence": "现货市场制度下的余电上网政策能有效激励用户合理配置储能",
-    "topics": [
-      {
-        "label": "电力现货市场",
-        "evidence": "现货市场制度下的余电上网政策能有效激励用户合理配置储能"
-      },
-      {
-        "label": "新能源配储与并网",
-        "evidence": "根据直连用户负荷大小确定合理的新能源建设规模"
-      }
-    ],
-    "targets": [],
-    "truncated": false,
-    "source_id": "58173a121bca04eb7501054cb371c82dc2d9d127442d59dfb950db6847e82273",
-    "review_method": "assistant_source_review"
-  },
-  "review_reasons": [
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ]
+  "error": "三条要点须分别提供原文可核对的引句"
 }

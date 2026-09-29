@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "现有可读原文仅为报告图解标题，无法核实具体适用条款，暂不计入相关政策。",
+  "status": "complete",
+  "relevance": "直接相关",
+  "relevance_reason": "标题与正文均明确指向《中国新型储能发展报告（2026）》，内容直接涉及新型储能。",
   "interpretation": {
     "summary": "未提供政策原文内容，无法提取具体规定与影响。",
     "key_points": [
@@ -31,20 +31,7 @@
   "review_status": "待核查",
   "review_reasons": [
     "正文不完整",
-    "附件解析不完整",
-    "相关性与标签经助手原文复核，尚待人工核查"
+    "附件解析不完整"
   ],
-  "analyzed_at": "2026-09-29T09:32:34+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "无关",
-    "reason": "现有可读原文仅为报告图解标题，无法核实具体适用条款，暂不计入相关政策。",
-    "evidence": "一图读懂《中国新型储能发展报告（2026）》",
-    "topics": [],
-    "targets": [],
-    "truncated": false,
-    "source_id": "be1f48662aaf52e9099b3d5c70a54427f5f8e2e17681206c7c8efeb72b20d5e1",
-    "review_method": "assistant_source_review"
-  }
+  "analyzed_at": "2026-09-29T09:32:34+00:00"
 }

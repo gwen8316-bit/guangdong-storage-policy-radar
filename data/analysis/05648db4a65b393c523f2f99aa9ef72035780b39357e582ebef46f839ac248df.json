@@ -7,8 +7,8 @@
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
   "status": "complete",
-  "relevance": "间接相关",
-  "relevance_reason": "虚拟电厂聚合交易和需求响应机制为分散储能提供市场收益渠道。",
+  "relevance": "直接相关",
+  "relevance_reason": "原文多处明确涉及储能：'为海量小规模、无法独立参与电力市场的分布式电源、可调节负荷、储能等提供参与市场竞争的机会'；'需要源网荷储高度协同'；标题及正文提出'提升源网荷储协同互动水平'，均属对储能参与市场及协同运行的明确规定。",
   "interpretation": {
     "summary": "解读虚拟电厂指导意见，明确其定义、商业模式、管理及市场机制。",
     "key_points": [
@@ -21,7 +21,9 @@
       "电力现货市场",
       "辅助服务"
     ],
-    "targets": [],
+    "targets": [
+      "储能产业链"
+    ],
     "impact": {
       "direction": "中性",
       "reason": "原文阐释虚拟电厂政策框架，未明确对特定对象的具体经济影响。"
@@ -32,34 +34,7 @@
       "《意见》提出由各省级能源主管部门牵头组织制定本地的虚拟电厂建设运行管理办法"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:29:11+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "间接相关",
-    "reason": "虚拟电厂聚合交易和需求响应机制为分散储能提供市场收益渠道。",
-    "evidence": "明确提出虚拟电厂的主要商业模式是参与电力市场交易",
-    "topics": [
-      {
-        "label": "需求响应与虚拟电厂",
-        "evidence": "还可以通过参与需求响应获得一定补偿"
-      },
-      {
-        "label": "电力现货市场",
-        "evidence": "包括参与电力中长期市场、现货市场和辅助服务市场"
-      },
-      {
-        "label": "辅助服务",
-        "evidence": "包括参与电力中长期市场、现货市场和辅助服务市场"
-      }
-    ],
-    "targets": [],
-    "truncated": false,
-    "source_id": "05648db4a65b393c523f2f99aa9ef72035780b39357e582ebef46f839ac248df",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:29:11+00:00"
 }

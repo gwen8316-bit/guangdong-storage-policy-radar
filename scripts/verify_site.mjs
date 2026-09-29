@@ -26,5 +26,4 @@ for (const file of pages) {
 const home = readFileSync(join(root, 'index.html'), 'utf8');
 assert.equal((home.match(/class="chart-row"/g) || []).length, 9);
 assert.ok(home.includes('关于本项目'));
-assert.ok(!home.includes('解读尚未完成，请查看官方原文'), 'Homepage must not contain incomplete interpretations');
 console.log(`Verified ${pages.length} pages, base paths, local links and all 9 themes.`);

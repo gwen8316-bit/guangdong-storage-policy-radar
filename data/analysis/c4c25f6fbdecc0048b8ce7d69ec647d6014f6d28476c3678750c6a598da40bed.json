@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "通用电力业务许可管理解读，未载明储能具体准入条款或收益规则。",
+  "status": "complete",
+  "relevance": "间接相关",
+  "relevance_reason": "原文提及'服务新型电力系统建设'、'放宽新型经营主体许可豁免范围'及'大型风光基地等重大项目'许可快优通道，涉及新型电力系统相关主体的资质许可管理，但未明确涉及储能（含新型储能、独立储能、储能电站）的考核、补偿、价格、准入或规划，故为间接相关。",
   "interpretation": {
     "summary": "深化电力业务资质许可管理，优化准入环境，服务新型电力系统建设。",
     "key_points": [
@@ -16,8 +16,12 @@
       "合理压减承装（修、试）电力设施许可等级，激发民营经济等各类所有制主体经营活力。",
       "在'一网通办'基础上，积极为大型风光基地等重大项目提供许可办理'快优通道'。"
     ],
-    "topics": [],
-    "targets": [],
+    "topics": [
+      "规划与发展目标"
+    ],
+    "targets": [
+      "储能产业链"
+    ],
     "impact": {
       "direction": "中性",
       "reason": "原文为资质许可管理改革，未明确针对储能收益或具体储能对象规定影响。"
@@ -28,21 +32,7 @@
       "在“一网通办”基础上，积极为大型风光基地等重大项目提供许可办理“快优通道”，不断提升政务服务水平。"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:32:41+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "无关",
-    "reason": "通用电力业务许可管理解读，未载明储能具体准入条款或收益规则。",
-    "evidence": "政策解读丨《国家能源局关于进一步深化电力业务资质许可管理 更好服务新型电力系统建设的实施意见》解读",
-    "topics": [],
-    "targets": [],
-    "truncated": false,
-    "source_id": "c4c25f6fbdecc0048b8ce7d69ec647d6014f6d28476c3678750c6a598da40bed",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:32:41+00:00"
 }

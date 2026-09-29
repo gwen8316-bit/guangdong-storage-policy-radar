@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "一般电力安全生产及治理文件或解读，储能为覆盖主体或任务举例，并非储能专项安全标准。",
+  "status": "pending_review",
+  "relevance": "直接相关",
+  "relevance_reason": "正文第（三）条明确提及“加强新型储能安全管理，完善全链条安全标准体系和安全评价机制，强化新型储能安全监管和信息共享”，属于对新型储能安全管理、标准与监管的要求，直接涉及新型储能。",
   "raw_response": {
     "summary": "国家能源局印发电力安全生产十五五行动计划，部署储能安全管理等任务。",
     "key_points": [
@@ -34,21 +34,5 @@
     ]
   },
   "review_status": "待核查",
-  "error": "三条要点须分别提供原文可核对的引句",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "无关",
-    "reason": "一般电力安全生产及治理文件或解读，储能为覆盖主体或任务举例，并非储能专项安全标准。",
-    "evidence": "国家能源局关于印发《电力安全生产“十五五”行动计划》的通知",
-    "topics": [],
-    "targets": [],
-    "truncated": false,
-    "source_id": "6cc93a2630d2777f9ab4fe10a6f594fbae618d22afc989a64b677dbc6e9db2ea",
-    "review_method": "assistant_source_review"
-  },
-  "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文",
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ]
+  "error": "三条要点须分别提供原文可核对的引句"
 }

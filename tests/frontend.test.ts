@@ -3,16 +3,13 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { resolve, join } from 'node:path';
-import { loadData, fingerprint, safeUrl, displayDate, recentCount, latestCompleted, type Entry, type Policy } from '../src/lib/data.ts';
+import { loadData, fingerprint, safeUrl, displayDate, recentCount, type Entry, type Policy } from '../src/lib/data.ts';
 import { matchesFilters, type Filters } from '../src/lib/filter.ts';
 
 test('real data: current interpretations only, deduplicated and sorted', () => {
   const data = loadData();
   assert.ok(data.entries.length > 0);
   assert.equal(new Set(data.entries.map(e => e.policy.id)).size, data.entries.length);
-  const datedKeys = data.policies.filter(p => p.publish_date).map(p => p.title.normalize('NFKC').replace(/[\s\u200b\ufeff]+/gu, '').replace(/[“”]/gu, '"').replace(/[‘’]/gu, "'") + '|' + p.publish_date);
-  assert.equal(new Set(datedKeys).size, datedKeys.length);
-  assert.ok(data.policies.filter(p => (p.source_links?.length || 0) > 1).every(p => new Set(p.source_links!.map(s => s.url)).size === p.source_links!.length));
   for (const entry of data.entries) {
     assert.equal(entry.analysis.input_hash, fingerprint(entry.policy, entry.analysis.rule_version));
     assert.ok(['直接相关', '间接相关'].includes(entry.analysis.relevance));
@@ -46,18 +43,8 @@ test('stale and irrelevant records are hidden; known-relevant pending reviews re
   assert.equal(load().entries.length, 1);
   assert.equal(load().entries[0].analysis.review_status, '待核查');
   assert.equal(load().entries[0].analysis.interpretation.impact.direction, '待判断');
-  assert.equal(latestCompleted(load().entries).length, 0);
   write('policies/' + p.id + '.json', { ...p, attachments_hash: 'changed' });
   assert.equal(load().entries.length, 0);
-});
-
-test('homepage excludes pending interpretations but preserves completed reviews', () => {
-  const entries = [
-    { analysis: { status: 'pending_review', review_status: '待核查' } },
-    { analysis: { status: 'complete', review_status: '待核查' } },
-    { analysis: { status: 'complete', review_status: '自动生成' } },
-  ] as Entry[];
-  assert.deepEqual(latestCompleted(entries, 1), [entries[1]]);
 });
 
 test('combined filters include secondary source, boundaries and empty dates', () => {

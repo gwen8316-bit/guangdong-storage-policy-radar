@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "一般电力安全生产及治理文件或解读，储能为覆盖主体或任务举例，并非储能专项安全标准。",
+  "status": "complete",
+  "relevance": "直接相关",
+  "relevance_reason": "修订后《条例》将新型并网主体纳入适用范围，明确将分布式新能源、新型储能、虚拟电厂等新型主体纳入，并明确其在服从统一调度、执行标准技术规范、加强事故隐患排查以及事故报告和应急处置等方面相应的电力安全责任。",
   "interpretation": {
     "summary": "修订后的电力安全事故应急处置和调查处理条例将于2027年施行，扩展至新型并网主体。",
     "key_points": [
@@ -16,8 +16,13 @@
       "将分布式新能源、新型储能、虚拟电厂等新型并网主体纳入适用范围，明确其服从统一调度、执行标准规范、隐患排查和事故报告等电力安全责任。",
       "事故等级划分调整：调整电网减供负荷和供电用户停电比例指标，新增发电设备减少出力致备用容量下降判定项，不再将供热机组停止供热时间作为判定项。"
     ],
-    "topics": [],
-    "targets": [],
+    "topics": [
+      "安全管理与标准",
+      "新能源配储与并网"
+    ],
+    "targets": [
+      "储能产业链"
+    ],
     "impact": {
       "direction": "中性",
       "reason": "原文为电力安全事故应急处置和调查处理制度修订，未涉及储能收益或市场规模的具体规定，对储能产业影响属安全责任约束而非收益变化。"
@@ -28,21 +33,7 @@
       "不再将“供热机组对外停止供热的时间”作为事故判定项"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:32:11+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "无关",
-    "reason": "一般电力安全生产及治理文件或解读，储能为覆盖主体或任务举例，并非储能专项安全标准。",
-    "evidence": "司法部、国家发展改革委、国家能源局负责人就《电力安全事故应急处置和调查处理条例》修订答记者问",
-    "topics": [],
-    "targets": [],
-    "truncated": false,
-    "source_id": "a6820a947b76d6df78ef75efa7c59c936c5430e0c1e90bcc11a2a9d3f0bedc7f",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:32:11+00:00"
 }

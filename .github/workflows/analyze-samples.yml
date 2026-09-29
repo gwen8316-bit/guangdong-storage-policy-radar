@@ -5,7 +5,7 @@ on:
       scope:
         description: Policies to analyze
         type: choice
-        options: [sample, all, reclassify]
+        options: [sample, all]
         default: sample
 permissions:
   contents: write
@@ -30,12 +30,7 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           SCOPE: ${{ inputs.scope }}
-        run: |
-          if [ "$SCOPE" = reclassify ]; then
-            python -m analysis.reclassify --max-calls 29
-          else
-            python -m analysis --"$SCOPE"
-          fi
+        run: python -m analysis --"$SCOPE"
       - name: Save results and budget ledger
         if: always()
         run: |

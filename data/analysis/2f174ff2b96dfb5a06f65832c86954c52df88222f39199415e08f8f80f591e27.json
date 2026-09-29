@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "巡视整改工作通报，回顾既有工作与研究，不是新增储能或市场规则。",
+  "status": "complete",
+  "relevance": "直接相关",
+  "relevance_reason": "原文明确将新型储能纳入电力业务许可豁免范围，并涉及新型储能、独立储能、储能电站的准入管理。",
   "interpretation": {
     "summary": "国家能源局资质中心通报巡视整改，储能仅涉及许可豁免，未载明储能专项政策。",
     "key_points": [
@@ -28,22 +28,7 @@
       "持续推进分布式发电项目绿证核发，培育壮大绿证市场。"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文",
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:30:05+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "无关",
-    "reason": "巡视整改工作通报，回顾既有工作与研究，不是新增储能或市场规则。",
-    "evidence": "国家能源局电力业务资质管理中心党支部关于局党组第三轮巡视整改进展情况的通报",
-    "topics": [],
-    "targets": [],
-    "truncated": false,
-    "source_id": "2f174ff2b96dfb5a06f65832c86954c52df88222f39199415e08f8f80f591e27",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:30:05+00:00"
 }

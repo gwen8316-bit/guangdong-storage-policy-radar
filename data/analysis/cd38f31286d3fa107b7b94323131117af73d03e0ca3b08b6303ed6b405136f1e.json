@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "巡视整改工作通报，回顾既有工作与研究，不是新增储能或市场规则。",
+  "status": "complete",
+  "relevance": "间接相关",
+  "relevance_reason": "原文在'探索创新抽蓄电站和虚拟电厂等跨省交易机制'中提及抽蓄'容量+电量'价格机制研究、抽蓄容量互济交易、虚拟电厂聚合分布式资源参与省间绿电交易，以及在'加大对在建抽蓄电站……项目督查力度'中涉及抽蓄电站安全督查；上述内容涉及储能相关运行与市场环境，但未明确涉及新型储能、独立储能或储能电站的考核、补偿、价格、准入或规划。",
   "interpretation": {
     "summary": "华东能源监管局通报巡视整改，涉及长三角电力市场、能源规划监管和安全风险防控。",
     "key_points": [
@@ -16,7 +16,11 @@
       "建立长三角区域派出机构发展规划定期沟通协调机制，对进度滞后项目提出监管意见并督促整改。",
       "协同防控重大电网安全风险，加大对在建抽蓄电站、混塔风电、煤电等项目督查力度。"
     ],
-    "topics": [],
+    "topics": [
+      "电力现货市场",
+      "规划与发展目标",
+      "安全管理与标准"
+    ],
     "targets": [],
     "impact": {
       "direction": "中性",
@@ -28,22 +32,7 @@
       "加大对在建抽蓄电站、混塔风电、煤电等项目督查力度"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文",
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:32:49+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "无关",
-    "reason": "巡视整改工作通报，回顾既有工作与研究，不是新增储能或市场规则。",
-    "evidence": "国家能源局华东监管局党组关于巡视“回头看”整改进展情况的通报",
-    "topics": [],
-    "targets": [],
-    "truncated": false,
-    "source_id": "cd38f31286d3fa107b7b94323131117af73d03e0ca3b08b6303ed6b405136f1e",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:32:49+00:00"
 }

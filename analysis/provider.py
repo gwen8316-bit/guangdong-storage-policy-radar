@@ -6,9 +6,8 @@ import urllib.request
 
 
 class DeepSeek:
-    def __init__(self, model, max_tokens=1600):
+    def __init__(self, model):
         self.model = model
-        self.max_tokens = max_tokens
         self.key = os.environ.get('DEEPSEEK_API_KEY')
         if not self.key:
             raise RuntimeError('Missing DEEPSEEK_API_KEY; configure the repository Actions secret')
@@ -16,7 +15,7 @@ class DeepSeek:
     def complete(self, system, text):
         payload = {'model': self.model, 'messages': [
             {'role': 'system', 'content': system}, {'role': 'user', 'content': text}],
-            'response_format': {'type': 'json_object'}, 'max_tokens': self.max_tokens,
+            'response_format': {'type': 'json_object'}, 'max_tokens': 1600,
             'thinking': {'type': 'disabled'}, 'stream': False}
         request = urllib.request.Request('https://api.deepseek.com/chat/completions',
             data=json.dumps(payload, ensure_ascii=False).encode(),

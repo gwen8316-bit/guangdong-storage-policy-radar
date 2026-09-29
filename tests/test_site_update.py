@@ -24,10 +24,6 @@ class SiteUpdateTests(unittest.TestCase):
                 path.unlink()
                 restore_analysis_cache(candidate)
                 self.assertEqual(read_json(path, {}), item)
-                reviewed = dict(item, status='pending_review', classification={'review_method': 'assistant_source_review'})
-                write_json(path, reviewed)
-                restore_analysis_cache(candidate)
-                self.assertEqual(read_json(path, {}), reviewed)
                 path.unlink()
                 write_json(candidate / 'policies' / (pid + '.json'), dict(policy, content_hash='changed'))
                 restore_analysis_cache(candidate)
@@ -62,14 +58,13 @@ class SiteUpdateTests(unittest.TestCase):
     def test_request_limit_includes_all_attempts(self):
         config = json.loads(Path('config/analysis.json').read_text(encoding='utf-8'))
         config.update(max_calls_per_run=2)
-        policies = {str(i): {'id': str(i), 'title': '储能政策', 'url': 'https://example.com', 'content_text': '储能管理规定原文内容'} for i in range(4)}
+        policies = {str(i): {'id': str(i), 'title': '储能政策', 'url': 'https://example.com', 'content_text': '储能'} for i in range(4)}
         class Fake:
             model = 'test'
             calls = 0
-            def complete(self, system, text):
+            def complete(self, *args):
                 self.calls += 1
-                item = json.loads(text)[0]
-                return {'items': [{'id': item['id'], 'relevance': '无关', 'reason': 'test', 'evidence': item['source'][:12], 'topics': [], 'targets': []}]}, {}
+                return {'relevance': '无关', 'reason': 'test'}, {}
         provider = Fake()
         with tempfile.TemporaryDirectory() as temp:
             self.assertEqual(run_samples(Path(temp), config, policies, provider, all_policies=True), 2)

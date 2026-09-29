@@ -41,8 +41,7 @@ class AnalysisTests(unittest.TestCase):
             calls = 0
             def complete(self, system, text):
                 self.calls += 1
-                item = json.loads(text)[0]
-                return {'items': [{'id': item['id'], 'relevance': '无关', 'reason': 'test', 'evidence': item['source'][:12], 'topics': [], 'targets': []}]}, {}
+                return {'relevance': '无关', 'reason': 'test'}, {}
         provider = Fake()
         with tempfile.TemporaryDirectory() as temp:
             run_samples(Path(temp), CONFIG, policies, provider)
@@ -64,18 +63,6 @@ class AnalysisTests(unittest.TestCase):
             self.assertEqual(run_samples(Path(temp), config, {pid: policy}, Never()), 0)
             record = json.loads((Path(temp) / 'analysis' / (pid + '.json')).read_text(encoding='utf-8'))
             self.assertIn('budget', record['error'])
-
-    def test_duplicate_urls_do_not_make_duplicate_api_calls(self):
-        policies = {key: {'id': key, 'title': '储能项目管理通知', 'publish_date': '2026-09-29',
-                         'url': 'https://example.com/' + key, 'content_text': '储能项目管理规定原文内容'} for key in ['a', 'b']}
-        class Fake:
-            model = 'test'
-            def complete(self, system, text):
-                item = json.loads(text)[0]
-                return {'items': [{'id': item['id'], 'relevance': '无关', 'reason': 'test',
-                                  'evidence': '储能项目管理规定原文内容', 'topics': [], 'targets': []}]}, {}
-        with tempfile.TemporaryDirectory() as temp:
-            self.assertEqual(run_samples(Path(temp), CONFIG, policies, Fake(), all_policies=True), 1)
 
     def test_relevance_attachment_boundaries(self):
         text = relevance_text({'title': '标题', 'content_text': '甲' * 2001,

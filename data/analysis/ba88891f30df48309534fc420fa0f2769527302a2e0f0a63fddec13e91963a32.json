@@ -8,7 +8,7 @@
   "disclaimer": "AI 生成，以原文为准",
   "status": "complete",
   "relevance": "间接相关",
-  "relevance_reason": "电力市场串通报价监管影响市场价格形成机制，进而影响储能参与市场的收益环境。",
+  "relevance_reason": "通报涉及发电企业串通报价、集中报价、滥用市场支配地位等违规行为，影响电力市场价格秩序和竞争环境；但全文未提及储能、新型储能、独立储能或储能电站，也未涉及储能的考核、补偿、价格、准入或规划。",
   "interpretation": {
     "summary": "国家能源局通报5起电力市场典型违规问题，涉及串通报价、集中报价和违规行使市场力，均已行政处罚。",
     "key_points": [
@@ -30,26 +30,7 @@
       "采取口头约定、统一管理交易U-Key、在同一办公室进行市场报价等方式，违规实施串通报价"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:32:31+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "间接相关",
-    "reason": "电力市场串通报价监管影响市场价格形成机制，进而影响储能参与市场的收益环境。",
-    "evidence": "经营主体之间不得实行串通报价、哄抬价格以及扰乱市场秩序等行为",
-    "topics": [
-      {
-        "label": "电力现货市场",
-        "evidence": "山东电力现货市场交易中，中国华能集团有限公司"
-      }
-    ],
-    "targets": [],
-    "truncated": false,
-    "source_id": "ba88891f30df48309534fc420fa0f2769527302a2e0f0a63fddec13e91963a32",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:32:31+00:00"
 }

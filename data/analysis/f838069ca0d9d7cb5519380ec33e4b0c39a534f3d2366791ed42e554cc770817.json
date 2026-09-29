@@ -8,7 +8,7 @@
   "disclaimer": "AI 生成，以原文为准",
   "status": "complete",
   "relevance": "直接相关",
-  "relevance_reason": "直接规定新型储能电站建设工程质量监督范围和节点。",
+  "relevance_reason": "原文标题及正文明确为《新型储能电站建设工程质量监督大纲》，适用范围包括功率100兆瓦及以上的电化学储能、压缩空气储能电站建设工程，并设置电化学储能单元启动前、电池预制舱吊装前等必监和专项质量监督节点，直接涉及新型储能电站建设的质量监督准入与规划管理。",
   "interpretation": {
     "summary": "国家能源局印发新型储能电站工程质量监督大纲，明确适用范围与监督节点。",
     "key_points": [
@@ -20,7 +20,9 @@
       "安全管理与标准"
     ],
     "targets": [
-      "电网侧储能"
+      "电源侧配储",
+      "电网侧储能",
+      "独立储能"
     ],
     "impact": {
       "direction": "中性",
@@ -34,30 +36,7 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "输入超过长度上限，解读仅基于截取部分",
-    "相关性与标签经助手原文复核，尚待人工核查"
+    "输入超过长度上限，解读仅基于截取部分"
   ],
-  "analyzed_at": "2026-09-29T09:33:26+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "直接相关",
-    "reason": "直接规定新型储能电站建设工程质量监督范围和节点。",
-    "evidence": "规范新型储能电站建设工程质量监督工作",
-    "topics": [
-      {
-        "label": "安全管理与标准",
-        "evidence": "规范新型储能电站建设工程质量监督工作"
-      }
-    ],
-    "targets": [
-      {
-        "label": "电网侧储能",
-        "evidence": "电力行业（电源侧和电网侧）功率100兆瓦及以上的电化学储能"
-      }
-    ],
-    "truncated": false,
-    "source_id": "f838069ca0d9d7cb5519380ec33e4b0c39a534f3d2366791ed42e554cc770817",
-    "review_method": "assistant_source_review"
-  }
+  "analyzed_at": "2026-09-29T09:33:26+00:00"
 }

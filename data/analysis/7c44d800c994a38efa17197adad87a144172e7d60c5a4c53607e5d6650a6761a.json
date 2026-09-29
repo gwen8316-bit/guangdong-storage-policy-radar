@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "试点项目名单中出现储能，未载明储能具体规划、准入、补偿或考核条款。",
+  "status": "complete",
+  "relevance": "直接相关",
+  "relevance_reason": "附件1试点项目名单中多个项目名称明确包含储能（如'国电双良园区构网型储能项目''龙游经济开发区共享储能项目''多元化新型储能项目''文山市丘北独立储能项目'等），涉及构网型储能、共享储能、独立储能的试点，属于储能自身的准入或规划。",
   "interpretation": {
     "summary": "国家能源局公布首批43个新型电力系统试点项目和10个试点城市，并提出建设管理要求。",
     "key_points": [
@@ -16,7 +16,11 @@
       "各试点单位按试点方案建设，依托申报方案中完成审批、核准或备案的项目实施；不得以试点名义随意扩大建设或改造内容；推进不力或未达试点效果的按程序取消试点资格。",
       "省级能源主管部门及中央企业落实主体责任，电网企业做好接网、调度支撑，国家能源局派出机构加强跟踪监管；本试点不得开展授牌、命名等活动。"
     ],
-    "topics": [],
+    "topics": [
+      "补贴与示范项目",
+      "规划与发展目标",
+      "新能源配储与并网"
+    ],
     "targets": [],
     "impact": {
       "direction": "利好",
@@ -28,22 +32,7 @@
       "电网企业要积极支持试点建设，做好接网、调度等支撑保障服务"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文",
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:31:40+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "无关",
-    "reason": "试点项目名单中出现储能，未载明储能具体规划、准入、补偿或考核条款。",
-    "evidence": "国家能源局关于公布新型电力系统建设能力提升试点名单（第一批）的通知",
-    "topics": [],
-    "targets": [],
-    "truncated": false,
-    "source_id": "7c44d800c994a38efa17197adad87a144172e7d60c5a4c53607e5d6650a6761a",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:31:40+00:00"
 }

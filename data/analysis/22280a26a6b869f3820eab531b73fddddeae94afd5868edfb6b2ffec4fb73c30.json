@@ -8,7 +8,7 @@
   "disclaimer": "AI 生成，以原文为准",
   "status": "complete",
   "relevance": "间接相关",
-  "relevance_reason": "煤电升级方案明确完善现货、辅助服务与容量电价机制，将改变储能参与调节的市场收益空间。",
+  "relevance_reason": "原文正文仅涉及煤电升级专项行动（清洁降碳、安全可靠、高效调节、智能运行等煤电指标体系），未出现“储能”“新型储能”“独立储能”“储能电站”等表述，也未涉及储能的考核、补偿、价格、准入或规划；仅通过新型电力系统建设与新能源消纳的系统环境间接影响储能运行或市场环境。",
   "interpretation": {
     "summary": "国家印发新一代煤电升级方案，明确四维指标体系与分类施策安排。",
     "key_points": [
@@ -32,34 +32,7 @@
       "现役机组改造受既有主机装备、辅机设备性能及工艺路线制约，技改空间及性能提升潜力存在局限性，方案采取鼓励性政策导向，不作强制性要求"
     ]
   },
-  "review_status": "待核查",
-  "review_reasons": [
-    "相关性与标签经助手原文复核，尚待人工核查"
-  ],
-  "analyzed_at": "2026-09-29T09:29:46+00:00",
-  "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:43:57+00:00",
-  "classification": {
-    "relevance": "间接相关",
-    "reason": "煤电升级方案明确完善现货、辅助服务与容量电价机制，将改变储能参与调节的市场收益空间。",
-    "evidence": "鼓励完善电力现货市场、辅助服务市场和煤电容量电价机制",
-    "topics": [
-      {
-        "label": "电力现货市场",
-        "evidence": "鼓励完善电力现货市场、辅助服务市场和煤电容量电价机制"
-      },
-      {
-        "label": "辅助服务",
-        "evidence": "鼓励完善电力现货市场、辅助服务市场和煤电容量电价机制"
-      },
-      {
-        "label": "容量补偿与容量电价",
-        "evidence": "鼓励完善电力现货市场、辅助服务市场和煤电容量电价机制"
-      }
-    ],
-    "targets": [],
-    "truncated": false,
-    "source_id": "22280a26a6b869f3820eab531b73fddddeae94afd5868edfb6b2ffec4fb73c30",
-    "review_method": "assistant_source_review"
-  }
+  "review_status": "自动生成",
+  "review_reasons": [],
+  "analyzed_at": "2026-09-29T09:29:46+00:00"
 }
