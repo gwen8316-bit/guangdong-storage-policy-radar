@@ -18,7 +18,7 @@ export interface Analysis {
   id: string; input_hash: string; rule_version: string; status: string; relevance: string;
   relevance_reason: string; review_status: string; review_reasons: string[];
   interpretation: Interpretation; analyzed_at: string; error?: string;
-  classification?: { topics: { label: string; evidence: string }[]; targets: { label: string; evidence: string }[] };
+  classification?: { evidence?: string; topics: { label: string; evidence: string }[]; targets: { label: string; evidence: string }[] };
 }
 interface IndexRow { id: string; visible: boolean; status: string; relevance: string | null; }
 interface Column { column_id: string; source_id: string; name: string; url: string; }

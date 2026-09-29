@@ -19,9 +19,7 @@
     "topics": [
       "电力现货市场"
     ],
-    "targets": [
-      "独立储能"
-    ],
+    "targets": [],
     "impact": {
       "direction": "中性",
       "reason": "原文为发电机组和新型储能参与电能量市场的注册、结算等业务衔接规定，未明确对收益或市场格局的影响方向。"
@@ -32,11 +30,13 @@
       "超过规定期限的次日起暂停其参与电能量市场交易资格，后续上网电量纳入电网企业代理购电来源。"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:30:35+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:08+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "直接相关",
     "reason": "该规定专门规范新型储能参与电能量市场交易的市场注册、结算与交易资格，直接影响储能市场准入与收益。",
@@ -47,13 +47,9 @@
         "evidence": "参与电能量现货市场交易日（D 日）的次日（D+1）日起，参与（D+2）日的日前和实时电能量市场申报及出清"
       }
     ],
-    "targets": [
-      {
-        "label": "独立储能",
-        "evidence": "对于不符合许可豁免条件、拟并网运行的新建发电机组"
-      }
-    ],
+    "targets": [],
     "truncated": false,
-    "source_id": "416e57fac2268f3057335d10e7f65c161f12556437b8bafd56403ec2b611f4fd"
+    "source_id": "416e57fac2268f3057335d10e7f65c161f12556437b8bafd56403ec2b611f4fd",
+    "review_method": "assistant_source_review"
   }
 }

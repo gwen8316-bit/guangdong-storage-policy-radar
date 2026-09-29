@@ -28,11 +28,13 @@
       "通过可再生能源消费最低比重目标、可再生能源电力消纳责任权重、绿色电力证书等制度，引导全社会更多消费绿色电力。"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:29:52+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:58+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "能源领域节能降碳行动计划，储能仅作为消纳新能源的技术手段被提及，未对储能设定发展目标、价格机制或准入规则，不直接影响储能收益。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "24de5ce77bb786dcdaa787e741f224272be2d70bdd8c914b522bf1fd86ab7173"
+    "source_id": "24de5ce77bb786dcdaa787e741f224272be2d70bdd8c914b522bf1fd86ab7173",
+    "review_method": "assistant_source_review"
   }
 }

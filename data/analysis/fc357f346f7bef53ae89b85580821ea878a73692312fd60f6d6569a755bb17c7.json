@@ -28,11 +28,13 @@
       "主要内容与构建全国统一电力市场体系的有关要求不相适应"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:33:30+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:48+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "为行政规范性文件清理废止公告，未对储能作任何规定，废止理由虽涉及电力市场但属文件清单背景，不构成影响储能的具体条款。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "fc357f346f7bef53ae89b85580821ea878a73692312fd60f6d6569a755bb17c7"
+    "source_id": "fc357f346f7bef53ae89b85580821ea878a73692312fd60f6d6569a755bb17c7",
+    "review_method": "assistant_source_review"
   }
 }

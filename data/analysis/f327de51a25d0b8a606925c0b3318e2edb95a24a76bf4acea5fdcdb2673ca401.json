@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "complete",
-  "relevance": "直接相关",
-  "relevance_reason": "政策明确提出支持新型储能参与电力市场开展政策先行先试，储能是直接对象。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "通用应用场景创新方案，仅将储能列入征集及探索领域，未明确储能或交易制度。",
   "interpretation": {
     "summary": "广东印发应用场景创新工作方案，部署场景开放对接、试验区建设与要素政策支持。",
     "key_points": [
@@ -16,13 +16,8 @@
       "省经济体制改革专项小组统筹推进全省应用场景创新工作，各部门制定年度应用场景创新计划并组织需求清单、能力清单征集与供需对接。",
       "面向各地各部门征集、遴选新型储能等领域应用场景创新典型案例和标杆场景并向社会发布。"
     ],
-    "topics": [
-      "电力现货市场",
-      "补贴与示范项目"
-    ],
-    "targets": [
-      "储能产业链"
-    ],
+    "topics": [],
+    "targets": [],
     "impact": {
       "direction": "中性",
       "reason": "原文仅提出试验区开展新型储能参与电力市场政策先行先试探索，未载明具体电价机制、补偿标准或收益安排。"
@@ -36,32 +31,20 @@
   "review_status": "待核查",
   "review_reasons": [
     "附件解析不完整",
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:33:23+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:45+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
-    "relevance": "直接相关",
-    "reason": "政策明确提出支持新型储能参与电力市场开展政策先行先试，储能是直接对象。",
-    "evidence": "重点围绕低空空域管理、海域资源开发、新型储能参与电力市场、数据要素资源流通等相关领域开展政策先行先试和创新机制探索",
-    "topics": [
-      {
-        "label": "电力现货市场",
-        "evidence": "新型储能参与电力市场"
-      },
-      {
-        "label": "补贴与示范项目",
-        "evidence": "面向各地、各部门征集、遴选新型储能、高端制造、医疗器械、生物医药、人工智能、低空经济、海洋经济等领域应用场景创新典型案例和标杆场景"
-      }
-    ],
-    "targets": [
-      {
-        "label": "储能产业链",
-        "evidence": "新型储能参与电力市场"
-      }
-    ],
-    "truncated": true,
-    "source_id": "f327de51a25d0b8a606925c0b3318e2edb95a24a76bf4acea5fdcdb2673ca401"
+    "relevance": "无关",
+    "reason": "通用应用场景创新方案，仅将储能列入征集及探索领域，未明确储能或交易制度。",
+    "evidence": "广东省发展改革委关于印发《广东省加快应用场景创新工作方案》的通知",
+    "topics": [],
+    "targets": [],
+    "truncated": false,
+    "source_id": "f327de51a25d0b8a606925c0b3318e2edb95a24a76bf4acea5fdcdb2673ca401",
+    "review_method": "assistant_source_review"
   }
 }

@@ -11,7 +11,7 @@
 - `src/lib/data.ts`：构建时读取 JSON，核对输入哈希，日期口径与发布机构显示。
 - `src/lib/filter.ts`：浏览器端组合筛选；仅搜索标题与摘要。
 - `src/components/PolicyCard.astro`：首页与政策库共用卡片。
-- `src/pages/index.astro`：统计、主题分布、10 条动态、关于项目。
+- `src/pages/index.astro`：统计、主题分布、10 条已完成解读的动态、关于项目。
 - `src/pages/policies/index.astro`：筛选、搜索、排序、分页（每页 12 条）、URL 参数恢复。
 - `src/pages/policies/[id].astro`：静态详情、核查提示、引用、附件、相关推荐。
 - `scripts/update_site.py`：临时候选数据更新，50 次调用上限，失败时保留原始数据与支出账本。
@@ -31,3 +31,9 @@
 ## 官方部署参考
 
 [Astro GitHub Pages 部署与 base 路径](https://v6.docs.astro.build/en/guides/deploy/github/)；[GitHub Pages 自定义 Actions 工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
+
+## 去重与首页动态修订
+
+`data/policy-groups.json` 将相同规范化标题、相同明确发布日期的不同 URL 归为一份政策，优先已有解读的记录；详情保留全部来源链接，原始采集文件不删除。收录统计、政策库及推荐按合并后的政策计数。没有明确发布日期的记录不使用列表日期猜测合并。
+
+首页 `latestCompleted` 先过滤完成状态再取最近10份，未完成解读仍保留在政策库。重新分类按 v3 规则逐项引用原文，已有摘要不重新生成。

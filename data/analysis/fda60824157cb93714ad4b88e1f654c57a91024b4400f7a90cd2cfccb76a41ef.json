@@ -31,18 +31,20 @@
   "review_status": "待核查",
   "review_reasons": [
     "附件解析不完整",
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:33:36+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:48+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "重点行业节能降碳改造方案，储能仅作为企业一体化开发的技术举例出现，未设定储能目标或收益规则。",
     "evidence": "鼓励水泥企业一体化推进分布式光伏、分散式风电、多元储能等开发运行，推动余热余压发电、供热等高效利用模式",
     "topics": [],
     "targets": [],
-    "truncated": true,
-    "source_id": "fda60824157cb93714ad4b88e1f654c57a91024b4400f7a90cd2cfccb76a41ef"
+    "truncated": false,
+    "source_id": "fda60824157cb93714ad4b88e1f654c57a91024b4400f7a90cd2cfccb76a41ef",
+    "review_method": "assistant_source_review"
   }
 }

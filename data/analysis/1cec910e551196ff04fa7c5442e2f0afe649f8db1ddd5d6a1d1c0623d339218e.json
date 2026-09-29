@@ -20,9 +20,7 @@
       "电力现货市场",
       "需求响应与虚拟电厂"
     ],
-    "targets": [
-      "储能产业链"
-    ],
+    "targets": [],
     "impact": {
       "direction": "中性",
       "reason": "方案明确新能源参与现货、中长期及绿电交易规则，未直接规定储能收益或影响。"
@@ -35,11 +33,12 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:29:35+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:53+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "间接相关",
     "reason": "该方案规定新能源全面参与现货与中长期市场、分布式经虚拟电厂聚合交易，新能源价格与消纳规则变化间接影响储能配套需求与收益空间。",
@@ -54,13 +53,9 @@
         "evidence": "分布式新能源项目，经虚拟电厂运营商按同一节点聚合后成为可直接调度的发电类虚拟电厂"
       }
     ],
-    "targets": [
-      {
-        "label": "储能产业链",
-        "evidence": "分布式新能源项目，经虚拟电厂运营商按同一节点聚合后成为可直接调度的发电类虚拟电厂"
-      }
-    ],
-    "truncated": true,
-    "source_id": "1cec910e551196ff04fa7c5442e2f0afe649f8db1ddd5d6a1d1c0623d339218e"
+    "targets": [],
+    "truncated": false,
+    "source_id": "1cec910e551196ff04fa7c5442e2f0afe649f8db1ddd5d6a1d1c0623d339218e",
+    "review_method": "assistant_source_review"
   }
 }

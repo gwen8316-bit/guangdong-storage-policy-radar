@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "政策对象是光热发电，储能仅作为光热功能描述出现，未对储能设定目标、机制或影响收益。",
+  "status": "complete",
+  "relevance": "直接相关",
+  "relevance_reason": "明确支持光热发挥长时储能功能获得收益，并规定容量补偿及辅助服务路径。",
   "interpretation": {
     "summary": "两部门印发意见促进光热发电规模化发展，明确2030年目标及配套支持举措。",
     "key_points": [
@@ -16,7 +16,10 @@
       "政策举措包括强化规划引导、加强应用市场培育、支持系统支撑调节作用发挥、鼓励技术创新和完善政策保障，在项目投融资、电力市场制度、绿电价值、土地要素保障等方面给予支持。",
       "支持光热电站通过电力市场发挥系统调节和长时储能功能、参与辅助服务市场，符合条件容量可按可靠容量给予补偿，鼓励相关省区制定新能源参与电力市场实施细则，省级主管部门推动落实电价机制、辅助服务细则并接受常态化监管。"
     ],
-    "topics": [],
+    "topics": [
+      "辅助服务",
+      "容量补偿与容量电价"
+    ],
     "targets": [],
     "impact": {
       "direction": "中性",
@@ -28,18 +31,30 @@
       "明确符合条件的光热发电容量可按可靠容量给予补偿"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:32:09+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:29+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
-    "relevance": "无关",
-    "reason": "政策对象是光热发电，储能仅作为光热功能描述出现，未对储能设定目标、机制或影响收益。",
-    "evidence": "光热发电兼具调峰电源和长时储能双重功能",
-    "topics": [],
+    "relevance": "直接相关",
+    "reason": "明确支持光热发挥长时储能功能获得收益，并规定容量补偿及辅助服务路径。",
+    "evidence": "支持配置电加热系统的光热电站通过电力系统发挥长时储能功能获得收益",
+    "topics": [
+      {
+        "label": "辅助服务",
+        "evidence": "推动在运光热项目开展调度响应和参与辅助服务市场探索"
+      },
+      {
+        "label": "容量补偿与容量电价",
+        "evidence": "明确符合条件的光热发电容量可按可靠容量给予补偿"
+      }
+    ],
     "targets": [],
     "truncated": false,
-    "source_id": "a3841113a3d6ef0732003ce5b0ad57a45c8307f993d96ee7e65f4a563fa8f492"
+    "source_id": "a3841113a3d6ef0732003ce5b0ad57a45c8307f993d96ee7e65f4a563fa8f492",
+    "review_method": "assistant_source_review"
   }
 }

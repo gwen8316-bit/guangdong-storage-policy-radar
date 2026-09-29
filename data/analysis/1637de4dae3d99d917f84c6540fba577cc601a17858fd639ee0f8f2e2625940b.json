@@ -7,8 +7,8 @@
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
   "status": "complete",
-  "relevance": "直接相关",
-  "relevance_reason": "意见规定虚拟电厂聚合储能资源参与电力市场、需求响应，设定调节能力目标，直接影响储能应用收益",
+  "relevance": "间接相关",
+  "relevance_reason": "虚拟电厂的聚合准入与现货交易规则为储能提供市场参与路径。",
   "interpretation": {
     "summary": "两部门发文推进虚拟电厂发展，明确2027年调节能力达2000万千瓦。",
     "key_points": [
@@ -21,9 +21,7 @@
       "规划与发展目标",
       "电力现货市场"
     ],
-    "targets": [
-      "独立储能"
-    ],
+    "targets": [],
     "impact": {
       "direction": "利好",
       "reason": "意见提出拓宽虚拟电厂收益渠道、完善参与电力市场机制，并要求各地制定发展方案、培育主体。"
@@ -34,14 +32,16 @@
       "虚拟电厂在满足有关要求的情况下可按独立主体身份参与电力中长期市场、现货市场和辅助服务市场"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:29:26+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:51+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
-    "relevance": "直接相关",
-    "reason": "意见规定虚拟电厂聚合储能资源参与电力市场、需求响应，设定调节能力目标，直接影响储能应用收益",
+    "relevance": "间接相关",
+    "reason": "虚拟电厂的聚合准入与现货交易规则为储能提供市场参与路径。",
     "evidence": "到2027年、2030年，全国虚拟电厂调节能力分别达到2000万千瓦以上、5000万千瓦以上",
     "topics": [
       {
@@ -57,13 +57,9 @@
         "evidence": "虚拟电厂在满足有关要求的情况下可按独立主体身份参与电力中长期市场、现货市场和辅助服务市场"
       }
     ],
-    "targets": [
-      {
-        "label": "独立储能",
-        "evidence": "虚拟电厂在满足有关要求的情况下可按独立主体身份参与电力中长期市场、现货市场和辅助服务市场"
-      }
-    ],
+    "targets": [],
     "truncated": false,
-    "source_id": "1637de4dae3d99d917f84c6540fba577cc601a17858fd639ee0f8f2e2625940b"
+    "source_id": "1637de4dae3d99d917f84c6540fba577cc601a17858fd639ee0f8f2e2625940b",
+    "review_method": "assistant_source_review"
   }
 }

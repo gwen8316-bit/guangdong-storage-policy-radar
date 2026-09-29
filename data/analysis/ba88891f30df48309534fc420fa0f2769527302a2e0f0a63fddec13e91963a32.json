@@ -17,8 +17,7 @@
       "发电企业与售电公司违规串通报价及违规行使市场力：江苏中长期交易中国家能源投资集团下属发电企业和售电公司口头约定、统一管理交易U-Key等方式串通报价；浙江现货市场中该集团下属发电企业利用线路检修、通道阻塞高价申报行使市场力。"
     ],
     "topics": [
-      "电力现货市场",
-      "辅助服务"
+      "电力现货市场"
     ],
     "targets": [],
     "impact": {
@@ -31,11 +30,13 @@
       "采取口头约定、统一管理交易U-Key、在同一办公室进行市场报价等方式，违规实施串通报价"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:32:31+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:34+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "间接相关",
     "reason": "电力市场串通报价监管影响市场价格形成机制，进而影响储能参与市场的收益环境。",
@@ -44,14 +45,11 @@
       {
         "label": "电力现货市场",
         "evidence": "山东电力现货市场交易中，中国华能集团有限公司"
-      },
-      {
-        "label": "辅助服务",
-        "evidence": "违规行使市场力获取高额收益"
       }
     ],
     "targets": [],
     "truncated": false,
-    "source_id": "ba88891f30df48309534fc420fa0f2769527302a2e0f0a63fddec13e91963a32"
+    "source_id": "ba88891f30df48309534fc420fa0f2769527302a2e0f0a63fddec13e91963a32",
+    "review_method": "assistant_source_review"
   }
 }

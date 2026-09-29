@@ -28,11 +28,13 @@
       "公告期为30日，公告期满后办理注销手续。"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:33:02+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:42+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该政策为电力业务许可证延续及注销管理程序性规定，未直接规定储能，也未通过市场规则明显影响储能收益或发展。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "d590b8ceb69985d416b627b7e0f5478e29759cb33d13bad777abe87e5e1b2c6a"
+    "source_id": "d590b8ceb69985d416b627b7e0f5478e29759cb33d13bad777abe87e5e1b2c6a",
+    "review_method": "assistant_source_review"
   }
 }

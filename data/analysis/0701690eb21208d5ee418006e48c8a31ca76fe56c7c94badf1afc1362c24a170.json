@@ -7,8 +7,8 @@
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
   "status": "complete",
-  "relevance": "间接相关",
-  "relevance_reason": "绿电直连项目要求配置储能并参与现货市场，储能可作为内部资源投资建设并参与计量结算，影响储能应用与收益。",
+  "relevance": "直接相关",
+  "relevance_reason": "直接规定绿电直连项目的储能投资责任和配置要求。",
   "interpretation": {
     "summary": "2026年688号文规范多用户绿电直连适用范围、规划建设、运行交易与价格机制。",
     "key_points": [
@@ -20,9 +20,7 @@
       "电力现货市场",
       "新能源配储与并网"
     ],
-    "targets": [
-      "储能产业链"
-    ],
+    "targets": [],
     "impact": {
       "direction": "中性",
       "reason": "原文明确了适用范围、规划指标、上网电量比例与市场参与方式，但未载明收益变化或具体经济影响。"
@@ -35,14 +33,15 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:29:14+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:51+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
-    "relevance": "间接相关",
-    "reason": "绿电直连项目要求配置储能并参与现货市场，储能可作为内部资源投资建设并参与计量结算，影响储能应用与收益。",
+    "relevance": "直接相关",
+    "reason": "直接规定绿电直连项目的储能投资责任和配置要求。",
     "evidence": "项目连接线路、变电设施、储能及运营平台原则上由项目主责单位投资建设",
     "topics": [
       {
@@ -54,13 +53,9 @@
         "evidence": "项目应通过合理配置储能、提升集控管理能力、挖掘负荷灵活调节潜力、开展多能互补等方式，提升就近消纳能力"
       }
     ],
-    "targets": [
-      {
-        "label": "储能产业链",
-        "evidence": "项目连接线路、变电设施、储能及运营平台原则上由项目主责单位投资建设"
-      }
-    ],
-    "truncated": true,
-    "source_id": "0701690eb21208d5ee418006e48c8a31ca76fe56c7c94badf1afc1362c24a170"
+    "targets": [],
+    "truncated": false,
+    "source_id": "0701690eb21208d5ee418006e48c8a31ca76fe56c7c94badf1afc1362c24a170",
+    "review_method": "assistant_source_review"
   }
 }

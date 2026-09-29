@@ -28,11 +28,13 @@
       "《指导意见》提出了各有关部门按照职责分工，加强战略谋划、统筹协调和督促检查，各地方同步制定差异化实施方案的保障措施。"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:30:51+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:11+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该文为能源装备制造发展指导意见解读，属产业宏观规划，未对储能设定具体项目目标或补贴市场机制。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "4c57f699a552357e7142dc0f424e4abba1062eda641cfab1566cd64f3493970e"
+    "source_id": "4c57f699a552357e7142dc0f424e4abba1062eda641cfab1566cd64f3493970e",
+    "review_method": "assistant_source_review"
   }
 }

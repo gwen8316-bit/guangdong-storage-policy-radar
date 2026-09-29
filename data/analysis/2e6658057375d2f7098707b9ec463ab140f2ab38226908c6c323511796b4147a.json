@@ -33,7 +33,7 @@
   "review_status": "待核查",
   "error": "输出包含原文没有的数字",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:54+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该复函仅涉及水电站大坝安全注册登记，未提及储能，不影响储能收益或发展。",
@@ -41,6 +41,10 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "2e6658057375d2f7098707b9ec463ab140f2ab38226908c6c323511796b4147a"
-  }
+    "source_id": "2e6658057375d2f7098707b9ec463ab140f2ab38226908c6c323511796b4147a",
+    "review_method": "assistant_source_review"
+  },
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ]
 }

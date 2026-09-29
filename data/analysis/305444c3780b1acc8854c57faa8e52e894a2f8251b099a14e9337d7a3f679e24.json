@@ -30,18 +30,20 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:30:11+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:54+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该政策属于通用电力安全生产治理，虽提及储能但为一般安全生产管理，不直接影响储能收益或发展。",
     "evidence": "按照发电、电网、储能、电力建设等不同专业领域分步制定实施",
     "topics": [],
     "targets": [],
-    "truncated": true,
-    "source_id": "305444c3780b1acc8854c57faa8e52e894a2f8251b099a14e9337d7a3f679e24"
+    "truncated": false,
+    "source_id": "305444c3780b1acc8854c57faa8e52e894a2f8251b099a14e9337d7a3f679e24",
+    "review_method": "assistant_source_review"
   }
 }

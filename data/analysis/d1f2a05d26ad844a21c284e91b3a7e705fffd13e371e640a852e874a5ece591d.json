@@ -30,11 +30,12 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "附件解析不完整"
+    "附件解析不完整",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:32:56+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:40+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该文件为“一带一路”能源合作伙伴关系成立“人工智能+能源”工作组的通知，属国际合作事务，储能调控仅为技术合作举例，非实际规定对象。",
@@ -42,6 +43,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "d1f2a05d26ad844a21c284e91b3a7e705fffd13e371e640a852e874a5ece591d"
+    "source_id": "d1f2a05d26ad844a21c284e91b3a7e705fffd13e371e640a852e874a5ece591d",
+    "review_method": "assistant_source_review"
   }
 }

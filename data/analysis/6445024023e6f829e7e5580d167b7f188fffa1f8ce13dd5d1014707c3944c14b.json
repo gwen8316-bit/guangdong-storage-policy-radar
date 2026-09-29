@@ -28,11 +28,13 @@
       "健全能源领域政企沟通协商制度、完善民营企业权益维护机制"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:31:17+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:16+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "政策解读讨论民营经济参与能源领域，储能仅作新兴领域举例，无储能实际规定。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "6445024023e6f829e7e5580d167b7f188fffa1f8ce13dd5d1014707c3944c14b"
+    "source_id": "6445024023e6f829e7e5580d167b7f188fffa1f8ce13dd5d1014707c3944c14b",
+    "review_method": "assistant_source_review"
   }
 }

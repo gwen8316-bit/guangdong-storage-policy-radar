@@ -139,6 +139,10 @@ def run_samples(root, config, policies, provider, all_policies=False):
         write_json(ledger_path, ledger)
         return result
     selected = sorted(policies) if all_policies else config['sample_ids']
+    # Analyze a logical policy once; all source URL records remain in storage.
+    analyses = {pid: read_json(root / 'analysis' / (pid + '.json'), {}) for pid in policies}
+    canonical = {pid: g['canonical_id'] for g in group_policies(policies, analyses) for pid in g['member_ids']}
+    selected = list(dict.fromkeys(canonical[pid] for pid in selected))
     for pid in selected:
         p = policies[pid]
         if not matches(p, config):

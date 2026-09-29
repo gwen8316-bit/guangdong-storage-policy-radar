@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "文件针对抽水蓄能电站建设安全质量整治，抽水蓄能属于水电储能，与新型储能政策对象不同。",
+  "status": "complete",
+  "relevance": "直接相关",
+  "relevance_reason": "实际整治对象为抽水蓄能电站建设工程，直接规定其安全质量责任。",
   "interpretation": {
     "summary": "国家能源局部署全国抽蓄工程安全质量集中整治，分企业排查与监管检查两阶段。",
     "key_points": [
@@ -16,7 +16,9 @@
       "分企业集中排查整治（2025年12月29日至2026年2月10日）与监督管理部门检查（2026年2月25日至3月31日）两阶段，重大隐患须立即上报",
       "对重大隐患可停产停运撤离人员，监管部门可下达整改通知书、约谈、停产整顿、行政处罚并追责"
     ],
-    "topics": [],
+    "topics": [
+      "安全管理与标准"
+    ],
     "targets": [],
     "impact": {
       "direction": "中性",
@@ -28,18 +30,26 @@
       "依法依规采取下达《整改通知书》、监管约谈、停产整顿、行政处罚等监管措施"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:32:21+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:32+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
-    "relevance": "无关",
-    "reason": "文件针对抽水蓄能电站建设安全质量整治，抽水蓄能属于水电储能，与新型储能政策对象不同。",
-    "evidence": "国家能源局综合司关于开展抽水蓄能电站建设工程安全质量集中整治工作的通知",
-    "topics": [],
+    "relevance": "直接相关",
+    "reason": "实际整治对象为抽水蓄能电站建设工程，直接规定其安全质量责任。",
+    "evidence": "为进一步加强抽水蓄能电站建设工程（以下简称抽蓄工程）安全质量管理",
+    "topics": [
+      {
+        "label": "安全管理与标准",
+        "evidence": "为进一步加强抽水蓄能电站建设工程（以下简称抽蓄工程）安全质量管理"
+      }
+    ],
     "targets": [],
     "truncated": false,
-    "source_id": "b5b062067c8c63f2eef27bf8cf6e733333293a9f5b96c912552d1f3472d3e81d"
+    "source_id": "b5b062067c8c63f2eef27bf8cf6e733333293a9f5b96c912552d1f3472d3e81d",
+    "review_method": "assistant_source_review"
   }
 }

@@ -21,8 +21,7 @@
       "容量补偿与容量电价"
     ],
     "targets": [
-      "电源侧配储",
-      "独立储能"
+      "电源侧配储"
     ],
     "impact": {
       "direction": "中性",
@@ -36,11 +35,12 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:31:27+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:37:02+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "直接相关",
     "reason": "政策明确要求优化新能源基地储能配置比例，并鼓励新能源与配建储能一体化调用，直接涉及储能配置与运行。",
@@ -59,13 +59,10 @@
       {
         "label": "电源侧配储",
         "evidence": "鼓励新能源与配建储能一体化调用"
-      },
-      {
-        "label": "独立储能",
-        "evidence": "探索建设以抽水蓄能、新型储能等为调节电源"
       }
     ],
-    "truncated": true,
-    "source_id": "7021d8dc51c80c7b49ee834cd924d205293d2aaf80e337535ea9b16841a384eb"
+    "truncated": false,
+    "source_id": "7021d8dc51c80c7b49ee834cd924d205293d2aaf80e337535ea9b16841a384eb",
+    "review_method": "assistant_source_review"
   }
 }

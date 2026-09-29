@@ -32,11 +32,13 @@
       "现役机组改造受既有主机装备、辅机设备性能及工艺路线制约，技改空间及性能提升潜力存在局限性，方案采取鼓励性政策导向，不作强制性要求"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:29:46+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:55+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "间接相关",
     "reason": "煤电升级方案明确完善现货、辅助服务与容量电价机制，将改变储能参与调节的市场收益空间。",
@@ -57,6 +59,7 @@
     ],
     "targets": [],
     "truncated": false,
-    "source_id": "22280a26a6b869f3820eab531b73fddddeae94afd5868edfb6b2ffec4fb73c30"
+    "source_id": "22280a26a6b869f3820eab531b73fddddeae94afd5868edfb6b2ffec4fb73c30",
+    "review_method": "assistant_source_review"
   }
 }

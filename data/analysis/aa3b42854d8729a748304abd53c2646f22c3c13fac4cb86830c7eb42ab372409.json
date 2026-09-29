@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "pending_review",
-  "relevance": "直接相关",
-  "relevance_reason": "该行动计划明确出台新型储能电站建设工程质量监督大纲，属于对储能设定的安全建设标准要求。",
+  "status": "irrelevant",
+  "relevance": "无关",
+  "relevance_reason": "一般电力安全生产及治理文件或解读，储能为覆盖主体或任务举例，并非储能专项安全标准。",
   "raw_response": {
     "summary": "十五五行动计划从制度标准、综合监管、问题整治、技术创新、重点工程保障五方面强化电力建设安全质量。",
     "key_points": [
@@ -39,24 +39,18 @@
   "review_status": "待核查",
   "error": "三条要点须分别提供原文可核对的引句",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:32+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
-    "relevance": "直接相关",
-    "reason": "该行动计划明确出台新型储能电站建设工程质量监督大纲，属于对储能设定的安全建设标准要求。",
-    "evidence": "出台《新型储能电站建设工程质量监督大纲》",
-    "topics": [
-      {
-        "label": "安全管理与标准",
-        "evidence": "出台《新型储能电站建设工程质量监督大纲》"
-      }
-    ],
-    "targets": [
-      {
-        "label": "储能产业链",
-        "evidence": "开展水电、抽水蓄能、风电、光伏发电、变电站、电力线路等建设安规修订升级强制性标准工作"
-      }
-    ],
+    "relevance": "无关",
+    "reason": "一般电力安全生产及治理文件或解读，储能为覆盖主体或任务举例，并非储能专项安全标准。",
+    "evidence": "严守建设施工安全 强化工程质量管控",
+    "topics": [],
+    "targets": [],
     "truncated": false,
-    "source_id": "aa3b42854d8729a748304abd53c2646f22c3c13fac4cb86830c7eb42ab372409"
-  }
+    "source_id": "aa3b42854d8729a748304abd53c2646f22c3c13fac4cb86830c7eb42ab372409",
+    "review_method": "assistant_source_review"
+  },
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ]
 }

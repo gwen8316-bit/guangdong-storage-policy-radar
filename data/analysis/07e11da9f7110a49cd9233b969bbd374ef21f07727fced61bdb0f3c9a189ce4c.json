@@ -28,11 +28,13 @@
       "对于220千伏及以上电压等级接入的相关电力用户，应要求其在接入系统部分按照双重化原则配置纵联差动保护。"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:29:20+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:51+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该通知聚焦用户侧涉网安全管理，储能非其直接规范对象，也未设定储能收益相关电价市场规则",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "07e11da9f7110a49cd9233b969bbd374ef21f07727fced61bdb0f3c9a189ce4c"
+    "source_id": "07e11da9f7110a49cd9233b969bbd374ef21f07727fced61bdb0f3c9a189ce4c",
+    "review_method": "assistant_source_review"
   }
 }

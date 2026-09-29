@@ -35,11 +35,13 @@
       "推动合理形成新型储能充放电价格"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:33:04+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:42+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "直接相关",
     "reason": "该政策以新型储能为直接对象，设定装机目标、应用场景、市场机制和价格机制等，直接影响储能收益与发展空间。",
@@ -69,6 +71,7 @@
       }
     ],
     "truncated": false,
-    "source_id": "d5be65db09220d6d0e45f32901f54d7ea37bfd05c82474c290453e5cf0d7edae"
+    "source_id": "d5be65db09220d6d0e45f32901f54d7ea37bfd05c82474c290453e5cf0d7edae",
+    "review_method": "assistant_source_review"
   }
 }

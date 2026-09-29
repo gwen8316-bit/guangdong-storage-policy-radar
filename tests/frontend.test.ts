@@ -10,6 +10,9 @@ test('real data: current interpretations only, deduplicated and sorted', () => {
   const data = loadData();
   assert.ok(data.entries.length > 0);
   assert.equal(new Set(data.entries.map(e => e.policy.id)).size, data.entries.length);
+  const datedKeys = data.policies.filter(p => p.publish_date).map(p => p.title.normalize('NFKC').replace(/[\s\u200b\ufeff]+/gu, '').replace(/[“”]/gu, '"').replace(/[‘’]/gu, "'") + '|' + p.publish_date);
+  assert.equal(new Set(datedKeys).size, datedKeys.length);
+  assert.ok(data.policies.filter(p => (p.source_links?.length || 0) > 1).every(p => new Set(p.source_links!.map(s => s.url)).size === p.source_links!.length));
   for (const entry of data.entries) {
     assert.equal(entry.analysis.input_hash, fingerprint(entry.policy, entry.analysis.rule_version));
     assert.ok(['直接相关', '间接相关'].includes(entry.analysis.relevance));

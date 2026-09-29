@@ -6,9 +6,9 @@
   "model": "deepseek-flash",
   "rule_version": "2026-09-29-v2",
   "disclaimer": "AI 生成，以原文为准",
-  "status": "irrelevant",
-  "relevance": "无关",
-  "relevance_reason": "主题为虚拟电厂发展指导意见解读，虽提及新型储能技术举例，但未对储能设定目标任务或市场规则。",
+  "status": "complete",
+  "relevance": "间接相关",
+  "relevance_reason": "虚拟电厂交易准入和限价机制影响聚合储能的参与空间及收益。",
   "interpretation": {
     "summary": "国家发布首份虚拟电厂专项政策，规范定义、管理机制与市场参与，促进规模化发展。",
     "key_points": [
@@ -16,7 +16,11 @@
       "各省能源主管部门要统一制定本省的虚拟电厂建设运行管理规范，并明确参与不同类型市场应分类接入调度系统、负荷系统。",
       "《意见》要求以《电力市场注册基本规则》为纲，由各省明确规则细则，市场初期结合实际情况适度放宽准入。"
     ],
-    "topics": [],
+    "topics": [
+      "需求响应与虚拟电厂",
+      "电力现货市场",
+      "辅助服务"
+    ],
     "targets": [],
     "impact": {
       "direction": "中性",
@@ -28,18 +32,34 @@
       "要以《电力市场注册基本规则》为纲，由各省明确规则细则，并提到在市场初期结合实际情况适度放宽准入"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:30:40+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:08+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
-    "relevance": "无关",
-    "reason": "主题为虚拟电厂发展指导意见解读，虽提及新型储能技术举例，但未对储能设定目标任务或市场规则。",
-    "evidence": "虚拟电厂作为聚合需求侧资源参与电网调节和市场交易",
-    "topics": [],
+    "relevance": "间接相关",
+    "reason": "虚拟电厂交易准入和限价机制影响聚合储能的参与空间及收益。",
+    "evidence": "适度拉大现货市场限价区间",
+    "topics": [
+      {
+        "label": "需求响应与虚拟电厂",
+        "evidence": "针对虚拟电厂特点完善辅助服务交易品种和技术要求"
+      },
+      {
+        "label": "电力现货市场",
+        "evidence": "适度拉大现货市场限价区间"
+      },
+      {
+        "label": "辅助服务",
+        "evidence": "针对虚拟电厂特点完善辅助服务交易品种和技术要求"
+      }
+    ],
     "targets": [],
     "truncated": false,
-    "source_id": "4291047cce61e1184c365cb756ba5bced5e6bd0f711f07b2028cbf8a763449d9"
+    "source_id": "4291047cce61e1184c365cb756ba5bced5e6bd0f711f07b2028cbf8a763449d9",
+    "review_method": "assistant_source_review"
   }
 }

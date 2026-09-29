@@ -28,11 +28,13 @@
       "重点煤炭企业结合矿区实际，研究编制煤炭与新能源融合发展实施方案"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:31:30+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:21+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "煤炭与新能源融合政策，储能仅在光储充放、微电网等场景中提及，无储能专项规定，不直接影响储能收益。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "703e56dadb133b1e55f0aa98fe3f661fed482adba1d31fd240ab20884eee3270"
+    "source_id": "703e56dadb133b1e55f0aa98fe3f661fed482adba1d31fd240ab20884eee3270",
+    "review_method": "assistant_source_review"
   }
 }

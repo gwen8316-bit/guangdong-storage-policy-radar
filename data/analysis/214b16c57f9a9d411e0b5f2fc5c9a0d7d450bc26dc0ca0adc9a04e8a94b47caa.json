@@ -30,11 +30,12 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "附件解析不完整"
+    "附件解析不完整",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:29:43+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:55+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "国际合作工作组换届扩容事务，储能仅为工作组名称，未规定储能规划、价格、市场规则或标准。",
@@ -42,6 +43,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "214b16c57f9a9d411e0b5f2fc5c9a0d7d450bc26dc0ca0adc9a04e8a94b47caa"
+    "source_id": "214b16c57f9a9d411e0b5f2fc5c9a0d7d450bc26dc0ca0adc9a04e8a94b47caa",
+    "review_method": "assistant_source_review"
   }
 }

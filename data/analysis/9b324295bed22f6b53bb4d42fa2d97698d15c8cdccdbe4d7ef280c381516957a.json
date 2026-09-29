@@ -19,9 +19,7 @@
     "topics": [
       "安全管理与标准"
     ],
-    "targets": [
-      "电网侧储能"
-    ],
+    "targets": [],
     "impact": {
       "direction": "中性",
       "reason": "原文仅作标准发布实施及规范作用表述，未载明收益增长或具体影响对象的变化。"
@@ -32,11 +30,13 @@
       "适用于单台发电机组容量为10MW及以上非补燃式压缩空气储能电站的设计，规定了压缩空气储能电站的电力系统、站址选择、总体规划及总平面布置、主机系统及设备、储换热系统及设备、主厂房区域布置、储气系统、辅助工艺系统及设备、电气设备等方面的要求。"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:32:02+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:37:02+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "直接相关",
     "reason": "发布的行业标准直接规范电化学储能电站并网验收和压缩空气储能电站设计，属于储能安全与建设标准。",
@@ -47,13 +47,9 @@
         "evidence": "《电化学储能电站并网验收技术规范》"
       }
     ],
-    "targets": [
-      {
-        "label": "电网侧储能",
-        "evidence": "适用于通过10kV（6kV）及以上电压等级并网的新建、改建和扩建的电化学储能电站的并网验收"
-      }
-    ],
+    "targets": [],
     "truncated": false,
-    "source_id": "9b324295bed22f6b53bb4d42fa2d97698d15c8cdccdbe4d7ef280c381516957a"
+    "source_id": "9b324295bed22f6b53bb4d42fa2d97698d15c8cdccdbe4d7ef280c381516957a",
+    "review_method": "assistant_source_review"
   }
 }

@@ -52,7 +52,7 @@
       "负荷管理",
       "电力市场"
     ],
-    "relevance": "直接相关",
+    "relevance": "间接相关",
     "status": "complete",
     "visible": true
   },
@@ -75,7 +75,7 @@
       "负荷管理",
       "电力市场"
     ],
-    "relevance": "间接相关",
+    "relevance": "直接相关",
     "status": "complete",
     "visible": true
   },
@@ -217,7 +217,7 @@
       "负荷管理",
       "电力市场"
     ],
-    "relevance": "直接相关",
+    "relevance": "间接相关",
     "status": "complete",
     "visible": true
   },
@@ -559,9 +559,9 @@
       "虚拟电厂",
       "电力市场"
     ],
-    "relevance": "直接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "2f6d588ce85a10cf87418d51bd03e6bfb68dac669f4249f74e08c6dbc81449ca",
@@ -837,7 +837,7 @@
     "keywords": [
       "储能"
     ],
-    "relevance": "间接相关",
+    "relevance": "直接相关",
     "status": "complete",
     "visible": true
   },
@@ -868,9 +868,9 @@
       "虚拟电厂",
       "电力市场"
     ],
-    "relevance": "无关",
-    "status": "irrelevant",
-    "visible": false
+    "relevance": "间接相关",
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "43db2277e7fb7f3b5f4c13b28f94e2d1cd4c49a352b0a3e11e32f83561836a0e",
@@ -967,7 +967,7 @@
       "负荷管理",
       "电力市场"
     ],
-    "relevance": "间接相关",
+    "relevance": "直接相关",
     "status": "complete",
     "visible": true
   },
@@ -985,9 +985,9 @@
     "keywords": [
       "储能"
     ],
-    "relevance": "无关",
-    "status": "irrelevant",
-    "visible": false
+    "relevance": "直接相关",
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "4f933db80a35bc94f7405cb2b4d44cbfdb1eca05c24ddbba767254afcae5eed5",
@@ -1070,8 +1070,8 @@
       "辅助服务",
       "电力市场"
     ],
-    "relevance": "无关",
-    "status": "irrelevant",
+    "relevance": "间接相关",
+    "status": "pending_review",
     "visible": false
   },
   {
@@ -1237,9 +1237,9 @@
       "调峰",
       "电力市场"
     ],
-    "relevance": "直接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "6445024023e6f829e7e5580d167b7f188fffa1f8ce13dd5d1014707c3944c14b",
@@ -1306,8 +1306,8 @@
       "调频",
       "电力市场"
     ],
-    "relevance": "直接相关",
-    "status": "pending_review",
+    "relevance": "无关",
+    "status": "irrelevant",
     "visible": false
   },
   {
@@ -1558,9 +1558,9 @@
       "虚拟电厂",
       "负荷管理"
     ],
-    "relevance": "直接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "7d732de0579bad5df61c873e96bab3dd14aec9efa8caa9b83746ec46d931608c",
@@ -1822,9 +1822,9 @@
     "keywords": [
       "储能"
     ],
-    "relevance": "直接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "8fd21b1e35eb613e165fa0877e104dc876b6b552adafe7ec5ea3c79f5efe9c4a",
@@ -2015,9 +2015,9 @@
       "两个细则",
       "电力市场"
     ],
-    "relevance": "直接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "9db1eb3736140d8b96fcc59e85edd5eaca9e70376a13155b2a458328b9ef4f2c",
@@ -2077,9 +2077,9 @@
       "调峰",
       "电力市场"
     ],
-    "relevance": "无关",
-    "status": "irrelevant",
-    "visible": false
+    "relevance": "直接相关",
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "a398a66ec9b5e732ac140927525859b04d9b6363200d6ce90f26d0821b78488b",
@@ -2105,9 +2105,9 @@
       "新型储能",
       "虚拟电厂"
     ],
-    "relevance": "直接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "a7a70552fbe900d61e5d347458e3ccd51c8fb13a4c138a150ad2f6e943b1edeb",
@@ -2125,8 +2125,8 @@
       "新型储能",
       "抽水蓄能"
     ],
-    "relevance": "直接相关",
-    "status": "pending_review",
+    "relevance": "无关",
+    "status": "irrelevant",
     "visible": false
   },
   {
@@ -2240,9 +2240,9 @@
     "keywords": [
       "抽水蓄能"
     ],
-    "relevance": "无关",
-    "status": "irrelevant",
-    "visible": false
+    "relevance": "直接相关",
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "b5d50ca95eac4bdbd946b43cccb5c462db199546393dc1c87d48be748ed069cf",
@@ -2311,9 +2311,9 @@
       "新型储能",
       "虚拟电厂"
     ],
-    "relevance": "间接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "ba88891f30df48309534fc420fa0f2769527302a2e0f0a63fddec13e91963a32",
@@ -2359,9 +2359,9 @@
       "储能",
       "新型储能"
     ],
-    "relevance": "直接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "bf0ccaeeeb6127cec995983d1a323ed81c72f8119f38c817abad9bba7cc220a9",
@@ -2443,9 +2443,9 @@
     "keywords": [
       "电力市场"
     ],
-    "relevance": "间接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "c5cbe6988e4e59789eb080858dbc0c198876fe42b7db29abb6c1778a4175f22e",
@@ -2521,9 +2521,9 @@
       "虚拟电厂",
       "电力市场"
     ],
-    "relevance": "间接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "cd4bc347c84b770b855ccef26c9ac54ae8331f40a31ffd8600d3813bd7736259",
@@ -3015,9 +3015,9 @@
       "新型储能",
       "电力市场"
     ],
-    "relevance": "直接相关",
-    "status": "complete",
-    "visible": true
+    "relevance": "无关",
+    "status": "irrelevant",
+    "visible": false
   },
   {
     "id": "f3a816c0468b4000f429502f3d969cc2df5e6460ca42e2818988474358d40355",

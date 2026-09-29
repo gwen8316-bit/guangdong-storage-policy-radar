@@ -28,11 +28,13 @@
       "请你中心对首次注册登记等级为乙级的四川回龙桥水电站加强监管"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:31:59+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:27+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "水电站大坝安全注册登记复函，对象为水电站大坝，未涉及储能。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "9661758a0f4da8c9c6622a93930ca7e3e55177ae306ac8c4e4420e2b20e9eaba"
+    "source_id": "9661758a0f4da8c9c6622a93930ca7e3e55177ae306ac8c4e4420e2b20e9eaba",
+    "review_method": "assistant_source_review"
   }
 }

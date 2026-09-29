@@ -28,11 +28,13 @@
       "包括160千瓦及以下民营用电企业的报装接电等办电成本"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:29:17+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:48+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "促进民营经济发展政策，未规定储能具体事项，仅提及新业态",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "07126a59ee55c006be3d84df75c7b2221a18addda87715bc7a2e96f1678bfdf3"
+    "source_id": "07126a59ee55c006be3d84df75c7b2221a18addda87715bc7a2e96f1678bfdf3",
+    "review_method": "assistant_source_review"
   }
 }

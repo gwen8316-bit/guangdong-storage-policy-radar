@@ -28,11 +28,13 @@
       "国家将煤炭与新能源融合发展纳入“十五五”能源及煤炭、可再生能源规划，作为重点任务举措突出抓好推进落实"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:31:51+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:24+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该指导意见聚焦煤炭与新能源融合，储能仅在矿区微电网、矿井空间储能等技术举例和综合利用中出现，未设定储能发展目标、价格或市场规则，不构成直接或间接相关。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "910c5c08397c839df7112b314c8bc8fb548c60144a6a5ea2ce9555b999bf1043"
+    "source_id": "910c5c08397c839df7112b314c8bc8fb548c60144a6a5ea2ce9555b999bf1043",
+    "review_method": "assistant_source_review"
   }
 }

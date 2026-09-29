@@ -32,11 +32,13 @@
       "截取总规模不超过150万千瓦的项目纳入存量地面集中式光伏电站开发建设清单"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:31:36+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:21+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "直接相关",
     "reason": "存量光伏竞争性配置要求企业提交配置储能承诺函，直接影响储能配置要求。",
@@ -54,6 +56,7 @@
       }
     ],
     "truncated": false,
-    "source_id": "79454d5adab555164e1e9e0d2287dc4ea59217569c2eb6e0f539731cf476a50d"
+    "source_id": "79454d5adab555164e1e9e0d2287dc4ea59217569c2eb6e0f539731cf476a50d",
+    "review_method": "assistant_source_review"
   }
 }

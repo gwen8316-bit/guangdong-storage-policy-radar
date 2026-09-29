@@ -28,11 +28,13 @@
       "海上风电、抽水蓄能、跨省跨区输变电工程等建设规模与“十四五”同期相比增幅较大"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:30:48+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:11+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该文为电力安全生产形势解读，属通用安全生产与背景介绍，虽提及源网荷储但未对储能作实际规定。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "493c8601010d81df2840921c29623d468ebba17a4c8dc7cedd870b08721214d5"
+    "source_id": "493c8601010d81df2840921c29623d468ebba17a4c8dc7cedd870b08721214d5",
+    "review_method": "assistant_source_review"
   }
 }

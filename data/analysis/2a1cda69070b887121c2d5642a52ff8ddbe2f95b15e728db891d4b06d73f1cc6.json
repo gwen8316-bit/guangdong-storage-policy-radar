@@ -28,11 +28,13 @@
       "严格依据全国失信惩戒措施基础清单，依法依规对违法失信行为实施惩戒"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:29:55+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:58+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "能源行业信用体系建设行动方案，储能未被提及，信用监管措施未专门针对储能，对储能收益无直接或明显间接影响。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "2a1cda69070b887121c2d5642a52ff8ddbe2f95b15e728db891d4b06d73f1cc6"
+    "source_id": "2a1cda69070b887121c2d5642a52ff8ddbe2f95b15e728db891d4b06d73f1cc6",
+    "review_method": "assistant_source_review"
   }
 }

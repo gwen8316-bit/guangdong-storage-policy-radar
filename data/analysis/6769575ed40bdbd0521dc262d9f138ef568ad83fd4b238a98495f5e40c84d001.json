@@ -21,9 +21,7 @@
       "容量补偿与容量电价",
       "电力现货市场"
     ],
-    "targets": [
-      "独立储能"
-    ],
+    "targets": [],
     "impact": {
       "direction": "中性",
       "reason": "原文为原则性指引，未载明具体收益变化或量化影响，故为中性。"
@@ -34,11 +32,13 @@
       "研究建立基于可靠容量的补偿机制，面向各类调节性电源建立可靠容量的评估机制和补偿机制，条件成熟时探索建立容量市场"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:31:19+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:19+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "间接相关",
     "reason": "现货市场与辅助服务、容量补偿机制影响储能收益空间，但指引未将储能列为规定对象。",
@@ -57,13 +57,9 @@
         "evidence": "提出新能源全面入市下的现货市场机制优化方向，完善各类市场经营主体参与现货市场机制"
       }
     ],
-    "targets": [
-      {
-        "label": "独立储能",
-        "evidence": "支持具备灵活调节能力的主体参与辅助服务市场，持续提升新型电力系统调节能力"
-      }
-    ],
+    "targets": [],
     "truncated": false,
-    "source_id": "6769575ed40bdbd0521dc262d9f138ef568ad83fd4b238a98495f5e40c84d001"
+    "source_id": "6769575ed40bdbd0521dc262d9f138ef568ad83fd4b238a98495f5e40c84d001",
+    "review_method": "assistant_source_review"
   }
 }

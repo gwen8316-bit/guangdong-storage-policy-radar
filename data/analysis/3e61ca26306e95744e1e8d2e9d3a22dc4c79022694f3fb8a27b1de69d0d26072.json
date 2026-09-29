@@ -22,8 +22,7 @@
       "新能源配储与并网"
     ],
     "targets": [
-      "电网侧储能",
-      "储能产业链"
+      "电网侧储能"
     ],
     "impact": {
       "direction": "利好",
@@ -37,11 +36,12 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:30:29+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:06+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "直接相关",
     "reason": "村镇微能网试点明确要求配置储能设施，鼓励聚合为虚拟电厂参与市场，直接涉及储能应用。",
@@ -64,13 +64,10 @@
       {
         "label": "电网侧储能",
         "evidence": "服务应急保障的电网建设改造、储能及能量管理、电力系统运行及安全控制等项目由电网企业投资建设。"
-      },
-      {
-        "label": "储能产业链",
-        "evidence": "科学配置储能设施，加强源网荷储协调协控管理"
       }
     ],
-    "truncated": true,
-    "source_id": "3e61ca26306e95744e1e8d2e9d3a22dc4c79022694f3fb8a27b1de69d0d26072"
+    "truncated": false,
+    "source_id": "3e61ca26306e95744e1e8d2e9d3a22dc4c79022694f3fb8a27b1de69d0d26072",
+    "review_method": "assistant_source_review"
   }
 }

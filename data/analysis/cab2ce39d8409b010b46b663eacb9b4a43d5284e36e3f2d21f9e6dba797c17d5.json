@@ -20,7 +20,6 @@
       "安全管理与标准"
     ],
     "targets": [
-      "电源侧配储",
       "电网侧储能"
     ],
     "impact": {
@@ -33,11 +32,13 @@
       "第1篇电化学储能电站工程质量监督，设置电化学储能单元启动前1个必监节点，同时针对功率大于400兆瓦的电化学储能电站，增设电化学储能单元电池预制舱吊装前1个专项监督节点。"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:32:44+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:36+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "直接相关",
     "reason": "该政策直接规定新型储能电站建设工程质量监督管理要求，明确适用范围和对象。",
@@ -50,15 +51,12 @@
     ],
     "targets": [
       {
-        "label": "电源侧配储",
-        "evidence": "电力行业（电源侧和电网侧）功率100兆瓦及以上的电化学储能"
-      },
-      {
         "label": "电网侧储能",
         "evidence": "电力行业（电源侧和电网侧）功率100兆瓦及以上的电化学储能"
       }
     ],
     "truncated": false,
-    "source_id": "cab2ce39d8409b010b46b663eacb9b4a43d5284e36e3f2d21f9e6dba797c17d5"
+    "source_id": "cab2ce39d8409b010b46b663eacb9b4a43d5284e36e3f2d21f9e6dba797c17d5",
+    "review_method": "assistant_source_review"
   }
 }

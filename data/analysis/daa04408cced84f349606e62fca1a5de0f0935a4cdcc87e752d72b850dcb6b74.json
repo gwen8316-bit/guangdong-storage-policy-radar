@@ -37,7 +37,7 @@
   "review_status": "待核查",
   "error": "核心要点须为三条非空文本",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:42+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该通知聚焦用户侧涉网安全管理，未直接规定储能，也未通过电价或市场规则影响储能收益。",
@@ -45,6 +45,10 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "daa04408cced84f349606e62fca1a5de0f0935a4cdcc87e752d72b850dcb6b74"
-  }
+    "source_id": "daa04408cced84f349606e62fca1a5de0f0935a4cdcc87e752d72b850dcb6b74",
+    "review_method": "assistant_source_review"
+  },
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ]
 }

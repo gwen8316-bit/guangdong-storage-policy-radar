@@ -30,18 +30,20 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:29:48+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:55+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "仅公布国际合作工作组组成单位名单，属机构人员安排，未对储能设定发展目标或市场规则。",
     "evidence": "储能\n（30家）\t组长\t中国南方电网有限责任公司",
     "topics": [],
     "targets": [],
-    "truncated": true,
-    "source_id": "246897bca1243286d2df0565f5455fa020a15dc17fbeb6b63f89561f31afe0ca"
+    "truncated": false,
+    "source_id": "246897bca1243286d2df0565f5455fa020a15dc17fbeb6b63f89561f31afe0ca",
+    "review_method": "assistant_source_review"
   }
 }

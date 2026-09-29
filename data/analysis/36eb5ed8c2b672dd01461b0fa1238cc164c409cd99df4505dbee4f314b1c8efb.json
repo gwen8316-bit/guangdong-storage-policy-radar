@@ -28,11 +28,13 @@
       "完善输配电价监管规则"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:30:20+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:56+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "电网高质量发展宏观指导意见，未对储能设定发展目标、准入机制或收益规则，仅泛泛提及并网主体。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "36eb5ed8c2b672dd01461b0fa1238cc164c409cd99df4505dbee4f314b1c8efb"
+    "source_id": "36eb5ed8c2b672dd01461b0fa1238cc164c409cd99df4505dbee4f314b1c8efb",
+    "review_method": "assistant_source_review"
   }
 }

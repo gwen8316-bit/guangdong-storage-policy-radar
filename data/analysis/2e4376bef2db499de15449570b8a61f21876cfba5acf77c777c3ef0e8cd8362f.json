@@ -35,11 +35,12 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:29:58+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:58+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "直接相关",
     "reason": "电网高质量发展指导意见明确支持分布式独立储能和电网替代型储能，要求新型储能参与调控，并完善输配电价规则影响储能并网和收益。",
@@ -60,7 +61,8 @@
         "evidence": "支持建设分布式独立储能和电网替代型储能"
       }
     ],
-    "truncated": true,
-    "source_id": "2e4376bef2db499de15449570b8a61f21876cfba5acf77c777c3ef0e8cd8362f"
+    "truncated": false,
+    "source_id": "2e4376bef2db499de15449570b8a61f21876cfba5acf77c777c3ef0e8cd8362f",
+    "review_method": "assistant_source_review"
   }
 }

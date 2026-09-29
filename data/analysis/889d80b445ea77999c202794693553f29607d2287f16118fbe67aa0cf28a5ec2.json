@@ -28,11 +28,13 @@
       "定期填报时间为：每年1月20日和7月20日前分别填报上年底和本年度6月底的项目信息"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:31:45+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:24+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该公告为上合组织电力合作项目信息统计，储能仅作为配套项目纳入填报范围，未对储能设定发展目标、价格机制或准入规则，属于项目统计背景，不构成政策相关性。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "889d80b445ea77999c202794693553f29607d2287f16118fbe67aa0cf28a5ec2"
+    "source_id": "889d80b445ea77999c202794693553f29607d2287f16118fbe67aa0cf28a5ec2",
+    "review_method": "assistant_source_review"
   }
 }

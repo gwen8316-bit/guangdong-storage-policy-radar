@@ -19,9 +19,7 @@
     "topics": [
       "需求响应与虚拟电厂"
     ],
-    "targets": [
-      "电网侧储能"
-    ],
+    "targets": [],
     "impact": {
       "direction": "中性",
       "reason": "原文提出规范管理与市场参与机制，未给出收益增长或具体影响对象的量化判断。"
@@ -32,11 +30,13 @@
       "满足《电力市场注册基本规则》要求及相应市场准入要求的虚拟电厂可按独立主体身份参与各类市场交易。"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:29:23+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:54+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "间接相关",
     "reason": "虚拟电厂政策将储能作为可聚合资源，完善市场机制间接影响储能收益，但非直接规定储能。",
@@ -47,13 +47,9 @@
         "evidence": "虚拟电厂可实现海量分布式资源聚合参与电力系统互动"
       }
     ],
-    "targets": [
-      {
-        "label": "电网侧储能",
-        "evidence": "聚合分布式电源、储能和可调节负荷等海量资源"
-      }
-    ],
+    "targets": [],
     "truncated": false,
-    "source_id": "08df76953d010191c91625bc127d52cc7a07216d05b4b8a0d3d825ac25a171f9"
+    "source_id": "08df76953d010191c91625bc127d52cc7a07216d05b4b8a0d3d825ac25a171f9",
+    "review_method": "assistant_source_review"
   }
 }

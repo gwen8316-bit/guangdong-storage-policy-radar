@@ -30,18 +30,20 @@
   },
   "review_status": "待核查",
   "review_reasons": [
-    "相关性及标签基于正文与附件节选，需核对全文"
+    "相关性及标签基于正文与附件节选，需核对全文",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:29:29+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:35:53+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该方案聚焦人工智能与能源双向赋能，储能仅作为技术举例出现在构网型储能与场景罗列中，未对储能设定目标、机制或标准。",
     "evidence": "鼓励算力设施配置构网型储能，增强供电稳定性和对电力系统的主动支撑能力。",
     "topics": [],
     "targets": [],
-    "truncated": true,
-    "source_id": "1780be6a92ed09eb98c59cda8b7cb5a746872fbf76d4c176ed551e244217170b"
+    "truncated": false,
+    "source_id": "1780be6a92ed09eb98c59cda8b7cb5a746872fbf76d4c176ed551e244217170b",
+    "review_method": "assistant_source_review"
   }
 }

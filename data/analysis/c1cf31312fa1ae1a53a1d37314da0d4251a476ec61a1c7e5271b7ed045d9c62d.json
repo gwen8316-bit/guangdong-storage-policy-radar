@@ -28,11 +28,13 @@
       "论坛发布了新一批合作网络优秀成员单位及企业合作意向项目，成立生物质能专项工作组"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:32:38+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:34+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "中欧能源技术创新合作论坛，涉及技术交流与国际合作，未规定储能政策，储能仅出现在案例名单和分论坛中。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "c1cf31312fa1ae1a53a1d37314da0d4251a476ec61a1c7e5271b7ed045d9c62d"
+    "source_id": "c1cf31312fa1ae1a53a1d37314da0d4251a476ec61a1c7e5271b7ed045d9c62d",
+    "review_method": "assistant_source_review"
   }
 }

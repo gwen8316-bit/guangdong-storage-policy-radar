@@ -28,11 +28,13 @@
       "适用于10kV公共交流配电网的改造工作，6kV、20kV配电网可参考执行"
     ]
   },
-  "review_status": "自动生成",
-  "review_reasons": [],
+  "review_status": "待核查",
+  "review_reasons": [
+    "相关性与标签经助手原文复核，尚待人工核查"
+  ],
   "analyzed_at": "2026-09-29T09:30:54+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:36:11+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "该文发布行业标准，涉及配电网改造接入要求，属通用技术规范，未直接规定储能收益或市场机制。",
@@ -40,6 +42,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "4cd5d4ae6296939e2db05d01ce16e16080b683b31beadfe1b048308b5d9b2784"
+    "source_id": "4cd5d4ae6296939e2db05d01ce16e16080b683b31beadfe1b048308b5d9b2784",
+    "review_method": "assistant_source_review"
   }
 }

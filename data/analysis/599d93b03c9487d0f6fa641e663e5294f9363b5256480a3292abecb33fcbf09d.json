@@ -31,11 +31,12 @@
   "review_status": "待核查",
   "review_reasons": [
     "正文不完整",
-    "附件解析不完整"
+    "附件解析不完整",
+    "相关性与标签经助手原文复核，尚待人工核查"
   ],
   "analyzed_at": "2026-09-29T09:31:11+00:00",
   "classification_version": "2026-09-29-v3",
-  "classified_at": "2026-09-29T11:37:02+00:00",
+  "classified_at": "2026-09-29T11:43:57+00:00",
   "classification": {
     "relevance": "无关",
     "reason": "节能降碳改造需求征集，储能仅作为可再生能源应用方向列举，未对储能设定具体机制或影响其收益。",
@@ -43,6 +44,7 @@
     "topics": [],
     "targets": [],
     "truncated": false,
-    "source_id": "599d93b03c9487d0f6fa641e663e5294f9363b5256480a3292abecb33fcbf09d"
+    "source_id": "599d93b03c9487d0f6fa641e663e5294f9363b5256480a3292abecb33fcbf09d",
+    "review_method": "assistant_source_review"
   }
 }
