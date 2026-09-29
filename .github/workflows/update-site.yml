@@ -81,11 +81,11 @@ jobs:
         if: steps.update.outcome == 'success' && steps.deployment.outcome == 'success'
         run: |
           python -c 'import os, shutil; shutil.copytree(os.environ["CANDIDATE"], "data", dirs_exist_ok=True, ignore=shutil.ignore_patterns(".collector.lock", "*.tmp"))'
-      - name: Preserve budget ledger even after interruption
+      - name: Preserve budget and completed AI calls even after interruption
         if: always()
         run: |
-          if [ -f "$CANDIDATE/state/ai-budget.json" ]; then
-            cp "$CANDIDATE/state/ai-budget.json" data/state/ai-budget.json
+          if [ -d "$CANDIDATE" ]; then
+            python -c 'import os; from scripts.update_site import checkpoint; checkpoint(os.environ["CANDIDATE"])'
           fi
       - name: Save deployed data and budget ledger
         if: always()

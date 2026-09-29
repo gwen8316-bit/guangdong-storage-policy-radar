@@ -73,7 +73,7 @@ python -m analysis --all --max-calls 50   # 相关性与解读共用 50 次上�
 
 仓库 **Settings → Pages → Source = GitHub Actions**；已配置。**Settings → Secrets and variables → Actions** 中需有 `DEEPSEEK_API_KEY`；已配置（密钥仅在运行时注入，不写入代码）。
 
-更新在临时候选目录进行。抓取/解读失败则不部署；构建或部署失败保留上一线上版本。只有成功部署的数据才复制回 `data/` 并提交；预算账本即使失败也保留。失败候选快照在 Actions artifacts 中保留 7 天。所有写数据的工作流共用并发组，避免覆盖。
+更新在临时候选目录进行。抓取/解读失败则不部署；构建或部署失败保留上一线上版本。只有成功部署的数据才复制回 `data/` 并提交；预算账本即使失败也保留；成功的 AI 调用另外缓存在 `data/state/update-analysis-cache.json`，下次仅在输入哈希匹配时复用，避免失败重跑重复付费。失败候选快照在 Actions artifacts 中保留 7 天。所有写数据的工作流共用并发组，避免覆盖。
 
 ## 统计口径与局限
 

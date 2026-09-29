@@ -10,6 +10,43 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from collector.storage import read_json, write_json
 from collector.http import now
+from analysis.__main__ import fingerprint
+
+
+def checkpoint(candidate):
+    """Keep paid AI progress out of the published snapshot, even after failure."""
+    candidate = Path(candidate)
+    source = ROOT / 'data'
+    ledger = candidate / 'state/ai-budget.json'
+    if ledger.exists():
+        write_json(source / 'state/ai-budget.json', read_json(ledger, {}))
+    cache_path = source / 'state/update-analysis-cache.json'
+    cache = read_json(cache_path, {})
+    for path in (candidate / 'analysis').glob('*.json'):
+        item = read_json(path, {})
+        if item.get('input_hash') and item.get('relevance'):
+            previous = cache.get(path.stem, {})
+            if previous.get('input_hash') == item['input_hash'] and previous.get('status') in ('complete', 'irrelevant') and item.get('status') not in ('complete', 'irrelevant'):
+                continue
+            item.pop('raw_response', None)
+            cache[path.stem] = item
+    if cache:
+        write_json(cache_path, cache)
+
+
+def restore_analysis_cache(candidate):
+    cache = read_json(ROOT / 'data/state/update-analysis-cache.json', {})
+    for pid, item in cache.items():
+        if len(pid) != 64 or any(c not in '0123456789abcdef' for c in pid):
+            continue
+        policy = read_json(candidate / 'policies' / (pid + '.json'), {})
+        if not policy or item.get('input_hash') != fingerprint(policy):
+            continue
+        path = candidate / 'analysis' / (pid + '.json')
+        saved = read_json(path, {})
+        if saved.get('input_hash') == item['input_hash'] and saved.get('status') in ('complete', 'irrelevant'):
+            continue  # Preserve published review annotations.
+        write_json(path, item)
 
 
 def analysis_errors(candidate):
@@ -35,6 +72,7 @@ def update(candidate, runner=subprocess.run):
         run = read_json(candidate / 'status/latest-run.json', {})
         if not run.get('ended_at') or run.get('result') != 'success':
             raise RuntimeError('Collection incomplete or returned errors; retain previous site')
+        restore_analysis_cache(candidate)
         runner([sys.executable, '-m', 'analysis', '--all', '--max-calls', '50',
                 '--data-dir', str(candidate)], cwd=ROOT, check=True)
         errors = analysis_errors(candidate)
@@ -43,9 +81,7 @@ def update(candidate, runner=subprocess.run):
         write_json(candidate / 'site-update.json', {'updated_at': now(), 'max_api_calls': 50})
     finally:
         # Reservations must survive failed updates, including interrupted calls.
-        ledger = candidate / 'state/ai-budget.json'
-        if ledger.exists():
-            write_json(source / 'state/ai-budget.json', read_json(ledger, {}))
+        checkpoint(candidate)
 
 
 if __name__ == '__main__':

@@ -3,12 +3,32 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-from scripts.update_site import update, analysis_errors
-from analysis.__main__ import run_samples
+from scripts.update_site import update, analysis_errors, checkpoint, restore_analysis_cache
+from analysis.__main__ import run_samples, fingerprint
 from collector.storage import write_json, read_json
 
 
 class SiteUpdateTests(unittest.TestCase):
+    def test_paid_progress_is_cached_and_reused_only_for_matching_input(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            candidate = root / 'candidate'
+            pid = 'a' * 64
+            policy = {'title': '储能', 'content_hash': 'body', 'attachments_hash': 'files'}
+            item = {'id': pid, 'input_hash': fingerprint(policy), 'relevance': '直接相关', 'status': 'complete'}
+            write_json(candidate / 'policies' / (pid + '.json'), policy)
+            path = candidate / 'analysis' / (pid + '.json')
+            write_json(path, item)
+            with patch('scripts.update_site.ROOT', root):
+                checkpoint(candidate)
+                path.unlink()
+                restore_analysis_cache(candidate)
+                self.assertEqual(read_json(path, {}), item)
+                path.unlink()
+                write_json(candidate / 'policies' / (pid + '.json'), dict(policy, content_hash='changed'))
+                restore_analysis_cache(candidate)
+                self.assertFalse(path.exists())
+
     def test_failed_candidate_preserves_data_but_not_spent_budget(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
