@@ -1,0 +1,55 @@
+{
+  "title": "国家能源局综合司关于内蒙古电力交易中心开展绿色电力证书交易请示的复函",
+  "doc_number": null,
+  "issuer": "国家能源局综合司",
+  "publish_date": null,
+  "written_date": "2026-06-12",
+  "content_text": "国家能源局综合司关于内蒙古电力交易中心开展绿色电力证书交易请示的复函\n内蒙古电力交易中心：\n报来《内蒙古电力交易中心有限公司关于申请开展绿色电力证书交易的请示》（内电交易请〔2026〕3号）收悉。经研究，现就有关事项函复如下：\n一、推动内蒙古电力交易中心开展绿证交易，是贯彻落实国务院《中国（内蒙古）自由贸易试验区总体方案》（国发〔2026〕6号）和《国家发展改革委等部门关于支持内蒙古绿色低碳高质量发展若干政策措施的通知》（发改环资〔2024〕379号）的具体举措，原则同意内蒙古电力交易中心组织开展绿证交易工作。\n二、内蒙古自治区有关方面要落实主体责任，按照《可再生能源绿色电力证书核发和交易规则》《可再生能源绿色电力证书管理实施细则》有关要求，进一步完善绿证交易实施细则，升级技术平台功能，尽快启动绿证交易试点工作，统筹做好绿色电力交易与绿证交易机制衔接，确保绿证切实发挥可再生能源环境属性认定的基础凭证作用。试点推进过程中遇到的重大问题及时报送国家能源局。\n三、国家能源局华北监管局做好内蒙古地区绿证交易市场的监管，加强对内蒙古自治区绿证交易试点工作的指导，及时协调解决相关问题。\n特此函复。\n联系人及电话：崔广胜 010-81929500\n国家能源局综合司\n2026年6月12日",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-06-12"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局综合司"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-06-12",
+    "pubdate": "2026-06-12 10:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260625/5d6aff8953ba4cb6b104dfdea6c0fbae/c.html",
+  "final_url": "https://www.nea.gov.cn/20260625/5d6aff8953ba4cb6b104dfdea6c0fbae/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "0b4e8691fefb226b0e1b031134d0d9a17085a2ba28a40f680fafa1cdc890eddc",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "b45b052103f582e188e8b48f1df4fd9ad26570b3b451479284068e61817d5bfc",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-06-25",
+      "list_date_raw": "2026-06-25 10:04:29",
+      "list_title": "国家能源局综合司关于内蒙古电力交易中心开展绿色电力证书交易请示的复函"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest"
+  ],
+  "list_date": "2026-06-25",
+  "first_seen_at": "2026-09-29T08:35:47+00:00",
+  "last_checked_at": "2026-09-29T08:35:47+00:00",
+  "versions": []
+}

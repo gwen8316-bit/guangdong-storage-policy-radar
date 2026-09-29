@@ -1,0 +1,50 @@
+{
+  "title": "广东省能源局2026年度“双随机、一公开”抽查检查事项清单",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-07-29",
+  "written_date": null,
+  "content_text": "序号\n抽查事项\n抽查对象\n事项类别\n抽查方式\n检查主体\n抽查内容及要求\n抽查依据\n1\n节能审查意见落实情况的监督检查\n节能审查项目\n一般检查事项\n实地检查和书面检查相结合\n节能处\n对项目单位落实固定资产投资项目节能评估和审查制度的情况进行监督检查，包括节能评估和审查实施情况、节能审查意见落实情况等。\n《固定资产投资项目节能审查和碳排放评价办法》<国家发展改革令第31号>第二十二条：固定资产投资项目节能审查日常监督管理和违法违规行为处理按照属地管理原则由省级及以下管理节能工作的部门负责。地方各级管理节能工作的部门要将节能审查实施情况作为节能监察的重点内容，按照“双随机、一公开”原则组织对项目节能审查验收、节能审查意见落实等情况进行监督检查。",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：省能源局综合处 时间：2026-07-29 17:25:33 字体： [大] [中] [小]"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-07-29 17:25:33"
+  },
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4935469.html",
+  "final_url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4935469.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "2e38409ca450c85b4b8b3212bf097061260ac5f2881522370c59e7d4f9515e73",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "c5cbe6988e4e59789eb080858dbc0c198876fe42b7db29abb6c1778a4175f22e",
+  "source_id": "gd",
+  "column_id": "gd_energy_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_energy_notices",
+      "list_url": "https://drc.gd.gov.cn/snyj/tzgg/index.html",
+      "list_date": "2026-07-29",
+      "list_date_raw": "2026-07-29",
+      "list_title": "广东省能源局2026年度“双随机、一公开”抽查检查事项清单"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_energy_notices"
+  ],
+  "list_date": "2026-07-29",
+  "first_seen_at": "2026-09-29T09:02:30+00:00",
+  "last_checked_at": "2026-09-29T09:02:30+00:00",
+  "versions": []
+}

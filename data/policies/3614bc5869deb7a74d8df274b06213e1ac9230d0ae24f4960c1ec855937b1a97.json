@@ -1,0 +1,74 @@
+{
+  "title": "广东省能源局关于售电公司退出广东电力市场的公示",
+  "doc_number": null,
+  "issuer": "广东省能源局",
+  "publish_date": "2026-08-27",
+  "written_date": "2026-08-27",
+  "content_text": "广东电力交易中心按照《国家发展改革委 国家能源局关于印发〈售电公司管理办法〉的通知》（发改体改规〔2021〕1595号）要求，组织开展售电公司持续满足准入条件情况核查工作。经核查，广东英君能源科技有限公司等32家售电公司未持续满足注册条件，且未在规定时间内整改到位（详细名单见附件）。按照《售电公司管理办法》第二十八、二十九、四十二条等有关规定，拟将上述32家售电公司强制退出广东电力市场，现予以公示。\n公示时间为2026年8月27日至9月9日。对公示内容如有异议，请在公示期内反映。以个人名义反映情况的，请提供真实姓名、联系方式和反映事项证明材料等；以单位名义反映情况的，请提供单位名称（加盖公章）、联系人、联系方式和反映事项证明材料等。\n受理单位：广东省能源局电力处\n联系电话：020-83133358\n电子邮箱：nyjdlc＠gd.gov.cn\n联系地址：广州市越秀区东风中路305号10号楼\n邮编：510031\n附件：拟退市售电公司清单\n广东省能源局\n2026年8月27日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件：拟退市售电公司清单.docx",
+      "url": "https://drc.gd.gov.cn/attachment/0/623/623457/4947693.docx",
+      "format": "docx",
+      "kind": "attachment",
+      "size_bytes": 50176,
+      "sha256": "98bd2b67087ba13e212b6269bd5d6afb13d62840bb6a6fd6f85db647de0f2ef2",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "legacy_or_encrypted_ole_container",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/623/623457/4947693.docx",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "detected_format": "ole_binary",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：省能源局电力处 时间：2026-08-27 15:24:42 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年8月27日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省能源局"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-08-27 15:24:42"
+  },
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4947693.html",
+  "final_url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4947693.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "97f777b34525498e8301ef4544eb0c7468fa80d014d6cedba701ba59fa4c71cc",
+  "attachments_hash": "94a26f0783b8067afcee9819a67199c852f5b5ca5644c1ee070b2e49bf6c79dc",
+  "schema_version": 1,
+  "id": "3614bc5869deb7a74d8df274b06213e1ac9230d0ae24f4960c1ec855937b1a97",
+  "source_id": "gd",
+  "column_id": "gd_energy_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_energy_notices",
+      "list_url": "https://drc.gd.gov.cn/snyj/tzgg/index.html",
+      "list_date": "2026-08-27",
+      "list_date_raw": "2026-08-27",
+      "list_title": "广东省能源局关于售电公司退出广东电力市场的公示"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_energy_notices"
+  ],
+  "list_date": "2026-08-27",
+  "first_seen_at": "2026-09-29T09:01:25+00:00",
+  "last_checked_at": "2026-09-29T09:01:25+00:00",
+  "versions": []
+}

@@ -1,0 +1,59 @@
+{
+  "title": "国家能源局综合司关于同意文登上库坝等19座水电站大坝安全注册登记的复函",
+  "doc_number": "国能综函安全〔2025〕59号",
+  "issuer": "国家能源局综合司",
+  "publish_date": null,
+  "written_date": "2025-09-25",
+  "content_text": "国家能源局综合司关于同意文登上库坝等19座水电站大坝安全注册登记的复函\n国能综函安全〔2025〕59号\n大坝安全监察中心：\n报来《关于文登上库坝等19座水电站大坝安全注册检查意见的请示》（坝监专委〔2025〕95号）收悉。经研究，现函复如下。\n一、同意山东文登抽水蓄能电站上库坝、下库坝首次安全注册，注册登记等级为甲级；同意四川回龙桥水电站大坝首次安全注册，注册登记等级为乙级；同意湖北洞坪、龙背湾，湖南碗米坡，重庆石堤、藤子沟，四川涪江古城、木座、水牛家、阴坪、自一里、小龙门、金溪、小沟头，云南云鹏、岗曲河一级、大丫口等16座水电站大坝换证安全注册，注册登记等级为甲级。\n二、请你中心督促有关电力企业严格落实大坝安全管理主体责任，完善大坝安全管理制度规程。加强组织建设与人员配备，强化专业教育培训，提高人员专业素质和技术能力，抓实抓细大坝安全检查和监测工作，提升大坝安全管理专业化水平。\n三、请你中心督促有关电力企业规范管理和操作，加强大坝防汛和应急管理，强化大坝安全维护和现场作业安全管理，提质升级大坝安全档案管理工作，做好现场监测设施运行维护，充分利用在线监控系统，提升大坝安全管理规范化水平。\n四、请你中心对首次注册登记等级为乙级的四川回龙桥水电站加强监管，督促电力企业压紧压实安全管理主体责任。\n五、请你中心督促指导有关电力企业针对注册检查中发现的问题和不足，举一反三，制定切实有效的整改措施和计划，明确责任人和时限，确保问题按期、高质量整改到位，保障监管意见落地见效。\n国家能源局综合司\n2025年9月25日",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2025-09-25"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局综合司"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "国能综函安全〔2025〕59号"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2025-09-25",
+    "pubdate": "2025-09-25 00:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20251020/1bbc80f4856849078dc8b3506142227c/c.html",
+  "final_url": "https://www.nea.gov.cn/20251020/1bbc80f4856849078dc8b3506142227c/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "9d319e86ff1a6fdb8073af06ceaef761265bec6adc84ebcf32c4f66557737995",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "9661758a0f4da8c9c6622a93930ca7e3e55177ae306ac8c4e4420e2b20e9eaba",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2025-10-20",
+      "list_date_raw": "2025-10-20 17:12:57",
+      "list_title": "国家能源局综合司关于同意文登上库坝等19座水电站大坝安全注册登记的复函"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest"
+  ],
+  "list_date": "2025-10-20",
+  "first_seen_at": "2026-09-29T09:01:02+00:00",
+  "last_checked_at": "2026-09-29T09:01:02+00:00",
+  "versions": []
+}

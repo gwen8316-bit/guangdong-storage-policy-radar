@@ -1,0 +1,59 @@
+{
+  "title": "国家能源局关于成立第十届核电厂操纵人员资格审查委员会的通知",
+  "doc_number": "国能发核电〔2026〕31号",
+  "issuer": "国家能源局",
+  "publish_date": null,
+  "written_date": "2026-04-02",
+  "content_text": "国家能源局关于成立第十届核电厂操纵人员资格审查委员会的通知\n国能发核电〔2026〕31号\n各有关单位：\n第九届核电厂操纵人员资格审查委员会任期届满。经研究，现决定成立第十届核电厂操纵人员资格审查委员会，组成人员如下。\n主 任：赵学顺\n副主任：姜波\n委 员（按姓氏笔画排序）：冯文彪、刘非、杜延辉、苏圣兵、吴元明、何小剑、何六一、李晓萌、张义昌、张初明、张福宝、张毅、邹正宇、周建平、莫银良、郭宏恩、徐金龙、常重喜、蒋兴华、楼子昂、缪亚民、潘银生、戴兵\n秘书长：李晓萌（兼）\n国家能源局\n2026年4月2日",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-04-02"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "国能发核电〔2026〕31号"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-04-02",
+    "pubdate": "2026-04-02 00:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260415/44982d9b8a8d48c2a2cd3e403a104fe4/c.html",
+  "final_url": "https://www.nea.gov.cn/20260415/44982d9b8a8d48c2a2cd3e403a104fe4/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "1a89b096f742da7b5cc73825f2f7a26d2611bdbbf3a7bafb0ea35de9f3eafb27",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "c7814ca6eb947172b0d67229303db3f0a146a8b758f9b7b7243db498fcf4236f",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-04-15",
+      "list_date_raw": "2026-04-15 10:04:44",
+      "list_title": "国家能源局关于成立第十届核电厂操纵人员资格审查委员会的通知"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest"
+  ],
+  "list_date": "2026-04-15",
+  "first_seen_at": "2026-09-29T08:42:01+00:00",
+  "last_checked_at": "2026-09-29T08:42:01+00:00",
+  "versions": []
+}

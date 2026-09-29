@@ -1,0 +1,80 @@
+{
+  "title": "国家能源局南方监管局行政许可通告（2026年第22期）",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-06-23",
+  "written_date": null,
+  "content_text": "根据《电力业务许可证管理规定》《承装（修、试）电力设施许可证管理办法》《国家能源局关于印发全面推行电力业务资质许可告知承诺制实施方案的通知》（国能发资质〔2021〕37号）等相关规定，国家能源局南方监管局对2026年第22期行政许可情况予以通告，许可企业清单及告知承诺书详见附件。\n附件：\n国家能源局南方监管局行政许可通告（2026年第22期）.pdf\n2026年第22期告知承诺书.rar",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "国家能源局南方监管局行政许可通告（2026年第22期）.pdf",
+      "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202606/P020260623341270490498.pdf",
+      "format": "pdf",
+      "kind": "attachment",
+      "size_bytes": 53275,
+      "sha256": "43b0d47657745c2a4bbdc4727cb346ebc3bc3bff9d5ccd1eb544424094bdff90",
+      "status": "parsed",
+      "text": "[第 1 页]\n承装（修、试）电力设施准予行政许可通告\n（2026年第22期）\n序号 企业名称 申请事项 备注\n1 中山市中泰电气安装工程有限公司 承装三级、承修三级、承试三级新申请\n一般流程\n2 广西翔瑞电力建设工程有限公司 承装三级、承修三级、承试三级新申请\n3 广西搏通建筑工程有限公司 承装三级、承修三级、承试三级新申请\n4 广西韵辰建筑工程有限公司 承装三级、承修三级、承试三级新申请\n5 百色乐风电力开发有限公司 承装三级、承修三级、承试三级新申请\n6 桂林市银都电力建设开发有限公司 换领承装三级、承修三级、承试三级许可证并降级延续\n7 汕尾汇能综合能源服务有限公司 承修二级许可变更\n8 广东悦丰电力建设有限公司 承装三级、承试二级许可延续\n9 深圳市东伟送变电工程有限公司 承装三级、承修三级、承试三级新申请\n承诺制\n10 广西瑞华工控设备有限公司 承装三级、承修三级、承试三级新申请\n11 广西领阳光伏科技有限责任公司 承装三级、承修三级、承试三级新申请\n12 广东深湾能源建设有限公司 承装三级、承修三级、承试三级新申请\n13 广东嘉丰工程有限公司 承装三级、承修三级、承试三级新申请\n14 广东省宇安实业有限公司 承装三级、承修三级、承试三级新申请\n15 中交四航局第三工程有限公司 承装三级、承修三级、承试三级新申请\n16 清远绿筑建设有限公司 承装三级、承修三级、承试三级新申请\n17 海南鑫宜电气工程有限公司 承装三级、承修三级、承试三级新申请\n18 河源市中电电气有限公司 承试三级许可变更\n19 广州市中照水电安装工程有限公司 承装三级、承修三级、承试三级许可延续\n20 茂名市市政建设工程有限公司 换领承装三级、承修三级、承试三级许可证\n\n[第 2 页]\n承装（修、试）电力设施不予行政许可通告\n（2026年第22期）\n序号 企业名称 申请事项 备注\n1 深圳市米粒工程技术有限公司 承装三级、承修三级、承试三级新申请 人员不符合许可条件要求\n2 汕尾汇能综合能源服务有限公司 承装二级、承试二级许可变更\n业绩不符合许可条件要求\n3 广东悦丰电力建设有限公司 承修二级许可延续\n\n[第 3 页]\n电力业务行政许可通告\n（2026年第22期）\n序号 企业名称 业务类型 申请类别 备注\n1 大唐桂冠合山新能源有限公司\n发电类\n新（改）建发电机组投入运营\n承诺制\n2 宾阳汇能能源有限公司\n3 宁明中能建新能源有限公司\n4 广西投资集团来宾发电有限公司 取得已运营的发电机组\n5 国能粤电台山发电有限公司 续期",
+      "error": null,
+      "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202606/P020260623341270490498.pdf",
+      "content_type": "application/pdf",
+      "page_count": 3,
+      "needs_manual_review": false
+    },
+    {
+      "name": "2026年第22期告知承诺书.rar",
+      "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202606/P020260623341270668175.rar",
+      "format": "rar",
+      "kind": "attachment",
+      "size_bytes": 3602640,
+      "sha256": "b3ec25fb10075081090f0254c916fabec9c22f3a37f7d1069410ce705748f3c4",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202606/P020260623341270668175.rar",
+      "content_type": "application/x-rar-compressed",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' wrapper_deatil_date ')]",
+      "value": "2026-06-23 09:27 来源： 南方局管理员"
+    }
+  },
+  "body_selector": "//*[contains(concat(' ',normalize-space(@class),' '),' TRS_UEDITOR ')]",
+  "date_metadata": {
+    "pubdate": ""
+  },
+  "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202606/t20260623_303317.html",
+  "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202606/t20260623_303317.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "9436dda1c5e6956438e15b6ea528aab8bec81186c1e0c1dd86cced468fc57fcf",
+  "attachments_hash": "7900aa24dfe1770be0f172835e745e2e981bf0c90972afad5637503d960d5659",
+  "schema_version": 1,
+  "id": "f28d5b461703dac8ce09a6a104c5de0e8eb56ed34220e555f97a890aef796d79",
+  "source_id": "nf",
+  "column_id": "nf_notices",
+  "columns": [
+    {
+      "source_id": "nf",
+      "column_id": "nf_notices",
+      "list_url": "https://nfj.nea.gov.cn/xwzx/tzgg/",
+      "list_date": "2026-06-23",
+      "list_date_raw": "2026-06-23",
+      "list_title": "国家能源局南方监管局行政许可通告（2026年第22期）"
+    }
+  ],
+  "source_ids": [
+    "nf"
+  ],
+  "column_ids": [
+    "nf_notices"
+  ],
+  "list_date": "2026-06-23",
+  "first_seen_at": "2026-09-29T08:33:32+00:00",
+  "last_checked_at": "2026-09-29T08:33:32+00:00",
+  "versions": []
+}

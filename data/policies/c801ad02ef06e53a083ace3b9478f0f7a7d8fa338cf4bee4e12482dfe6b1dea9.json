@@ -1,0 +1,97 @@
+{
+  "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/50521",
+  "title": "广东省人工智能创新发展领导小组办公室关于公开征求《广东省人工智能发展促进条例（征求意见稿）》意见的通告",
+  "doc_number": null,
+  "issuer": "广东省人工智能创新发展领导小组办公室",
+  "publish_date": "2026-06-05",
+  "written_date": "2026-06-04",
+  "content_text": "为更好贯彻国家“人工智能+”部署，促进人工智能高质量发展，结合本省实际情况，我办牵头研究起草《广东省人工智能发展促进条例（征求意见稿）》。现向社会各界公开征求意见，欢迎有关单位和各界人士提出宝贵书面意见，于2026年7月5日前反馈我办。\n电话：020-83133052\n邮箱：fgw_zby@gd.gov.cn\n地址：广州市越秀区东风中路305号大院5号楼广东省智办\n邮编：510031\n附件：1.广东省人工智能发展促进条例（征求意见稿）\n2.《广东省人工智能发展促进条例（征求意见稿）》起草说明\n广东省人工智能创新发展领导小组办公室\n（广东省发展改革委代章）\n2026年6月4日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件1.广东省人工智能发展促进条例（征求意见稿）.doc",
+      "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/3d7c36c69af9acdf46de05d2aa4adf26",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 167936,
+      "sha256": "75f3772bd28006fa70a679420e5b7cbb03d8758b5e16ab6df6f113f3e6b454cd",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/3d7c36c69af9acdf46de05d2aa4adf26",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    },
+    {
+      "name": "附件2.《广东省人工智能发展促进条例（征求意见稿）》起草说明.doc",
+      "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/03a77791eb5b07a08eaf24441a8a0f2d",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 34304,
+      "sha256": "2e3aa47d532fc686ac10b2e8e8e3b143e0d5c5e81a9b3ed0785e9605c48cab4a",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/03a77791eb5b07a08eaf24441a8a0f2d",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "json_field": "question_data.article.published_at",
+      "value": "2026-06-05 09:49"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年6月4日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省人工智能创新发展领导小组办公室"
+    }
+  },
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "eecdab7cff6fa43f6ea4ede90fb1a0fccb2a2ecfc90c4ee569acd2386c84d84d",
+  "attachments_hash": "689b6f775ecc77a0ea8b9b8f06a9090bafb1a7c6510cb4832d4d0149317ab3d8",
+  "schema_version": 1,
+  "id": "c801ad02ef06e53a083ace3b9478f0f7a7d8fa338cf4bee4e12482dfe6b1dea9",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2026-06-05",
+      "list_date_raw": "2026-06-05",
+      "list_title": "关于公开征求《广东省人工智能发展促进条例（征求意见稿）》意见的通告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2026-06-05",
+  "first_seen_at": "2026-09-29T08:42:23+00:00",
+  "last_checked_at": "2026-09-29T08:58:08+00:00",
+  "versions": [
+    {
+      "changed_at": "2026-09-29T08:58:08+00:00",
+      "old_content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "old_attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "body_selector": "window._CONFIG.question_data.article.content",
+  "date_metadata": {
+    "pubdate": "2026-06-05 09:49"
+  },
+  "attachment_metadata_urls": [
+    "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/3d7c36c69af9acdf46de05d2aa4adf26",
+    "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/03a77791eb5b07a08eaf24441a8a0f2d"
+  ],
+  "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/50521"
+}

@@ -1,0 +1,40 @@
+{"time": "2026-09-29T08:27:19+00:00", "url": "https://www.nea.gov.cn/robots.txt", "method": "GET", "status": 404, "attempt": 1, "seconds": 0.328, "size_bytes": 146}
+{"time": "2026-09-29T08:27:19+00:00", "kind": "robots", "url": "https://www.nea.gov.cn/robots.txt", "status": 404, "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0", "rules": null}
+{"time": "2026-09-29T08:27:22+00:00", "url": "https://www.nea.gov.cn/policy/zxwj.htm", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.313, "size_bytes": 3497}
+{"time": "2026-09-29T08:27:26+00:00", "url": "https://www.nea.gov.cn/policy/ds_40d365c13659452aa06cdb7268d6192e.json", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.703, "size_bytes": 1087193}
+{"time": "2026-09-29T08:27:28+00:00", "url": "https://www.nea.gov.cn/policy/tz.htm", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.297, "size_bytes": 3485}
+{"time": "2026-09-29T08:27:32+00:00", "url": "https://www.nea.gov.cn/policy/ds_7290c82b05cc4d49be4971ade193edfc.json", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.75, "size_bytes": 1117277}
+{"time": "2026-09-29T08:27:34+00:00", "url": "https://www.nea.gov.cn/policy/gg.htm", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.344, "size_bytes": 3485}
+{"time": "2026-09-29T08:27:38+00:00", "url": "https://www.nea.gov.cn/policy/ds_6db2ed2a0ae946d882bcc769494c99be.json", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.625, "size_bytes": 720434}
+{"time": "2026-09-29T08:27:40+00:00", "url": "https://www.nea.gov.cn/policy/jd.htm", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.36, "size_bytes": 3485}
+{"time": "2026-09-29T08:27:44+00:00", "url": "https://www.nea.gov.cn/policy/ds_694d98bc00ff4b8aa78ee2782c27acba.json", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.516, "size_bytes": 310568}
+{"time": "2026-09-29T08:27:44+00:00", "url": "https://nfj.nea.gov.cn/robots.txt", "method": "GET", "status": 404, "attempt": 1, "seconds": 0.281, "size_bytes": 153}
+{"time": "2026-09-29T08:27:44+00:00", "kind": "robots", "url": "https://nfj.nea.gov.cn/robots.txt", "status": 404, "sha256": "ed33a515832d215e1cef042b3214fa390174b904a8d127ac75c6c9433ec6f5ae", "rules": null}
+{"time": "2026-09-29T08:27:47+00:00", "url": "https://nfj.nea.gov.cn/xwzx/tzgg/", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.437, "size_bytes": 21295}
+{"time": "2026-09-29T08:27:50+00:00", "url": "https://nfj.nea.gov.cn/xwzx/tzgg/index_1.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.359, "size_bytes": 21110}
+{"time": "2026-09-29T08:27:53+00:00", "url": "https://nfj.nea.gov.cn/xwzx/tzgg/index_2.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.343, "size_bytes": 21075}
+{"time": "2026-09-29T08:27:56+00:00", "url": "https://nfj.nea.gov.cn/xwzx/tzgg/index_3.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.406, "size_bytes": 21124}
+{"time": "2026-09-29T08:27:59+00:00", "url": "https://nfj.nea.gov.cn/xwzx/tzgg/index_4.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.328, "size_bytes": 21092}
+{"time": "2026-09-29T08:28:02+00:00", "url": "https://nfj.nea.gov.cn/xwzx/tzgg/index_5.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.343, "size_bytes": 21184}
+{"time": "2026-09-29T08:28:05+00:00", "url": "https://nfj.nea.gov.cn/xxgk/zcfg/", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.281, "size_bytes": 30039}
+{"time": "2026-09-29T08:28:08+00:00", "url": "https://nfj.nea.gov.cn/xxgk/zcfg/index_1.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.375, "size_bytes": 29926}
+{"time": "2026-09-29T08:28:11+00:00", "url": "https://nfj.nea.gov.cn/xxgk/zcfg/index_2.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.421, "size_bytes": 29843}
+{"time": "2026-09-29T08:28:14+00:00", "url": "https://nfj.nea.gov.cn/xxgk/zcjd/", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.375, "size_bytes": 29903}
+{"time": "2026-09-29T08:28:17+00:00", "url": "https://nfj.nea.gov.cn/xxgk/zcjd/index_1.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.468, "size_bytes": 29715}
+{"time": "2026-09-29T08:28:18+00:00", "url": "https://drc.gd.gov.cn/robots.txt", "method": "GET", "status": 404, "attempt": 1, "seconds": 0.391, "size_bytes": 146}
+{"time": "2026-09-29T08:28:18+00:00", "kind": "robots", "url": "https://drc.gd.gov.cn/robots.txt", "status": 404, "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0", "rules": null}
+{"time": "2026-09-29T08:28:21+00:00", "url": "https://drc.gd.gov.cn/ywtz/index.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.578, "size_bytes": 54346}
+{"time": "2026-09-29T08:28:24+00:00", "url": "https://drc.gd.gov.cn/ywtz/index_2.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.547, "size_bytes": 55146}
+{"time": "2026-09-29T08:28:27+00:00", "url": "https://drc.gd.gov.cn/ywtz/index_3.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.625, "size_bytes": 55484}
+{"time": "2026-09-29T08:28:30+00:00", "url": "https://drc.gd.gov.cn/ywgg/index.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.5, "size_bytes": 51179}
+{"time": "2026-09-29T08:28:33+00:00", "url": "https://drc.gd.gov.cn/ywgg/index_2.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.547, "size_bytes": 52063}
+{"time": "2026-09-29T08:28:36+00:00", "url": "https://drc.gd.gov.cn/ywgg/index_3.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.5, "size_bytes": 52089}
+{"time": "2026-09-29T08:28:39+00:00", "url": "https://drc.gd.gov.cn/ywgg/index_4.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.547, "size_bytes": 51987}
+{"time": "2026-09-29T08:28:42+00:00", "url": "https://drc.gd.gov.cn/snyj/tzgg/index.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.64, "size_bytes": 40515}
+{"time": "2026-09-29T08:28:45+00:00", "url": "https://drc.gd.gov.cn/snyj/tzgg/index_2.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.484, "size_bytes": 40633}
+{"time": "2026-09-29T08:28:48+00:00", "url": "https://drc.gd.gov.cn/snyj/tzgg/index_3.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.516, "size_bytes": 39871}
+{"time": "2026-09-29T08:28:51+00:00", "url": "https://drc.gd.gov.cn/snyj/tzgg/index_4.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.594, "size_bytes": 40945}
+{"time": "2026-09-29T08:28:54+00:00", "url": "https://drc.gd.gov.cn/snyj/tzgg/index_5.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.516, "size_bytes": 40553}
+{"time": "2026-09-29T08:28:57+00:00", "url": "https://drc.gd.gov.cn/snyj/tzgg/index_6.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.594, "size_bytes": 40765}
+{"time": "2026-09-29T08:29:00+00:00", "url": "https://drc.gd.gov.cn/snyj/tzgg/index_7.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.485, "size_bytes": 40301}
+{"time": "2026-09-29T08:29:03+00:00", "url": "https://drc.gd.gov.cn/snyj/tzgg/index_8.html", "method": "GET", "status": 200, "attempt": 1, "seconds": 0.469, "size_bytes": 40489}

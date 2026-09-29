@@ -1,0 +1,66 @@
+{
+  "title": "中央生态环境保护督察群众信访举报转办和边督边改公开情况（第十批）",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-05-28",
+  "written_date": null,
+  "content_text": "截至5月28日，中央第四生态环境保护督察组交办我省并由我委办理的第十批1件群众举报件已办结。根据督察要求，现予以公开。\n附件：中央生态环境保护督察群众信访举报转办和边督边改公开情况一览表（第十批）",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件：中央生态环境保护督察群众信访举报转办和边督边改公开情况一览表（第十批）.pdf",
+      "url": "https://drc.gd.gov.cn/attachment/0/615/615296/4903372.pdf",
+      "format": "pdf",
+      "kind": "attachment",
+      "size_bytes": 69300,
+      "sha256": "67bdffc2c83c2804f7cdb3205c20ac251b99644c2134f7cf7b301252f910adae",
+      "status": "parsed",
+      "text": "[第 1 页]\n中央生态环境保护督察群众信访举报转办和边督边改公开情况一览表\n（第十批 2026年5月18日）\n序号 受理编号 交办问题基本情况 行政区域 问题类型 调查核实情况 是否属\n实\n办结目\n标 处理和整改情况 是否办结 责任人被\n处理情况\n73 X3GD202605180\n073\n广东省部分钢铁企业存在虚增钢铁产能，产\n量未通过产能置换，私自改造加大电炉尺寸\n等问题。涉及企业包括：广东泰都钢铁有限\n公司、广东粤华钢铁集团公司、广东宏德钢\n铁集团公司、广东桂鑫钢铁有限公司、广东\n泰业钢铁有限公司、广东展宏钢铁有限公司\n。\n韶关市、\n惠州市、\n清远市\n涉及规划政\n策方面问题\n2026年5月21—23日，经省发展改\n革委、省工业和信息化厅组织专\n家现场核查，未发现广东A钢铁集\n团公司、广东B钢铁集团公司、广\n东C钢铁有限公司、广东D钢铁有\n限公司、广东E钢铁有限公司存在\n通过私自改造加大电炉尺寸等方\n式，违规新增钢铁行业产能问题\n。广东F 钢铁有限公司于2025年3\n月在未履行变更手续的前提下对1\n号40t电炉进行变更，目前已完成\n整改，恢复原设计原状。\n部分属实\n企业将违\n规变更的\n电炉恢复\n原设计原\n状，完成\n整改。\n2026年4月24日，清远市清城区应急管\n理局向广东F钢铁有限公司出具现场处\n理措施决定书、责令限期整改指令\n书，责令立即停止使用1号40t电炉，\n责令于2026年5月20日前整改完毕。\n2026年5月12日，清远市清城区应急管\n理局向广东F钢铁有限公司出具整改复\n查意见书，复查确认已完成整改，1号\n40t电炉已恢复原设计原状，符合原设\n计要求。\n已办结 无\n注：问题类型包括群众身边的生态环境问题、涉及公共利益的生态环境问题、涉及规划政策方面问题、涉及邻避效应问题、涉及利益纠纷问题",
+      "error": null,
+      "final_url": "https://drc.gd.gov.cn/attachment/0/615/615296/4903372.pdf",
+      "content_type": "application/pdf",
+      "page_count": 1,
+      "needs_manual_review": false
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：产业发展处 时间：2026-05-28 14:58:37 字体： [大] [中] [小]"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-05-28 14:58:37"
+  },
+  "url": "https://drc.gd.gov.cn/ywgg/content/post_4903372.html",
+  "final_url": "https://drc.gd.gov.cn/ywgg/content/post_4903372.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "5c5b50f41edcfd595dd2d85874479d167672ed9cbcdbbdf6b335bb15ca9f4c8a",
+  "attachments_hash": "5e4658b98fbfea80986dfc6cafade361ef5a8a9f4e4d2a14fcd724433ce4acc0",
+  "schema_version": 1,
+  "id": "de1d91dd63f61fa2b62d14f7f934a23469e290fc8cbb0eb2db14f5f37a15a7ea",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2026-05-28",
+      "list_date_raw": "2026-05-28",
+      "list_title": "中央生态环境保护督察群众信访举报转办和边督边改公开情况（第十批）"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2026-05-28",
+  "first_seen_at": "2026-09-29T08:43:07+00:00",
+  "last_checked_at": "2026-09-29T08:43:07+00:00",
+  "versions": []
+}

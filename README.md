@@ -1,6 +1,20 @@
-# 广东储能政策雷达：网络预检
+# 广东储能政策雷达
 
-当前仅有网络探测工具，不包含政策采集和 AI 业务代码。
+当前包含网络预检和政策抓取模块（发现、正文、附件、去重、JSON、日志），不包含相关性筛选、AI 或前端。
+
+正式采集的运行方法、数据结构、增量/回填规则和已知限制见 [抓取模块说明](docs/collector.md)。
+
+```powershell
+python -m pip install -r requirements-collector.txt
+python -m unittest discover -s tests -v
+python -m collector --mode backfill --since 2025-10-01 --batch-size 100
+python -m collector --mode incremental --batch-size 0
+python scripts/validate_collection.py
+```
+
+回填可重复执行以续跑；GitHub 的 **Collect policy documents** 工作流支持手动选择模式。尚未开启定时运行。
+
+下方保留第一步网络预检的运行说明。
 
 本地与 GitHub Actions 各三轮测试已完成，见 [2026-09-29 验证报告](docs/connectivity-report-2026-09-29.md)。
 

@@ -1,0 +1,81 @@
+{
+  "title": "关于做好电力业务许可证延续工作的通知",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-02-04",
+  "written_date": null,
+  "content_text": "国家能源局关于印发《电力业务许可证延续及注销管理办法》的通知.pdf\n关于做好电力业务许可证延续工作的通知.pdf",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "国家能源局关于印发《电力业务许可证延续及注销管理办法》的通知.pdf",
+      "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202602/P020260204611359768810.pdf",
+      "format": "pdf",
+      "kind": "attachment",
+      "size_bytes": 7806789,
+      "sha256": "cc724fb73518e579299d20fefea6698f8ad145b4ab755569e5cf89a55ba0c9d5",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "image_pages_without_ocr:8",
+      "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202602/P020260204611359768810.pdf",
+      "content_type": "application/pdf",
+      "page_count": 8,
+      "needs_manual_review": true
+    },
+    {
+      "name": "关于做好电力业务许可证延续工作的通知.pdf",
+      "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202602/P020260204611360462736.pdf",
+      "format": "pdf",
+      "kind": "attachment",
+      "size_bytes": 102378,
+      "sha256": "acd465fad6b08a051169b283cf6a152868f2b1584b32434061db0abd04147f9c",
+      "status": "parsed",
+      "text": "[第 1 页]\n— 1 —\n南方监能资质〔2026〕14 号\n关于做好电力业务许可证延续工作的通知\n各有关电力企业：\n近日，国家能源局印发了《电力业务许可证延续及注销管理\n办法》（国能发资质规〔2026〕2 号）（以下简称《办法》），\n现转发给你们，请遵照执行。\n根据《办法》规定，电力业务许可证有效期届满需延续的，\n被许可人应当在有效期届满 30 日前向国家能源局派出机构提出\n申请。请各有关电力企业对照《办法》要求，认真核查本单位电\n力业务许可证有效期限，在规定时限内办理许可证延续手续，避\n免因许可证到期影响正常生产经营活动。对未按规定申请延续或\n不符合延续条件的，我局将依法依规予以处理。\n请各单位高度重视，切实履行主体责任，确保电力业务依法\n国 家 能 源 局 南 方 监 管 局 文 件\n\n[第 2 页]\n— 2 —\n合规开展。办理过程中如有疑问，请及时与我局联系。\n联系方式：\n广东：020-85125209\n广西：0771-5784938\n海南：0898-66526086\n附件：国家能源局关于印发《电力业务许可证延续及注销管\n理办法》的通知\n南方能源监管局\n2026 年 1 月 30 日\n（主动公开）\n南方能源监管局综合处 2026 年 1 月 30 日印发",
+      "error": null,
+      "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202602/P020260204611360462736.pdf",
+      "content_type": "application/pdf",
+      "page_count": 2,
+      "needs_manual_review": false
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' wrapper_deatil_date ')]",
+      "value": "2026-02-04 16:45 来源： 南方局管理员"
+    }
+  },
+  "body_selector": "//*[contains(concat(' ',normalize-space(@class),' '),' TRS_UEDITOR ')]",
+  "date_metadata": {
+    "pubdate": ""
+  },
+  "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202602/t20260204_295489.html",
+  "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202602/t20260204_295489.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "0913854c863e20259900843319b00aa1a7911755c2fb9da9f857715fe5aad8c1",
+  "attachments_hash": "4b1fb77177a587d17f847cf41aa6e8cf4056fb2bf030597f3a65b8c26c3cd4f4",
+  "schema_version": 1,
+  "id": "3e0438b7178838f784c58a713afd2f9af9e98712a13b950037ad2cf7bd84c5c4",
+  "source_id": "nf",
+  "column_id": "nf_notices",
+  "columns": [
+    {
+      "source_id": "nf",
+      "column_id": "nf_notices",
+      "list_url": "https://nfj.nea.gov.cn/xwzx/tzgg/",
+      "list_date": "2026-02-04",
+      "list_date_raw": "2026-02-04",
+      "list_title": "关于做好电力业务许可证延续工作的通知"
+    }
+  ],
+  "source_ids": [
+    "nf"
+  ],
+  "column_ids": [
+    "nf_notices"
+  ],
+  "list_date": "2026-02-04",
+  "first_seen_at": "2026-09-29T08:39:25+00:00",
+  "last_checked_at": "2026-09-29T08:39:25+00:00",
+  "versions": []
+}

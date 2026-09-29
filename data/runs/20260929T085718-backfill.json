@@ -1,0 +1,170 @@
+{
+  "run_id": "20260929T085718-backfill",
+  "started_at": "2026-09-29T08:57:18+00:00",
+  "ended_at": null,
+  "mode": "backfill",
+  "since": "2025-10-01",
+  "columns": {
+    "nea_latest": {
+      "name": "国家能源局·最新文件",
+      "new": 32,
+      "updated": 2,
+      "unchanged": 0,
+      "failed": 2,
+      "errors": [
+        {
+          "stage": "detail",
+          "url": "https://www.nea.gov.cn/20251231/138d2109bc8a4caabff561c6fb9ffa1c/c.html",
+          "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+        },
+        {
+          "stage": "detail",
+          "url": "https://www.nea.gov.cn/20251015/dba54f19344a40498522ff877e1b9e19/c.html",
+          "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+        }
+      ],
+      "discovered": 105,
+      "checked": 36,
+      "discovery_ok": true,
+      "discovery_pages": 1,
+      "discovery_stop": "end"
+    },
+    "nea_notices": {
+      "name": "国家能源局·通知",
+      "new": 33,
+      "updated": 1,
+      "unchanged": 0,
+      "failed": 1,
+      "errors": [
+        {
+          "stage": "detail",
+          "url": "https://www.nea.gov.cn/20251231/138d2109bc8a4caabff561c6fb9ffa1c/c.html",
+          "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+        }
+      ],
+      "discovered": 64,
+      "checked": 35,
+      "discovery_ok": true,
+      "discovery_pages": 1,
+      "discovery_stop": "end"
+    },
+    "nea_announcements": {
+      "name": "国家能源局·公告",
+      "new": 9,
+      "updated": 1,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 41,
+      "checked": 10,
+      "discovery_ok": true,
+      "discovery_pages": 1,
+      "discovery_stop": "end"
+    },
+    "nea_interpretations": {
+      "name": "国家能源局·解读",
+      "new": 0,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 35,
+      "checked": 0,
+      "discovery_ok": true,
+      "discovery_pages": 1,
+      "discovery_stop": "end"
+    },
+    "nf_notices": {
+      "name": "南方监管局·通知公示",
+      "new": 0,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 64,
+      "checked": 0,
+      "discovery_ok": true,
+      "discovery_pages": 6,
+      "discovery_stop": "before_since"
+    },
+    "nf_regulations": {
+      "name": "南方监管局·政策法规",
+      "new": 18,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 1,
+      "errors": [
+        {
+          "stage": "detail",
+          "url": "https://www.nea.gov.cn/20251231/138d2109bc8a4caabff561c6fb9ffa1c/c.html",
+          "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+        }
+      ],
+      "discovered": 28,
+      "checked": 19,
+      "discovery_ok": true,
+      "discovery_pages": 3,
+      "discovery_stop": "before_since"
+    },
+    "nf_interpretations": {
+      "name": "南方监管局·政策解读",
+      "new": 0,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 11,
+      "checked": 0,
+      "discovery_ok": true,
+      "discovery_pages": 2,
+      "discovery_stop": "before_since"
+    },
+    "gd_notices": {
+      "name": "广东省发改委·业务通知",
+      "new": 0,
+      "updated": 2,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 38,
+      "checked": 2,
+      "discovery_ok": true,
+      "discovery_pages": 3,
+      "discovery_stop": "before_since"
+    },
+    "gd_announcements": {
+      "name": "广东省发改委·业务公告",
+      "new": 8,
+      "updated": 5,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 43,
+      "checked": 13,
+      "discovery_ok": true,
+      "discovery_pages": 4,
+      "discovery_stop": "before_since"
+    },
+    "gd_energy_notices": {
+      "name": "广东省能源局·通知公告",
+      "new": 35,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 140,
+      "checked": 35,
+      "discovery_ok": true,
+      "discovery_pages": 8,
+      "discovery_stop": "before_since"
+    }
+  },
+  "total": {
+    "new": 87,
+    "updated": 9,
+    "unchanged": 0,
+    "failed": 2
+  },
+  "queued": 242,
+  "selected": 242
+}

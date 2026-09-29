@@ -1,0 +1,222 @@
+{
+  "run_id": "20260929T082959-backfill",
+  "started_at": "2026-09-29T08:29:59+00:00",
+  "ended_at": null,
+  "mode": "backfill",
+  "since": "2025-10-01",
+  "columns": {
+    "nea_latest": {
+      "name": "国家能源局·最新文件",
+      "new": 71,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 2,
+      "errors": [
+        {
+          "stage": "attachment",
+          "url": "https://www.nea.gov.cn/20260701/52eef0c7dc2c43968e411487618aaf06/zggdfzbg2026.pdf",
+          "reason": "TimeoutExpired: Command '['C:\\\\Users\\\\Administrator\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe', '-m', 'collector.attachments', 'C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\policy-attachment-01qvtzhq\\\\file.pdf', 'pdf']' timed out after 90 seconds"
+        },
+        {
+          "stage": "attachment",
+          "url": "https://www.nea.gov.cn/20260520/a842d14ccabc461292fa190e6618bb60/c.html",
+          "reason": "PdfStreamError: Stream has ended unexpectedly"
+        }
+      ],
+      "discovered": 105,
+      "checked": 71,
+      "discovery_ok": true,
+      "discovery_pages": 1,
+      "discovery_stop": "end"
+    },
+    "nea_notices": {
+      "name": "国家能源局·通知",
+      "new": 30,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 1,
+      "errors": [
+        {
+          "stage": "attachment",
+          "url": "https://www.nea.gov.cn/20260520/a842d14ccabc461292fa190e6618bb60/c.html",
+          "reason": "PdfStreamError: Stream has ended unexpectedly"
+        }
+      ],
+      "discovered": 64,
+      "checked": 30,
+      "discovery_ok": true,
+      "discovery_pages": 1,
+      "discovery_stop": "end"
+    },
+    "nea_announcements": {
+      "name": "国家能源局·公告",
+      "new": 28,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 1,
+      "errors": [
+        {
+          "stage": "attachment",
+          "url": "https://www.nea.gov.cn/20260701/52eef0c7dc2c43968e411487618aaf06/zggdfzbg2026.pdf",
+          "reason": "TimeoutExpired: Command '['C:\\\\Users\\\\Administrator\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe', '-m', 'collector.attachments', 'C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\policy-attachment-01qvtzhq\\\\file.pdf', 'pdf']' timed out after 90 seconds"
+        }
+      ],
+      "discovered": 41,
+      "checked": 28,
+      "discovery_ok": true,
+      "discovery_pages": 1,
+      "discovery_stop": "end"
+    },
+    "nea_interpretations": {
+      "name": "国家能源局·解读",
+      "new": 0,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 35,
+      "checked": 0,
+      "discovery_ok": true,
+      "discovery_pages": 1,
+      "discovery_stop": "end"
+    },
+    "nf_notices": {
+      "name": "南方监管局·通知公示",
+      "new": 64,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 64,
+      "checked": 64,
+      "discovery_ok": true,
+      "discovery_pages": 6,
+      "discovery_stop": "before_since"
+    },
+    "nf_regulations": {
+      "name": "南方监管局·政策法规",
+      "new": 9,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 28,
+      "checked": 9,
+      "discovery_ok": true,
+      "discovery_pages": 3,
+      "discovery_stop": "before_since"
+    },
+    "nf_interpretations": {
+      "name": "南方监管局·政策解读",
+      "new": 0,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 11,
+      "checked": 0,
+      "discovery_ok": true,
+      "discovery_pages": 2,
+      "discovery_stop": "before_since"
+    },
+    "gd_notices": {
+      "name": "广东省发改委·业务通知",
+      "new": 38,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 2,
+      "errors": [
+        {
+          "stage": "attachment",
+          "url": "https://drc.gd.gov.cn/attachment/0/620/620659/4933958.xlsx",
+          "reason": "ValueError: Traceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\Administrator\\Documents\\ChatGPT\\政策抓取\\collector\\attachments.py\", line 104, in <module>\r\n    print(json.dumps(parse_bytes(Path(sys.argv[1]).read_bytes(), sys.argv[2]), ensure_ascii=False))\r\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Administrator\\Documents\\ChatGPT\\政策抓取\\collector\\attachments.py\", line 15, in parse_bytes\r\n    with zipfile.ZipFile(io.BytesIO(data)) as archive:\r\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__init__.py\", line 1371, in __init__\r\n    self._RealGetContents()\r\n  File \"C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__init__.py\", line 1438, in _RealGetContents\r\n    raise BadZipFile(\"File is not a zip file\")\r\nzipfile.BadZipFile: File is not a zip file\r\n"
+        },
+        {
+          "stage": "attachment",
+          "url": "https://drc.gd.gov.cn/attachment/0/620/620658/4933958.xlsx",
+          "reason": "ValueError: Traceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\Administrator\\Documents\\ChatGPT\\政策抓取\\collector\\attachments.py\", line 104, in <module>\r\n    print(json.dumps(parse_bytes(Path(sys.argv[1]).read_bytes(), sys.argv[2]), ensure_ascii=False))\r\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Administrator\\Documents\\ChatGPT\\政策抓取\\collector\\attachments.py\", line 15, in parse_bytes\r\n    with zipfile.ZipFile(io.BytesIO(data)) as archive:\r\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__init__.py\", line 1371, in __init__\r\n    self._RealGetContents()\r\n  File \"C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__init__.py\", line 1438, in _RealGetContents\r\n    raise BadZipFile(\"File is not a zip file\")\r\nzipfile.BadZipFile: File is not a zip file\r\n"
+        },
+        {
+          "stage": "attachment",
+          "url": "https://drc.gd.gov.cn/attachment/0/620/620657/4933958.xlsx",
+          "reason": "ValueError: Traceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\Administrator\\Documents\\ChatGPT\\政策抓取\\collector\\attachments.py\", line 104, in <module>\r\n    print(json.dumps(parse_bytes(Path(sys.argv[1]).read_bytes(), sys.argv[2]), ensure_ascii=False))\r\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Administrator\\Documents\\ChatGPT\\政策抓取\\collector\\attachments.py\", line 15, in parse_bytes\r\n    with zipfile.ZipFile(io.BytesIO(data)) as archive:\r\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__init__.py\", line 1371, in __init__\r\n    self._RealGetContents()\r\n  File \"C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__init__.py\", line 1438, in _RealGetContents\r\n    raise BadZipFile(\"File is not a zip file\")\r\nzipfile.BadZipFile: File is not a zip file\r\n"
+        },
+        {
+          "stage": "attachment",
+          "url": "https://drc.gd.gov.cn/attachment/0/603/603718/4842019.xlsx",
+          "reason": "ValueError: Unable to read workbook: could not read strings from None.\nThis is most probably because the workbook source files contain some invalid XML.\nPlease see the exception for more details."
+        }
+      ],
+      "discovered": 38,
+      "checked": 38,
+      "discovery_ok": true,
+      "discovery_pages": 3,
+      "discovery_stop": "before_since"
+    },
+    "gd_announcements": {
+      "name": "广东省发改委·业务公告",
+      "new": 29,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 5,
+      "errors": [
+        {
+          "stage": "detail",
+          "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/52742",
+          "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+        },
+        {
+          "stage": "detail",
+          "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/50521",
+          "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+        },
+        {
+          "stage": "detail",
+          "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/50699",
+          "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+        },
+        {
+          "stage": "detail",
+          "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/49053",
+          "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+        },
+        {
+          "stage": "detail",
+          "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/48000",
+          "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+        }
+      ],
+      "discovered": 43,
+      "checked": 34,
+      "discovery_ok": true,
+      "discovery_pages": 4,
+      "discovery_stop": "before_since"
+    },
+    "gd_energy_notices": {
+      "name": "广东省能源局·通知公告",
+      "new": 0,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "errors": [],
+      "discovered": 140,
+      "checked": 0,
+      "discovery_ok": true,
+      "discovery_pages": 8,
+      "discovery_stop": "before_since"
+    }
+  },
+  "total": {
+    "new": 202,
+    "updated": 0,
+    "unchanged": 0,
+    "failed": 5
+  },
+  "queued": 441,
+  "selected": 441,
+  "result": "interrupted",
+  "interruption": {
+    "recorded_at": "2026-09-29T08:58:04+00:00",
+    "reason": "Windows transient PermissionError during atomic JSON replacement; coordinator stopped, process terminated and resumed from checkpoint."
+  }
+}

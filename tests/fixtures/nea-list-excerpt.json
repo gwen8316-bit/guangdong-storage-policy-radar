@@ -1,0 +1,15 @@
+{
+  "_provenance": {
+    "url": "https://www.nea.gov.cn/policy/ds_40d365c13659452aa06cdb7268d6192e.json",
+    "captured_date": "2026-09-29",
+    "note": "Connectivity-check response excerpt: first real item; only fields used by the parser retained."
+  },
+  "datasource": [
+    {
+      "publishUrl": "http://www.nea.gov.cn/20260928/ccc0e6f629384053b0bf50cc3f018187/c.html",
+      "showTitle": "<a href='http://www.nea.gov.cn/20260928/ccc0e6f629384053b0bf50cc3f018187/c.html' target='_blank'>关于披露中国能源传媒集团有限公司负责人2025年度薪酬情况的通知</a>",
+      "publishTime": "2026-09-28 09:03:29",
+      "contentType": "Link"
+    }
+  ]
+}

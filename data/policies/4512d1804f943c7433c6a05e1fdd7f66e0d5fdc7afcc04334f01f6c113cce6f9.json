@@ -1,0 +1,64 @@
+{
+  "title": "国家能源局公告 2026年 第1号",
+  "doc_number": null,
+  "issuer": "国家能源局",
+  "publish_date": null,
+  "written_date": "2026-04-28",
+  "content_text": "国家能源局\n公告\n2026年 第1号\n为科学规范电力建设工程定额和费用计算工作，国家能源局委托中国电力企业联合会组织编制完成《火力发电工程建设预算编制与计算规定》《电网工程建设预算编制与计算规定》《电力建设工程预算定额（建筑工程、热力设备安装工程、电气设备安装工程、架空输电线路工程、电缆输电线路工程、调试工程、通信工程、加工配制品）》《电力建设工程概算定额（建筑工程、热力设备安装工程、电气设备安装工程、架空输电线路工程、电缆输电线路工程、调试工程、通信工程）》（以上4项统称《电力建设工程定额和费用计算规定（2025年版）》）。现予以发布，自2026年8月1日起施行，《电力建设工程定额和费用计算规定（2018年版）》同时废止。\n《电力建设工程定额和费用计算规定（2025年版）》由中国电力企业联合会组织中国电力出版社出版发行。\n国家能源局\n2026年4月28日",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-04-28"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-04-28",
+    "pubdate": "2026-04-28 10:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260513/a38f9ff036f145a7bcfb6724e9f8d89e/c.html",
+  "final_url": "https://www.nea.gov.cn/20260513/a38f9ff036f145a7bcfb6724e9f8d89e/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "0683858f02e2dd4311c68a13978c6467d4eae1dd61b9e499d4e436291ef18f0f",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "4512d1804f943c7433c6a05e1fdd7f66e0d5fdc7afcc04334f01f6c113cce6f9",
+  "source_id": "nea",
+  "column_id": "nea_announcements",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_announcements",
+      "list_url": "https://www.nea.gov.cn/policy/gg.htm",
+      "list_date": "2026-04-28",
+      "list_date_raw": "2026-04-28 10:00:00",
+      "list_title": "国家能源局公告 2026年 第1号"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-05-13",
+      "list_date_raw": "2026-05-13 08:45:44",
+      "list_title": "国家能源局公告 2026年 第1号"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_announcements",
+    "nea_latest"
+  ],
+  "list_date": "2026-04-28",
+  "first_seen_at": "2026-09-29T08:38:46+00:00",
+  "last_checked_at": "2026-09-29T08:38:46+00:00",
+  "versions": []
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "request_interval_seconds": 3,
+  "timeout_seconds": 30,
+  "max_retries": 3,
+  "known_streak": 10,
+  "columns": [
+    {"source_id":"nea","column_id":"nea_latest","name":"国家能源局·最新文件","adapter":"nea","enabled":true,"url":"https://www.nea.gov.cn/policy/zxwj.htm"},
+    {"source_id":"nea","column_id":"nea_notices","name":"国家能源局·通知","adapter":"nea","enabled":true,"url":"https://www.nea.gov.cn/policy/tz.htm"},
+    {"source_id":"nea","column_id":"nea_announcements","name":"国家能源局·公告","adapter":"nea","enabled":true,"url":"https://www.nea.gov.cn/policy/gg.htm"},
+    {"source_id":"nea","column_id":"nea_interpretations","name":"国家能源局·解读","adapter":"nea","enabled":true,"url":"https://www.nea.gov.cn/policy/jd.htm"},
+    {"source_id":"nf","column_id":"nf_notices","name":"南方监管局·通知公示","adapter":"nf","enabled":true,"url":"https://nfj.nea.gov.cn/xwzx/tzgg/"},
+    {"source_id":"nf","column_id":"nf_regulations","name":"南方监管局·政策法规","adapter":"nf","enabled":true,"url":"https://nfj.nea.gov.cn/xxgk/zcfg/"},
+    {"source_id":"nf","column_id":"nf_interpretations","name":"南方监管局·政策解读","adapter":"nf","enabled":true,"url":"https://nfj.nea.gov.cn/xxgk/zcjd/"},
+    {"source_id":"gd","column_id":"gd_notices","name":"广东省发改委·业务通知","adapter":"gd","enabled":true,"url":"https://drc.gd.gov.cn/ywtz/index.html"},
+    {"source_id":"gd","column_id":"gd_announcements","name":"广东省发改委·业务公告","adapter":"gd","enabled":true,"url":"https://drc.gd.gov.cn/ywgg/index.html"},
+    {"source_id":"gd","column_id":"gd_energy_notices","name":"广东省能源局·通知公告","adapter":"gd","enabled":true,"url":"https://drc.gd.gov.cn/snyj/tzgg/index.html"}
+  ]
+}

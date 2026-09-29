@@ -1,0 +1,79 @@
+{
+  "title": "国家能源局机关2026年度考试录用公务员递补面试公告",
+  "doc_number": null,
+  "issuer": "国家能源局人事司",
+  "publish_date": null,
+  "written_date": "2026-03-18",
+  "content_text": "国家能源局机关2026年度考试录用公务员递补面试公告\n因有考生放弃面试资格，根据公务员考录有关规定，在公共科目笔试合格的考生中，按照笔试成绩从高到低的顺序进行递补，人选名单（同一职位按准考证号排序）如下：\n请递补考生按照《国家能源局机关2026年度考试录用公务员面试公告》要求，尽快准备有关材料，于3月20日17:00前递交相关材料，并按要求参加资格复审和考试。\n联系方式：010-81929731\n国家能源局人事司\n2026年3月18日",
+  "content_status": "partial",
+  "attachments": [
+    {
+      "name": "274ff5c7235a400082dbad1ad28f56c5.png",
+      "url": "https://www.nea.gov.cn/20260318/5a5c0299f8794316ae7a1eb3e6ca59dd/274ff5c7235a400082dbad1ad28f56c5.png",
+      "format": "png",
+      "kind": "inline_image",
+      "size_bytes": 57213,
+      "sha256": "fea8c68618dea4bbdd941f4d1b644bb166f7b97d9ac3eeb2add54e71998e3d32",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260318/5a5c0299f8794316ae7a1eb3e6ca59dd/274ff5c7235a400082dbad1ad28f56c5.png",
+      "content_type": "image/png",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-03-18"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局人事司"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-03-18",
+    "pubdate": "2026-03-18 18:15:49"
+  },
+  "url": "https://www.nea.gov.cn/20260318/5a5c0299f8794316ae7a1eb3e6ca59dd/c.html",
+  "final_url": "https://www.nea.gov.cn/20260318/5a5c0299f8794316ae7a1eb3e6ca59dd/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "444a379061d8092484f9a4e3a2dcef406393e1fc768032ba160757ae8ff1c4d1",
+  "attachments_hash": "d7b92bfdce492c8473e9e4cd7d96e2337eb6cd0bbf338472746eaa7f0e228792",
+  "schema_version": 1,
+  "id": "81946e24432bfb559ae4e350a3f12f481c51f937df37a6abe7c95ebecda50886",
+  "source_id": "nea",
+  "column_id": "nea_announcements",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_announcements",
+      "list_url": "https://www.nea.gov.cn/policy/gg.htm",
+      "list_date": "2026-03-18",
+      "list_date_raw": "2026-03-18 18:21:06",
+      "list_title": "国家能源局机关2026年度考试录用公务员递补面试公告"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-03-18",
+      "list_date_raw": "2026-03-18 18:21:06",
+      "list_title": "国家能源局机关2026年度考试录用公务员递补面试公告"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_announcements",
+    "nea_latest"
+  ],
+  "list_date": "2026-03-18",
+  "first_seen_at": "2026-09-29T08:46:26+00:00",
+  "last_checked_at": "2026-09-29T08:46:26+00:00",
+  "versions": []
+}

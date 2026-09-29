@@ -1,0 +1,58 @@
+{
+  "title": "广东省发展改革委关于已登记政府出资产业投资基金（第九批）的通告",
+  "doc_number": null,
+  "issuer": "广东省发展改革委",
+  "publish_date": "2026-02-06",
+  "written_date": "2026-01-30",
+  "content_text": "根据国家发展改革委《政府出资产业投资基金信用信息登记指引（试行）》（发改办财金规〔2017〕571号），我委组织开展了广东省（不含深圳市）政府出资产业投资基金信用信息登记工作。现将已在全国政府出资产业投资基金信用信息登记系统完成登记的5支政府出资产业投资基金、注销登记的5支基金予以通告。请政府出资产业投资基金按照国家发展改革委有关规定履行登记手续，并规范投资运作。\n附件：广东省发展改革委已登记的政府出资产业投资基金（第九批）\n广东省发展改革委\n2026年1月30日\n附件\n广东省发展改革委已登记的政府出资产业投资基金\n（第九批）\n序号\n基金全称\n设立方所在地\n基金管理人\n1\n珠海基金三期产业投资合伙企业（有限合伙）\n珠海市\n珠海科创海盛创业投资基金管理有限公司\n2\n珠海市金航创业投资基金合伙企业（有限合伙）\n珠海市金湾区\n珠海市金湾金航私募基金管理有限公司\n3\n佛山市南海区蓝海科创天使股权投资基金合伙企业\n（有限合伙）\n佛山市南海区\n广东南控创业投资基金管理有限公司\n4\n中山火炬高新股权投资合伙企业（有限合伙）\n中山市中山火炬开发区\n中山火炬电子产业基金管理有限公司\n5\n广东佛茂产业投资基金合伙企业（有限合伙）\n茂名市\n广东佛高私募基金管理有限公司\n已注销登记基金：\n序号\n基金全称\n原设立方所在地\n基金管理人\n1\n广东粤科惠华电子信息产业创业投资有限公司\n广东省\n广东粤科创业投资管理有限公司\n2\n佛山市南海区双创投资引导基金有限公司\n佛山市南海区\n佛山市南海产业发展投资管理有限公司\n3\n佛山司南芯海股权投资合伙企业（有限合伙）\n佛山市南海区\n杭州司南股权投资有限公司\n4\n东莞市凤岗起航投资合伙企业（有限合伙）\n东莞市凤岗镇\n东莞金控股权投资基金管理有限公司\n5\n湛江中广创业投资有限公司\n湛江市\n广东中广创业投资管理有限公司\n备注：不含政府出资50亿元以上的基金（由国家发展改革委登记）。",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：财政金融处 时间：2026-02-06 17:23:29 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年1月30日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-02-06 17:23:29"
+  },
+  "url": "https://drc.gd.gov.cn/ywgg/content/post_4854097.html",
+  "final_url": "https://drc.gd.gov.cn/ywgg/content/post_4854097.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "a72d53bfe360a0f6344a1ebedf3e26f97cc6e9c7d789b34ccfd3c6901f5c47d3",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "b07a1f3ec7fcb854381cd68b96e7cfb51e0a2a904b8be91b60d40fcad5b40f4f",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2026-02-06",
+      "list_date_raw": "2026-02-06",
+      "list_title": "广东省发展改革委关于已登记政府出资产业投资基金（第九批）的通告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2026-02-06",
+  "first_seen_at": "2026-09-29T08:46:35+00:00",
+  "last_checked_at": "2026-09-29T08:46:35+00:00",
+  "versions": []
+}

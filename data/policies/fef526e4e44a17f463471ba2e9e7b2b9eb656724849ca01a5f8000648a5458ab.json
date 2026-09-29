@@ -1,0 +1,93 @@
+{
+  "title": "广东省发展和改革委员会门户网站工作年度报表（2025年度）",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-01-19",
+  "written_date": null,
+  "content_text": "",
+  "content_status": "image_only",
+  "attachments": [
+    {
+      "name": "图层 1.png",
+      "url": "https://drc.gd.gov.cn/img/1/1569/1569026/4844955.png",
+      "format": "png",
+      "kind": "inline_image",
+      "size_bytes": 155152,
+      "sha256": "130bf5bbc51f1246d3239e3adf8da89278f765ffd7bed213dee7cf79f7d7df65",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/img/1/1569/1569026/4844955.png",
+      "content_type": "image/png",
+      "needs_manual_review": true
+    },
+    {
+      "name": "图层 2.png",
+      "url": "https://drc.gd.gov.cn/img/1/1569/1569027/4844955.png",
+      "format": "png",
+      "kind": "inline_image",
+      "size_bytes": 145305,
+      "sha256": "683ed159a6b1e1c4293f316083768528432431d6202a35e558f471c9859df2b1",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/img/1/1569/1569027/4844955.png",
+      "content_type": "image/png",
+      "needs_manual_review": true
+    },
+    {
+      "name": "图层 3.png",
+      "url": "https://drc.gd.gov.cn/img/1/1569/1569028/4844955.png",
+      "format": "png",
+      "kind": "inline_image",
+      "size_bytes": 99015,
+      "sha256": "40ab5c2a0a522734d6cd5fe2e034dd22324ad56fce66c63e89c5290d0df79f2d",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/img/1/1569/1569028/4844955.png",
+      "content_type": "image/png",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：本网 时间：2026-01-19 15:42:56 字体： [大] [中] [小]"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-01-19 15:42:56"
+  },
+  "url": "https://drc.gd.gov.cn/ywgg/content/post_4844955.html",
+  "final_url": "https://drc.gd.gov.cn/ywgg/content/post_4844955.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "attachments_hash": "0e874ddb2f9996d7ce193b70ef59ab29de8f43281e6bfc8278558c2025b2d3e8",
+  "schema_version": 1,
+  "id": "fef526e4e44a17f463471ba2e9e7b2b9eb656724849ca01a5f8000648a5458ab",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2026-01-19",
+      "list_date_raw": "2026-01-19",
+      "list_title": "广东省发展和改革委员会门户网站工作年度报表（2025年度）"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2026-01-19",
+  "first_seen_at": "2026-09-29T08:38:27+00:00",
+  "last_checked_at": "2026-09-29T08:38:27+00:00",
+  "versions": []
+}

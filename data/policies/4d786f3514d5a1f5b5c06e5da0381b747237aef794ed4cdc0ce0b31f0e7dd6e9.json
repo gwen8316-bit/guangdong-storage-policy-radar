@@ -1,0 +1,46 @@
+{
+  "url": "https://www.nea.gov.cn/20251015/dba54f19344a40498522ff877e1b9e19/c.html",
+  "title": "国家能源局2026年度考试录用公务员公告",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": null,
+  "written_date": null,
+  "content_text": "",
+  "content_status": "failed",
+  "attachments": [],
+  "field_evidence": {},
+  "last_fetch_error": "ValueError: Article body container not recognized; refusing whole-page text",
+  "collection_issues": [
+    {
+      "stage": "detail",
+      "url": "https://www.nea.gov.cn/20251015/dba54f19344a40498522ff877e1b9e19/c.html",
+      "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+    }
+  ],
+  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "4d786f3514d5a1f5b5c06e5da0381b747237aef794ed4cdc0ce0b31f0e7dd6e9",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2025-10-15",
+      "list_date_raw": "2025-10-15 17:02:20",
+      "list_title": "国家能源局2026年度考试录用公务员公告"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest"
+  ],
+  "list_date": "2025-10-15",
+  "first_seen_at": "2026-09-29T09:01:35+00:00",
+  "last_checked_at": "2026-09-29T09:01:35+00:00",
+  "versions": []
+}

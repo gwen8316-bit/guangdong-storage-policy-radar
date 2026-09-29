@@ -1,0 +1,92 @@
+{
+  "nea_latest": {
+    "name": "国家能源局·最新文件",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  },
+  "nea_notices": {
+    "name": "国家能源局·通知",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  },
+  "nea_announcements": {
+    "name": "国家能源局·公告",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  },
+  "nea_interpretations": {
+    "name": "国家能源局·解读",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  },
+  "nf_notices": {
+    "name": "南方监管局·通知公示",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  },
+  "nf_regulations": {
+    "name": "南方监管局·政策法规",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  },
+  "nf_interpretations": {
+    "name": "南方监管局·政策解读",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  },
+  "gd_notices": {
+    "name": "广东省发改委·业务通知",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  },
+  "gd_announcements": {
+    "name": "广东省发改委·业务公告",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  },
+  "gd_energy_notices": {
+    "name": "广东省能源局·通知公告",
+    "last_run_id": "20260929T082719-backfill",
+    "last_attempt_at": "2026-09-29T08:29:03+00:00",
+    "last_success_at": null,
+    "consecutive_failures": 0,
+    "last_errors": [],
+    "status": "ok"
+  }
+}

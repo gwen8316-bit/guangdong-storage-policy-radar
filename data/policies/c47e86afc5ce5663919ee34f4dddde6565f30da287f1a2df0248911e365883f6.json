@@ -1,0 +1,83 @@
+{
+  "title": "国家能源局关于印发《油气管网设施公平开放信息公开与报送办法》的通知",
+  "doc_number": "国能发监管规〔2026〕60号",
+  "issuer": "国家能源局",
+  "publish_date": null,
+  "written_date": "2026-09-01",
+  "content_text": "国家能源局关于印发《油气管网设施公平开放信息公开与报送办法》的通知\n国能发监管规〔2026〕60号\n各省（自治区、直辖市）能源局，有关省（自治区、直辖市）及新疆生产建设兵团发展改革委，国家能源局各派出机构，中国石油天然气集团有限公司、中国石油化工集团有限公司、中国海洋石油集团有限公司‌、国家石油天然气管网集团有限公司，有关油气企业：\n为落实《中华人民共和国能源法》《油气管网设施公平开放监管办法》有关要求，进一步规范油气管网设施运营企业信息公开与报送行为，我们制定了《油气管网设施公平开放信息公开与报送办法》，现印发给你们，请遵照执行。\n国家能源局\n2026年9月1日\n附件：油气管网设施公平开放信息公开与报送办法\n政策解读：《油气管网设施公平开放信息公开与报送办法》",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "油气管网设施公平开放信息公开与报送办法",
+      "url": "https://www.nea.gov.cn/20260909/22d62e1a042a420c846f7598589136e2/2026090922d62e1a042a420c846f7598589136e2_45098f5b3ef9b94d3bb9cd6f2c2fee9298.wps",
+      "format": "wps",
+      "kind": "attachment",
+      "size_bytes": 50176,
+      "sha256": "637e9b5edaf96f52100e8504d42da918a1094a4f4e8f05e08ae1231148879cac",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260909/22d62e1a042a420c846f7598589136e2/2026090922d62e1a042a420c846f7598589136e2_45098f5b3ef9b94d3bb9cd6f2c2fee9298.wps",
+      "content_type": "application/octet-stream",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-09-01"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "国能发监管规〔2026〕60号"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-09-01",
+    "pubdate": "2026-09-01 00:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260909/22d62e1a042a420c846f7598589136e2/c.html",
+  "final_url": "https://www.nea.gov.cn/20260909/22d62e1a042a420c846f7598589136e2/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "22c64847eb3d8e0d338e406695bfbe552f72fa19e1664aca31e5c4777f9b38c9",
+  "attachments_hash": "f24dcab2f615c95292b36e4dbb5babedcc38708163e9428f25bc779113723e71",
+  "schema_version": 1,
+  "id": "c47e86afc5ce5663919ee34f4dddde6565f30da287f1a2df0248911e365883f6",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-09-09",
+      "list_date_raw": "2026-09-09 22:53:26",
+      "list_title": "国家能源局关于印发《油气管网设施公平开放信息公开与报送办法》的通知"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_notices",
+      "list_url": "https://www.nea.gov.cn/policy/tz.htm",
+      "list_date": "2026-09-09",
+      "list_date_raw": "2026-09-09 22:53:26",
+      "list_title": "国家能源局关于印发《油气管网设施公平开放信息公开与报送办法》的通知"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest",
+    "nea_notices"
+  ],
+  "list_date": "2026-09-09",
+  "first_seen_at": "2026-09-29T08:30:53+00:00",
+  "last_checked_at": "2026-09-29T08:30:53+00:00",
+  "versions": []
+}

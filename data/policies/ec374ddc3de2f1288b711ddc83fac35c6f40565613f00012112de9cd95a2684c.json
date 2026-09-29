@@ -1,0 +1,114 @@
+{
+  "title": "广东省发展改革委关于印发10千伏及以上新能源可持续发展价格结算机制存量项目清单的通知",
+  "doc_number": "粤发改能源函〔2026〕1324号",
+  "issuer": "广东省发展改革委",
+  "publish_date": "2026-07-27",
+  "written_date": "2026-07-23",
+  "content_text": "粤发改能源函〔2026〕1324号\n广东电网公司、深圳供电局，各地级以上市发展改革局（委）、惠州市能源和重点项目局，横琴粤澳深度合作区发展改革和统计局，各有关企业：\n根据《国家发展改革委 国家能源局关于深化新能源上网电价市场化改革 促进新能源高质量发展的通知》（发改价格〔2025〕136号）、《广东省发展改革委 广东省能源局关于印发〈关于深化新能源上网电价市场化改革促进新能源高质量发展的实施方案〉的通知》（粤发改价格〔2025〕263号）、《广东省发展改革委关于申报新能源可持续发展价格结算机制存量项目的通知》（粤发改能源函〔2025〕1633号）等要求，我委组织各地申报并网电压等级10千伏及以上的新能源可持续发展价格结算机制存量项目，经省、市能源主管部门及电网企业联合核实确认、对外公示及异议修正完善后，现将项目清单予以印发。\n前期漏报项目，请有关企业于8月底前将项目信息及资料报送至属地能源主管部门。各地级以上市能源主管部门会同属地电网企业认真开展信息审核和公示，于9月底前报送省发展改革委（能源局），省发展改革委（能源局）将会同广东电网公司、深圳供电局复核后印发增补项目清单。\n附件：1.广东省纳入新能源可持续发展价格结算机制存量项目（10千伏及以上的海上风电、陆上风电）清单\n2.广东省纳入新能源可持续发展价格结算机制存量项目（10千伏及以上的集中式光伏）清单\n3.广东省纳入新能源可持续发展价格结算机制存量项目（10千伏及以上的分布式光伏）清单\n广东省发展改革委\n2026年7月23日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件1：广东省纳入新能源可持续发展价格结算机制存量项目（10千伏及以上的海上风电、陆上风电）清单.xlsx",
+      "url": "https://drc.gd.gov.cn/attachment/0/620/620659/4933958.xlsx",
+      "format": "xlsx",
+      "kind": "attachment",
+      "size_bytes": 74752,
+      "sha256": "5e482717a33732351214d432dfbb44cb08e74135cfde81c9f57a994bf9b64362",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "legacy_or_encrypted_ole_container",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/620/620659/4933958.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "detected_format": "ole_binary",
+      "needs_manual_review": true
+    },
+    {
+      "name": "附件2：广东省纳入新能源可持续发展价格结算机制存量项目（10千伏及以上的集中式光伏）清单.xlsx",
+      "url": "https://drc.gd.gov.cn/attachment/0/620/620658/4933958.xlsx",
+      "format": "xlsx",
+      "kind": "attachment",
+      "size_bytes": 76800,
+      "sha256": "fcbab4d2410ba81c55ea0a3c2a28255547992048d5acb7bdb0eea9998e0af38e",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "legacy_or_encrypted_ole_container",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/620/620658/4933958.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "detected_format": "ole_binary",
+      "needs_manual_review": true
+    },
+    {
+      "name": "附件3：广东省纳入新能源可持续发展价格结算机制存量项目（10千伏及以上的分布式光伏）清单.xlsx",
+      "url": "https://drc.gd.gov.cn/attachment/0/620/620657/4933958.xlsx",
+      "format": "xlsx",
+      "kind": "attachment",
+      "size_bytes": 644096,
+      "sha256": "88fec686fe2943bbb8eebe6ab40ebc06ad939d50ac2c45403aba65652858076e",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "legacy_or_encrypted_ole_container",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/620/620657/4933958.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "detected_format": "ole_binary",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：广东省能源局 时间：2026-07-27 15:45:28 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年7月23日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "粤发改能源函〔2026〕1324号"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-07-27 15:45:28"
+  },
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4933958.html",
+  "final_url": "https://drc.gd.gov.cn/ywtz/content/post_4933958.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "26cb18b0bec9a4670b13c84af49c363a902b5008c54a78b00fa7dc9852907380",
+  "attachments_hash": "a9171075a33800ed1ce2e517c735f7293c06833473d4a591c180d7bcc57d3eac",
+  "schema_version": 1,
+  "id": "ec374ddc3de2f1288b711ddc83fac35c6f40565613f00012112de9cd95a2684c",
+  "source_id": "gd",
+  "column_id": "gd_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_notices",
+      "list_url": "https://drc.gd.gov.cn/ywtz/index.html",
+      "list_date": "2026-07-27",
+      "list_date_raw": "2026-07-27",
+      "list_title": "广东省发展改革委关于印发10千伏及以上新能源可持续发展价格结算机制存量项目清单的通知"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_notices"
+  ],
+  "list_date": "2026-07-27",
+  "first_seen_at": "2026-09-29T08:30:52+00:00",
+  "last_checked_at": "2026-09-29T08:57:33+00:00",
+  "versions": [
+    {
+      "changed_at": "2026-09-29T08:57:33+00:00",
+      "old_content_hash": "26cb18b0bec9a4670b13c84af49c363a902b5008c54a78b00fa7dc9852907380",
+      "old_attachments_hash": "958f524297b9f8e94756d750066cb6fa030131c505fb1430bdfd9f8ecf381a60"
+    }
+  ]
+}

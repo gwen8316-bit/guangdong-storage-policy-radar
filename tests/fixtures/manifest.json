@@ -1,0 +1,49 @@
+[
+  {
+    "file": "nf-list.html",
+    "url": "https://nfj.nea.gov.cn/xwzx/tzgg/",
+    "fetched_at": "2026-09-29T08:18:08.044982+00:00"
+  },
+  {
+    "file": "gd-list.html",
+    "url": "https://drc.gd.gov.cn/ywtz/index.html",
+    "fetched_at": "2026-09-29T08:18:14.208953+00:00"
+  },
+  {
+    "file": "nea-detail.html",
+    "url": "http://www.nea.gov.cn/20260928/ccc0e6f629384053b0bf50cc3f018187/c.html",
+    "fetched_at": "2026-09-29T08:18:19.964247+00:00"
+  },
+  {
+    "file": "nf-detail.html",
+    "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202609/t20260921_309284.html",
+    "fetched_at": "2026-09-29T08:18:25.996040+00:00"
+  },
+  {
+    "file": "gd-detail.html",
+    "url": "https://drc.gd.gov.cn/ywtz/content/post_4960402.html",
+    "fetched_at": "2026-09-29T08:18:32.074327+00:00"
+  },
+  {
+    "file": "gd-image.html",
+    "url": "https://drc.gd.gov.cn/ywgg/content/post_4844955.html",
+    "fetched_at": "2026-09-29T08:18:38.132614+00:00"
+  },
+  {
+    "file": "nea-interpretation.html",
+    "url": "https://www.nea.gov.cn/20260909/732c6c6f0b77483ba008ca979b49234d/c.html",
+    "fetched_at": "2026-09-29T08:18:44.124264+00:00"
+  },
+  {
+    "file": "gd-consultation.html",
+    "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/52742",
+    "fetched_at": "2026-09-29T08:56:41+00:00",
+    "note": "Public CSRF nonce redacted from consultation fixture; no authenticated requests."
+  },
+  {
+    "file": "nea-attachment-landing.html",
+    "url": "https://www.nea.gov.cn/20260520/a842d14ccabc461292fa190e6618bb60/c.html",
+    "fetched_at": "2026-09-29T08:56:41+00:00",
+    "note": "Public CSRF nonce redacted from consultation fixture; no authenticated requests."
+  }
+]

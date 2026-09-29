@@ -1,0 +1,62 @@
+{
+  "title": "广东省发展改革委关于印发2025年度广东省发展和改革委员会优秀研究成果奖获奖名单的通知",
+  "doc_number": "粤发改研究函〔2026〕850号",
+  "issuer": "广东省发展改革委",
+  "publish_date": "2026-05-28",
+  "written_date": "2026-05-22",
+  "content_text": "粤发改研究函〔2026〕850号\n各地级以上市发展改革局（委）：\n根据《广东省发展和改革委员会优秀研究成果奖奖励办法》相关规定，现将2025年度广东省发展和改革委员会优秀研究成果奖获奖名单予以公布。\n广东省发展改革委\n2026年5月22日\n2025年度广东省发展和改革委员会优秀研究成果奖获奖名单\n一 等 奖（1名）\n项目名称：广东生物医药产业发展思路及对策研究\n主要完成单位：广东省发展和改革研究院\n主要完成人：何光军 陈亚文 刘斯祺 卢秋颖 张轶群 刘伊凡\n二 等 奖（2名）\n（1）项目名称：加快推进广东制造服务业高质量发展对策研究\n主要完成单位：广东省发展和改革研究院\n广州城建职业学院\n主要完成人：蔡志敏 李昭琴 张 婕 罗俊銮 吴欣欣 王 斌 谢诗韵\n（2）项目名称：新时期深圳海洋经济高质量发展路径研究\n主要完成单位：深圳国家高技术产业创新中心（深圳发展改革研究院）\n主要完成人：陈毓敏 陈炳鑫 李雨珊 梁 红 杨左喆 陈 佳 赖敏斌\n三 等 奖（3名）\n（1）项目名称：深化县域多元化投融资体制改革 助力“百千万工程”纵深推进的对策研究\n主要完成单位：广东省发展和改革研究院\n广东省发展和改革委员会固定资产投资处\n主要完成人：张浩良 杨 瀚 龚 磊 王喜凤 古 弘\n（2）项目名称：全链条推进废弃物回收循环利用的对策建议\n主要完成单位：广东省发展和改革委员会资源节约和环境保护处\n广东省清洁生产协会\n主要完成人：肖佳妮 阎晓东 陈 鹏 简 威 禤鹏翔\n（3）项目名称：广东民间投资和民营企业发展的问题和建议\n主要完成单位：广东省发展和改革委员会体制改革综合处\n广东中大管理咨询集团股份有限公司\n主要完成人：黄华东 李刚超 尤萱文 解慧敏 臧蚨丰",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：省发展改革研究院 时间：2026-05-28 15:01:44 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年5月22日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "粤发改研究函〔2026〕850号"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-05-28 15:01:44"
+  },
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4903311.html",
+  "final_url": "https://drc.gd.gov.cn/ywtz/content/post_4903311.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "dab324ef548524e0bb2e6416be01335fdb9215f9fee2e40ce962baf4f39cbb3e",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "985e72e2fdbd77f3936a796b0508eb281376affe6d4e5e89bc459fa2a1cd4b04",
+  "source_id": "gd",
+  "column_id": "gd_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_notices",
+      "list_url": "https://drc.gd.gov.cn/ywtz/index.html",
+      "list_date": "2026-05-28",
+      "list_date_raw": "2026-05-28",
+      "list_title": "广东省发展改革委关于印发2025年度广东省发展和改革委员会优秀研究成果奖获奖名单的通知"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_notices"
+  ],
+  "list_date": "2026-05-28",
+  "first_seen_at": "2026-09-29T08:31:23+00:00",
+  "last_checked_at": "2026-09-29T08:31:23+00:00",
+  "versions": []
+}

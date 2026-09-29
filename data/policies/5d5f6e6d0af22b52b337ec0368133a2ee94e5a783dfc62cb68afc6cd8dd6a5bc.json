@@ -1,0 +1,90 @@
+{
+  "title": "关于印发《核电厂退役准备管理暂行办法》的通知(发改能源规〔2026〕582号)",
+  "doc_number": "发改能源规〔2026〕582号",
+  "issuer": "国家发展改革委",
+  "publish_date": null,
+  "written_date": "2026-04-23",
+  "content_text": "国家发展改革委等关于印发《核电厂退役准备管理暂行办法》的通知\n发改能源规〔2026〕582号\n中国核工业集团有限公司、中国华能集团有限公司、国家电力投资集团有限公司、中国广核集团有限公司：\n为加强核电厂建设运行全寿期管理，规范做好核电厂退役准备工作，保障核电长远可持续发展，根据《中华人民共和国能源法》等有关法律法规，国家发展改革委、国家能源局、财政部、生态环境部制定了《核电厂退役准备管理暂行办法》。现印发给你们，请遵照执行。\n国家发展改革委\n国 家 能 源 局\n财 政 部\n生 态 环 境 部\n2026年4月23日\n附件：\n《核电厂退役准备管理暂行办法》.pdf\n相关政策与解读\n国家能源局有关负责同志就《核电厂退役准备管理暂行办法》答记者问",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "《核电厂退役准备管理暂行办法》.pdf",
+      "url": "https://www.nea.gov.cn/20260520/a842d14ccabc461292fa190e6618bb60/c.html",
+      "format": "html",
+      "kind": "attachment",
+      "size_bytes": 14707,
+      "sha256": "8cb51d31f26c35a922986b0c92e817be5900bf3db77716c7b0bc93eacc3dae4e",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "attachment_link_returns_html",
+      "final_url": "https://www.nea.gov.cn/20260520/a842d14ccabc461292fa190e6618bb60/c.html",
+      "content_type": "text/html",
+      "declared_format": "pdf",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-04-23"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家发展改革委"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "发改能源规〔2026〕582号"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-04-23",
+    "pubdate": "2026-04-23 00:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260520/a22de981227546a796cec0be978f0d27/c.html",
+  "final_url": "https://www.nea.gov.cn/20260520/a22de981227546a796cec0be978f0d27/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "8c014556c58c507396aefb98a7f18a9bc88792afc76f3ea8910ca399ba83215f",
+  "attachments_hash": "5cf99cf023aaa016d1a31dd0a47da3a960eeb52352bc456b6c7fc217bc76e10e",
+  "schema_version": 1,
+  "id": "5d5f6e6d0af22b52b337ec0368133a2ee94e5a783dfc62cb68afc6cd8dd6a5bc",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-05-20",
+      "list_date_raw": "2026-05-20 11:17:37",
+      "list_title": "关于印发《核电厂退役准备管理暂行办法》的通知(发改能源规〔2026〕582号)"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_notices",
+      "list_url": "https://www.nea.gov.cn/policy/tz.htm",
+      "list_date": "2026-05-20",
+      "list_date_raw": "2026-05-20 11:17:37",
+      "list_title": "关于印发《核电厂退役准备管理暂行办法》的通知(发改能源规〔2026〕582号)"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest",
+    "nea_notices"
+  ],
+  "list_date": "2026-05-20",
+  "first_seen_at": "2026-09-29T08:38:31+00:00",
+  "last_checked_at": "2026-09-29T08:57:35+00:00",
+  "versions": [
+    {
+      "changed_at": "2026-09-29T08:57:35+00:00",
+      "old_content_hash": "8c014556c58c507396aefb98a7f18a9bc88792afc76f3ea8910ca399ba83215f",
+      "old_attachments_hash": "85368e3f1cdcc28758b266c43f0203f01418f91ee06fd75d9d287ead884e387b"
+    }
+  ]
+}

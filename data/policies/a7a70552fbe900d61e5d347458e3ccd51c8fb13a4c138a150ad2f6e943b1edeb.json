@@ -1,0 +1,74 @@
+{
+  "title": "广东省发展和改革委员会 广东省工业和信息化厅 广东省生态环境厅 广东省能源局关于印发《广东省零碳园区建设方案》的通知",
+  "doc_number": null,
+  "issuer": "广东省发展和改革委员会 广东省工业和信息化厅；广东省生态环境厅 广东省能源局",
+  "publish_date": "2025-12-12",
+  "written_date": "2025-11-29",
+  "content_text": "省有关单位，各地级以上市发展改革局（委）、工业和信息化局、生态环境局，惠州市能源和重点项目局：\n为贯彻落实党中央、国务院决策部署和省委、省政府部署要求，加快建设一批零碳园区，为促进我省经济社会发展全面绿色转型、确保如期实现碳达峰碳中和目标提供有力支撑，省发展改革委、工业和信息化厅、生态环境厅、能源局研究制定了《广东省零碳园区建设方案》（以下简称《建设方案》），现印发给你们，请结合实际抓好贯彻落实。请各地市按照《建设方案》要求，抓紧组织建设意愿强、基础条件好的园区申报第一批省级零碳园区，相关推荐材料于12月25日（星期四）前报送省发展改革委，同步抄送省工业和信息化厅、生态环境厅、能源局。\n广东省发展和改革委员会 广东省工业和信息化厅\n广东省生态环境厅 广东省能源局\n2025年11月29日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "广东省零碳园区建设方案.pdf",
+      "url": "https://drc.gd.gov.cn/attachment/0/600/600918/4828441.pdf",
+      "format": "pdf",
+      "kind": "attachment",
+      "size_bytes": 3226715,
+      "sha256": "78313cc0b39d95414b60f5017a7b2a030ba33807bf44a9ce6fa80589dc0e3f26",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "image_pages_without_ocr:29",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/600/600918/4828441.pdf",
+      "content_type": "application/pdf",
+      "page_count": 29,
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：资源节约与环境保护处 时间：2025-12-12 11:23:16 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2025年11月29日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展和改革委员会 广东省工业和信息化厅；广东省生态环境厅 广东省能源局"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2025-12-12 11:23:16"
+  },
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4828441.html",
+  "final_url": "https://drc.gd.gov.cn/ywtz/content/post_4828441.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "abd287fe89aa7998785bda582c50ee72d5325a095f6a0f3f635c5f69995f72ba",
+  "attachments_hash": "1fc0cfb97fa25635bcc3620fdaaf48e812384435728eedf48cd52c41420a6371",
+  "schema_version": 1,
+  "id": "a7a70552fbe900d61e5d347458e3ccd51c8fb13a4c138a150ad2f6e943b1edeb",
+  "source_id": "gd",
+  "column_id": "gd_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_notices",
+      "list_url": "https://drc.gd.gov.cn/ywtz/index.html",
+      "list_date": "2025-12-12",
+      "list_date_raw": "2025-12-12",
+      "list_title": "广东省发展和改革委员会 广东省工业和信息化厅 广东省生态环境厅 广东省能源局关于印发《广东省零碳园区建设方案》的通知"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_notices"
+  ],
+  "list_date": "2025-12-12",
+  "first_seen_at": "2026-09-29T08:35:47+00:00",
+  "last_checked_at": "2026-09-29T08:35:47+00:00",
+  "versions": []
+}

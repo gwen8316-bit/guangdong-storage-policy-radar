@@ -1,0 +1,83 @@
+{
+  "title": "《中国供电发展报告（2026）》",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": null,
+  "written_date": "2026-07-01",
+  "content_text": "《中国供电发展报告（2026）》.pdf",
+  "content_status": "partial",
+  "attachments": [
+    {
+      "name": "《中国供电发展报告（2026）》.pdf",
+      "url": "https://www.nea.gov.cn/20260701/52eef0c7dc2c43968e411487618aaf06/zggdfzbg2026.pdf",
+      "format": "pdf",
+      "kind": "attachment",
+      "size_bytes": 16174009,
+      "sha256": "4b2a65b2b6dfcb7382f14e65334ac342e7c1283aafdc1d04f416630178067e3d",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "image_pages_without_ocr:4",
+      "final_url": "https://www.nea.gov.cn/20260701/52eef0c7dc2c43968e411487618aaf06/zggdfzbg2026.pdf",
+      "content_type": "application/pdf",
+      "page_count": 66,
+      "parser": "pdfium2",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-07-01"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-07-01",
+    "pubdate": "2026-07-01 10:05:10"
+  },
+  "url": "https://www.nea.gov.cn/20260701/52eef0c7dc2c43968e411487618aaf06/c.html",
+  "final_url": "https://www.nea.gov.cn/20260701/52eef0c7dc2c43968e411487618aaf06/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "7b82ad4c5ba31a9f7b2f092c7a3cdbc6c783e28098a749c72b8c337f48a9b7ac",
+  "attachments_hash": "67f7c5c44e7f3632ddc427b810a06c39244e2aea1df3cfb91c7930401143430f",
+  "schema_version": 1,
+  "id": "7acda350df8358a7ae0d54e60716ac5bc884157c4c96c43d8598c929fc17a870",
+  "source_id": "nea",
+  "column_id": "nea_announcements",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_announcements",
+      "list_url": "https://www.nea.gov.cn/policy/gg.htm",
+      "list_date": "2026-07-01",
+      "list_date_raw": "2026-07-01 10:05:09",
+      "list_title": "《中国供电发展报告（2026）》"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-07-01",
+      "list_date_raw": "2026-07-01 10:05:09",
+      "list_title": "《中国供电发展报告（2026）》"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_announcements",
+    "nea_latest"
+  ],
+  "list_date": "2026-07-01",
+  "first_seen_at": "2026-09-29T08:36:19+00:00",
+  "last_checked_at": "2026-09-29T08:57:38+00:00",
+  "versions": [
+    {
+      "changed_at": "2026-09-29T08:57:38+00:00",
+      "old_content_hash": "7b82ad4c5ba31a9f7b2f092c7a3cdbc6c783e28098a749c72b8c337f48a9b7ac",
+      "old_attachments_hash": "eff4cbcc34870bf7756d129bfa9f975548cbdbb1419c89c136365a4da25349e7"
+    }
+  ]
+}

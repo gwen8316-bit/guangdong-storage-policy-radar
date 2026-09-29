@@ -1,0 +1,87 @@
+{
+  "title": "广东省发展改革委关于申报2027年度省级基建投资及配套补助资金的通知",
+  "doc_number": null,
+  "issuer": "广东省发展改革委",
+  "publish_date": "2026-06-16",
+  "written_date": "2026-06-16",
+  "content_text": "汕头、韶关、河源、梅州、惠州、汕尾、阳江、湛江、茂名、肇庆、清远、潮州、揭阳、云浮市发展改革局：\n根据《广东省财政厅关于做好2027年省级财政资金项目入库储备工作的通知》（粤财预〔2026〕43号）要求，现请你们抓紧报送本地区2027年度省级基建投资及配套补助资金需求计划。有关事项明确如下：\n一、支持范围\n（一）时限范围。自2026年省级基建投资及配套补助资金申报截止日期（暨2025年6月30日）之后至2026年6月30日前，在此期间内已下达中央预算内投资计划的项目。\n（二）地域范围。仅补助沿海经济带东西两翼、北部生态发展区以及老区苏区。\n（三）项目范围。仅保障首次获得中央预算内投资支持的政府投资项目。经与省财政厅衔接，纳入省级涉农资金补助的高标准基本农田建设、农村产业融合发展示范园等农业领域项目，以及防灾减灾与灾后恢复重建领域项目，不在省级基建投资及配套补助资金的保障范围内。\n二、补助标准\n经认定符合条件的中央预算内投资项目，区分是否属于老区苏区，由省级基建投资及配套补助资金按以下标准予以支持：\n（一）老区苏区项目。原则上，省级基建投资及配套补助资金，按照项目所获得中央预算内投资金额不超过1:1的比例给予补助。包含项目获得的中央预算内投资、其他中央补助资金、省级基建投资及配套补助资金，以及其他省级财政补助资金在内的省级以上补助资金，不得超过项目总投资额。\n（二）非老区苏区项目。原则上，包含项目获得的中央预算内投资、其他中央补助资金、省级基建投资及配套补助资金以及其他省级财政补助资金在内的省级以上补助资金，不得超过项目总投资额的70%。其中，省级基建投资及配套补助资金具体安排金额，根据资金额度盘子与实际需求测算确定。\n三、工作要求\n请各地市发展改革局会同财政及相关行业主管部门，对照支持范围和补助标准，抓紧梳理项目实施情况，填写《2027年度省级基建投资及配套补助资金需求计划申报表》（附件1）、《2027年度省级基建投资及配套补助资金绩效目标表》（附件2）、《省级基建投资及配套补助资金二级项目入库申报表》（附件3），备齐佐证材料，形成本市资金需求计划，加盖单位公章，于6月23日（星期二）前报送我委（固定资产投资处），同步将可编辑版材料及佐证材料发至联系人粤政易。\n附件：1. 2027年度省级基建投资及配套补助资金需求计划申报表\n2. 2027年度省级基建投资及配套补助资金绩效目标表\n3. 省级基建投资及配套补助资金二级项目入库申报表\n广东省发展改革委\n2026年6月16日\n（联系人及电话：陈周涛，020-83133157；孟令野，020-83133152）",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件1：2027年度省级基建投资及配套补助资金需求计划申报表.xls",
+      "url": "https://drc.gd.gov.cn/attachment/0/617/617272/4912671.xls",
+      "format": "xls",
+      "kind": "attachment",
+      "size_bytes": 14336,
+      "sha256": "bc065ef394e32d80fa5d8f02bb1035fc45a62ce7c1ac78086f2fe14c1ba03bbb",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/617/617272/4912671.xls",
+      "content_type": "application/vnd.ms-excel",
+      "needs_manual_review": true
+    },
+    {
+      "name": "附件2：2027年度省级基建投资及配套补助资金绩效目标表.xls",
+      "url": "https://drc.gd.gov.cn/attachment/0/617/617273/4912671.xls",
+      "format": "xls",
+      "kind": "attachment",
+      "size_bytes": 14336,
+      "sha256": "232618ba53cb0e7608f0e2fffdb757a43989bd0b50999d9fa99eafcb80c43ee3",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/617/617273/4912671.xls",
+      "content_type": "application/vnd.ms-excel",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：固定资产投资处 时间：2026-06-16 18:53:07 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年6月16日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-06-16 18:53:07"
+  },
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4912671.html",
+  "final_url": "https://drc.gd.gov.cn/ywtz/content/post_4912671.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "002867bb5f0c2d6895a03076eeb4a63fa423dd1c9623df0d3d0a4c3124a4f90f",
+  "attachments_hash": "d8631b4a9bf011ccc70686bf85e56813097f121909cf35fe3f6a5538a31b8619",
+  "schema_version": 1,
+  "id": "714cb3fc8d764bfa2a6fa99db249162e82fff677912c7f2f032ea4b120c285ea",
+  "source_id": "gd",
+  "column_id": "gd_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_notices",
+      "list_url": "https://drc.gd.gov.cn/ywtz/index.html",
+      "list_date": "2026-06-16",
+      "list_date_raw": "2026-06-16",
+      "list_title": "广东省发展改革委关于申报2027年度省级基建投资及配套补助资金的通知"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_notices"
+  ],
+  "list_date": "2026-06-16",
+  "first_seen_at": "2026-09-29T08:31:00+00:00",
+  "last_checked_at": "2026-09-29T08:31:00+00:00",
+  "versions": []
+}

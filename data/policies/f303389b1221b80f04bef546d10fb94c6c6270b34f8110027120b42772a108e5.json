@@ -1,0 +1,62 @@
+{
+  "title": "关于做好2026年享受税收优惠政策的集成电路企业或项目、软件企业清单制定工作的通知",
+  "doc_number": "粤发改高技函〔2026〕581号",
+  "issuer": "广东省发展改革委",
+  "publish_date": "2026-04-15",
+  "written_date": "2026-04-14",
+  "content_text": "粤发改高技函〔2026〕581号\n各地级以上市发展改革局（委）、工业和信息化局，有关行业协会：\n根据《国家发展改革委等部门关于做好2026年享受税收优惠政策的集成电路企业或项目、软件企业清单制定工作的通知》（发改高技〔2026〕487号，已在国家发展改革委门户网站公开，见附件）要求，为做好我省清单制定工作，经商省工业和信息化厅，现就有关事项通知如下：\n一、做好政策宣传工作。请各地级以上市发展改革局（委）、工业和信息化局，有关行业协会充分利用门户网站、园区、信息平台等广泛宣传政策，企业不分所有制性质，应知尽知。要指导企业根据国家要求对号入座，应享尽享，避免一些企业因不了解政策错过申报期。\n二、按时提交材料。对符合要求的集成电路企业或项目、软件企业，请于4月19日前在信息填报系统中提交申请。其中，集成电路企业或项目需将必要佐证材料（电子版、纸质版）提交省集成电路行业协会；软件企业需将必要佐证材料（电子版、纸质版）提交省软件行业协会。\n附件：发改高技〔2026〕487号\n广东省发展改革委\n2026年4月14日\n（联系人及电话：省发展改革委虞佳杰，020-83138698；省工业和信息化厅潘志斌，020-83133392；黄志鹏，020-83132895；省集成电路行业协会蒋振韬，020-82110975、13642313065；省软件行业协会张玩春，020-38263353、18122329018；朱莉，020-38263531、18988972328）",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：产业发展处 时间：2026-04-15 17:52:42 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年4月14日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "粤发改高技函〔2026〕581号"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-04-15 17:52:42"
+  },
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4884711.html",
+  "final_url": "https://drc.gd.gov.cn/ywtz/content/post_4884711.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "6f4652051497957906d01bb382e38d68c94eca9a06b467e5b532c57f674ddfd1",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "f303389b1221b80f04bef546d10fb94c6c6270b34f8110027120b42772a108e5",
+  "source_id": "gd",
+  "column_id": "gd_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_notices",
+      "list_url": "https://drc.gd.gov.cn/ywtz/index.html",
+      "list_date": "2026-04-15",
+      "list_date_raw": "2026-04-15",
+      "list_title": "关于做好2026年享受税收优惠政策的集成电路企业或项目、软件企业清单制定工作的通知"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_notices"
+  ],
+  "list_date": "2026-04-15",
+  "first_seen_at": "2026-09-29T08:33:16+00:00",
+  "last_checked_at": "2026-09-29T08:33:16+00:00",
+  "versions": []
+}

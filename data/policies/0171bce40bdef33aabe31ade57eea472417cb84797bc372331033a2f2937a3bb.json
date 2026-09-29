@@ -1,0 +1,55 @@
+{
+  "title": "国家能源局关于成立第三届核电厂消防专家委员会的通知",
+  "doc_number": null,
+  "issuer": "国家能源局",
+  "publish_date": null,
+  "written_date": "2026-05-29",
+  "content_text": "国家能源局关于成立第三届核电厂消防专家委员会的通知\n国能发核电﹝2026﹞43号\n各有关单位：\n第二届核电厂消防专家委员会任期届满。经研究，决定成立第三届核电厂消防专家委员会，现将有关事项通知如下。\n一、主要职责\n支持核电厂消防监督管理工作，为核电厂消防法规标准制（修）订、消防设计审查和验收、消防监督检查等提供专家咨询、审议意见和工作建议。\n二、组成人员\n主 任：赵学顺 国家能源局\n副主任：朱国庆 中国矿业大学\n宋卫国 中国科学技术大学\n姜 波 中国核电发展中心\n委 员：（按姓氏笔画排序）\n于得义 华能山东石岛湾核电有限公司\n王 辉 山东核电有限公司\n王卫东 中广核惠州核电有限公司\n王宗存 应急管理部天津消防研究所\n王煜宏 深圳中广核工程设计有限公司\n石 琦 中核能源科技有限公司\n申凤阳 中国原子能科学研究院\n付俊伟 台山核电合营有限公司\n李 进 原北京市公安消防总队\n李 苗 中国建筑科学研究院有限公司\n李 娟 生态环境部核与辐射安全中心\n李武全 电力规划设计总院\n杨义新 国核示范电站有限责任公司\n杨佳庆 应急管理部上海消防研究所\n吴明亮 江苏核电有限公司\n何学超 应急管理部四川消防研究所\n张劲松 辽宁红沿河核电有限公司\n赵光辉 华龙国际核电技术有限公司\n赵喜栓 中核核电运行管理有限公司\n姚 军 中国国际工程咨询有限公司\n郭志伟 烟台众创核电研发中心\n堵树宏 中国核电工程有限公司\n葛鸿辉 上海核工程研究设计院股份有限公司\n请各有关单位对核电厂消防专家委员会的工作给予支持，保障专家委员会活动正常开展。\n特此通知。\n国家能源局\n2026年5月29日",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-05-29"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-05-29",
+    "pubdate": "2026-05-29 00:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260610/7f6997c305864714a5d10df47948f72d/c.html",
+  "final_url": "https://www.nea.gov.cn/20260610/7f6997c305864714a5d10df47948f72d/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "f669ba9ea987e56807a2c692a72a161f0227857d67f28ed65408a0fecb94c477",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "0171bce40bdef33aabe31ade57eea472417cb84797bc372331033a2f2937a3bb",
+  "source_id": "nea",
+  "column_id": "nea_notices",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_notices",
+      "list_url": "https://www.nea.gov.cn/policy/tz.htm",
+      "list_date": "2026-06-10",
+      "list_date_raw": "2026-06-10 14:21:50",
+      "list_title": "国家能源局关于成立第三届核电厂消防专家委员会的通知"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_notices"
+  ],
+  "list_date": "2026-06-10",
+  "first_seen_at": "2026-09-29T09:02:00+00:00",
+  "last_checked_at": "2026-09-29T09:02:00+00:00",
+  "versions": []
+}

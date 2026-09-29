@@ -1,0 +1,62 @@
+{
+  "title": "广东省发展改革委 广东省能源局关于公布2025年新能源项目机制电价竞价结果的通知",
+  "doc_number": "粤发改价格函〔2025〕2137号",
+  "issuer": "广东省发展改革委 广东省能源局",
+  "publish_date": "2025-12-12",
+  "written_date": "2025-12-10",
+  "content_text": "粤发改价格函〔2025〕2137号\n各地级以上市发展改革局（委），广东电网有限责任公司、深圳供电局有限公司，广东电力交易中心，有关发电企业：\n根据《广东省发展改革委 广东省能源局关于印发<关于深化新能源上网电价市场化改革 促进新能源高质量发展的实施方案>的通知》（粤发改价格〔2025〕263号）及配套规则等文件规定，我省组织开展2025年新能源机制电价竞价工作。现将竞价结果及有关事项通知如下：\n一、经广东电力交易中心公开竞价和结果公示，我省2025年6月1日-2026年10月31日投产或承诺投产，且未纳入机制的新能源项目竞价结果为：分布式光伏项目机制电量规模为44.3亿千瓦时，机制电价为0.36元/千瓦时。具体项目信息详见广东电力交易中心官网（https://pm.gd.csg.cn）。\n二、竞价入选项目，投产时间在2025年10月31日前的，机制电价自2025年11月1日起执行；其余项目机制电价自竞价时申报的投产时间起执行。\n三、请广东电网和深圳供电局按要求做好新能源增量项目结算工作，请广东电力交易中心做好竞价入选项目公布和告知工作。政策执行中如遇到问题，请及时报告省发展改革委和省能源局。\n广东省发展改革委 广东省能源局\n2025年12月10日",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：价格处 时间：2025-12-12 11:25:59 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2025年12月10日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委 广东省能源局"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "粤发改价格函〔2025〕2137号"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2025-12-12 11:25:59"
+  },
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4828493.html",
+  "final_url": "https://drc.gd.gov.cn/ywtz/content/post_4828493.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "e6017c803a996f4a1c475a961441d3311ae180dea4cc2da85374413161873f77",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "76a69702618dcfc0666b4e29dba25fafbb98af671d6c57bef32226affb67caa8",
+  "source_id": "gd",
+  "column_id": "gd_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_notices",
+      "list_url": "https://drc.gd.gov.cn/ywtz/index.html",
+      "list_date": "2025-12-12",
+      "list_date_raw": "2025-12-12",
+      "list_title": "广东省发展改革委 广东省能源局关于公布2025年新能源项目机制电价竞价结果的通知"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_notices"
+  ],
+  "list_date": "2025-12-12",
+  "first_seen_at": "2026-09-29T08:35:36+00:00",
+  "last_checked_at": "2026-09-29T08:35:36+00:00",
+  "versions": []
+}

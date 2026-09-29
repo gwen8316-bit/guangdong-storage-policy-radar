@@ -1,0 +1,65 @@
+{
+  "title": "【部门图解】一图读懂 | 关于有序推动我省绿电直连发展有关事项的通知",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-08-26",
+  "written_date": null,
+  "content_text": "",
+  "content_status": "image_only",
+  "attachments": [
+    {
+      "name": "61e3026a14cc1fc7d1f9dc7b51507bd8_origin.jpg",
+      "url": "https://drc.gd.gov.cn/img/1/1661/1661929/4947264.png",
+      "format": "png",
+      "kind": "inline_image",
+      "size_bytes": 1671802,
+      "sha256": "4f8dfe61535294dc3a31db75ad95959eb789719012547447fbec9ccc77f80031",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/img/1/1661/1661929/4947264.png",
+      "content_type": "image/png",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：省能源局电力处 时间：2026-08-26 16:34:31 字体： [大] [中] [小]"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-08-26 16:34:31"
+  },
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4947264.html",
+  "final_url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4947264.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "attachments_hash": "fc4517adc97e972089aa3c96ba8aefd1ed10ce83899bd749085c85582843ef42",
+  "schema_version": 1,
+  "id": "80a7a973d600692fb2e7dd184578e0d62d3970a0b599792836be38182f3e7a88",
+  "source_id": "gd",
+  "column_id": "gd_energy_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_energy_notices",
+      "list_url": "https://drc.gd.gov.cn/snyj/tzgg/index.html",
+      "list_date": "2026-08-26",
+      "list_date_raw": "2026-08-26",
+      "list_title": "【部门图解】一图读懂 | 关于有序推动我省绿电直连发展有关事项的通知"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_energy_notices"
+  ],
+  "list_date": "2026-08-26",
+  "first_seen_at": "2026-09-29T09:01:35+00:00",
+  "last_checked_at": "2026-09-29T09:01:35+00:00",
+  "versions": []
+}

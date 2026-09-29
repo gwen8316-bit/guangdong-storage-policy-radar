@@ -1,0 +1,58 @@
+{
+  "title": "2026年8月28日24时起成品油价格调整",
+  "doc_number": null,
+  "issuer": "广东省发展改革委",
+  "publish_date": "2026-08-28",
+  "written_date": "2026-08-28",
+  "content_text": "根据国家成品油价格形成机制，结合近一段时期国际市场油价变化情况，国家发展改革委决定自2026年8月28日24时起上调国内成品油价格，即在现行价格的基础上，我省汽、柴油价格每吨分别上调375元和360元。调整后，我省成品油最高销售价格见下表。\n广东省汽、柴油最高销售价格表\n（自2026年8月28日24时起执行）\n品名\n最高批发价格（元/吨）\n最高零售价格\n元/吨\n元/升\n0号柴油（Ⅵ）\n8755\n9055\n7.76\n89号汽油（Ⅵ）\n9815\n10115\n7.52\n92号汽油（Ⅵ）\n10422\n10722\n8.10\n95号汽油（Ⅵ）\n11029\n11329\n8.78\n注：表中价格包含消费税、增值税以及城建税和教育费附加。\n广东省发展改革委\n2026年8月28日",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：价格处 时间：2026-08-28 18:34:53 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年8月28日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-08-28 18:34:53"
+  },
+  "url": "https://drc.gd.gov.cn/ywgg/content/post_4948264.html",
+  "final_url": "https://drc.gd.gov.cn/ywgg/content/post_4948264.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "11429fc4cd97ed880c327b142b60dcf93adbf4db86a7656bbc13d5857c3d8ec0",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "de5ccd28d082f29b4f3b41e00ff045d717359ca3fafce588d6d60885cd3d4df1",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2026-08-28",
+      "list_date_raw": "2026年8月28日",
+      "list_title": "24时起成品油价格调整"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2026-08-28",
+  "first_seen_at": "2026-09-29T08:39:10+00:00",
+  "last_checked_at": "2026-09-29T08:39:10+00:00",
+  "versions": []
+}

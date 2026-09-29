@@ -1,0 +1,84 @@
+{
+  "title": "国家能源局综合司关于就部分规范性文件废止和延长有效期公开征求意见的函",
+  "doc_number": null,
+  "issuer": "国家能源局综合司",
+  "publish_date": null,
+  "written_date": "2026-07-21",
+  "content_text": "国家能源局综合司关于就部分规范性文件废止和延长有效期公开征求意见的函\n近期，我局对现行规范性文件进行了清理，拟废止《国家能源局关于鼓励和引导民间资本进一步扩大能源领域投资的实施意见》等16件规范性文件，同时对《国家能源局关于印发〈核电厂非生产区消防安全管理暂行规定〉的通知》等2件规范性文件延长有效期，现向社会公开征求意见。公众可通过以下途径和方式反馈意见：\n1.电子邮箱：fagaisi@nea.gov.cn\n2.通讯地址：北京市西城区三里河路46号国家能源局法制和体制改革司，邮编：100045\n意见反馈截止日期为2026年8月30日。\n附件：1.国家能源局拟废止的部分规范性文件目录\n2.国家能源局拟延长有效期的规范性文件目录\n国家能源局综合司\n2026年7月30日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "国家能源局拟废止的部分规范性文件目录",
+      "url": "https://www.nea.gov.cn/20260731/abb5fb7f81ee475fa7d07923c8178e70/20260731abb5fb7f81ee475fa7d07923c8178e70_155f18544f19a24641b98572ae42b63b1d.wps",
+      "format": "wps",
+      "kind": "attachment",
+      "size_bytes": 43520,
+      "sha256": "ceb7d837b598409e23709d6097df3b5334d2d3cedb966cb66953e054730346f0",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260731/abb5fb7f81ee475fa7d07923c8178e70/20260731abb5fb7f81ee475fa7d07923c8178e70_155f18544f19a24641b98572ae42b63b1d.wps",
+      "content_type": "application/octet-stream",
+      "needs_manual_review": true
+    },
+    {
+      "name": "国家能源局拟延长有效期的规范性文件目录",
+      "url": "https://www.nea.gov.cn/20260731/abb5fb7f81ee475fa7d07923c8178e70/20260731abb5fb7f81ee475fa7d07923c8178e70_158fb1e780a6aa4ca8b1b946314a2ee022.wps",
+      "format": "wps",
+      "kind": "attachment",
+      "size_bytes": 19456,
+      "sha256": "43f3ce31cc689f880218c45569d450acac868c1d58bab65e02560f7a2a07f439",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260731/abb5fb7f81ee475fa7d07923c8178e70/20260731abb5fb7f81ee475fa7d07923c8178e70_158fb1e780a6aa4ca8b1b946314a2ee022.wps",
+      "content_type": "application/octet-stream",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-07-21"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局综合司"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-07-21",
+    "pubdate": "2026-07-21 10:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260731/abb5fb7f81ee475fa7d07923c8178e70/c.html",
+  "final_url": "https://www.nea.gov.cn/20260731/abb5fb7f81ee475fa7d07923c8178e70/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "ddf0c239d98d9df3df876a1fe7074b82f65792f81587a0509a6adfeeea4cacb3",
+  "attachments_hash": "26c8f1eea214754fdd3481057a212395141beb10251925ffc99817000e62a7c8",
+  "schema_version": 1,
+  "id": "d54469afdefd7376d490377f4704ff62f64f4a6e73349e744f856e9cc30d7de4",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-07-31",
+      "list_date_raw": "2026-07-31 18:21:29",
+      "list_title": "国家能源局综合司关于就部分规范性文件废止和延长有效期公开征求意见的函"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest"
+  ],
+  "list_date": "2026-07-31",
+  "first_seen_at": "2026-09-29T08:33:15+00:00",
+  "last_checked_at": "2026-09-29T08:33:15+00:00",
+  "versions": []
+}

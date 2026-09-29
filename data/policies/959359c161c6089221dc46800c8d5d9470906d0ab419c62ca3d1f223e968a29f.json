@@ -1,0 +1,79 @@
+{
+  "title": "国家能源局综合司关于公开征求《油气管网设施公平开放信息公开与报送办法》（征求意见稿）意见的通知",
+  "doc_number": null,
+  "issuer": "国家能源局综合司",
+  "publish_date": null,
+  "written_date": "2026-05-22",
+  "content_text": "国家能源局综合司关于公开征求《油气管网设施公平开放信息公开与报送办法》（征求意见稿）意见的通知\n为贯彻落实党中央、国务院关于加强自然垄断环节监管决策部署，进一步规范油气管网设施公平开放信息公开与报送行为，依据《中华人民共和国能源法》《油气管网设施公平开放监管办法》，国家能源局研究制定了《油气管网设施公平开放信息公开与报送办法》（征求意见稿），现向社会公开征求意见。\n欢迎有关单位和社会各界人士提出宝贵意见建议，自本通知发布之日起30日内传真至010-81929559，或通过电子邮件发至jianguanerchu@nea.gov.cn。\n感谢您的参与和支持！\n附件：油气管网设施公平开放信息公开与报送办法（征求意见稿）\n国家能源局综合司\n2026年5月22日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "油气管网设施公平开放信息公开与报送办法（征求意见稿）",
+      "url": "https://www.nea.gov.cn/20260526/777684e92b5744a0b9d79dd85bdda33d/20260526777684e92b5744a0b9d79dd85bdda33d_31a082eecfb32e4ef4b658735c1c68079d.wps",
+      "format": "wps",
+      "kind": "attachment",
+      "size_bytes": 46080,
+      "sha256": "e45d10ce4d8379f37deb04235de5d8182d5c299950dc1bfe99d1f08c4308ea8b",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260526/777684e92b5744a0b9d79dd85bdda33d/20260526777684e92b5744a0b9d79dd85bdda33d_31a082eecfb32e4ef4b658735c1c68079d.wps",
+      "content_type": "application/octet-stream",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-05-22"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局综合司"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-05-22",
+    "pubdate": "2026-05-22 00:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260526/777684e92b5744a0b9d79dd85bdda33d/c.html",
+  "final_url": "https://www.nea.gov.cn/20260526/777684e92b5744a0b9d79dd85bdda33d/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "701c3f862d541a416f1266d0c160b6a8977df01e9ae948dbc365648289797684",
+  "attachments_hash": "06eb66e1381d94c4f6cac0e66106b4b26c0dc8d1eccdea5a845dda7633af3e00",
+  "schema_version": 1,
+  "id": "959359c161c6089221dc46800c8d5d9470906d0ab419c62ca3d1f223e968a29f",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-05-26",
+      "list_date_raw": "2026-05-26 19:14:38",
+      "list_title": "国家能源局综合司关于公开征求《油气管网设施公平开放信息公开与报送办法》（征求意见稿）意见的通知"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_notices",
+      "list_url": "https://www.nea.gov.cn/policy/tz.htm",
+      "list_date": "2026-05-26",
+      "list_date_raw": "2026-05-26 19:14:38",
+      "list_title": "国家能源局综合司关于公开征求《油气管网设施公平开放信息公开与报送办法》（征求意见稿）意见的通知"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest",
+    "nea_notices"
+  ],
+  "list_date": "2026-05-26",
+  "first_seen_at": "2026-09-29T08:38:08+00:00",
+  "last_checked_at": "2026-09-29T08:38:08+00:00",
+  "versions": []
+}

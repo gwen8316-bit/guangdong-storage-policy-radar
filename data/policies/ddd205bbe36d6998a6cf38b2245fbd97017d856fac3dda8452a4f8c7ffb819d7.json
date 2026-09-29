@@ -1,0 +1,97 @@
+{
+  "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/49053",
+  "title": "广东省发展改革委关于公开征求《关于进一步规范我省殡葬服务收费管理的通知（征求意见稿）》意见的通告",
+  "doc_number": null,
+  "issuer": "广东省发展改革委",
+  "publish_date": "2026-02-25",
+  "written_date": "2026-02-25",
+  "content_text": "为进一步完善殡葬服务收费政策，强化殡葬行业公益属性，规范殡葬服务收费行为，切实减轻人民群众丧葬负担，根据《国家发展改革委 民政部 财政部关于进一步完善殡葬服务收费政策的通知》（发改价格〔2026〕108号）等文件精神，我委会同省民政厅、财政厅等有关单位研究起草了《关于进一步规范我省殡葬服务收费管理的通知（征求意见稿）》。现向社会各界公开征求意见，欢迎有关单位和各界人士于2026年3月5日前通过信函、传真或电子邮件等方式提出意见建议。\n传真：020-83134175\n邮箱：fgw_jgc@gd.gov.cn\n地址：广州市越秀区东风中路305号5号楼广东省发展改革委价格处（邮编：510031）\n附件：广东省发展改革委 广东省民政厅 广东省财政厅关于进一步规范我省殡葬服务收费管理的通知（征求意见稿）\n广东省发展改革委\n2026年2月25日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "广东省发展改革委 广东省民政厅 广东省财政厅关于进一步规范我省殡葬服务收费管理的通知.doc",
+      "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/07916ec5dfa3875d2f5d20aff39e8e9f",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 35840,
+      "sha256": "e25dc36a85413d9c051b9b1c030269a5ac7a9b02efa847d9ab498621e161bb5b",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/07916ec5dfa3875d2f5d20aff39e8e9f",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    },
+    {
+      "name": "附件1-2.xlsx",
+      "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/b041c749794af6bbe4b9e775026d6006",
+      "format": "xls",
+      "kind": "attachment",
+      "size_bytes": 15872,
+      "sha256": "070088b66be22fae28494890bd257e4a6aca97df60b633e43359d75f339a1a53",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/b041c749794af6bbe4b9e775026d6006",
+      "content_type": "application/vnd.ms-excel",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "json_field": "question_data.article.published_at",
+      "value": "2026-02-25 16:51"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年2月25日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    }
+  },
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "613d37b0d3cc2112342204e8700c7de41c91c481bbfbb855a79ee9b03160af52",
+  "attachments_hash": "4c0fe1446a64724b4548f554b10bb5c8c0b414c9c3345dacb4584c58c80499b1",
+  "schema_version": 1,
+  "id": "ddd205bbe36d6998a6cf38b2245fbd97017d856fac3dda8452a4f8c7ffb819d7",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2026-02-25",
+      "list_date_raw": "2026-02-25",
+      "list_title": "关于公开征求《关于进一步规范我省殡葬服务收费管理的通知（征求意见稿）》意见的通告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2026-02-25",
+  "first_seen_at": "2026-09-29T08:46:02+00:00",
+  "last_checked_at": "2026-09-29T08:58:33+00:00",
+  "versions": [
+    {
+      "changed_at": "2026-09-29T08:58:33+00:00",
+      "old_content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "old_attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "body_selector": "window._CONFIG.question_data.article.content",
+  "date_metadata": {
+    "pubdate": "2026-02-25 16:51"
+  },
+  "attachment_metadata_urls": [
+    "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/07916ec5dfa3875d2f5d20aff39e8e9f",
+    "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/b041c749794af6bbe4b9e775026d6006"
+  ],
+  "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/49053"
+}

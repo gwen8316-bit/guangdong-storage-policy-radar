@@ -1,0 +1,79 @@
+{
+  "title": "关于披露中国能源传媒集团有限公司负责人2025年度薪酬情况的通知",
+  "doc_number": null,
+  "issuer": "国家能源局人事司",
+  "publish_date": null,
+  "written_date": "2026-09-16",
+  "content_text": "关于披露中国能源传媒集团有限公司负责人2025年度薪酬情况的通知\n根据《人力资源社会保障部办公厅关于做好2025年中央企业工资分配情况备案和信息披露工作的通知》（人社厅函〔2026〕87号）精神，现对中国能源传媒集团有限公司负责人2025年度薪酬信息进行披露。\n附件：中国能源传媒集团有限公司负责人2025年度薪酬情况表\n国家能源局人事司\n2026年9月16日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "中国能源传媒集团有限公司负责人2025年度薪酬情况表",
+      "url": "https://www.nea.gov.cn/20260928/ccc0e6f629384053b0bf50cc3f018187/20260928ccc0e6f629384053b0bf50cc3f018187_59476bf93f441c47a7a235721cf34317d2.xlsx",
+      "format": "xlsx",
+      "kind": "attachment",
+      "size_bytes": 11291,
+      "sha256": "cf8a36a3ed6e65ad917df7a01f61db7e356edf6428f7f17e76dcc8def05c01c9",
+      "status": "parsed",
+      "text": "[工作表：2025年度]\n中国能源传媒集团有限公司负责人2025年度薪酬情况\n\t\t\t\t\t\t\t单位：人民币万元\n姓名\t职务\t任职起止时间\t2025年度从本公司获得的税前报酬情况\t\t\t任期激励收入（2024年—2026年）（2）\t是否在股东单位或其他关联方领取薪酬\t在关联方领取的税前总薪酬\n\t\t\t应付年薪\n（1）\t社会保险、企业年金、补充医疗保险及住房公积金的单位缴纳（存）部分\t其他货币\n性收入（注明具体项目并分列）\n樊剑英\t董事长\t202101—202512\t65.85\t20.04\t0\t0\t否\t0\n姜晓澜\t副总经理\t201404—202512\t59.27\t20.04\t0\t0\t否\t0\n任  春\t副总经理\t201707—202512\t59.27\t20.04\t0\t0\t否\t0\n魏家经\t副总经理\t202305—202512\t59.27\t20.04\t0\t0\t否\t0\n赵建新\t纪委书记\t202506—202512\t34.58\t11.21\t0\t0\t否\t0\n严  明\t纪委书记\t202307—202502\t5.85\t3.48\t0\t0\t否\t0\n上表披露薪酬为企业负责人报告期内全部应发税前薪酬（不含发放的以往年度绩效年薪）。\n其中第（1）（2）项由国家能源局人事司核定。",
+      "error": null,
+      "final_url": "https://www.nea.gov.cn/20260928/ccc0e6f629384053b0bf50cc3f018187/20260928ccc0e6f629384053b0bf50cc3f018187_59476bf93f441c47a7a235721cf34317d2.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "needs_manual_review": false
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-09-16"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局人事司"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-09-16",
+    "pubdate": "2026-09-16 00:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260928/ccc0e6f629384053b0bf50cc3f018187/c.html",
+  "final_url": "https://www.nea.gov.cn/20260928/ccc0e6f629384053b0bf50cc3f018187/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "ae1c6c0fa938a4ea0cdc775d03298b983edafdce0ec2d5d34d1a238ca8e8252d",
+  "attachments_hash": "10a30ccea85afe098f31dbaaa8e3692a0450b5c0a02501e91d06eb81c01b4995",
+  "schema_version": 1,
+  "id": "3ded72d74048d59a72e882a6551b60ad917e76ef438a968daa91b53e404e8996",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-09-28",
+      "list_date_raw": "2026-09-28 09:03:29",
+      "list_title": "关于披露中国能源传媒集团有限公司负责人2025年度薪酬情况的通知"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_notices",
+      "list_url": "https://www.nea.gov.cn/policy/tz.htm",
+      "list_date": "2026-09-28",
+      "list_date_raw": "2026-09-28 09:03:29",
+      "list_title": "关于披露中国能源传媒集团有限公司负责人2025年度薪酬情况的通知"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest",
+    "nea_notices"
+  ],
+  "list_date": "2026-09-28",
+  "first_seen_at": "2026-09-29T08:30:07+00:00",
+  "last_checked_at": "2026-09-29T08:30:07+00:00",
+  "versions": []
+}

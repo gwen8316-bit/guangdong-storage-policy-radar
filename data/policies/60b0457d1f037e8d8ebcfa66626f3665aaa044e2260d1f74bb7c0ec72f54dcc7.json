@@ -1,0 +1,76 @@
+{
+  "title": "关于公开征求《广东省固定资产投资项目节能审查和碳排放评价实施办法（征求意见稿）》意见的公告",
+  "doc_number": null,
+  "issuer": "广东省发展改革委 广东省能源局",
+  "publish_date": "2025-10-29",
+  "written_date": "2025-10-28",
+  "content_text": "为建立能耗双控向碳排放双控全面转型新机制，加强固定资产投资项目能源消费和碳排放管理，根据《固定资产投资项目节能审查和碳排放评价办法》（国家发展和改革委员会令2025年第31号）等有关要求，我们起草了《广东省固定资产投资项目节能审查和碳排放评价实施办法（征求意见稿）》。现面向社会公开征求意见，公开征求意见时间为2025年10月29日至11月11日。欢迎有关单位和社会各界人士通过信函、传真或网络等方式提出意见建议。\n信函请寄至：广州市越秀区东风中路305号10号楼816（节能处），邮编510031。\n传真请发至：020-83138594。\n电子邮件请发至：nyjjn@gd.gov.cn。\n附件：广东省固定资产投资项目节能审查和碳排放评价实施办法（征求意见稿）\n广东省发展改革委 广东省能源局\n2025年10月28日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件：广东省固定资产投资项目节能审查和碳排放评价实施办法（征求意见稿）.doc",
+      "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/c07cf5ed531be6661772dd94ead04d6c",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 109568,
+      "sha256": "cac3a5b2ed5edf265445d70b13d5b096f92ffcfed54fd15fa2f1fbed8072b166",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/c07cf5ed531be6661772dd94ead04d6c",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "json_field": "question_data.article.published_at",
+      "value": "2025-10-29 09:01"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2025年10月28日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委 广东省能源局"
+    }
+  },
+  "body_selector": "window._CONFIG.question_data.article.content",
+  "date_metadata": {
+    "pubdate": "2025-10-29 09:01"
+  },
+  "attachment_metadata_urls": [
+    "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/c07cf5ed531be6661772dd94ead04d6c"
+  ],
+  "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/46812",
+  "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/46812",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "7f8bddfd956404b5be1180e76c961e2fa4d0d5ec035b87dba8fff9b80695481c",
+  "attachments_hash": "261775cd779761da2bd3a1028b4fe45f797e6566921b4e2b202a273368c7b3cb",
+  "schema_version": 1,
+  "id": "60b0457d1f037e8d8ebcfa66626f3665aaa044e2260d1f74bb7c0ec72f54dcc7",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2025-10-29",
+      "list_date_raw": "2025-10-29",
+      "list_title": "关于公开征求《广东省固定资产投资项目节能审查和碳排放评价实施办法（征求意见稿）》意见的公告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2025-10-29",
+  "first_seen_at": "2026-09-29T08:59:26+00:00",
+  "last_checked_at": "2026-09-29T08:59:26+00:00",
+  "versions": []
+}

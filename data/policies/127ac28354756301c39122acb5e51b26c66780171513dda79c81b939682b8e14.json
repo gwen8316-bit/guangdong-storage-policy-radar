@@ -1,0 +1,67 @@
+{
+  "title": "关于注销电力业务许可证的通告（2025年第3期）",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2025-10-13",
+  "written_date": null,
+  "content_text": "关于注销电力业务许可证的通告（2025年第3期）.pdf",
+  "content_status": "partial",
+  "attachments": [
+    {
+      "name": "关于注销电力业务许可证的通告（2025年第3期）.pdf",
+      "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202510/P020251013660816344299.pdf",
+      "format": "pdf",
+      "kind": "attachment",
+      "size_bytes": 126535,
+      "sha256": "4c46ddb939f643e3a9d33606006eb41881c711074aaac3c63de0f54b01f9f21e",
+      "status": "parsed",
+      "text": "[第 1 页]\n关于注销电力业务许可证的通告\r\n（2025 年第 3 期）\r\n根据《电力业务许可证注销管理办法》（国能发资质规\r\n﹝2021﹞33 号）第十三条、第十五条、第十六条规定，对已登\r\n记注销或吊销市场主体的 3 家企业予以注销电力业务许可证（发\r\n电类）进行通告。通告期 30 日，期满我局将依法依规注销电力\r\n业务许可证（发电类）。\r\n联系电话：020-85125207\r\n附件：通告注销电力业务许可证企业名单\r\n南方能源监管局\r\n2025 年 10 月 13 日\r\n（主动公开）\r\n国 家 能 源 局 南 方 监 管 局\n\n[第 2 页]\n— 2 —\r\n附件\r\n通告注销电力业务许可证企业名单\r\n序号 企业名称 许可证号 备注\r\n1 珠海国华汇达丰风能开发有限公司 1862608-00520 已登记注销市场主体\r\n2 东莞通明电力有限公司 1062616-00036 已登记吊销市场主体\r\n3 东莞众明电力有限公司 1062616-00035 已登记吊销市场主体",
+      "error": null,
+      "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202510/P020251013660816344299.pdf",
+      "content_type": "application/pdf",
+      "page_count": 2,
+      "parser": "pdfium2",
+      "needs_manual_review": false
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' wrapper_deatil_date ')]",
+      "value": "2025-10-13 18:20 来源： 南方局管理员"
+    }
+  },
+  "body_selector": "//*[contains(concat(' ',normalize-space(@class),' '),' TRS_UEDITOR ')]",
+  "date_metadata": {
+    "pubdate": ""
+  },
+  "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202510/t20251013_288626.html",
+  "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202510/t20251013_288626.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "6fe35d026c2595ce3d1aa95b21dff8a4b68ea83f2f38d8af960491350d7fce44",
+  "attachments_hash": "8377a29eb0dacca69de1e0ea1efc23b6c1e1a3fc2c03c68b893cdeb22bdfd02f",
+  "schema_version": 1,
+  "id": "127ac28354756301c39122acb5e51b26c66780171513dda79c81b939682b8e14",
+  "source_id": "nf",
+  "column_id": "nf_notices",
+  "columns": [
+    {
+      "source_id": "nf",
+      "column_id": "nf_notices",
+      "list_url": "https://nfj.nea.gov.cn/xwzx/tzgg/",
+      "list_date": "2025-10-13",
+      "list_date_raw": "2025-10-13",
+      "list_title": "关于注销电力业务许可证的通告（2025年第3期）"
+    }
+  ],
+  "source_ids": [
+    "nf"
+  ],
+  "column_ids": [
+    "nf_notices"
+  ],
+  "list_date": "2025-10-13",
+  "first_seen_at": "2026-09-29T08:46:38+00:00",
+  "last_checked_at": "2026-09-29T08:46:38+00:00",
+  "versions": []
+}

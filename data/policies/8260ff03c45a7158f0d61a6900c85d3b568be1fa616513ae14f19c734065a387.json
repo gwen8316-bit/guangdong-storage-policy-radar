@@ -1,0 +1,78 @@
+{
+  "title": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员会（NEA/TC 22）秘书处承担单位的通知",
+  "doc_number": "国能综通科技〔2026〕43号",
+  "issuer": "国家能源局综合司",
+  "publish_date": null,
+  "written_date": "2026-04-13",
+  "content_text": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员会（NEA/TC 22）秘书处承担单位的通知\n国能综通科技〔2026〕43号\n中国产业发展促进会、中粮集团有限公司：\n为进一步加强生物液体燃料标准化管理，经研究，对能源行业生物液体燃料加工转化标准化技术委员会（NEA/TC 22）秘书处承担单位作出调整，并就有关事项通知如下。\n一、将能源行业生物液体燃料加工转化标准化技术委员会（NEA/TC 22）秘书处承担单位由中粮集团有限公司调整为中国产业发展促进会，该标准化技术委员会名称、编号、职责范围不变。\n二、请中国产业发展促进会根据《国家能源局关于印发〈能源标准化管理办法〉及实施细则的通知》（国能发科技〔2019〕38号）、《国家能源局关于进一步完善能源行业标准化技术委员会管理的通知》（国能发科技〔2021〕9号）有关要求，扎实推进生物液体燃料标准体系建设，充分调动各方积极性，建设开放式的标准化工作平台，加强标准全生命周期管理，确保标准质量并推动标准的有效实施和推广应用。要加快完善标准化技术委员会内部管理制度，严格按照各类标准的属性定位开展相关标准制修订工作，避免标准之间、标准化技术委员会之间交叉重复，确保标准体系协调统一。\n国家能源局综合司\n2026年4月13日",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-04-13"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局综合司"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "国能综通科技〔2026〕43号"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-04-13",
+    "pubdate": "2026-04-13 10:31:00"
+  },
+  "url": "https://www.nea.gov.cn/20260428/089f8800e0f04067bd78ce75cdef19de/c.html",
+  "final_url": "https://www.nea.gov.cn/20260428/089f8800e0f04067bd78ce75cdef19de/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "77be263f8e99da9f0121664daf7ce0dae60837c40cf57936fba68f10da37aa7e",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "8260ff03c45a7158f0d61a6900c85d3b568be1fa616513ae14f19c734065a387",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-04-28",
+      "list_date_raw": "2026-04-28 10:32:39",
+      "list_title": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员会（NEA/TC 22）秘书处承担单位的通知"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_notices",
+      "list_url": "https://www.nea.gov.cn/policy/tz.htm",
+      "list_date": "2026-04-28",
+      "list_date_raw": "2026-04-28 10:32:39",
+      "list_title": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员会（NEA/TC 22）秘书处承担单位的通知"
+    },
+    {
+      "source_id": "nf",
+      "column_id": "nf_regulations",
+      "list_url": "https://nfj.nea.gov.cn/xxgk/zcfg/",
+      "list_date": "2026-04-28",
+      "list_date_raw": "2026-04-28",
+      "list_title": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员..."
+    }
+  ],
+  "source_ids": [
+    "nea",
+    "nf"
+  ],
+  "column_ids": [
+    "nea_latest",
+    "nea_notices",
+    "nf_regulations"
+  ],
+  "list_date": "2026-04-28",
+  "first_seen_at": "2026-09-29T08:40:26+00:00",
+  "last_checked_at": "2026-09-29T08:40:26+00:00",
+  "versions": []
+}

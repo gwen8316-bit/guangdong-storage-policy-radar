@@ -1,0 +1,103 @@
+{
+  "title": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员会秘书处承担单位公开征求意见的通知",
+  "doc_number": null,
+  "issuer": "国家能源局综合司",
+  "publish_date": null,
+  "written_date": "2026-02-14",
+  "content_text": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员会秘书处承担单位公开征求意见的通知\n按照《能源行业标准化技术委员会管理实施细则》《关于进一步完善能源行业标准化技术委员会管理的通知》有关规定，为适应生物液体燃料行业标准化工作需要，我局拟调整能源行业生物液体燃料加工转化标准化技术委员会（NEA/TC 22）秘书处承担单位。现就标准化技术委员会秘书处承担单位调整方案公开征求意见，征求意见时间截止到2026年3月24日，请以书面形式将意见通过电子邮件反馈至nb_standard@126.com。\n感谢您的参与及对能源标准化工作的关注和支持。\n附件：1.能源行业生物液体燃料加工转化标准化技术委员会秘书处承担单位调整方案\n2.征求意见反馈表\n国家能源局综合司\n2026年2月14日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "能源行业生物液体燃料加工转化标准化技术委员会秘书处承担单位调整方案",
+      "url": "https://www.nea.gov.cn/20260225/978be2b6fe0c46ee95b6e54caecda389/20260225978be2b6fe0c46ee95b6e54caecda389_53afdc907c663a49ee87094f0c75b803b1.doc",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 14848,
+      "sha256": "d2efae138a68eb46bbc245d3c3568acfa111bfa5615485b1603f506e6553867b",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260225/978be2b6fe0c46ee95b6e54caecda389/20260225978be2b6fe0c46ee95b6e54caecda389_53afdc907c663a49ee87094f0c75b803b1.doc",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    },
+    {
+      "name": "征求意见反馈表",
+      "url": "https://www.nea.gov.cn/20260225/978be2b6fe0c46ee95b6e54caecda389/20260225978be2b6fe0c46ee95b6e54caecda389_534a132876767a43c986b74e603bce7bf1.wps",
+      "format": "wps",
+      "kind": "attachment",
+      "size_bytes": 16384,
+      "sha256": "4e5c51e56fcdee2ea576d12c30c28ad2a0b618a074c41629b4997493ecc9f34e",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260225/978be2b6fe0c46ee95b6e54caecda389/20260225978be2b6fe0c46ee95b6e54caecda389_534a132876767a43c986b74e603bce7bf1.wps",
+      "content_type": "application/octet-stream",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-02-14"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局综合司"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-02-14",
+    "pubdate": "2026-02-14 00:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260225/978be2b6fe0c46ee95b6e54caecda389/c.html",
+  "final_url": "https://www.nea.gov.cn/20260225/978be2b6fe0c46ee95b6e54caecda389/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "461c88b93ff0720b1524a388223459efb141cbd1dd71a83dba1293a85445e781",
+  "attachments_hash": "199f1276cdae5c259aafafd7086f1742a8df0b59e7317f23c96c8d420812d5be",
+  "schema_version": 1,
+  "id": "761de73adbaaec722da3d3a13c0804108ad7ef63a5d88df9968bf714360de1b5",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-02-25",
+      "list_date_raw": "2026-02-25 09:14:28",
+      "list_title": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员会秘书处承担单位公开征求意见的通知"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_notices",
+      "list_url": "https://www.nea.gov.cn/policy/tz.htm",
+      "list_date": "2026-02-25",
+      "list_date_raw": "2026-02-25 09:14:28",
+      "list_title": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员会秘书处承担单位公开征求意见的通知"
+    },
+    {
+      "source_id": "nf",
+      "column_id": "nf_regulations",
+      "list_url": "https://nfj.nea.gov.cn/xxgk/zcfg/",
+      "list_date": "2026-02-25",
+      "list_date_raw": "2026-02-25",
+      "list_title": "国家能源局综合司关于调整能源行业生物液体燃料加工转化标准化技术委员..."
+    }
+  ],
+  "source_ids": [
+    "nea",
+    "nf"
+  ],
+  "column_ids": [
+    "nea_latest",
+    "nea_notices",
+    "nf_regulations"
+  ],
+  "list_date": "2026-02-25",
+  "first_seen_at": "2026-09-29T08:47:38+00:00",
+  "last_checked_at": "2026-09-29T08:47:38+00:00",
+  "versions": []
+}

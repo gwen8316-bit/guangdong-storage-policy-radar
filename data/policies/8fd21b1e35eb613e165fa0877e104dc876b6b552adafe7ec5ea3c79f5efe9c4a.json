@@ -1,0 +1,73 @@
+{
+  "title": "广东省能源局关于公开征求《广东省能源局安全生产警示约谈和挂牌督办实施办法（征求意见稿）》意见的通告",
+  "doc_number": null,
+  "issuer": "广东省能源局",
+  "publish_date": "2026-08-13",
+  "written_date": "2026-08-13",
+  "content_text": "为进一步强化我省能源行业安全生产工作，推动能源企业落实安全生产主体责任，有效防范生产安全事故，我局起草了《广东省能源局安全生产警示约谈和挂牌督办实施办法（征求意见稿）》，现面向社会公开征求意见。\n此次公开征求意见时间为2026年8月13日至9月13日，欢迎各界人士通过信函或邮件等方式提出意见建议。\n地址：广州市越秀区东风中路305号10号楼810省能源局安全监管处（邮编：510031）。\n电子邮箱：nyjaqc@gd.gov.cn。\n附件：广东省能源局安全生产警示约谈和挂牌督办实施办法（征求意见稿）\n广东省能源局\n2026年8月13日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件：广东省能源局安全生产警示约谈和挂牌督办实施办法（征求意见稿）.wps",
+      "url": "https://drc.gd.gov.cn/attachment/0/622/622120/4941971.wps",
+      "format": "wps",
+      "kind": "attachment",
+      "size_bytes": 58880,
+      "sha256": "5747ab4f822b84da8274eb0d47a6849dd0cb034eaf4d1b4a1c0344fef5549946",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/622/622120/4941971.wps",
+      "content_type": "application/octet-stream",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：省能源局安全监管处 时间：2026-08-13 10:38:21 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年8月13日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省能源局"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-08-13 10:38:21"
+  },
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4941971.html",
+  "final_url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4941971.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "d952b7f9f13c1a950b8d56954afee6b487fab84e314ff7e0b2396ef43cad8402",
+  "attachments_hash": "7714b60488b929b42c5656cae7a5ce9ef29594027a8deda517782afe06530f76",
+  "schema_version": 1,
+  "id": "8fd21b1e35eb613e165fa0877e104dc876b6b552adafe7ec5ea3c79f5efe9c4a",
+  "source_id": "gd",
+  "column_id": "gd_energy_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_energy_notices",
+      "list_url": "https://drc.gd.gov.cn/snyj/tzgg/index.html",
+      "list_date": "2026-08-13",
+      "list_date_raw": "2026-08-13",
+      "list_title": "广东省能源局关于公开征求《广东省能源局安全生产警示约谈和挂牌督办实施办法（征求意见稿）》意见的通告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_energy_notices"
+  ],
+  "list_date": "2026-08-13",
+  "first_seen_at": "2026-09-29T09:02:13+00:00",
+  "last_checked_at": "2026-09-29T09:02:13+00:00",
+  "versions": []
+}

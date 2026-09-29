@@ -1,0 +1,80 @@
+{
+  "title": "国家能源局南方监管局行政许可通告（2026年第9期）",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": "2026-03-18",
+  "written_date": null,
+  "content_text": "根据《电力业务许可证管理规定》《承装（修、试）电力设施许可证管理办法》《国家能源局关于印发全面推行电力业务资质许可告知承诺制实施方案的通知》（国能发资质〔2021〕37号）等规定，国家能源局南方监管局对2026年第9期行政许可情况予以通告。\n附件：\n国家能源局南方监管局行政许可通告（2026年第9期）.pdf\n2026年第9期告知承诺书.rar",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "国家能源局南方监管局行政许可通告（2026年第9期）.pdf",
+      "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202603/P020260318534459125374.pdf",
+      "format": "pdf",
+      "kind": "attachment",
+      "size_bytes": 49178,
+      "sha256": "c4313643c9a0b3289f8037c1bd0ba55f50a6e299a737e58abda9414a3b09dd12",
+      "status": "parsed",
+      "text": "[第 1 页]\n承装（修、试）电力设施准予行政许可通告\n（2026年第9期）\n序号 企业名称 申请事项 备注\n1 桂林天中合新能源有限公司 承装三级、承修三级、承试三级新申请\n一般流程\n2 湛江市志成电力有限公司 承装三级、承修三级、承试三级许可延续\n3 华开电建技术（深圳）有限公司 承装三级、承修三级许可延续\n4 清远鸿兴电力工程有限公司 换领承装三级、承修三级、承试三级许可证并延续\n5 中山广联新能源科技有限公司 换领承装三级、承修三级、承试三级许可证并延续\n6 阳江市良宇电力工程有限公司 换领承装三级、承修三级、承试三级许可证并延续\n7 佛山市顺德区鉴洪电气安装工程有限公司 换领承装三级、承修三级许可证并延续\n8 广东湘溪电力科技有限公司 承装三级、承修三级、承试三级新申请\n承诺制\n9 广东宝英新能源科技有限公司 承装三级、承修三级、承试三级新申请\n10 东莞市旺唐能源科技有限公司 承装三级、承修三级、承试三级新申请\n11 广东智泰绿能能源工程有限公司 承装三级、承修三级、承试三级新申请\n12 中建八局广西建设有限公司 承装三级、承修三级、承试三级新申请\n13 佛山市电莱特科技有限公司 承装三级、承修三级、承试三级新申请\n14 广东宇晟建设工程有限公司 承装三级、承修三级、承试三级许可延续\n15 佛山共兴建设工程有限公司 承装三级、承修三级、承试三级许可延续\n16 广州恒运电力工程技术有限公司 承装三级、承修三级、承试三级许可延续\n17 深圳市烨能电力工程有限公司 承装三级、承修三级、承试三级许可延续\n18 广东煜晨能源科技有限公司 换领承装三级、承修三级、承试三级许可证并延续\n19 广东宗霖电气工程有限公司 换领承装三级、承修三级、承试三级许可证\n20 广东宝绎通信科技有限公司 换领承装三级、承修三级许可证\n\n[第 2 页]\n电力业务行政许可通告\n（2026年第9期）\n序号 企业名称 业务类型 申请类别 备注\n1 广东粤电靖海发电有限公司\n发电类\n新（改）建发电机组投入运营\n承诺制\n2 广西大唐岩鸿新能源有限公司\n3 惠州市白盆珠水力发电有限公司 转让已运营发电机组\n4 广州珠江电力有限公司 机组延长服役",
+      "error": null,
+      "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202603/P020260318534459125374.pdf",
+      "content_type": "application/pdf",
+      "page_count": 2,
+      "needs_manual_review": false
+    },
+    {
+      "name": "2026年第9期告知承诺书.rar",
+      "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202603/P020260318534459273585.rar",
+      "format": "rar",
+      "kind": "attachment",
+      "size_bytes": 4733455,
+      "sha256": "28c802a4ed04e99cb366c00c5307ef5a22c062028d7fcbabb8d3461303785665",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202603/P020260318534459273585.rar",
+      "content_type": "application/x-rar-compressed",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' wrapper_deatil_date ')]",
+      "value": "2026-03-18 14:48 来源： 南方局管理员"
+    }
+  },
+  "body_selector": "//*[contains(concat(' ',normalize-space(@class),' '),' TRS_UEDITOR ')]",
+  "date_metadata": {
+    "pubdate": ""
+  },
+  "url": "https://nfj.nea.gov.cn/xwzx/tzgg/202603/t20260318_298130.html",
+  "final_url": "https://nfj.nea.gov.cn/xwzx/tzgg/202603/t20260318_298130.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "3daab4f50ff5a4706555ab1f32dd2de052f9875cb2d7434686828d3a17592678",
+  "attachments_hash": "ab594af92f27d1e7a9b4b3b4a13a4bf2b048e2d6999ae28ed5fb27ae823af0a6",
+  "schema_version": 1,
+  "id": "7f8fcc5eb9df47bfa016e12e154d364f60e56ccd90d81daaf4762497c6ca7e68",
+  "source_id": "nf",
+  "column_id": "nf_notices",
+  "columns": [
+    {
+      "source_id": "nf",
+      "column_id": "nf_notices",
+      "list_url": "https://nfj.nea.gov.cn/xwzx/tzgg/",
+      "list_date": "2026-03-18",
+      "list_date_raw": "2026-03-18",
+      "list_title": "国家能源局南方监管局行政许可通告（2026年第9期）"
+    }
+  ],
+  "source_ids": [
+    "nf"
+  ],
+  "column_ids": [
+    "nf_notices"
+  ],
+  "list_date": "2026-03-18",
+  "first_seen_at": "2026-09-29T08:36:28+00:00",
+  "last_checked_at": "2026-09-29T08:36:28+00:00",
+  "versions": []
+}

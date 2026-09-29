@@ -1,0 +1,88 @@
+{
+  "title": "广东省能源局关于公开征求《广东省成品油流通管理条例实施细则（征求意见稿）》意见的公告",
+  "doc_number": null,
+  "issuer": "广东省能源局",
+  "publish_date": "2026-07-15",
+  "written_date": "2026-07-15",
+  "content_text": "按照《国务院办公厅关于推动成品油流通高质量发展的意见》（国办发〔2025〕5号）精神，为贯彻落实商务部《成品油流通管理办法》和《广东省成品油流通管理条例》，进一步加强全省成品油流通管理，健全成品油市场管理体制机制，促进成品油行业高质量发展，我们起草了《广东省成品油流通管理条例实施细则（征求意见稿）》（附件1）。现向社会公开征求意见。\n此次公开征求意见的时间为2026年7月16日至2026年8月15日。欢迎社会各界人士提出意见，修改意见（格式见附件2）请书面反馈我局政务邮箱（nyjyqc@gd.gov.cn）。\n附件：1.广东省成品油流通管理条例实施细则（征求意见稿）\n2.反馈意见表\n广东省能源局\n2026年7月15日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件1：广东省成品油流通管理条例实施细则(公开征求意见稿）.docx",
+      "url": "https://drc.gd.gov.cn/attachment/0/619/619825/4925305.docx",
+      "format": "docx",
+      "kind": "attachment",
+      "size_bytes": 103936,
+      "sha256": "75f47cf9c5596923d9014aa2f8cf75f2e737af4f5d7d5143f34b8f67381532c2",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "legacy_or_encrypted_ole_container",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/619/619825/4925305.docx",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "detected_format": "ole_binary",
+      "needs_manual_review": true
+    },
+    {
+      "name": "附件1：广东省成品油流通管理条例实施细则(公开征求意见稿）附件1-7.wps",
+      "url": "https://drc.gd.gov.cn/attachment/0/619/619826/4925305.wps",
+      "format": "wps",
+      "kind": "attachment",
+      "size_bytes": 120832,
+      "sha256": "02d574cd6129a39f8692275c561cdb390b0d820552064d898b144d5abfe669e3",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/619/619826/4925305.wps",
+      "content_type": "application/octet-stream",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：省能源局石油天然气处 时间：2026-07-15 19:06:01 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年7月15日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省能源局"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-07-15 19:06:01"
+  },
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4925305.html",
+  "final_url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4925305.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "c3b9efd01072f57e4a8aa5f317ad86c84c2cf5e1735ee10ca42b8360450b803e",
+  "attachments_hash": "35b8ebdbaf4418991869d6f0c416f40048234da505004f16e451817c1e30b386",
+  "schema_version": 1,
+  "id": "7338f0a0c648c9784f897ade0ee8cc711a6c6799a7b3958500dd18773ced88dd",
+  "source_id": "gd",
+  "column_id": "gd_energy_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_energy_notices",
+      "list_url": "https://drc.gd.gov.cn/snyj/tzgg/index.html",
+      "list_date": "2026-07-15",
+      "list_date_raw": "2026-07-15",
+      "list_title": "广东省能源局关于公开征求《广东省成品油流通管理条例实施细则（征求意见稿）》意见的公告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_energy_notices"
+  ],
+  "list_date": "2026-07-15",
+  "first_seen_at": "2026-09-29T09:03:25+00:00",
+  "last_checked_at": "2026-09-29T09:03:25+00:00",
+  "versions": []
+}

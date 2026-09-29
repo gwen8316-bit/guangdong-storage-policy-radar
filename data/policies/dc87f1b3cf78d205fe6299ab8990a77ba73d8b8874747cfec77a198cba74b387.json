@@ -1,0 +1,65 @@
+{
+  "url": "https://www.nea.gov.cn/20251231/138d2109bc8a4caabff561c6fb9ffa1c/c.html",
+  "title": "国家能源局综合司关于征集中国—上海合作组织能源合作专项工作组成员单位的通知",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": null,
+  "written_date": null,
+  "content_text": "",
+  "content_status": "failed",
+  "attachments": [],
+  "field_evidence": {},
+  "last_fetch_error": "ValueError: Article body container not recognized; refusing whole-page text",
+  "collection_issues": [
+    {
+      "stage": "detail",
+      "url": "https://www.nea.gov.cn/20251231/138d2109bc8a4caabff561c6fb9ffa1c/c.html",
+      "reason": "ValueError: Article body container not recognized; refusing whole-page text"
+    }
+  ],
+  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "dc87f1b3cf78d205fe6299ab8990a77ba73d8b8874747cfec77a198cba74b387",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2025-12-31",
+      "list_date_raw": "2025-12-31 16:38:53",
+      "list_title": "国家能源局综合司关于征集中国—上海合作组织能源合作专项工作组成员单位的通知"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_notices",
+      "list_url": "https://www.nea.gov.cn/policy/tz.htm",
+      "list_date": "2025-12-31",
+      "list_date_raw": "2025-12-31 16:38:53",
+      "list_title": "国家能源局综合司关于征集中国—上海合作组织能源合作专项工作组成员单位的通知"
+    },
+    {
+      "source_id": "nf",
+      "column_id": "nf_regulations",
+      "list_url": "https://nfj.nea.gov.cn/xxgk/zcfg/",
+      "list_date": "2025-12-31",
+      "list_date_raw": "2025-12-31",
+      "list_title": "国家能源局综合司关于征集中国—上海合作组织能源合作专项工作组成员单..."
+    }
+  ],
+  "source_ids": [
+    "nea",
+    "nf"
+  ],
+  "column_ids": [
+    "nea_latest",
+    "nea_notices",
+    "nf_regulations"
+  ],
+  "list_date": "2025-12-31",
+  "first_seen_at": "2026-09-29T08:59:07+00:00",
+  "last_checked_at": "2026-09-29T08:59:07+00:00",
+  "versions": []
+}

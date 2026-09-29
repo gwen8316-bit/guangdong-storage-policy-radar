@@ -1,0 +1,87 @@
+{
+  "title": "广东省能源局关于征集节能降碳改造需求的通知",
+  "doc_number": null,
+  "issuer": "广东省能源局",
+  "publish_date": "2026-09-17",
+  "written_date": "2026-09-16",
+  "content_text": "省有关单位，各地级以上市发展改革局（委）、惠州市能源和重点项目局、横琴粤澳深度合作区发展改革和统计局，各有关单位：\n按照《广东省重点行业节能降碳改造攻坚三年行动方案》等文件要求，为全面掌握我省企业节能降碳改造需求，加强用能单位与金融机构、合同能源管理企业、设备供应商、技术供应商等对接交流，解决企业节能降碳改造资金不足、技术不足等实际问题，特面向全省企业征集节能降碳改造需求。现将有关事项通知如下。\n一、征集范围\n全省范围内有节能降碳改造需求的各类单位，包括工业、建筑、交通、公共机构等各领域。改造方向包括：\n（一）用能设备更新改造（电机、锅炉、变压器、空压机、制冷供热系统、照明系统等）；\n（二）生产工艺节能降碳改造；\n（三）能源管理系统数字化智能化升级；\n（四）可再生能源应用（分布式光伏、储能等）；\n（五）其他。\n二、工作要求\n请省有关单位、各地节能主管部门组织用能单位填报《节能降碳改造需求征集表》（见附件），于10月20日前发送至指定邮箱（nyjjn@gd.gov.cn）。\n省能源局将通过线上线下等方式，发布用能单位节能降碳改造需求，并组织广大金融机构、合同能源管理企业、设备供应商、技术供应商等与用能单位开展对接，助推节能降碳改造项目落地见效。\n附件：节能降碳改造需求征集表\n广东省能源局\n2026年9月16日",
+  "content_status": "partial",
+  "attachments": [
+    {
+      "name": "spacer.gif",
+      "url": "https://cms.cloud.gd.gov.cn/static/ueditor/themes/default/images/spacer.gif",
+      "format": "gif",
+      "kind": "inline_image",
+      "size_bytes": 43,
+      "sha256": "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://cms.cloud.gd.gov.cn/static/ueditor/themes/default/images/spacer.gif",
+      "content_type": "image/gif",
+      "needs_manual_review": true
+    },
+    {
+      "name": "附件：节能降碳改造需求征集表.wps",
+      "url": "https://drc.gd.gov.cn/attachment/0/625/625518/4956939.wps",
+      "format": "wps",
+      "kind": "attachment",
+      "size_bytes": 25088,
+      "sha256": "fd438b8ceb1ad73e2f86fc967c3e74268e9f88905ee5d29b380fa57472e5443f",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/625/625518/4956939.wps",
+      "content_type": "application/octet-stream",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：省能源局节能处 时间：2026-09-17 16:47:25 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年9月16日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省能源局"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-09-17 16:47:25"
+  },
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4956939.html",
+  "final_url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4956939.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "f70b2b2da3ae23c050f9bb5e7df583764c49edf310da6aef5ae4f46af25f5692",
+  "attachments_hash": "b25ed2f04ec784ea0198c0fb1a27d42df7651a5cc5a6b67921a24eb736e56bb8",
+  "schema_version": 1,
+  "id": "599d93b03c9487d0f6fa641e663e5294f9363b5256480a3292abecb33fcbf09d",
+  "source_id": "gd",
+  "column_id": "gd_energy_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_energy_notices",
+      "list_url": "https://drc.gd.gov.cn/snyj/tzgg/index.html",
+      "list_date": "2026-09-17",
+      "list_date_raw": "2026-09-17",
+      "list_title": "广东省能源局关于征集节能降碳改造需求的通知"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_energy_notices"
+  ],
+  "list_date": "2026-09-17",
+  "first_seen_at": "2026-09-29T09:00:05+00:00",
+  "last_checked_at": "2026-09-29T09:00:05+00:00",
+  "versions": []
+}

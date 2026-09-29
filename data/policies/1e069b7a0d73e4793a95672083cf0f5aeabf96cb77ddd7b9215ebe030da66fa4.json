@@ -1,0 +1,80 @@
+{
+  "title": "广东省发展改革委关于公开征求《关于进一步提升城市配电设施防涝能力 保障公共用电设施用电安全的通知（征求意见稿）》意见的通告",
+  "doc_number": "粤发改能源函〔2025〕2015号",
+  "issuer": "广东省发展改革委",
+  "publish_date": "2025-11-25",
+  "written_date": "2025-11-25",
+  "content_text": "粤发改能源函〔2025〕2015号\n为有效解决台风、洪涝等极端天气下城市配电设施的灾害防御能力，认真贯彻落实省委、省政府有关工作部署，由省发展改革委等部门联合起草的《关于进一步提升城市配电设施防涝能力 保障公共用电设施用电安全的通知》已完成向省级有关部门征求意见。现面向社会公开征求意见。\n此次公开征求意见时间为2025年11月25日至12月24日，欢迎各界人士通过信函或邮件等方式提出意见建议。\n地址：广州市越秀区东风中路305号10号楼810省能源局安全监管处（邮编：510031）。\n电子邮箱：nyjaqc@gd.gov.cn。\n附件：关于进一步提升城市配电设施防涝能力 保障公共用电设施用电安全的通知（征求意见稿）\n广东省发展改革委\n2025年11月25日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件：关于进一步提升城市配电设施防涝能力保障公共用电设施用电安全的通知（征求意见稿）.doc",
+      "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/2275e8fe931cc04e9ff836bf46bd1918",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 47616,
+      "sha256": "4640c0c4cc98df3f431908a119a2df0c8a11f1691a67eb1b1b7bacd951fee95f",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/2275e8fe931cc04e9ff836bf46bd1918",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "json_field": "question_data.article.published_at",
+      "value": "2025-11-25 16:40"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2025年11月25日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "粤发改能源函〔2025〕2015号"
+    }
+  },
+  "body_selector": "window._CONFIG.question_data.article.content",
+  "date_metadata": {
+    "pubdate": "2025-11-25 16:40"
+  },
+  "attachment_metadata_urls": [
+    "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/2275e8fe931cc04e9ff836bf46bd1918"
+  ],
+  "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/47500",
+  "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/47500",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "0c44c94a3e0df92907bd64d4c7e2fa5706525a3f35f7542c55329929e29b5c23",
+  "attachments_hash": "cab91a5f99613e23d6582665da2fe494592e29bc5e9065b64c252062d5954417",
+  "schema_version": 1,
+  "id": "1e069b7a0d73e4793a95672083cf0f5aeabf96cb77ddd7b9215ebe030da66fa4",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2025-11-25",
+      "list_date_raw": "2025-11-25",
+      "list_title": "广东省发展改革委关于公开征求《关于进一步提升城市配电设施防涝能力 保障公共用电设施用电安全的通知（征求意见稿）》意见的通告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2025-11-25",
+  "first_seen_at": "2026-09-29T08:58:53+00:00",
+  "last_checked_at": "2026-09-29T08:58:53+00:00",
+  "versions": []
+}

@@ -1,0 +1,88 @@
+{
+  "title": "广东省能源局关于公开征求《广东省发电用气应急调峰储备管理办法（征求意见稿）》意见的通告",
+  "doc_number": null,
+  "issuer": "广东省能源局",
+  "publish_date": "2026-09-17",
+  "written_date": "2026-09-17",
+  "content_text": "为落实国家和省关于保障能源电力稳定供应的工作部署，确保负荷高峰时段电力、天然气平稳运行，进一步提升我省发电用气应急储备能力，我局研究起草了《广东省发电用气应急调峰储备管理办法（征求意见稿）》，现面向社会公开征求意见。\n此次公开征求意见时间为2026年9月17日至9月28日，欢迎各界人士通过信函提出意见建议。\n信函请寄至：广州市越秀区东风中路305号10号楼821（石油天然气处），邮编：510031。\n附件：1.广东省发电用气应急调峰储备管理办法（征求意见稿）\n2.意见反馈表\n广东省能源局\n2026年9月17日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件1：广东省发电用气应急调峰储备管理办法（征求意见稿）.docx",
+      "url": "https://drc.gd.gov.cn/attachment/0/625/625524/4956985.docx",
+      "format": "docx",
+      "kind": "attachment",
+      "size_bytes": 143360,
+      "sha256": "7bfc6cf70e079dfa4c7d60e6c5aa0c1a7c07c0ffbfd57808b4b0620c3330a406",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "legacy_or_encrypted_ole_container",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/625/625524/4956985.docx",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "detected_format": "ole_binary",
+      "needs_manual_review": true
+    },
+    {
+      "name": "附件2：意见反馈表.xlsx",
+      "url": "https://drc.gd.gov.cn/attachment/0/625/625525/4956985.xlsx",
+      "format": "xlsx",
+      "kind": "attachment",
+      "size_bytes": 10992,
+      "sha256": "b3921dfb62d89189bb256d1df921e5443b7600110f9c6e0e607ed9733ce73453",
+      "status": "parsed",
+      "text": "[工作表：Sheet1]\n附件2\n意见反馈表\n单位名称（盖章）：\n联系人：\t\t\t联系电话：\n序号\t原文位置\n（第几页第几条）\t意见建议\t理由及依据\n[工作表：Sheet2]\n[工作表：Sheet3]",
+      "error": null,
+      "final_url": "https://drc.gd.gov.cn/attachment/0/625/625525/4956985.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "needs_manual_review": false
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：省能源局石油天然气处 时间：2026-09-17 17:07:12 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年9月17日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省能源局"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2026-09-17 17:07:12"
+  },
+  "url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4956985.html",
+  "final_url": "https://drc.gd.gov.cn/snyj/tzgg/content/post_4956985.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "6dfb06576be2db7ba4d7d447f71c32fe783379c4bb61810ce1d0c486e07f5c3c",
+  "attachments_hash": "9e8a383073400b6318fbc1e145f20634fe52363609c9d50ab98beef5e199863a",
+  "schema_version": 1,
+  "id": "85926072b9aae954d4917dc92e26831b3526a939e285244a46c0a9438088935c",
+  "source_id": "gd",
+  "column_id": "gd_energy_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_energy_notices",
+      "list_url": "https://drc.gd.gov.cn/snyj/tzgg/index.html",
+      "list_date": "2026-09-17",
+      "list_date_raw": "2026-09-17",
+      "list_title": "广东省能源局关于公开征求《广东省发电用气应急调峰储备管理办法（征求意见稿）》意见的通告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_energy_notices"
+  ],
+  "list_date": "2026-09-17",
+  "first_seen_at": "2026-09-29T09:00:12+00:00",
+  "last_checked_at": "2026-09-29T09:00:12+00:00",
+  "versions": []
+}

@@ -1,0 +1,82 @@
+{
+  "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/52742",
+  "title": "广东省发展改革委关于公开征求《广东省工程建设项目远程异地评标管理办法（征求意见稿）》意见的通告",
+  "doc_number": null,
+  "issuer": "广东省发展改革委",
+  "publish_date": "2026-09-09",
+  "written_date": "2026-09-09",
+  "content_text": "为贯彻落实《国家发展改革委办公厅关于加快推广远程异地评标的通知》（发改办法规〔2025〕807号），加快实现远程异地评标常态化运行，保障招标投标活动公开、高效、透明，持续优化营商环境，我委对《广东省工程建设项目远程异地评标管理暂行办法》（粤发改规〔2022〕9号）进行修订，形成《广东省工程建设项目远程异地评标管理办法（征求意见稿）》。现面向社会公开征求意见，欢迎有关单位和各界人士于2026年9月18日前通过信函、电子邮件等途径和方式提出意见建议。\n邮箱：fgw_fgc@gd.gov.cn\n地址：广州市越秀区东风中路305号5号楼广东省发展改革委省招标投标工作专班办公室（邮编：510031）\n附件：广东省工程建设项目远程异地评标管理办法（征求意见稿）\n广东省发展改革委\n2026年9月9日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件：广东省工程建设项目远程异地评标管理办法（征求意见稿）.doc",
+      "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/2395951001a82c0174ca1c6411c0a66a",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 90112,
+      "sha256": "9af782c059d1f63bed23eb495daefc05477cccd7bc5669533e9f8bffd5bb405d",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/2395951001a82c0174ca1c6411c0a66a",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "json_field": "question_data.article.published_at",
+      "value": "2026-09-09 18:05"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2026年9月9日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    }
+  },
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "580a0aa3892f13b6c0b4606b8a76441522af341488af17b0a2233b4f54c18a35",
+  "attachments_hash": "b8aa8fb16a88aad7ab766ddc8b25c5522e75f5278c20b4c0400a6d45939c75a8",
+  "schema_version": 1,
+  "id": "b47e60cb21d75cd577f06d83e775d651ef5293ed30e809e8b6ff3273d0d88850",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2026-09-09",
+      "list_date_raw": "2026-09-09",
+      "list_title": "关于公开征求《广东省工程建设项目远程异地评标管理办法（征求意见稿）》意见的通告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2026-09-09",
+  "first_seen_at": "2026-09-29T08:38:45+00:00",
+  "last_checked_at": "2026-09-29T08:57:47+00:00",
+  "versions": [
+    {
+      "changed_at": "2026-09-29T08:57:47+00:00",
+      "old_content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "old_attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "body_selector": "window._CONFIG.question_data.article.content",
+  "date_metadata": {
+    "pubdate": "2026-09-09 18:05"
+  },
+  "attachment_metadata_urls": [
+    "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/2395951001a82c0174ca1c6411c0a66a"
+  ],
+  "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/52742"
+}

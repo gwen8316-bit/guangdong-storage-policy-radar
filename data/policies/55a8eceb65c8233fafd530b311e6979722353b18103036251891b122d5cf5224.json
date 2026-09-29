@@ -1,0 +1,67 @@
+{
+  "title": "国家能源局东北监管局、西北监管局、甘肃监管办公室电力安全监管典型执法案例",
+  "doc_number": null,
+  "issuer": null,
+  "publish_date": null,
+  "written_date": "2026-09-23",
+  "content_text": "附件：国家能源局东北监管局、西北监管局、甘肃监管办公室电力安全监管典型执法案例",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件：国家能源局东北监管局、西北监管局、甘肃监管办公室电力安全监管典型执法案例",
+      "url": "https://www.nea.gov.cn/20260923/ad4e328a364b4134b9b97ca9b6eda76c/20260923ad4e328a364b4134b9b97ca9b6eda76c_12d23ad8250c414c288e0dbf7984cacebe.pdf",
+      "format": "pdf",
+      "kind": "attachment",
+      "size_bytes": 81115,
+      "sha256": "beadce0e402263d94a2ec98ddd7ecc73da96e334cc5ee34986061f3cd2a4d052",
+      "status": "parsed",
+      "text": "[第 1 页]\n国家能源局东北监管局电力安全监管\n典型执法案例\n行政机关：国家能源局东北监管局\n行政相对人：浙江华东工程咨询有限公司\n该公司在参与吉林和龙抽水蓄能电站项目建设过程中，未如\n实记录安全生产教育和培训的时间、内容、参加人员以及考核结\n果等情况，违反了《中华人民共和国安全生产法》第二十八条规\n定。2026 年 8 月，依据《中华人民共和国安全生产法》第九十\n七条规定，国家能源局东北监管局对该公司作出责令限期改正、\n处五万元罚款的行政处罚决定。\n\n[第 2 页]\n国家能源局西北监管局电力安全监管\n典型执法案例\n行政机关：国家能源局西北监管局\n行政相对人：中国水利水电第三工程局有限公司\n该公司在陕西沙河抽蓄工程施工过程中，未按照安全风险分\n级采取相应管控措施；未在有较大危险因素的生产经营场所和有\n关设施、设备上设置明显的安全警示标志；未建立生产、经营、\n运输、储存、使用危险物品或者处置废弃危险物品专门的安全管\n理制度，未采取可靠的安全措施；未对安全设备进行经常性维护、\n保养和定期检测，违反了《中华人民共和国安全生产法》第三十\n五条、第三十六条、第三十九条、第四十一条规定。2026 年 7\n月，依据《中华人民共和国安全生产法》第九十九条、第一百零\n一条规定，国家能源局西北监管局作出责令限期改正、处十五万\n元罚款的行政处罚决定。\n\n[第 3 页]\n国家能源局甘肃监管办公室电力安全监管\n典型执法案例\n行政机关：国家能源局甘肃监管办公室\n行政相对人：西北电力建设第一工程有限公司\n该公司在甘肃能化兰州新区热电工程项目施工过程中,对特\n种作业人员上岗作业未按照规定经专门安全作业培训并取得相\n应资格、未如实记录安全生产教育和培训情况,违反了《中华人\n民共和国安全生产法》第三十条、第二十八条规定。2026 年 2\n月,依据《中华人民共和国安全生产法》第九十七条规定,国家能\n源局甘肃监管办公室作出责令限期改正、处十万元罚款的行政处\n罚决定。",
+      "error": null,
+      "final_url": "https://www.nea.gov.cn/20260923/ad4e328a364b4134b9b97ca9b6eda76c/20260923ad4e328a364b4134b9b97ca9b6eda76c_12d23ad8250c414c288e0dbf7984cacebe.pdf",
+      "content_type": "application/pdf",
+      "page_count": 3,
+      "needs_manual_review": false
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-09-23"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-09-23",
+    "pubdate": "2026-09-23 11:23:12"
+  },
+  "url": "https://www.nea.gov.cn/20260923/ad4e328a364b4134b9b97ca9b6eda76c/c.html",
+  "final_url": "https://www.nea.gov.cn/20260923/ad4e328a364b4134b9b97ca9b6eda76c/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "7a058bcb393fb5977366eb990942254082e9e2016ba7e17b0370578d507ba6b3",
+  "attachments_hash": "9edb54a8216e39165dcc510ba6971f1d6528fa6643a5d6cde4125588e12e9422",
+  "schema_version": 1,
+  "id": "55a8eceb65c8233fafd530b311e6979722353b18103036251891b122d5cf5224",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-09-23",
+      "list_date_raw": "2026-09-23 11:24:59",
+      "list_title": "国家能源局东北监管局、西北监管局、甘肃监管办公室电力安全监管典型执法案例"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest"
+  ],
+  "list_date": "2026-09-23",
+  "first_seen_at": "2026-09-29T08:30:17+00:00",
+  "last_checked_at": "2026-09-29T08:30:17+00:00",
+  "versions": []
+}

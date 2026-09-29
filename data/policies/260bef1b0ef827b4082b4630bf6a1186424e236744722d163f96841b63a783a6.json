@@ -1,0 +1,87 @@
+{
+  "title": "广东省发展改革委关于做好2025年度广东省发展和改革委员会优秀研究成果奖申报工作的通知",
+  "doc_number": null,
+  "issuer": "广东省发展改革委",
+  "publish_date": "2025-12-09",
+  "written_date": "2025-12-01",
+  "content_text": "各地级以上市发展改革局（委）：\n根据省发展改革委学术委员会的工作安排，2025年度广东省发展和改革委员会优秀研究成果奖申报工作从即日起开始，现将有关事项通知如下：\n一、成果推荐申报的资格\n（一）由我省发展改革系统的单位和个人为第一完成单位和第一完成人的成果。\n（二）2024年12月31日前完成的成果。\n（三）申报成果的范围包括发展改革工作各领域各方面。\n（四）申报成果的形式为专著、研究报告、调研报告、咨询报告和学术论文等。\n二、申报要求\n申报材料电子版请在广东省发展改革委网站下载《广东省发展改革委关于做好2025年度广东省发展和改革委员会优秀研究成果奖申报工作的通知》的附件，填写申报材料并制作电子版光盘，提交省发展改革委学术委办公室进行初审。初审通过后再交纸质版申报书和成果原件（申报要求见附件2），并承诺全部申报材料内容不涉密。\n三、有关说明\n（一）申报截止日期为2026年1月31日。\n（二）各单位可推荐1-2项研究成果。凡研究成果已获得厅（局）级以上奖励的或存在争议且争议未解决之前的均不得申报。\n（三）研究成果第一完成单位需出具一份加盖单位公章的函，承诺全部申报内容不涉密。\n（四）完成单位和完成人的数量要求。申报一等奖的完成单位最多为7个，完成人最多为10人；申报二等奖的完成单位最多为5个，完成人最多为7人；申报三等奖的完成单位最多为3个，完成人最多为5人。评选最终结果按申报时的排序依上述要求保留相应的完成单位和完成人数量进行公布。\n（五）申报材料资格审查。审查主要包括：是否符合申报要求、查重小于30%等。资格审查结果将在广东省发展和改革委员会网站公布。\n四、联系方式\n申报材料寄送至省发展改革委学术委办公室地址：广州市应元路5号三楼，邮政编码：510040，联系电话：020-83134680、020-83134636。\n附件：1.广东省发展和改革委员会优秀研究成果奖申报书\n2.广东省发展和改革委员会优秀研究成果奖申报注意事项\n广东省发展改革委\n2025年12月1日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件1：广东省发展和改革委员会优秀研究成果奖申报书.xls",
+      "url": "https://drc.gd.gov.cn/attachment/0/600/600522/4810271.xls",
+      "format": "xls",
+      "kind": "attachment",
+      "size_bytes": 36864,
+      "sha256": "6d193e60cc0e1273c4f1a4817c9176f48ce422858c789c72630a46890f48a5e0",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/600/600522/4810271.xls",
+      "content_type": "application/vnd.ms-excel",
+      "needs_manual_review": true
+    },
+    {
+      "name": "附件2：申报注意事项.doc",
+      "url": "https://drc.gd.gov.cn/attachment/0/600/600523/4810271.doc",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 24064,
+      "sha256": "212000cddc42bfb13b5408a2c502de1373791899c3c8025a01026408201a61bc",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/attachment/0/600/600523/4810271.doc",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "selector": "//*[contains(concat(' ',normalize-space(@class),' '),' jbxx ')]",
+      "value": "信息来源：省发展改革研究院 时间：2025-12-09 09:55:58 字体： [大] [中] [小]"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2025年12月1日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    }
+  },
+  "body_selector": "//*[@id='content1']",
+  "date_metadata": {
+    "pubdate": "2025-12-09 09:55:58"
+  },
+  "url": "https://drc.gd.gov.cn/ywtz/content/post_4810271.html",
+  "final_url": "https://drc.gd.gov.cn/ywtz/content/post_4810271.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "36ffffb084bedfefa30be45d66f5a643c5010feb5f24912b090b13ba66bd1e50",
+  "attachments_hash": "e7c7f9efd1dfd03801165d5114b2376326d309ba50db31bb457b2dacce49bbb0",
+  "schema_version": 1,
+  "id": "260bef1b0ef827b4082b4630bf6a1186424e236744722d163f96841b63a783a6",
+  "source_id": "gd",
+  "column_id": "gd_notices",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_notices",
+      "list_url": "https://drc.gd.gov.cn/ywtz/index.html",
+      "list_date": "2025-12-09",
+      "list_date_raw": "2025-12-09",
+      "list_title": "广东省发展改革委关于做好2025年度广东省发展和改革委员会优秀研究成果奖申报工作的通知"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_notices"
+  ],
+  "list_date": "2025-12-09",
+  "first_seen_at": "2026-09-29T08:35:57+00:00",
+  "last_checked_at": "2026-09-29T08:35:57+00:00",
+  "versions": []
+}

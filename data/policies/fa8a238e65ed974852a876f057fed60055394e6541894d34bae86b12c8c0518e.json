@@ -1,0 +1,59 @@
+{
+  "title": "国家能源局综合司关于同意注销云南六郎洞水电站大坝安全注册登记证的复函",
+  "doc_number": "国能综函安全〔2026〕13号",
+  "issuer": "国家能源局综合司",
+  "publish_date": null,
+  "written_date": "2026-03-17",
+  "content_text": "国家能源局综合司关于同意注销云南六郎洞水电站大坝安全注册登记证的复函\n国能综函安全〔2026〕13号\n大坝安全监察中心：\n报来《关于注销云南六郎洞水电站大坝安全注册登记证的请示》（坝监专委〔2026〕14号）收悉。经研究，函复如下。\n一、根据《水电站大坝安全注册登记监督管理办法》（国能安全〔2015〕146号）第27条规定，同意注销云南六郎洞水电站大坝安全注册登记证，请你中心依法依规办理注销相关事宜，并及时将注销情况书面告知大坝运行单位、大坝主管单位、云南省能源局、云南能源监管办，以及地方政府水行政、防汛抗旱主管部门。\n二、云南六郎洞水电站总装机容量3万千瓦，属于小水电。根据水利部、原国家工商总局、原国家安全监管总局、原国家电监会联合印发的《关于加强小水电站安全监管工作的通知》（水电〔2009〕585号）和国家发展改革委发布的《水电站大坝运行安全监督管理规定》（国家发展改革委令2015年第23号），自云南六郎洞水电站大坝安全注册登记证注销手续办理完毕之日起，我局不再承担该水电站的安全生产和大坝运行安全监管责任。\n国家能源局综合司\n2026年3月17日",
+  "content_status": "complete",
+  "attachments": [],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-03-17"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局综合司"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "国能综函安全〔2026〕13号"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-03-17",
+    "pubdate": "2026-03-17 00:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20260327/2a148a9117a9471a8a15a2474ad08ca8/c.html",
+  "final_url": "https://www.nea.gov.cn/20260327/2a148a9117a9471a8a15a2474ad08ca8/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "a390d6161523dbc3d5d05a7a4938b35720622f4427d2cf33ccd4d1807d65ad00",
+  "attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "schema_version": 1,
+  "id": "fa8a238e65ed974852a876f057fed60055394e6541894d34bae86b12c8c0518e",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-03-27",
+      "list_date_raw": "2026-03-27 08:56:08",
+      "list_title": "国家能源局综合司关于同意注销云南六郎洞水电站大坝安全注册登记证的复函"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest"
+  ],
+  "list_date": "2026-03-27",
+  "first_seen_at": "2026-09-29T08:44:16+00:00",
+  "last_checked_at": "2026-09-29T08:44:16+00:00",
+  "versions": []
+}

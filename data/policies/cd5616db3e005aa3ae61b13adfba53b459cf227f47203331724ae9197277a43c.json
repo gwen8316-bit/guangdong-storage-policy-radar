@@ -1,0 +1,83 @@
+{
+  "title": "国家能源局关于印发2024年度全国可再生能源电力发展监测评价结果的通知",
+  "doc_number": "国能发新能〔2025〕92号",
+  "issuer": "国家能源局",
+  "publish_date": null,
+  "written_date": "2025-10-28",
+  "content_text": "国家能源局关于印发2024年度全国可再生能源电力发展监测评价结果的通知\n国能发新能〔2025〕92号\n各省（自治区、直辖市）能源局、有关省（自治区、直辖市）及新疆生产建设兵团发展改革委，国家电网有限公司、中国南方电网有限责任公司、内蒙古电力（集团）有限责任公司：\n为贯彻落实习近平总书记关于以更大力度推动新能源高质量发展的重要指示精神，进一步促进可再生能源开发利用，科学评估各地区可再生能源发展状况，根据《中华人民共和国能源法》《中华人民共和国可再生能源法》和《关于建立可再生能源开发利用目标引导制度的指导意见》（国能新能〔2016〕54号）等文件要求，我局委托有关研究机构汇总可再生能源电力建设和运行监测数据，形成了《2024年度全国可再生能源电力发展监测评价结果》，作为各地区2024年可再生能源开发建设和并网运行的基础数据，现予以印发。\n请各地区和有关单位进一步重视可再生能源电力发展，提高可再生能源利用水平，为助力实现碳达峰碳中和目标任务作出积极贡献。\n附件：2024年度全国可再生能源电力发展监测评价结果\n国家能源局\n2025年10月28日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "2024年度全国可再生能源电力发展监测评价结果",
+      "url": "https://www.nea.gov.cn/20251113/cc1fb0298a2944f8bd5441f67c9be9b3/20251113cc1fb0298a2944f8bd5441f67c9be9b3_54b6e6c1674e9c4bdca1cdfb4cbb16b477.doc",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 186880,
+      "sha256": "b2c460a50a2bcd379b1a8c18b0b4c992fffff047dc8c5bb775aa7845ccd62449",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20251113/cc1fb0298a2944f8bd5441f67c9be9b3/20251113cc1fb0298a2944f8bd5441f67c9be9b3_54b6e6c1674e9c4bdca1cdfb4cbb16b477.doc",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2025-10-28"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局"
+    },
+    "doc_number": {
+      "label": "standalone_header",
+      "value": "国能发新能〔2025〕92号"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2025-10-28",
+    "pubdate": "2025-10-28 10:00:00"
+  },
+  "url": "https://www.nea.gov.cn/20251113/cc1fb0298a2944f8bd5441f67c9be9b3/c.html",
+  "final_url": "https://www.nea.gov.cn/20251113/cc1fb0298a2944f8bd5441f67c9be9b3/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "2767f69112323c65676e507d87a520ed8daa9a8d82edac60a31920facfec51a2",
+  "attachments_hash": "9bd8f7d983b204e21161cc75da77cc8f9a3f6f410f1625b759a1b132b01b6f37",
+  "schema_version": 1,
+  "id": "cd5616db3e005aa3ae61b13adfba53b459cf227f47203331724ae9197277a43c",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2025-11-13",
+      "list_date_raw": "2025-11-13 11:00:55",
+      "list_title": "国家能源局关于印发2024年度全国可再生能源电力发展监测评价结果的通知"
+    },
+    {
+      "source_id": "nea",
+      "column_id": "nea_notices",
+      "list_url": "https://www.nea.gov.cn/policy/tz.htm",
+      "list_date": "2025-11-13",
+      "list_date_raw": "2025-11-13 11:00:55",
+      "list_title": "国家能源局关于印发2024年度全国可再生能源电力发展监测评价结果的通知"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest",
+    "nea_notices"
+  ],
+  "list_date": "2025-11-13",
+  "first_seen_at": "2026-09-29T09:00:36+00:00",
+  "last_checked_at": "2026-09-29T09:00:36+00:00",
+  "versions": []
+}

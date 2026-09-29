@@ -1,0 +1,82 @@
+{
+  "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/48000",
+  "title": "广东省发展改革委关于公开征求公共数据资源授权运营价格管理办法意见的通告",
+  "doc_number": null,
+  "issuer": "广东省发展改革委",
+  "publish_date": "2025-12-18",
+  "written_date": "2025-12-17",
+  "content_text": "为建立我省公共数据资源授权运营价格形成机制，促进公共数据资源合规高效流通使用，根据《国家发展改革委 国家数据局关于建立公共数据资源授权运营价格形成机制的通知》（发改价格〔2025〕65号）等规定，我委结合前期意见收集情况，起草《广东省公共数据资源授权运营价格管理办法（征求意见稿）》。现向社会各界公开征求意见，欢迎有关单位和各界人士于2025年12月26日前通过信函、传真或电子邮件等方式提出宝贵意见。\n传真：020-83134175\n邮箱：fgw_jgc@gd.gov.cn\n地址：广州市越秀区东风中路305号5号楼广东省发展改革委价格处（邮编：510031）\n附件：广东省公共数据资源授权运营价格管理办法（征求意见稿）\n广东省发展改革委\n2025年12月17日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "附件：广东省公共数据资源授权运营价格管理办法（征求意见稿）.doc",
+      "url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/35f063b83cef44856eeea2ec4bd8ed44",
+      "format": "doc",
+      "kind": "attachment",
+      "size_bytes": 59904,
+      "sha256": "0e57475fe0e1a3b7c415289595962bebeef5c4e6199b96c2058477b91b844649",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/view/35f063b83cef44856eeea2ec4bd8ed44",
+      "content_type": "application/msword",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "publish_date": {
+      "json_field": "question_data.article.published_at",
+      "value": "2025-12-18 11:39"
+    },
+    "written_date": {
+      "label": "signature_date",
+      "value": "2025年12月17日"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "广东省发展改革委"
+    }
+  },
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "8c825466af92e5674dd8313e66d07a26a4443200855c2aa11b657652c99851f1",
+  "attachments_hash": "20e87071bbcce203e0dca85c46616b413efefdf2f87dab4084a9a3d24f077182",
+  "schema_version": 1,
+  "id": "97595b27180361dfd3513b9e8cb0fb0585f8dc52f0743fc7db4e715ab29a9188",
+  "source_id": "gd",
+  "column_id": "gd_announcements",
+  "columns": [
+    {
+      "source_id": "gd",
+      "column_id": "gd_announcements",
+      "list_url": "https://drc.gd.gov.cn/ywgg/index.html",
+      "list_date": "2025-12-18",
+      "list_date_raw": "2025-12-18",
+      "list_title": "广东省发展改革委关于公开征求公共数据资源授权运营价格管理办法意见的通告"
+    }
+  ],
+  "source_ids": [
+    "gd"
+  ],
+  "column_ids": [
+    "gd_announcements"
+  ],
+  "list_date": "2025-12-18",
+  "first_seen_at": "2026-09-29T08:47:15+00:00",
+  "last_checked_at": "2026-09-29T08:58:41+00:00",
+  "versions": [
+    {
+      "changed_at": "2026-09-29T08:58:41+00:00",
+      "old_content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "old_attachments_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "body_selector": "window._CONFIG.question_data.article.content",
+  "date_metadata": {
+    "pubdate": "2025-12-18 11:39"
+  },
+  "attachment_metadata_urls": [
+    "https://drc.gd.gov.cn/hdjlpt/yjzj/api/attachments/35f063b83cef44856eeea2ec4bd8ed44"
+  ],
+  "final_url": "https://drc.gd.gov.cn/hdjlpt/yjzj/answer/48000"
+}
