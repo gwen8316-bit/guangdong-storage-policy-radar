@@ -2,6 +2,24 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 export interface PricePoint { date: string; close: number; }
+export interface TariffPoint {
+  month: string; source_url: string; zone: string;
+  prices_fen: { sharp: number; peak: number; flat: number; valley: number };
+  sharp_listed: boolean; sharp_execution: 'full_month' | 'unverified';
+}
+export interface TariffData {
+  scope: string; zone_note: string; sharp_condition: string; sharp_note: string;
+  series: TariffPoint[];
+}
+export function tariffValues(p: TariffPoint) {
+  const { sharp, peak, flat, valley } = p.prices_fen;
+  return { sharp: sharp / 100, peak: peak / 100, flat: flat / 100, valley: valley / 100,
+    peakSpread: Number(((peak - valley) / 100).toFixed(4)),
+    sharpSpread: p.sharp_execution === 'full_month' ? Number(((sharp - valley) / 100).toFixed(4)) : null };
+}
+export function loadTariff(root = resolve(process.env.POLICY_DATA_DIR || 'data')): TariffData {
+  return JSON.parse(readFileSync(resolve(root, 'market/guangdong-tariff.json'), 'utf8'));
+}
 export interface StoragePoint {
   date: string; label: string; power: number; energy: number;
   original_power: string; original_energy: string;

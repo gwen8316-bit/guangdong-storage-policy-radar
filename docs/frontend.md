@@ -35,3 +35,7 @@
 ## 官方部署参考
 
 [Astro GitHub Pages 部署与 base 路径](https://v6.docs.astro.build/en/guides/deploy/github/)；[GitHub Pages 自定义 Actions 工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
+
+## 市场看板第 3 步
+
+新增已确认的广东电网 2026 年 5—10 月分时电价 JSON，保留公告原始精度、来源、价区和尖峰执行状态。前端计算高峰−低谷主线及 7—9 月尖峰−低谷菱形点；其他月份不绘制尖峰价差。指标卡显示最新月份及环比绝对变化和百分比，手机可横向滚动查看四时段价格表。手工核对数据随现有候选快照保留，不新增自动推断尖峰执行的流程。

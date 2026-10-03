@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { loadMarket, loadStorage, priceChart } from '../../lib/market';
+import { loadMarket, loadStorage, priceChart, loadTariff, tariffValues } from '../../lib/market';
 import { formatTime } from '../../lib/data';
 const data = loadMarket();
 const chart = data ? priceChart(data.series) : null;
@@ -11,16 +11,22 @@ const latestStorage = storage.series.at(-1)!;
 const storageMax = Math.ceil(Math.max(...storage.series.map(p => p.power)) * 2) / 2;
 const storagePoints = storage.series.map((p, i) => ({ ...p, x: 100 + i * 140, y: 235 - p.power / storageMax * 185 }));
 const storagePath = storagePoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${p.y}`).join(' ');
-const placeholders = [
-  { title: '广东峰谷价差', unit: '电价口径待确认', scope: '适用用户、电压等级、月份与尖峰时段口径待录入。' },
-];
+const tariff = loadTariff();
+const tariffRows = tariff.series.map(p => ({ ...p, ...tariffValues(p) }));
+const latestTariff = tariffRows.at(-1)!;
+const previousTariff = tariffRows.at(-2)!;
+const tariffDelta = latestTariff.peakSpread - previousTariff.peakSpread;
+const tariffPct = tariffDelta / previousTariff.peakSpread * 100;
+const tariffY = (value: number) => 245 - (value - 0.7) / 0.6 * 200;
+const tariffPoints = tariffRows.map((p, i) => ({ ...p, x: 80 + i * 104 }));
+const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(p.peakSpread)}`).join(' ');
 ---
 <Layout title="市场看板">
   <section class="hero"><div><p class="eyebrow">MARKET WATCH / 市场看板</p><h1>储能市场观察</h1><p class="muted">关注装机规模、材料价格与电价信号。</p></div><p class="update">碳酸锂采集于<br />{formatTime(data?.fetched_at)}</p></section>
   <section class="market-metrics" aria-label="市场指标">
     <article class="metric"><span>{storage.metric}</span><strong>{latestStorage.power.toFixed(2)}<small>亿千瓦</small></strong><p class="storage-energy">/ {latestStorage.energy.toFixed(2)} 亿千瓦时</p><p>数据截至：{latestStorage.date}</p><p class="change"><a href={latestStorage.source_url} target="_blank" rel="noopener noreferrer">{latestStorage.official_yoy}</a>（官方公布）</p></article>
     <article class="metric"><span>碳酸锂价格 · 连续主力期货</span><strong>{data ? number(data.latest.close) : '数据待更新'}{data && <small>元/吨</small>}</strong><p>数据日期：{data?.latest.date || '暂无'}</p><p class:list={['change', typeof change === 'number' && (change > 0 ? 'up' : change < 0 ? 'down' : '')]}>较 30 天前收盘价：{typeof change === 'number' ? `${change > 0 ? '上涨 +' : change < 0 ? '下跌 ' : '持平 '}${change.toFixed(2)}%` : '暂无可比数据'}</p>{data?.comparison.baseline && <p>对比日：{data.comparison.baseline.date} · {number(data.comparison.baseline.close)} 元/吨</p>}</article>
-    <article class="metric"><span>广东峰谷价差</span><strong class="pending">数据待录入</strong><p>适用用户与电价口径待确认</p></article>
+    <article class="metric"><span>广东峰谷价差 · 高峰−低谷</span><strong>{latestTariff.peakSpread.toFixed(4)}<small>元/千瓦时</small></strong><p>数据月份：{latestTariff.month}</p><p class="change">较上月{tariffDelta < 0 ? '下降' : '上升'} {Math.abs(tariffDelta).toFixed(4)} 元/千瓦时（{tariffPct > 0 ? '+' : ''}{tariffPct.toFixed(2)}%）</p></article>
   </section>
   <section class="market-charts" aria-label="市场趋势">
     <article class="trend storage"><div class="section-title"><h2>{storage.metric}</h2><span class="fine">半年度 · 功率（亿千瓦）</span></div>
@@ -46,10 +52,24 @@ const placeholders = [
       </> : <div class="chart-placeholder">数据待更新</div>}
       <div class="chart-notes"><p><b>数据来源：</b><a href="https://akshare.akfamily.xyz/data/futures/futures.html" target="_blank" rel="noopener noreferrer">AKShare</a> · <a href="https://finance.sina.com.cn/futures/quotes/LC0.shtml" target="_blank" rel="noopener noreferrer">新浪财经 LC0</a>，对应广州期货交易所碳酸锂期货。</p><p><b>统计口径：</b>使用连续主力合约数据（LC0）的日度收盘价，单位元/吨，非现货价、非结算价。30 天涨跌幅以最新数据日期前 30 个自然日为基准；休市时取基准日之前最近交易日。纵轴按数据范围缩放。</p><p><b>局限：</b>换月可能产生价格跳变，连续合约收益不等于实际持仓收益。数据由第三方提供，可能延迟或修订；非交易日无新收盘价，接口失败时保留上次有效数据。仅供市场观察。</p></div>
     </article>
-    {placeholders.map(item => <article class="trend"><div class="section-title"><h2>{item.title}趋势</h2><span class="fine">{item.unit}</span></div><div class="chart-placeholder" role="status">数据待录入</div><div class="chart-notes"><p><b>数据来源：</b>待录入。</p><p><b>统计口径：</b>{item.scope}</p><p><b>局限：</b>本阶段未接入数据，暂不提供趋势或比较结论。</p></div></article>)}
+    <article class="trend tariff"><div class="section-title"><h2>广东峰谷价差趋势</h2><span class="fine">2026 年 5—10 月 · 元/千瓦时</span></div>
+      <p class="tariff-legend"><span>● ━ 高峰−低谷</span><span>◆ 尖峰−低谷（7—9 月）</span></p>
+      <svg class="tariff-chart" viewBox="0 0 680 300" role="img" aria-labelledby="tariff-title tariff-description">
+        <title id="tariff-title">广东六个月峰谷价差</title><desc id="tariff-description">主线为高峰减低谷价差，10 月为 0.8913 元/千瓦时；菱形辅助点仅展示 7、8、9 月尖峰减低谷价差。纵轴从 0.7 起，完整数据见下表。</desc>
+        {[0.7, 0.9, 1.1, 1.3].map(value => <g><line x1="80" x2="600" y1={tariffY(value)} y2={tariffY(value)} stroke="#e3eaf1"/><text x="55" y={tariffY(value) + 6} text-anchor="end">{value.toFixed(1)}</text></g>)}
+        <path d={tariffPath} fill="none" stroke="#183e6b" stroke-width="3" vector-effect="non-scaling-stroke"/>
+        {tariffPoints.map(p => <g><circle cx={p.x} cy={tariffY(p.peakSpread)} r="5" fill="#183e6b"><title>{p.month} 高峰−低谷：{p.peakSpread.toFixed(4)} 元/千瓦时</title></circle><text x={p.x} y="285" text-anchor="middle">{p.month.slice(5)} 月</text>{p.sharpSpread !== null && <path d={`M${p.x},${tariffY(p.sharpSpread)-7} l7,7 l-7,7 l-7,-7 Z`} fill="#a56316"><title>{p.month} 尖峰−低谷：{p.sharpSpread.toFixed(4)} 元/千瓦时</title></path>}</g>)}
+      </svg>
+      <p class="fine">{tariff.sharp_note}“待核实”不代表“未执行”。</p>
+      <div class="tariff-table" role="region" aria-label="六个月电价和公告，可横向滚动" tabindex="0"><table><caption>分时电量电价与价差（元/千瓦时，可横向滚动）</caption><thead><tr><th scope="col">月份</th><th scope="col">尖峰</th><th scope="col">高峰</th><th scope="col">平段</th><th scope="col">低谷</th><th scope="col">高峰−低谷</th><th scope="col">尖峰−低谷</th><th scope="col">列有尖峰 / 执行状态</th><th scope="col">来源</th></tr></thead><tbody>{tariffRows.map(p => <tr><th scope="row">{p.month}</th><td>{p.sharp.toFixed(4)}</td><td>{p.peak.toFixed(4)}</td><td>{p.flat.toFixed(4)}</td><td>{p.valley.toFixed(4)}</td><td>{p.peakSpread.toFixed(4)}</td><td>{p.sharpSpread === null ? '—' : p.sharpSpread.toFixed(4)}</td><td>{p.sharp_listed ? '是' : '否'} / {p.sharp_execution === 'full_month' ? '整月执行' : '待核实'}</td><td><a href={p.source_url} target="_blank" rel="noopener noreferrer">官方公告</a></td></tr>)}</tbody></table></div>
+      <div class="chart-notes"><p><b>数据来源：</b>广东电网在南网在线发布的每月代理购电完整公告，经逐份核对录入；原单位分/千瓦时除以 100，保留四位小数。价差按未舍入的原始值计算。</p><p><b>统计口径：</b>{tariff.scope}</p><p><b>价区变化：</b>{tariff.zone_note}</p><p><b>尖峰执行条件（各月公告原文）：</b>{tariff.sharp_condition}</p><p><b>局限：</b>{tariff.sharp_note}公告列出尖峰价格不等于当月实际执行。纵轴从 0.7 起；价差不等于储能净收益，未计效率、费用等因素。后续月份需核对公告后更新。</p></div>
+    </article>
   </section>
 </Layout>
 <style>
+  .tariff{grid-column:1/-1}.tariff-chart{display:block;width:100%;max-width:900px;margin:15px auto;height:auto}.tariff-chart text{font-size:18px;fill:#63758a;font-variant-numeric:tabular-nums}.tariff-legend{display:flex;gap:20px;flex-wrap:wrap;font-size:13px;color:#183e6b}.tariff-legend span:last-child{color:#a56316}.tariff-table{max-width:100%;overflow-x:auto}.tariff-table table{min-width:820px;font-size:13px;white-space:nowrap;font-variant-numeric:tabular-nums}.tariff-table caption{text-align:left;color:var(--muted);padding:10px 0}.tariff-table:focus-visible{outline:2px solid #183e6b}.tariff-table td,.tariff-table th{text-align:right}.tariff-table th:first-child{text-align:left}
+  @media(max-width:760px){.tariff-chart text{font-size:24px}.tariff-legend{gap:8px 16px}}
+
   .storage{grid-column:1/-1}.storage-chart{display:block;width:100%;max-width:850px;margin:20px auto;height:auto}.storage-chart text{font-size:17px;fill:#63758a;font-variant-numeric:tabular-nums}.metric .storage-energy{font-size:18px;color:#183e6b}.storage-table table{table-layout:fixed}.storage-table th,.storage-table td{min-width:0;overflow-wrap:anywhere;text-align:left}.storage-table caption{text-align:left;color:var(--muted);padding:12px 0}.storage-evidence{margin-top:16px}.storage-evidence p{font-size:13px}.storage-evidence blockquote{margin-bottom:20px}
   @media(max-width:760px){.storage-table th,.storage-table td{padding:9px 5px;font-size:11px}.storage-chart text{font-size:22px}}
   .trend{min-width:0;overflow-wrap:anywhere}

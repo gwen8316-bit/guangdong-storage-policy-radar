@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "scope": "广州、珠海、佛山、中山、东莞，工商业两部制，1–10（20）千伏，仅分时电量电价，不含容（需）量电价。",
+  "zone_note": "8 月起该价区扩为“珠三角六市”（新增江门，不含恩平、台山、开平），所选五市始终包含在内。",
+  "sharp_condition": "尖峰电价执行时间为7月、8月和9月三个整月，以及其他月份中广州日最高气温达到35℃及以上的高温天，执行时段为每天11-12时、15-17时共三个小时，尖峰电价在峰段电价基础上上浮25%。",
+  "sharp_note": "5、6、10 月：尖峰仅在高温日触发，暂无官方逐日执行记录，未计算。",
+  "series": [
+    {
+      "month": "2026-05",
+      "source_url": "https://95598.csg.cn/#/gd/serviceInquire/information/detail/?infoId=45ddbf26164b4d6382b4d1b4c3add7cf",
+      "zone": "珠三角五市",
+      "prices_fen": {
+        "sharp": 139.966875,
+        "peak": 112.526875,
+        "flat": 67.326875,
+        "valley": 27.306875
+      },
+      "sharp_listed": true,
+      "sharp_execution": "unverified"
+    },
+    {
+      "month": "2026-06",
+      "source_url": "https://95598.csg.cn/#/gd/serviceInquire/information/detail/?infoId=7d41dab6383844629118a43fda1aa997",
+      "zone": "珠三角五市",
+      "prices_fen": {
+        "sharp": 139.416875,
+        "peak": 112.086875,
+        "flat": 67.066875,
+        "valley": 27.206875
+      },
+      "sharp_listed": true,
+      "sharp_execution": "unverified"
+    },
+    {
+      "month": "2026-07",
+      "source_url": "https://95598.csg.cn/#/gd/serviceInquire/information/detail/?infoId=972ec8ad380d45eab37657d69e2af8cd",
+      "zone": "珠三角五市",
+      "prices_fen": {
+        "sharp": 145.086875,
+        "peak": 116.616875,
+        "flat": 69.736875,
+        "valley": 28.216875
+      },
+      "sharp_listed": true,
+      "sharp_execution": "full_month"
+    },
+    {
+      "month": "2026-08",
+      "source_url": "https://95598.csg.cn/#/gd/serviceInquire/information/detail/?infoId=dd4be988310c40e6bc4c116262034aee",
+      "zone": "珠三角六市（不含江门恩平、台山、开平）",
+      "prices_fen": {
+        "sharp": 141.376875,
+        "peak": 113.656875,
+        "flat": 67.996875,
+        "valley": 27.556875
+      },
+      "sharp_listed": true,
+      "sharp_execution": "full_month"
+    },
+    {
+      "month": "2026-09",
+      "source_url": "https://95598.csg.cn/#/gd/serviceInquire/information/detail/?infoId=f84383e9ef5e4e4c821c75b496d2b777",
+      "zone": "珠三角六市（不含江门恩平、台山、开平）",
+      "prices_fen": {
+        "sharp": 152.006875,
+        "peak": 122.156875,
+        "flat": 72.996875,
+        "valley": 29.446875
+      },
+      "sharp_listed": true,
+      "sharp_execution": "full_month"
+    },
+    {
+      "month": "2026-10",
+      "source_url": "https://95598.csg.cn/#/gd/serviceInquire/information/detail/?infoId=8a592ed919684f97bc6abd030a79b807",
+      "zone": "珠三角六市（不含江门恩平、台山、开平）",
+      "prices_fen": {
+        "sharp": 146.246875,
+        "peak": 117.546875,
+        "flat": 70.286875,
+        "valley": 28.416875
+      },
+      "sharp_listed": true,
+      "sharp_execution": "unverified"
+    }
+  ]
+}

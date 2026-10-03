@@ -5,7 +5,17 @@ import { tmpdir } from 'node:os';
 import { resolve, join } from 'node:path';
 import { loadData, fingerprint, safeUrl, displayDate, recentCount, type Entry, type Policy } from '../src/lib/data.ts';
 import { matchesFilters, type Filters } from '../src/lib/filter.ts';
-import { loadMarket, priceChart } from '../src/lib/market.ts';
+import { loadMarket, priceChart, loadTariff, tariffValues } from '../src/lib/market.ts';
+
+test('confirmed tariff values retain precision and omit unverified sharp spreads', () => {
+  const rows = loadTariff().series;
+  assert.deepEqual(rows.map(p => p.month), ['2026-05','2026-06','2026-07','2026-08','2026-09','2026-10']);
+  assert.deepEqual(rows.map(p => tariffValues(p).peakSpread), [0.8522,0.8488,0.8840,0.8610,0.9271,0.8913]);
+  assert.deepEqual(rows.map(p => tariffValues(p).sharpSpread), [null,null,1.1687,1.1382,1.2256,null]);
+  assert.ok(rows.every(p => p.sharp_listed && new URL(p.source_url).hostname === '95598.csg.cn'));
+  assert.equal(tariffValues(rows[5]).sharp.toFixed(4), '1.4625');
+  assert.equal((tariffValues(rows[5]).peakSpread - tariffValues(rows[4]).peakSpread).toFixed(4), '-0.0358');
+});
 
 test('market uses a sorted one-year LC0 series and finite chart coordinates', () => {
   const market = loadMarket();
