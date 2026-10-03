@@ -321,8 +321,8 @@
       "储能"
     ],
     "relevance": "直接相关",
-    "status": "pending_review",
-    "visible": false
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "1e069b7a0d73e4793a95672083cf0f5aeabf96cb77ddd7b9215ebe030da66fa4",
@@ -488,8 +488,8 @@
       "抽水蓄能"
     ],
     "relevance": "直接相关",
-    "status": "pending_review",
-    "visible": false
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "2f174ff2b96dfb5a06f65832c86954c52df88222f39199415e08f8f80f591e27",
@@ -956,8 +956,8 @@
       "电力市场"
     ],
     "relevance": "间接相关",
-    "status": "pending_review",
-    "visible": false
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "599d93b03c9487d0f6fa641e663e5294f9363b5256480a3292abecb33fcbf09d",
@@ -1165,8 +1165,8 @@
       "电力市场"
     ],
     "relevance": "直接相关",
-    "status": "pending_review",
-    "visible": false
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "6d19df03acd861a969464e903cea569651c791240a7e7d5d4d482382b2825cd0",
@@ -1668,8 +1668,8 @@
       "电力市场"
     ],
     "relevance": "间接相关",
-    "status": "pending_review",
-    "visible": false
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "923b217a55979e32c766c76829b17af3872e816d4f70a20801688b9d26e612c9",
@@ -1889,8 +1889,8 @@
       "抽水蓄能"
     ],
     "relevance": "直接相关",
-    "status": "pending_review",
-    "visible": false
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "aac677bd109387ab54234342ba6513487605ff652a7b51692ef5570889ab58b6",
@@ -2352,6 +2352,15 @@
     "visible": true
   },
   {
+    "id": "d59fb7b931648d65a066d7bea3765dc97ced8f60404dca3ef5937d0756be8063",
+    "keywords": [
+      "电力市场"
+    ],
+    "relevance": "直接相关",
+    "status": "complete",
+    "visible": true
+  },
+  {
     "id": "d5be65db09220d6d0e45f32901f54d7ea37bfd05c82474c290453e5cf0d7edae",
     "keywords": [
       "储能",
@@ -2416,8 +2425,8 @@
       "需求响应"
     ],
     "relevance": "间接相关",
-    "status": "pending_review",
-    "visible": false
+    "status": "complete",
+    "visible": true
   },
   {
     "id": "dac9a337485cc34df2c870c53aaee29af06aca4dcc97d07588c9271e9abecc25",

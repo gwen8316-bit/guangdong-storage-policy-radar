@@ -4129,6 +4129,40 @@
         "prompt_cache_hit_tokens": 1408,
         "prompt_cache_miss_tokens": 209
       }
+    },
+    {
+      "at": "2026-10-03T00:11:57+00:00",
+      "policy_id": "2e6658057375d2f7098707b9ec463ab140f2ab38226908c6c323511796b4147a",
+      "stage": "interpretation",
+      "reserved_cny": 0.2,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 961,
+        "completion_tokens": 261,
+        "total_tokens": 1222,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 193
+      }
+    },
+    {
+      "at": "2026-10-03T00:11:59+00:00",
+      "policy_id": "2e6658057375d2f7098707b9ec463ab140f2ab38226908c6c323511796b4147a",
+      "stage": "format_repair",
+      "reserved_cny": 0.2,
+      "status": "returned",
+      "usage": {
+        "prompt_tokens": 984,
+        "completion_tokens": 241,
+        "total_tokens": 1225,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 216
+      }
     }
   ]
 }

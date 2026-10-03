@@ -1,0 +1,70 @@
+{
+  "title": "国家能源局综合司关于公开征求《电力并网运行管理规定》（征求意见稿）意见的通知",
+  "doc_number": null,
+  "issuer": "国家能源局综合司",
+  "publish_date": null,
+  "written_date": "2026-09-30",
+  "content_text": "国家能源局综合司关于公开征求《电力并网运行管理规定》（征求意见稿）意见的通知\n为贯彻落实党中央、国务院关于深化电力体制改革、建设全国统一电力市场决策部署，规范电力系统并网运行管理，保障电力系统安全、优质、经济运行及相关市场主体合法权益，根据《中华人民共和国能源法》《中华人民共和国电力法》《电网调度管理条例》《电力监管条例》等法律法规，国家能源局对现行《电力并网运行管理规定》（国能发监管规〔2021〕60号，以下简称《规定》）进行修订，形成了《电力并网运行管理规定（征求意见稿）》，现向社会公开征求意见。\n欢迎有关单位和社会各界人士提出宝贵意见建议，自本通知发布之日起30日内传真至010-81929559，或通过电子邮件发至jianguanerchu@nea.gov.cn。\n感谢您的参与和支持！\n附件：电力并网运行管理规定（征求意见稿）\n国家能源局综合司\n2026年9月30日",
+  "content_status": "complete",
+  "attachments": [
+    {
+      "name": "电力并网运行管理规定（征求意见稿）",
+      "url": "https://www.nea.gov.cn/20260930/43fede537ca048b1a6a51fe0970fb205/2026093043fede537ca048b1a6a51fe0970fb205_45b566d9b331dc48a1ac4049dcedfa669d.wps",
+      "format": "wps",
+      "kind": "attachment",
+      "size_bytes": 62976,
+      "sha256": "6b8fe76fa6511ff0be67c12a5061c70b7196fdedc033cc643f40dc50f60bbf75",
+      "status": "needs_manual_review",
+      "text": "",
+      "error": "unsupported_format_no_ocr",
+      "final_url": "https://www.nea.gov.cn/20260930/43fede537ca048b1a6a51fe0970fb205/2026093043fede537ca048b1a6a51fe0970fb205_45b566d9b331dc48a1ac4049dcedfa669d.wps",
+      "content_type": "application/octet-stream",
+      "needs_manual_review": true
+    }
+  ],
+  "field_evidence": {
+    "written_date": {
+      "label": "制发日期",
+      "value": "2026-09-30"
+    },
+    "issuer": {
+      "label": "signature",
+      "value": "国家能源局综合司"
+    }
+  },
+  "body_selector": "//*[@id='detailContent']",
+  "date_metadata": {
+    "publishdate": "2026-09-30",
+    "pubdate": "2026-09-30 17:48:37"
+  },
+  "url": "https://www.nea.gov.cn/20260930/43fede537ca048b1a6a51fe0970fb205/c.html",
+  "final_url": "https://www.nea.gov.cn/20260930/43fede537ca048b1a6a51fe0970fb205/c.html",
+  "last_fetch_error": null,
+  "collection_issues": [],
+  "content_hash": "db43c877b2ac4c2f1f544370d20d516d1352a49cbee22cd391a754bcdb35a588",
+  "attachments_hash": "2ecee9995fc129922f33d3d1db5b849521b8af3876ce1e1531d961058759087f",
+  "schema_version": 1,
+  "id": "d59fb7b931648d65a066d7bea3765dc97ced8f60404dca3ef5937d0756be8063",
+  "source_id": "nea",
+  "column_id": "nea_latest",
+  "columns": [
+    {
+      "source_id": "nea",
+      "column_id": "nea_latest",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "list_date": "2026-09-30",
+      "list_date_raw": "2026-09-30 17:48:36",
+      "list_title": "国家能源局综合司关于公开征求《电力并网运行管理规定》（征求意见稿）意见的通知"
+    }
+  ],
+  "source_ids": [
+    "nea"
+  ],
+  "column_ids": [
+    "nea_latest"
+  ],
+  "list_date": "2026-09-30",
+  "first_seen_at": "2026-10-03T00:06:28+00:00",
+  "last_checked_at": "2026-10-03T00:06:28+00:00",
+  "versions": []
+}

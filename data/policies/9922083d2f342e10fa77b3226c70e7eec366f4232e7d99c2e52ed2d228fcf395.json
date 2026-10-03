@@ -1,6 +1,6 @@
 {
   "title": "国家能源局公告 2026年第2号",
-  "doc_number": null,
+  "doc_number": "国家能源局公告 2026年第2号",
   "issuer": "国家能源局",
   "publish_date": null,
   "written_date": "2026-06-26",
@@ -64,6 +64,10 @@
     "issuer": {
       "label": "signature",
       "value": "国家能源局"
+    },
+    "doc_number": {
+      "label": "announcement_number_in_title",
+      "value": "国家能源局公告 2026年第2号"
     }
   },
   "body_selector": "//*[@id='detailContent']",
@@ -99,6 +103,6 @@
   ],
   "list_date": "2026-07-10",
   "first_seen_at": "2026-09-29T09:03:18+00:00",
-  "last_checked_at": "2026-09-29T09:03:18+00:00",
+  "last_checked_at": "2026-10-03T00:09:48+00:00",
   "versions": []
 }
