@@ -5,6 +5,21 @@ import { tmpdir } from 'node:os';
 import { resolve, join } from 'node:path';
 import { loadData, fingerprint, safeUrl, displayDate, recentCount, type Entry, type Policy } from '../src/lib/data.ts';
 import { matchesFilters, type Filters } from '../src/lib/filter.ts';
+import { loadMarket, priceChart } from '../src/lib/market.ts';
+
+test('market uses a sorted one-year LC0 series and finite chart coordinates', () => {
+  const market = loadMarket();
+  assert.ok(market);
+  assert.equal(market.symbol, 'LC0');
+  assert.ok(market.series.length >= 150);
+  assert.deepEqual(market.latest, market.series.at(-1));
+  assert.deepEqual(market.series.map(p => p.date), [...new Set(market.series.map(p => p.date))].sort());
+  const chart = priceChart(market.series)!;
+  assert.ok(chart.points.every(p => Number.isFinite(p.x) && Number.isFinite(p.y) && p.y >= 30 && p.y <= 258));
+  assert.ok(!chart.path.includes('NaN'));
+  assert.equal(priceChart([]), null);
+  assert.ok(!priceChart([{date:'2026-01-01',close:100},{date:'2026-01-02',close:100}])!.path.includes('NaN'));
+});
 
 test('real data: current interpretations only, deduplicated and sorted', () => {
   const data = loadData();

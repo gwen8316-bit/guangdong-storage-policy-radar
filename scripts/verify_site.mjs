@@ -8,6 +8,7 @@ function walk(dir) { return readdirSync(dir, { withFileTypes: true }).flatMap(d 
 const files = walk(root);
 assert.ok(existsSync(join(root, 'index.html')));
 assert.ok(existsSync(join(root, 'policies/index.html')));
+assert.ok(existsSync(join(root, 'market/index.html')));
 assert.ok(!existsSync(join(root, 'status')));
 const pages = files.filter(f => f.endsWith('.html'));
 for (const file of pages) {
@@ -27,3 +28,8 @@ const home = readFileSync(join(root, 'index.html'), 'utf8');
 assert.equal((home.match(/class="chart-row"/g) || []).length, 9);
 assert.ok(home.includes('关于本项目'));
 console.log(`Verified ${pages.length} pages, base paths, local links and all 9 themes.`);
+const market = readFileSync(join(root, 'market/index.html'), 'utf8');
+assert.ok(market.includes('连续主力合约数据（LC0）'));
+assert.ok(market.includes('数据待录入'));
+assert.ok(market.includes('lithium-description'));
+assert.ok(market.includes('较 30 天前收盘价'));

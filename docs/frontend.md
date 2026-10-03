@@ -8,6 +8,8 @@
 
 ## 结构
 
+2026-10-03 新增市场看板第 1 步：`src/pages/market/index.astro` 和 `src/lib/market.ts` 读取独立 `data/market/lithium-carbonate.json`。三指标卡、三趋势区中仅碳酸锂有真实日线，其余保留“数据待录入”；导航新增入口。使用 SVG 静态绘图及可展开的最近交易日表，手机布局单列。`market` Python 模块通过 AKShare 抓取 LC0，既有每日工作流独立更新市场候选；`scripts/prepare_publish.py` 组合成功快照，失败项保留旧数据。
+
 跨网址去重由 `collector/dedup.py` 分组，在日常 `python -m analysis` 的分析前后重建映射。`src/lib/data.ts` 只展示保留记录，汇总全部来源机构与栏目；详情列出每个原网址及对应栏目。原始文件、相关性判断和解读均不改写。统计卡片、主题分布、列表和推荐统一使用去重后的政策。首页动态仍沿用原有规则，本次未增加解读状态筛选。
 
 - `src/lib/data.ts`：构建时读取 JSON，核对输入哈希，日期口径与发布机构显示。

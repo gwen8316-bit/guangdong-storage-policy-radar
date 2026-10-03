@@ -1,0 +1,30 @@
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+
+export interface PricePoint { date: string; close: number; }
+export interface MarketData {
+  symbol: string; unit: string; fetched_at: string; requested_end: string;
+  source: { provider: string; via: string; api: string; url: string; docs_url: string };
+  latest: PricePoint;
+  comparison: { target_date: string; baseline: PricePoint | null; change_pct: number | null };
+  series: PricePoint[];
+}
+export function loadMarket(root = resolve(process.env.POLICY_DATA_DIR || 'data')): MarketData | null {
+  try { return JSON.parse(readFileSync(resolve(root, 'market/lithium-carbonate.json'), 'utf8')); }
+  catch (error) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') return null;
+    throw error;
+  }
+}
+export function priceChart(series: PricePoint[]) {
+  if (series.length < 2) return null;
+  const prices = series.map(p => p.close);
+  const low = Math.min(...prices), high = Math.max(...prices);
+  const pad = Math.max((high - low) * 0.12, high * 0.01, 1);
+  const min = Math.max(0, low - pad), max = high + pad;
+  const first = Date.parse(series[0].date), last = Date.parse(series.at(-1)!.date);
+  const points = series.map(p => ({ ...p, x: 132 + (Date.parse(p.date) - first) / Math.max(1, last - first) * 694,
+    y: 258 - (p.close - min) / (max - min) * 228 }));
+  return { points, path: points.map((p, i) => `${i ? 'L' : 'M'}${p.x.toFixed(2)},${p.y.toFixed(2)}`).join(' '),
+    ticks: [0, 1, 2, 3, 4].map(i => ({ y: 258 - i * 57, value: min + (max - min) * i / 4 })) };
+}

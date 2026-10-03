@@ -50,23 +50,41 @@ jobs:
         run: |
           npm ci
           python -m pip install -r requirements-collector.txt
+          python -m pip install -r requirements-market.txt
           python -m unittest discover -s tests -v
           npm test
           npm run check
+      - name: Update market candidate
+        id: market
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.update_data)
+        continue-on-error: true
+        timeout-minutes: 5
+        run: |
+          python -c 'import os, pathlib, shutil; source=pathlib.Path("data/market"); target=pathlib.Path(os.environ["RUNNER_TEMP"])/"market-candidate"/"market"; shutil.copytree(source, target) if source.exists() else target.mkdir(parents=True)'
+          python -m market --data-dir "$RUNNER_TEMP/market-candidate"
       - name: Collect and analyze candidate
         id: update
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.update_data)
         timeout-minutes: 90
+        continue-on-error: true
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python scripts/update_site.py --candidate "$CANDIDATE"
       - name: Build saved or candidate snapshot
         env:
           UPDATE_RESULT: ${{ steps.update.outcome }}
+          MARKET_RESULT: ${{ steps.market.outcome }}
         run: |
+          SOURCE=data
           if [ "$UPDATE_RESULT" = success ]; then
-            export POLICY_DATA_DIR="$CANDIDATE"
+            SOURCE="$CANDIDATE"
           fi
+          if [ "$MARKET_RESULT" = success ]; then
+            python scripts/prepare_publish.py --source "$SOURCE" --target "$RUNNER_TEMP/publish-data" --market "$RUNNER_TEMP/market-candidate"
+          else
+            python scripts/prepare_publish.py --source "$SOURCE" --target "$RUNNER_TEMP/publish-data"
+          fi
+          export POLICY_DATA_DIR="$RUNNER_TEMP/publish-data"
           npm test
           npm run build
           node scripts/verify_site.mjs
@@ -81,6 +99,12 @@ jobs:
         if: steps.update.outcome == 'success' && steps.deployment.outcome == 'success'
         run: |
           python -c 'import os, shutil; shutil.copytree(os.environ["CANDIDATE"], "data", dirs_exist_ok=True, ignore=shutil.ignore_patterns(".collector.lock", "*.tmp"))'
+      - name: Promote successfully deployed market snapshot
+        if: steps.market.outcome == 'success' && steps.deployment.outcome == 'success'
+        run: python -c 'import os, shutil; shutil.copytree(os.path.join(os.environ["RUNNER_TEMP"], "market-candidate", "market"), "data/market", dirs_exist_ok=True)'
+      - name: Report retained snapshots
+        if: always() && (steps.market.outcome == 'failure' || steps.update.outcome == 'failure')
+        run: echo '::warning::One update failed; its previous snapshot was retained. Inspect the update step logs.'
       - name: Preserve budget and completed AI calls even after interruption
         if: always()
         run: |
@@ -99,7 +123,7 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Keep failed candidate for diagnosis
-        if: failure()
+        if: failure() || steps.update.outcome == 'failure'
         uses: actions/upload-artifact@v7.0.1
         with:
           name: failed-policy-candidate
