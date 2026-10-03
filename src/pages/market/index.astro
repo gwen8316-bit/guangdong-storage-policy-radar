@@ -1,24 +1,39 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { loadMarket, priceChart } from '../../lib/market';
+import { loadMarket, loadStorage, priceChart } from '../../lib/market';
 import { formatTime } from '../../lib/data';
 const data = loadMarket();
 const chart = data ? priceChart(data.series) : null;
 const number = (value: number) => value.toLocaleString('zh-CN', { maximumFractionDigits: 0 });
 const change = data?.comparison.change_pct;
+const storage = loadStorage();
+const latestStorage = storage.series.at(-1)!;
+const storageMax = Math.ceil(Math.max(...storage.series.map(p => p.power)) * 2) / 2;
+const storagePoints = storage.series.map((p, i) => ({ ...p, x: 70 + i * 150, y: 235 - p.power / storageMax * 185 }));
+const storagePath = storagePoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${p.y}`).join(' ');
 const placeholders = [
-  { title: '新型储能装机', unit: '统计范围与单位待确认', scope: '装机规模的地区范围、功率及能量口径待录入。' },
   { title: '广东峰谷价差', unit: '电价口径待确认', scope: '适用用户、电压等级、月份与尖峰时段口径待录入。' },
 ];
 ---
 <Layout title="市场看板">
   <section class="hero"><div><p class="eyebrow">MARKET WATCH / 市场看板</p><h1>储能市场观察</h1><p class="muted">关注装机规模、材料价格与电价信号。</p></div><p class="update">碳酸锂采集于<br />{formatTime(data?.fetched_at)}</p></section>
   <section class="market-metrics" aria-label="市场指标">
-    <article class="metric"><span>新型储能装机</span><strong class="pending">数据待录入</strong><p>统计范围与单位待确认</p></article>
+    <article class="metric"><span>{storage.metric}</span><strong>{latestStorage.power.toFixed(2)}<small>亿千瓦</small></strong><p class="storage-energy">/ {latestStorage.energy.toFixed(2)} 亿千瓦时</p><p>数据截至：{latestStorage.date}</p><p class="change"><a href={latestStorage.source_url} target="_blank" rel="noopener noreferrer">{latestStorage.official_yoy}</a>（官方公布）</p></article>
     <article class="metric"><span>碳酸锂价格 · 连续主力期货</span><strong>{data ? number(data.latest.close) : '数据待更新'}{data && <small>元/吨</small>}</strong><p>数据日期：{data?.latest.date || '暂无'}</p><p class:list={['change', typeof change === 'number' && (change > 0 ? 'up' : change < 0 ? 'down' : '')]}>较 30 天前收盘价：{typeof change === 'number' ? `${change > 0 ? '上涨 +' : change < 0 ? '下跌 ' : '持平 '}${change.toFixed(2)}%` : '暂无可比数据'}</p>{data?.comparison.baseline && <p>对比日：{data.comparison.baseline.date} · {number(data.comparison.baseline.close)} 元/吨</p>}</article>
     <article class="metric"><span>广东峰谷价差</span><strong class="pending">数据待录入</strong><p>适用用户与电价口径待确认</p></article>
   </section>
   <section class="market-charts" aria-label="市场趋势">
+    <article class="trend storage"><div class="section-title"><h2>{storage.metric}</h2><span class="fine">半年度 · 功率（亿千瓦）</span></div>
+      <svg class="storage-chart" viewBox="0 0 600 295" role="img" aria-labelledby="storage-title storage-description">
+        <title id="storage-title">全国新型储能累计装机规模半年度趋势</title><desc id="storage-description">2024 年底至 2026 年 6 月底四个半年度累计值，功率分别为 0.74、0.95、1.36、1.53 亿千瓦。原文精度、储能容量与出处见下表。</desc>
+        {[0, 1, 2, 3, 4].map(i => <g><line x1="70" x2="520" y1={235 - i * 46.25} y2={235 - i * 46.25} stroke="#e3eaf1"/><text x="55" y={241 - i * 46.25} text-anchor="end">{(storageMax * i / 4).toFixed(2)}</text></g>)}
+        <path d={storagePath} fill="none" stroke="#183e6b" stroke-width="3" vector-effect="non-scaling-stroke"/>
+        {storagePoints.map(p => <g><circle cx={p.x} cy={p.y} r="6" fill="#183e6b"><title>{p.label}：{p.original_power} / {p.original_energy}</title></circle><text x={p.x} y={p.y - 16} text-anchor="middle">{p.power.toFixed(2)}</text><text x={p.x} y="273" text-anchor="middle">{p.date.slice(0, 7)}</text></g>)}
+      </svg>
+      <div class="storage-table"><table><caption>官方原文数值与来源</caption><thead><tr><th scope="col">截至时点</th><th scope="col">功率 / 储能容量（原文）</th><th scope="col">来源</th></tr></thead><tbody>{storage.series.map(p => <tr><th scope="row">{p.label}</th><td>{p.original_power}<br />{p.original_energy}</td><td><a href={p.source_url} target="_blank" rel="noopener noreferrer">国家能源局<br />{p.source_date}</a></td></tr>)}</tbody></table></div>
+      <details class="storage-evidence"><summary>查看四次发布会原文依据</summary>{storage.series.map(p => <div><p><b>{p.label}</b> · <a href={p.source_url} target="_blank" rel="noopener noreferrer">发布会原文</a></p><blockquote>{p.evidence}</blockquote></div>)}</details>
+      <div class="chart-notes"><p><b>数据来源：</b>{storage.note}</p><p><b>统计口径：</b>{storage.metric}，功率单位为亿千瓦，同时列示储能容量（亿千瓦时）。功率展示保留两位小数，表格保留原文数值；指标卡同比引用官方原文。</p><p><b>局限：</b>累计规模不代表当期新增或实际调用能力。仅录入已核对的官方确切数值，不估算缺失时点；数据经核对后更新。</p></div>
+    </article>
     <article class="trend lithium"><div class="section-title"><h2>碳酸锂期货收盘价</h2><span class="fine">近 1 年 · 日度 · 元/吨</span></div>
       {data && chart ? <>
         <svg class="price-chart" viewBox="0 0 860 300" role="img" aria-labelledby="lithium-title lithium-description"><title id="lithium-title">碳酸锂连续主力合约近一年日度收盘价</title><desc id="lithium-description">{data.series[0].date} 至 {data.latest.date}，共 {data.series.length} 个交易日。最新收盘价 {data.latest.close} 元/吨。纵轴按数据范围缩放。</desc>
@@ -35,6 +50,8 @@ const placeholders = [
   </section>
 </Layout>
 <style>
+  .storage{grid-column:1/-1}.storage-chart{display:block;width:100%;max-width:850px;margin:20px auto;height:auto}.storage-chart text{font-size:17px;fill:#63758a;font-variant-numeric:tabular-nums}.metric .storage-energy{font-size:18px;color:#183e6b}.storage-table table{table-layout:fixed}.storage-table th,.storage-table td{min-width:0;overflow-wrap:anywhere;text-align:left}.storage-table caption{text-align:left;color:var(--muted);padding:12px 0}.storage-evidence{margin-top:16px}.storage-evidence p{font-size:13px}.storage-evidence blockquote{margin-bottom:20px}
+  @media(max-width:760px){.storage-table th,.storage-table td{padding:9px 5px;font-size:11px}.storage-chart text{font-size:22px}}
   .trend{min-width:0;overflow-wrap:anywhere}
   .recent-prices table{table-layout:fixed}.recent-prices th,.recent-prices td{min-width:0;width:50%}
   .market-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-bottom:28px}.metric,.trend{background:white;border:1px solid var(--line);border-radius:12px;padding:26px}.metric>span{font-size:14px;color:var(--muted)}.metric strong{display:block;font-size:32px;color:#183e6b;margin:18px 0 10px;font-variant-numeric:tabular-nums}.metric strong.pending{font-size:25px;color:var(--muted)}.metric small{font-size:13px;margin-left:9px;font-weight:400}.metric p{font-size:12px;color:var(--muted);margin:8px 0;line-height:1.6}.metric .change{font-size:14px}.metric .up{color:#a42e39}.metric .down{color:#147154}.market-charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.lithium{grid-column:1/-1}.price-chart{width:100%;height:auto;display:block;max-height:390px}.price-chart text{fill:#63758a;font-size:12px;font-variant-numeric:tabular-nums}.chart-placeholder{min-height:190px;display:grid;place-items:center;background:repeating-linear-gradient(to bottom,#fafbfd 0,#fafbfd 46px,#eaf0f5 47px,#fafbfd 48px);color:var(--muted);border-radius:8px;font-size:18px}.chart-notes{border-top:1px solid var(--line);margin-top:22px;padding-top:12px;font-size:12px;line-height:1.9;color:var(--muted)}.chart-notes p{margin:8px 0}.recent-prices{margin-top:18px;font-size:13px;color:var(--muted)}table{width:100%;border-collapse:collapse;margin-top:12px}th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line)}th:last-child,td:last-child{text-align:right}.section-title{flex-wrap:wrap}.section-title h2{margin:0}

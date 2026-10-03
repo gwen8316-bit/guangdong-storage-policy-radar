@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "metric": "全国新型储能累计装机规模（已建成投运）",
+  "frequency": "半年度",
+  "power_unit": "亿千瓦",
+  "energy_unit": "亿千瓦时",
+  "note": "数据来自国家能源局发布会，为半年度累计值；2026 年三季度数据待官方发布后补充。",
+  "series": [
+    {
+      "date": "2024-12-31", "label": "2024 年底", "power": 0.7376, "energy": 1.68,
+      "original_power": "7376 万千瓦", "original_energy": "1.68 亿千瓦时",
+      "source_date": "2025-01-23",
+      "source_url": "https://www.nea.gov.cn/20250123/3e5379eb74b94d94bcdaf556268ad466/c.html",
+      "evidence": "截至2024年底，全国已建成投运新型储能项目累计装机规模达7376万千瓦/1.68亿千瓦时，约为“十三五”末的20倍，较2023年底增长超过130%。"
+    },
+    {
+      "date": "2025-06-30", "label": "2025 年 6 月底", "power": 0.9491, "energy": 2.22,
+      "original_power": "9491 万千瓦", "original_energy": "2.22 亿千瓦时",
+      "source_date": "2025-07-31",
+      "source_url": "https://www.nea.gov.cn/20250731/f473f643467f4053a227f59571103536/c.html",
+      "evidence": "2025年上半年，新型储能保持平稳较快发展态势。从装机规模来看，全国新型储能装机规模达到9491万千瓦/2.22亿千瓦时，较2024年底增长约29%，新型储能保持平稳较快发展态势。"
+    },
+    {
+      "date": "2025-12-31", "label": "2025 年底", "power": 1.36, "energy": 3.51,
+      "original_power": "1.36 亿千瓦", "original_energy": "3.51 亿千瓦时",
+      "source_date": "2026-01-30",
+      "source_url": "https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html",
+      "evidence": "截至2025年底，全国已建成投运新型储能装机规模达到1.36亿千瓦/3.51亿千瓦时，与“十三五”末相比增长超40倍，实现跨越式发展。"
+    },
+    {
+      "date": "2026-06-30", "label": "2026 年 6 月底", "power": 1.53, "energy": 3.96,
+      "original_power": "1.53 亿千瓦", "original_energy": "3.96 亿千瓦时",
+      "source_date": "2026-07-30", "official_yoy": "同比增长 61%",
+      "source_url": "https://www.nea.gov.cn/20260730/bfdc5fcbd54a44a58a5f03ea900d0f9b/c.html",
+      "evidence": "截至6月底，全国已建成投运新型储能装机规模达1.53亿千瓦/3.96亿千瓦时，同比增长61%。"
+    }
+  ]
+}

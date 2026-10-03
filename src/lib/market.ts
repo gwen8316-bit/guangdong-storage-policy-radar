@@ -2,6 +2,18 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 export interface PricePoint { date: string; close: number; }
+export interface StoragePoint {
+  date: string; label: string; power: number; energy: number;
+  original_power: string; original_energy: string;
+  source_date: string; source_url: string; evidence: string; official_yoy?: string;
+}
+export interface StorageData {
+  metric: string; frequency: string; power_unit: string; energy_unit: string;
+  note: string; series: StoragePoint[];
+}
+export function loadStorage(root = resolve(process.env.POLICY_DATA_DIR || 'data')): StorageData {
+  return JSON.parse(readFileSync(resolve(root, 'market/storage-capacity.json'), 'utf8'));
+}
 export interface MarketData {
   symbol: string; unit: string; fetched_at: string; requested_end: string;
   source: { provider: string; via: string; api: string; url: string; docs_url: string };
