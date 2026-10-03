@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import RevenueCalculator from '../../components/RevenueCalculator.astro';
 import { loadBids, bidChart, loadStorage, loadTariff, tariffValues } from '../../lib/market';
 import { loadData } from '../../lib/data';
 import { link } from '../../lib/links';
@@ -35,10 +36,12 @@ const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(
       <p class="tariff-legend"><span>● ━ 高峰−低谷</span><span>◆ 尖峰−低谷（7—9 月）</span></p>
       <svg class="tariff-chart" viewBox="0 0 680 300" role="img" aria-labelledby="tariff-title tariff-description">
         <title id="tariff-title">广东六个月峰谷价差</title><desc id="tariff-description">主线为高峰减低谷价差，10 月为 0.8913 元/千瓦时；菱形辅助点仅展示 7、8、9 月尖峰减低谷价差。纵轴从 0.7 起，完整数据见下表。</desc>
+        <rect x="236" y="40" width="312" height="205" fill="#f5ecd9" opacity="0.7"><title>7—9 月：尖峰整月执行期（依据广东分时电价政策）</title></rect>
         {[0.7, 0.9, 1.1, 1.3].map(value => <g><line x1="80" x2="600" y1={tariffY(value)} y2={tariffY(value)} stroke="#e3eaf1"/><text x="55" y={tariffY(value) + 6} text-anchor="end">{value.toFixed(1)}</text></g>)}
         <path d={tariffPath} fill="none" stroke="#183e6b" stroke-width="3" vector-effect="non-scaling-stroke"/>
         {tariffPoints.map(p => <g><circle cx={p.x} cy={tariffY(p.peakSpread)} r="5" fill="#183e6b"><title>{p.month} 高峰−低谷：{p.peakSpread.toFixed(4)} 元/千瓦时</title></circle><text x={p.x} y="285" text-anchor="middle">{p.month.slice(5)} 月</text>{p.sharpSpread !== null && <path d={`M${p.x},${tariffY(p.sharpSpread)-7} l7,7 l-7,7 l-7,-7 Z`} fill="#a56316"><title>{p.month} 尖峰−低谷：{p.sharpSpread.toFixed(4)} 元/千瓦时</title></path>}</g>)}
       </svg>
+      <p class="fine">浅色阴影（7—9 月）：尖峰整月执行期（依据广东分时电价政策）。</p>
       <p class="fine">{tariff.sharp_note}“待核实”不代表“未执行”。</p>
       <div class="tariff-table" role="region" aria-label="六个月电价和公告，可横向滚动" tabindex="0"><table><caption>分时电量电价与价差（元/千瓦时，可横向滚动）</caption><thead><tr><th scope="col">月份</th><th scope="col">尖峰</th><th scope="col">高峰</th><th scope="col">平段</th><th scope="col">低谷</th><th scope="col">高峰−低谷</th><th scope="col">尖峰−低谷</th><th scope="col">列有尖峰 / 执行状态</th><th scope="col">来源</th></tr></thead><tbody>{tariffRows.map(p => <tr><th scope="row">{p.month}</th><td>{p.sharp.toFixed(4)}</td><td>{p.peak.toFixed(4)}</td><td>{p.flat.toFixed(4)}</td><td>{p.valley.toFixed(4)}</td><td>{p.peakSpread.toFixed(4)}</td><td>{p.sharpSpread === null ? '—' : p.sharpSpread.toFixed(4)}</td><td>{p.sharp_listed ? '是' : '否'} / {p.sharp_execution === 'full_month' ? '整月执行' : '待核实'}</td><td><a href={p.source_url} target="_blank" rel="noopener noreferrer">官方公告</a></td></tr>)}</tbody></table></div>
       <div class="chart-notes"><p><b>数据来源：</b>广东电网在南网在线发布的每月代理购电完整公告，经逐份核对录入；原单位分/千瓦时除以 100，保留四位小数。价差按未舍入的原始值计算。</p><p><b>统计口径：</b>{tariff.scope}</p><p><b>价区变化：</b>{tariff.zone_note}</p><p><b>尖峰执行条件（各月公告原文）：</b>{tariff.sharp_condition}</p><p><b>局限：</b>{tariff.sharp_note}公告列出尖峰价格不等于当月实际执行。纵轴从 0.7 起；价差不等于储能净收益，未计效率、费用等因素。后续月份需核对公告后更新。</p></div>
@@ -71,6 +74,7 @@ const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(
       <div class="chart-notes"><p><b>广东装机：</b>截至 2025 年底，广东新型储能装机规模超过 500 万千瓦（国家能源局未公布确切数值）。<a href="https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html" target="_blank" rel="noopener noreferrer">国家能源局原文</a></p><p><b>数据来源：</b>{storage.note}</p><p><b>统计口径：</b>{storage.metric}，功率单位为亿千瓦，同时列示储能容量（亿千瓦时）。功率展示保留两位小数，表格保留原文数值；指标卡同比引用官方原文。</p><p><b>局限：</b>累计规模不代表当期新增或实际调用能力。仅录入已核对的官方确切数值，不估算缺失时点；数据经核对后更新。</p></div>
     </article>
   </section>
+  <RevenueCalculator />
 </Layout>
 <style>
   .bids{grid-column:1/-1}.bid-scroll{max-width:100%;overflow-x:auto}.bid-chart{display:block;width:100%;min-width:720px;max-width:1000px;margin:auto}.bid-chart text{font-size:12px;fill:#63758a}.bid-scroll table{min-width:520px;font-size:13px;font-variant-numeric:tabular-nums}.bid-scroll caption{text-align:left}.policy-events{font-size:13px;line-height:1.8;padding-left:20px}.policy-events li{margin:8px 0}svg a:focus-visible{outline:2px solid #a56316}

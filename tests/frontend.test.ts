@@ -1,3 +1,4 @@
+import { estimateRevenue } from '../src/lib/revenue.ts';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs';
@@ -119,4 +120,19 @@ test('dates do not substitute written date; links reject executable protocols', 
   assert.equal(safeUrl('javascript:alert(1)'), undefined);
   assert.equal(safeUrl('data:text/html,<script></script>'), undefined);
   assert.equal(safeUrl('https://www.nea.gov.cn/'), 'https://www.nea.gov.cn/');
+});
+
+test('revenue uses round-trip losses, both charging bands and positive-payback rules', () => {
+  const p = { peak: 1.17546875, flat: .70286875, valley: .28416875, efficiency: .85, depth: .9, days: 300, cycles: 1, cost: 1.1499 };
+  const r = estimateRevenue(p);
+  assert.ok(Math.abs(r.daily - .7570373161764706) < 1e-10);
+  assert.ok(Math.abs(r.investment - 1149.9) < 1e-10);
+  assert.ok(Math.abs(r.annual - r.daily * 300) < 1e-10);
+  const two = estimateRevenue({...p, cycles: 2});
+  assert.ok(Math.abs(two.second - (.9 * p.peak - .9 / .85 * p.flat)) < 1e-10);
+  assert.ok(Math.abs(two.daily - r.daily - two.second) < 1e-10);
+  assert.equal(estimateRevenue({...p, days: 0}).payback, null);
+  assert.equal(estimateRevenue({...p, valley: 2}).payback, null);
+  assert.throws(() => estimateRevenue({...p, efficiency: 0}));
+  assert.throws(() => estimateRevenue({...p, cost: NaN}));
 });

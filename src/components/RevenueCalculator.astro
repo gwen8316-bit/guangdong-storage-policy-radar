@@ -1,0 +1,69 @@
+---
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { loadTariff, tariffValues, loadBids } from '../lib/market';
+const rows = loadTariff().series.map(p => ({...p, ...tariffValues(p)}));
+const latest = rows.at(-1)!;
+const bid = loadBids().series.filter(p => p.epc !== null && p.system !== null).at(-1)!;
+const conclusion = readFileSync(resolve(process.env.POLICY_DATA_DIR || 'data', 'market/research-conclusion.txt'), 'utf8').trim();
+---
+<section class="calculator" aria-labelledby="revenue-title">
+  <h2 id="revenue-title">收益粗算</h2>
+  <aside class="research"><h3>研究结论</h3><p>{conclusion}</p></aside>
+  <p>以每 1 kWh 名义容量计算，参数调整后在浏览器内即时更新。</p>
+  <form id="revenue-form">
+    <label>广东电价月份<select name="month">{rows.map(p => <option value={p.month} selected={p.month === latest.month} data-peak={p.peak} data-flat={p.flat} data-valley={p.valley} data-source={p.source_url}>{p.month}</option>)}</select></label>
+    <label>往返效率（%）<input name="efficiency" type="number" value="85" min="0.01" max="100" step="any" required /></label>
+    <label>放电深度（%）<input name="depth" type="number" value="90" min="0.01" max="100" step="any" required /></label>
+    <label>年运行天数<input name="days" type="number" value="300" min="0" max="366" step="1" required /></label>
+    <label>运行策略<select name="cycles"><option value="1">一充一放</option><option value="2">两充两放</option></select></label>
+    <label>投资单价来源<select name="cost-source"><option value="epc" data-cost={bid.epc}>2h EPC（不含 PC）· {bid.month}</option><option value="system" data-cost={bid.system}>2h 系统 · {bid.month}</option><option value="manual">手动输入</option></select></label>
+    <label>投资单价（元/Wh）<input name="cost" type="number" value={bid.epc} min="0.000001" step="any" required readonly /></label>
+  </form>
+  <p id="tariff-selection"></p><p><a id="tariff-source" href={latest.source_url} target="_blank" rel="noopener noreferrer">所选月份广东电网公告</a> · <a href={bid.source_url!} target="_blank" rel="noopener noreferrer">投资参考价：CNESA {bid.month} 原文</a></p>
+  <div id="revenue-output" aria-live="polite" aria-atomic="true"></div>
+  <noscript>请启用 JavaScript 使用浏览器端收益粗算。</noscript>
+  <h3>计算口径与假设</h3>
+  <ul><li>每 1 kWh 名义容量，每次放电量＝放电深度 × 1 kWh；充电量＝放电量 ÷ 往返效率。往返损耗统一计入充电量。</li><li>一充一放：低谷充电、高峰放电；两充两放再增加一次平段充电、高峰放电，两次均按相同放电深度与效率。</li><li>假定功率、充放电时段与负荷可支持所选策略，放电全部替代高峰购电；不约束具体调度时长。每个运行日采用同样策略，所选月份电价固定外推全年，不预测未来电价。</li><li>日收益为电费差额，年收益＝日收益 × 年运行天数；投资单价（元/kWh）＝元/Wh × 1000；静态回收期＝投资单价 ÷ 年收益，不计折现。年收益不大于零时不显示有限回收期。</li><li>电价口径沿用上方广东峰谷价差，计算使用公告原始精度，展示值四舍五入。系统价格不含 EPC 工程等费用，切换价格仅供情景比较。</li></ul>
+  <p class="limitations">示意性粗算。投资单价为全国大型储能项目口径，不含用户侧，工商业项目实际成本可能不同；未计入运维、电池衰减、合同能源管理分成、需量电费、尖峰电价等因素。</p>
+</section>
+<script>
+  import { estimateRevenue } from '../lib/revenue';
+  const form = document.querySelector<HTMLFormElement>('#revenue-form')!;
+  const output = document.querySelector<HTMLDivElement>('#revenue-output')!;
+  const input = (name: string) => form.elements.namedItem(name) as HTMLInputElement;
+  const select = (name: string) => form.elements.namedItem(name) as HTMLSelectElement;
+  const f = (n: number) => n.toFixed(4);
+  function update() {
+    const month = select('month').selectedOptions[0];
+    const peak = Number(month.dataset.peak), flat = Number(month.dataset.flat), valley = Number(month.dataset.valley);
+    document.querySelector('#tariff-selection')!.textContent = `${month.value} 电价（元/千瓦时）：高峰 ${f(peak)}，平段 ${f(flat)}，低谷 ${f(valley)}。`;
+    document.querySelector<HTMLAnchorElement>('#tariff-source')!.href = month.dataset.source!;
+    if (!form.checkValidity()) { output.textContent = '请输入有效参数：效率、放电深度大于 0 且不超过 100%，运行天数为 0—366 的整数，投资单价大于 0。'; return; }
+    const efficiency = Number(input('efficiency').value) / 100, depth = Number(input('depth').value) / 100;
+    const days = Number(input('days').value), cycles = Number(select('cycles').value), cost = Number(input('cost').value);
+    const r = estimateRevenue({peak, flat, valley, efficiency, depth, days, cycles, cost});
+    const lines = [
+      `每 kWh 容量日收益：${f(r.daily)} 元；年收益：${r.annual.toFixed(2)} 元；静态回收期：${r.payback === null ? '无法回收（年收益不大于零）' : r.payback.toFixed(2) + ' 年'}。`,
+      `低谷充、高峰放：${depth} × ${f(peak)} − ${depth} ÷ ${efficiency} × ${f(valley)} ≈ ${f(r.first)} 元/日。`,
+      cycles === 2 ? `平段充、高峰放：${depth} × ${f(peak)} − ${depth} ÷ ${efficiency} × ${f(flat)} ≈ ${f(r.second)} 元/日；两次合计 ${f(r.daily)} 元/日。` : '一充一放：不增加平段充电循环。',
+      `年收益：${f(r.daily)} × ${days} ≈ ${r.annual.toFixed(2)} 元/年。`,
+      `单位容量投资：${cost} 元/Wh × 1000 = ${r.investment.toFixed(2)} 元/kWh。`,
+      `静态回收期：${r.investment.toFixed(2)} ÷ ${r.annual.toFixed(2)} ${r.payback === null ? '不适用' : '≈ ' + r.payback.toFixed(2) + ' 年'}。计算使用未舍入值。`
+    ];
+    output.replaceChildren(...lines.map((line,i) => { const p = document.createElement('p'); p.textContent = line; if (i === 0) p.className = 'result'; return p; }));
+  }
+  select('cost-source').addEventListener('change', () => {
+    const option = select('cost-source').selectedOptions[0];
+    input('cost').readOnly = option.value !== 'manual';
+    if (option.dataset.cost) input('cost').value = option.dataset.cost;
+    update();
+  });
+  form.addEventListener('input', update);
+  form.addEventListener('change', update);
+  form.addEventListener('submit', e => e.preventDefault());
+  update();
+</script>
+<style>
+.calculator{margin-top:24px;padding:26px;border:1px solid var(--line);border-radius:12px;background:white;font-size:14px;line-height:1.9;overflow-wrap:anywhere}.calculator h2{margin-top:0}.research{padding:16px 20px;background:#f2f6fa;border-left:3px solid #183e6b;margin-bottom:20px}.research h3{margin:0}.research p{white-space:pre-wrap;margin-bottom:0}form{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}label{display:flex;flex-direction:column;gap:6px}input,select{width:100%;min-width:0;box-sizing:border-box;padding:10px;border:1px solid #bccbd9;border-radius:6px;font:inherit;color:#183e6b;background:white}input[readonly]{background:#f2f6fa}#revenue-output{margin:20px 0;padding:16px 20px;background:#f2f6fa;font-variant-numeric:tabular-nums}#revenue-output :global(.result){font-size:18px;font-weight:600;color:#183e6b}.limitations{border-top:1px solid var(--line);padding-top:16px;color:var(--muted)}@media(max-width:760px){form{grid-template-columns:1fr}.calculator{padding:20px}}
+</style>
