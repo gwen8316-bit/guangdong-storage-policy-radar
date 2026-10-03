@@ -38,7 +38,7 @@ const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(
       </svg>
       <div class="storage-table"><table><caption>官方原文数值与来源</caption><thead><tr><th scope="col">截至时点</th><th scope="col">功率 / 储能容量（原文）</th><th scope="col">来源</th></tr></thead><tbody>{storage.series.map(p => <tr><th scope="row">{p.label}</th><td>{p.original_power}<br />{p.original_energy}</td><td><a href={p.source_url} target="_blank" rel="noopener noreferrer">国家能源局<br />{p.source_date}</a></td></tr>)}</tbody></table></div>
       <details class="storage-evidence"><summary>查看四次发布会原文依据</summary>{storage.series.map(p => <div><p><b>{p.label}</b> · <a href={p.source_url} target="_blank" rel="noopener noreferrer">发布会原文</a></p><blockquote>{p.evidence}</blockquote></div>)}</details>
-      <div class="chart-notes"><p><b>数据来源：</b>{storage.note}</p><p><b>统计口径：</b>{storage.metric}，功率单位为亿千瓦，同时列示储能容量（亿千瓦时）。功率展示保留两位小数，表格保留原文数值；指标卡同比引用官方原文。</p><p><b>局限：</b>累计规模不代表当期新增或实际调用能力。仅录入已核对的官方确切数值，不估算缺失时点；数据经核对后更新。</p></div>
+      <div class="chart-notes"><p><b>广东装机：</b>截至 2025 年底，广东新型储能装机规模超过 500 万千瓦（国家能源局未公布确切数值）。<a href="https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html" target="_blank" rel="noopener noreferrer">国家能源局原文</a></p><p><b>数据来源：</b>{storage.note}</p><p><b>统计口径：</b>{storage.metric}，功率单位为亿千瓦，同时列示储能容量（亿千瓦时）。功率展示保留两位小数，表格保留原文数值；指标卡同比引用官方原文。</p><p><b>局限：</b>累计规模不代表当期新增或实际调用能力。仅录入已核对的官方确切数值，不估算缺失时点；数据经核对后更新。</p></div>
     </article>
     <article class="trend lithium"><div class="section-title"><h2>碳酸锂期货收盘价</h2><span class="fine">近 1 年 · 日度 · 元/吨</span></div>
       {data && chart ? <>
