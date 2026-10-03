@@ -5,7 +5,28 @@ import { tmpdir } from 'node:os';
 import { resolve, join } from 'node:path';
 import { loadData, fingerprint, safeUrl, displayDate, recentCount, type Entry, type Policy } from '../src/lib/data.ts';
 import { matchesFilters, type Filters } from '../src/lib/filter.ts';
-import { loadMarket, priceChart, loadTariff, tariffValues } from '../src/lib/market.ts';
+import { loadBids, bidChart, loadMarket, priceChart, loadTariff, tariffValues } from '../src/lib/market.ts';
+
+test('confirmed bid data breaks at missing months and retains isolated markers', () => {
+  const { series } = loadBids();
+  assert.equal(series.length, 12);
+  assert.equal(series[0].month, '2025-09');
+  assert.equal(series[11].month, '2026-08');
+  assert.deepEqual(series.filter(p => p.system !== null).map(p => [p.month, p.system, p.epc]), [
+    ['2025-09', .5959, 1.0858], ['2025-10', .5767, 1.0619],
+    ['2026-01', .5309, 1.1673], ['2026-05', .6126, 1.0442],
+    ['2026-07', .6233, 1.0280], ['2026-08', .6809, 1.1499],
+  ]);
+  for (const key of ['system', 'epc'] as const) {
+    const chart = bidChart(series, key);
+    assert.equal(chart.points.length, 6);
+    assert.equal((chart.path.match(/M/g) || []).length, 4);
+    assert.equal((chart.path.match(/L/g) || []).length, 2);
+    assert.ok(chart.points.every(p => p.source_url && p.evidence.length === 2 && Number.isFinite(p.y)));
+    assert.ok(chart.points.some(p => p.month === '2026-01'));
+    assert.ok(chart.points.some(p => p.month === '2026-05'));
+  }
+});
 
 test('confirmed tariff values retain precision and omit unverified sharp spreads', () => {
   const rows = loadTariff().series;

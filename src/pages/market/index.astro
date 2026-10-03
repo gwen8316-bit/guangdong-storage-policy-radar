@@ -1,15 +1,17 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { loadMarket, loadStorage, priceChart, loadTariff, tariffValues } from '../../lib/market';
-import { formatTime } from '../../lib/data';
-const data = loadMarket();
-const chart = data ? priceChart(data.series) : null;
-const number = (value: number) => value.toLocaleString('zh-CN', { maximumFractionDigits: 0 });
-const change = data?.comparison.change_pct;
+import { loadBids, bidChart, loadStorage, loadTariff, tariffValues } from '../../lib/market';
+import { loadData } from '../../lib/data';
+import { link } from '../../lib/links';
+const bids = loadBids();
+const bidSeries = [{ key: 'system' as const, label: '2h 储能系统', color: '#183e6b' }, { key: 'epc' as const, label: '2h EPC（不含 PC）', color: '#a56316' }].map(s => ({ ...s, ...bidChart(bids.series, s.key) }));
+const latestBid = bids.series.filter(p => p.system !== null || p.epc !== null).at(-1)!;
+const events = loadData().entries.filter(e => ['d5be65db09220d6d0e45f32901f54d7ea37bfd05c82474c290453e5cf0d7edae', 'fe10ffb6bf743afacca6a333369128ba2832c60207351b6e089911d2eddafdac'].includes(e.policy.id) && e.date >= '2024-12-31' && e.date <= '2026-06-30').sort((a,b) => a.date.localeCompare(b.date));
+const storageX = (date: string) => 100 + (Date.parse(date) - Date.parse('2024-12-31')) / (Date.parse('2026-06-30') - Date.parse('2024-12-31')) * 420;
 const storage = loadStorage();
 const latestStorage = storage.series.at(-1)!;
 const storageMax = Math.ceil(Math.max(...storage.series.map(p => p.power)) * 2) / 2;
-const storagePoints = storage.series.map((p, i) => ({ ...p, x: 100 + i * 140, y: 235 - p.power / storageMax * 185 }));
+const storagePoints = storage.series.map(p => ({ ...p, x: storageX(p.date), y: 235 - p.power / storageMax * 185 }));
 const storagePath = storagePoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${p.y}`).join(' ');
 const tariff = loadTariff();
 const tariffRows = tariff.series.map(p => ({ ...p, ...tariffValues(p) }));
@@ -22,37 +24,14 @@ const tariffPoints = tariffRows.map((p, i) => ({ ...p, x: 80 + i * 104 }));
 const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(p.peakSpread)}`).join(' ');
 ---
 <Layout title="市场看板">
-  <section class="hero"><div><p class="eyebrow">MARKET WATCH / 市场看板</p><h1>储能市场观察</h1><p class="muted">关注装机规模、材料价格与电价信号。</p></div><p class="update">碳酸锂采集于<br />{formatTime(data?.fetched_at)}</p></section>
+  <section class="hero"><div><p class="eyebrow">MARKET WATCH / 市场看板</p><h1>储能市场观察</h1><p class="muted">聚焦广东工商业储能收益，并跟踪全国储能成本与规模。独立储能的现货和调频收益暂未纳入。</p></div></section>
   <section class="market-metrics" aria-label="市场指标">
-    <article class="metric"><span>{storage.metric}</span><strong>{latestStorage.power.toFixed(2)}<small>亿千瓦</small></strong><p class="storage-energy">/ {latestStorage.energy.toFixed(2)} 亿千瓦时</p><p>数据截至：{latestStorage.date}</p><p class="change"><a href={latestStorage.source_url} target="_blank" rel="noopener noreferrer">{latestStorage.official_yoy}</a>（官方公布）</p></article>
-    <article class="metric"><span>碳酸锂价格 · 连续主力期货</span><strong>{data ? number(data.latest.close) : '数据待更新'}{data && <small>元/吨</small>}</strong><p>数据日期：{data?.latest.date || '暂无'}</p><p class:list={['change', typeof change === 'number' && (change > 0 ? 'up' : change < 0 ? 'down' : '')]}>较 30 天前收盘价：{typeof change === 'number' ? `${change > 0 ? '上涨 +' : change < 0 ? '下跌 ' : '持平 '}${change.toFixed(2)}%` : '暂无可比数据'}</p>{data?.comparison.baseline && <p>对比日：{data.comparison.baseline.date} · {number(data.comparison.baseline.close)} 元/吨</p>}</article>
     <article class="metric"><span>广东峰谷价差 · 高峰−低谷</span><strong>{latestTariff.peakSpread.toFixed(4)}<small>元/千瓦时</small></strong><p>数据月份：{latestTariff.month}</p><p class="change">较上月{tariffDelta < 0 ? '下降' : '上升'} {Math.abs(tariffDelta).toFixed(4)} 元/千瓦时（{tariffPct > 0 ? '+' : ''}{tariffPct.toFixed(2)}%）</p></article>
+    <article class="metric"><span>全国 2h 中标均价 · 系统 / EPC</span><strong>{latestBid.system?.toFixed(4)}<small>元/Wh · 系统</small></strong><p class="storage-energy">{latestBid.epc?.toFixed(4)} 元/Wh · EPC（不含 PC）</p><p>数据月份：{latestBid.month}</p><p>全国大型储能项目，不代表广东价格</p></article>
+    <article class="metric"><span>{storage.metric}</span><strong>{latestStorage.power.toFixed(2)}<small>亿千瓦</small></strong><p class="storage-energy">/ {latestStorage.energy.toFixed(2)} 亿千瓦时</p><p>数据截至：{latestStorage.date}</p><p class="change"><a href={latestStorage.source_url} target="_blank" rel="noopener noreferrer">{latestStorage.official_yoy}</a>（官方公布）</p></article>
   </section>
   <section class="market-charts" aria-label="市场趋势">
-    <article class="trend storage"><div class="section-title"><h2>{storage.metric}</h2><span class="fine">半年度 · 功率（亿千瓦）</span></div>
-      <svg class="storage-chart" viewBox="0 0 600 295" role="img" aria-labelledby="storage-title storage-description">
-        <title id="storage-title">全国新型储能累计装机规模半年度趋势</title><desc id="storage-description">2024 年底至 2026 年 6 月底四个半年度累计值，功率分别为 0.74、0.95、1.36、1.53 亿千瓦。原文精度、储能容量与出处见下表。</desc>
-        {[0, 1, 2, 3, 4].map(i => <g><line x1="100" x2="520" y1={235 - i * 46.25} y2={235 - i * 46.25} stroke="#e3eaf1"/><text x="55" y={241 - i * 46.25} text-anchor="end">{(storageMax * i / 4).toFixed(2)}</text></g>)}
-        <path d={storagePath} fill="none" stroke="#183e6b" stroke-width="3" vector-effect="non-scaling-stroke"/>
-        {storagePoints.map(p => <g><circle cx={p.x} cy={p.y} r="6" fill="#183e6b"><title>{p.label}：{p.original_power} / {p.original_energy}</title></circle><text x={p.x} y={p.y - 16} text-anchor="middle">{p.power.toFixed(2)}</text><text x={p.x} y="273" text-anchor="middle">{p.date.slice(0, 7)}</text></g>)}
-      </svg>
-      <div class="storage-table"><table><caption>官方原文数值与来源</caption><thead><tr><th scope="col">截至时点</th><th scope="col">功率 / 储能容量（原文）</th><th scope="col">来源</th></tr></thead><tbody>{storage.series.map(p => <tr><th scope="row">{p.label}</th><td>{p.original_power}<br />{p.original_energy}</td><td><a href={p.source_url} target="_blank" rel="noopener noreferrer">国家能源局<br />{p.source_date}</a></td></tr>)}</tbody></table></div>
-      <details class="storage-evidence"><summary>查看四次发布会原文依据</summary>{storage.series.map(p => <div><p><b>{p.label}</b> · <a href={p.source_url} target="_blank" rel="noopener noreferrer">发布会原文</a></p><blockquote>{p.evidence}</blockquote></div>)}</details>
-      <div class="chart-notes"><p><b>广东装机：</b>截至 2025 年底，广东新型储能装机规模超过 500 万千瓦（国家能源局未公布确切数值）。<a href="https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html" target="_blank" rel="noopener noreferrer">国家能源局原文</a></p><p><b>数据来源：</b>{storage.note}</p><p><b>统计口径：</b>{storage.metric}，功率单位为亿千瓦，同时列示储能容量（亿千瓦时）。功率展示保留两位小数，表格保留原文数值；指标卡同比引用官方原文。</p><p><b>局限：</b>累计规模不代表当期新增或实际调用能力。仅录入已核对的官方确切数值，不估算缺失时点；数据经核对后更新。</p></div>
-    </article>
-    <article class="trend lithium"><div class="section-title"><h2>碳酸锂期货收盘价</h2><span class="fine">近 1 年 · 日度 · 元/吨</span></div>
-      {data && chart ? <>
-        <svg class="price-chart" viewBox="0 0 860 300" role="img" aria-labelledby="lithium-title lithium-description"><title id="lithium-title">碳酸锂连续主力合约近一年日度收盘价</title><desc id="lithium-description">{data.series[0].date} 至 {data.latest.date}，共 {data.series.length} 个交易日。最新收盘价 {data.latest.close} 元/吨。纵轴按数据范围缩放。</desc>
-          {chart.ticks.map(t => <g><line x1="132" x2="826" y1={t.y} y2={t.y} stroke="#e3eaf1" /><text x="120" y={t.y + 4} text-anchor="end">{number(t.value)}</text></g>)}
-          <path d={`${chart.path} L826,258 L132,258 Z`} fill="#e8f0f9" /><path d={chart.path} fill="none" stroke="#183e6b" stroke-width="2.5" stroke-linejoin="round" vector-effect="non-scaling-stroke" />
-          {chart.points.map(p => <circle cx={p.x} cy={p.y} r="4" fill="transparent"><title>{p.date}：{number(p.close)} 元/吨</title></circle>)}
-          <text x="132" y="286">{data.series[0].date}</text><text x="479" y="286" text-anchor="middle">{data.series[Math.floor(data.series.length / 2)].date}</text><text x="826" y="286" text-anchor="end">{data.latest.date}</text>
-        </svg>
-        <details class="recent-prices"><summary>查看最近 10 个交易日收盘价</summary><table><thead><tr><th scope="col">数据日期</th><th scope="col">收盘价（元/吨）</th></tr></thead><tbody>{data.series.slice(-10).reverse().map(p => <tr><td>{p.date}</td><td>{number(p.close)}</td></tr>)}</tbody></table></details>
-      </> : <div class="chart-placeholder">数据待更新</div>}
-      <div class="chart-notes"><p><b>数据来源：</b><a href="https://akshare.akfamily.xyz/data/futures/futures.html" target="_blank" rel="noopener noreferrer">AKShare</a> · <a href="https://finance.sina.com.cn/futures/quotes/LC0.shtml" target="_blank" rel="noopener noreferrer">新浪财经 LC0</a>，对应广州期货交易所碳酸锂期货。</p><p><b>统计口径：</b>使用连续主力合约数据（LC0）的日度收盘价，单位元/吨，非现货价、非结算价。30 天涨跌幅以最新数据日期前 30 个自然日为基准；休市时取基准日之前最近交易日。纵轴按数据范围缩放。</p><p><b>局限：</b>换月可能产生价格跳变，连续合约收益不等于实际持仓收益。数据由第三方提供，可能延迟或修订；非交易日无新收盘价，接口失败时保留上次有效数据。仅供市场观察。</p></div>
-    </article>
-    <article class="trend tariff"><div class="section-title"><h2>广东峰谷价差趋势</h2><span class="fine">2026 年 5—10 月 · 元/千瓦时</span></div>
+    <article class="trend tariff"><div class="section-title"><h2>广东收益 · 峰谷价差</h2><span class="fine">2026 年 5—10 月 · 元/千瓦时</span></div>
       <p class="tariff-legend"><span>● ━ 高峰−低谷</span><span>◆ 尖峰−低谷（7—9 月）</span></p>
       <svg class="tariff-chart" viewBox="0 0 680 300" role="img" aria-labelledby="tariff-title tariff-description">
         <title id="tariff-title">广东六个月峰谷价差</title><desc id="tariff-description">主线为高峰减低谷价差，10 月为 0.8913 元/千瓦时；菱形辅助点仅展示 7、8、9 月尖峰减低谷价差。纵轴从 0.7 起，完整数据见下表。</desc>
@@ -64,16 +43,45 @@ const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(
       <div class="tariff-table" role="region" aria-label="六个月电价和公告，可横向滚动" tabindex="0"><table><caption>分时电量电价与价差（元/千瓦时，可横向滚动）</caption><thead><tr><th scope="col">月份</th><th scope="col">尖峰</th><th scope="col">高峰</th><th scope="col">平段</th><th scope="col">低谷</th><th scope="col">高峰−低谷</th><th scope="col">尖峰−低谷</th><th scope="col">列有尖峰 / 执行状态</th><th scope="col">来源</th></tr></thead><tbody>{tariffRows.map(p => <tr><th scope="row">{p.month}</th><td>{p.sharp.toFixed(4)}</td><td>{p.peak.toFixed(4)}</td><td>{p.flat.toFixed(4)}</td><td>{p.valley.toFixed(4)}</td><td>{p.peakSpread.toFixed(4)}</td><td>{p.sharpSpread === null ? '—' : p.sharpSpread.toFixed(4)}</td><td>{p.sharp_listed ? '是' : '否'} / {p.sharp_execution === 'full_month' ? '整月执行' : '待核实'}</td><td><a href={p.source_url} target="_blank" rel="noopener noreferrer">官方公告</a></td></tr>)}</tbody></table></div>
       <div class="chart-notes"><p><b>数据来源：</b>广东电网在南网在线发布的每月代理购电完整公告，经逐份核对录入；原单位分/千瓦时除以 100，保留四位小数。价差按未舍入的原始值计算。</p><p><b>统计口径：</b>{tariff.scope}</p><p><b>价区变化：</b>{tariff.zone_note}</p><p><b>尖峰执行条件（各月公告原文）：</b>{tariff.sharp_condition}</p><p><b>局限：</b>{tariff.sharp_note}公告列出尖峰价格不等于当月实际执行。纵轴从 0.7 起；价差不等于储能净收益，未计效率、费用等因素。后续月份需核对公告后更新。</p></div>
     </article>
+    <article class="trend bids"><div class="section-title"><h2>成本 · 全国 2h 储能系统和 EPC 中标均价</h2><span class="fine">2025 年 9 月—2026 年 8 月 · 元/Wh</span></div>
+      <p class="tariff-legend"><span>● ━ 2h 储能系统</span><span>◆ ━ 2h EPC（不含 PC）</span></p>
+      <div class="bid-scroll" role="region" aria-label="中标均价趋势，可横向滚动" tabindex="0">
+      <svg class="bid-chart" viewBox="0 0 790 305" aria-labelledby="bid-title bid-description">
+        <title id="bid-title">全国 2h 系统与 EPC 中标均价</title><desc id="bid-description">12 个月中 6 个月有数据，缺失月份断开连线；1 月、5 月为孤立数据点。点击数据点打开 CNESA 原文，完整数值与出处见下表。</desc>
+        {[0,0.35,0.7,1.05,1.4].map(v => <g><line x1="65" x2="725" y1={245-v/1.4*210} y2={245-v/1.4*210} stroke="#e3eaf1"/><text x="52" y={250-v/1.4*210} text-anchor="end">{v.toFixed(2)}</text></g>)}
+        {bidSeries.map(series => <g><path d={series.path} fill="none" stroke={series.color} stroke-width="2.5"/>{series.points.map(p => <a href={p.source_url!} target="_blank" rel="noopener noreferrer" aria-label={`${p.month} ${series.label} ${p.value!.toFixed(4)} 元/Wh，查看 CNESA 原文`}><title>{p.month} · {series.label}：{p.value!.toFixed(4)} 元/Wh · 原文：{p.source_url}</title><circle cx={p.x} cy={p.y!} r="13" fill="transparent"/>{series.key === 'system' ? <circle cx={p.x} cy={p.y!} r="5" fill={series.color}/> : <path d={`M${p.x},${p.y!-7} l7,7 l-7,7 l-7,-7 Z`} fill={series.color}/>}</a>)}</g>)}
+        {bids.series.map((p,i) => <text x={65+i*60} y="278" text-anchor="middle">{p.month}</text>)}
+      </svg></div>
+      <p class="fine">缺失月份留空并断线；圆点为系统，菱形为 EPC。悬停查看数值与原文链接，点击数据点打开原文；手机端也可查阅下表。</p>
+      <div class="bid-scroll"><table><caption>月度均价与原文（元/Wh）</caption><thead><tr><th>月份</th><th>2h 系统</th><th>2h EPC（不含 PC）</th><th>数据来源</th></tr></thead><tbody>{bids.series.map(p => <tr><th scope="row">{p.month}</th><td>{p.system?.toFixed(4) ?? '—'}</td><td>{p.epc?.toFixed(4) ?? '—'}</td><td>{p.source_url ? <a href={p.source_url} target="_blank" rel="noopener noreferrer">CNESA 月度正文</a> : '未取得可核实数值'}</td></tr>)}</tbody></table></div>
+      <details class="storage-evidence"><summary>查看各月原文数值摘录</summary>{bids.series.filter(p => p.source_url).map(p => <div><p><a href={p.source_url!} target="_blank" rel="noopener noreferrer">{p.month} 原文</a> · EPC 小标题或正文明确不含 PC</p>{p.evidence.map(sentence => <blockquote>{sentence}</blockquote>)}</div>)}</details>
+      <div class="chart-notes"><p>{bids.note} <a href={bids.half_year_url} target="_blank" rel="noopener noreferrer">CNESA 上半年报告原文</a></p><p>各月正文单位元/kWh，除以 1000 转为元/Wh；半年均价仅作补充说明，未作为月度数据点。</p></div>
+    </article>
+    <article class="trend storage"><div class="section-title"><h2>全国背景 · {storage.metric}</h2><span class="fine">半年度 · 功率（亿千瓦）</span></div>
+      <svg class="storage-chart" viewBox="0 0 600 295" role="img" aria-labelledby="storage-title storage-description">
+        <title id="storage-title">全国新型储能累计装机规模半年度趋势</title><desc id="storage-description">2024 年底至 2026 年 6 月底四个半年度累计值，功率分别为 0.74、0.95、1.36、1.53 亿千瓦。原文精度、储能容量与出处见下表。</desc>
+        {[0, 1, 2, 3, 4].map(i => <g><line x1="100" x2="520" y1={235 - i * 46.25} y2={235 - i * 46.25} stroke="#e3eaf1"/><text x="55" y={241 - i * 46.25} text-anchor="end">{(storageMax * i / 4).toFixed(2)}</text></g>)}
+        {events.map((e, i) => <a href={link(`policies/${e.policy.id}/`)} aria-label={`${e.date} ${e.policy.title}`}><title>{e.date} · {e.policy.title}（点击查看政策）</title><line x1={storageX(e.date)} x2={storageX(e.date)} y1="45" y2="235" stroke="#8e651c" stroke-width="2"/><line x1={storageX(e.date)} x2={storageX(e.date)} y1="35" y2="240" stroke="transparent" stroke-width="22"/><text x={storageX(e.date)} y="28" text-anchor="middle">政策 {i + 1}</text></a>)}
+        <path d={storagePath} fill="none" stroke="#183e6b" stroke-width="3" vector-effect="non-scaling-stroke"/>
+        {storagePoints.map(p => <g><circle cx={p.x} cy={p.y} r="6" fill="#183e6b"><title>{p.label}：{p.original_power} / {p.original_energy}</title></circle><text x={p.x} y={p.y - 16} text-anchor="middle">{p.power.toFixed(2)}</text><text x={p.x} y="273" text-anchor="middle">{p.date.slice(0, 7)}</text></g>)}
+      </svg>
+      <ul class="policy-events">{events.map((e, i) => <li><a href={link(`policies/${e.policy.id}/`)}>政策 {i + 1} · {e.date} · {e.policy.title}</a></li>)}</ul>
+      <div class="storage-table"><table><caption>官方原文数值与来源</caption><thead><tr><th scope="col">截至时点</th><th scope="col">功率 / 储能容量（原文）</th><th scope="col">来源</th></tr></thead><tbody>{storage.series.map(p => <tr><th scope="row">{p.label}</th><td>{p.original_power}<br />{p.original_energy}</td><td><a href={p.source_url} target="_blank" rel="noopener noreferrer">国家能源局<br />{p.source_date}</a></td></tr>)}</tbody></table></div>
+      <details class="storage-evidence"><summary>查看四次发布会原文依据</summary>{storage.series.map(p => <div><p><b>{p.label}</b> · <a href={p.source_url} target="_blank" rel="noopener noreferrer">发布会原文</a></p><blockquote>{p.evidence}</blockquote></div>)}</details>
+      <div class="chart-notes"><p><b>广东装机：</b>截至 2025 年底，广东新型储能装机规模超过 500 万千瓦（国家能源局未公布确切数值）。<a href="https://www.nea.gov.cn/20260130/50f657ce87f848e1a9a1861d1fd9aa23/c.html" target="_blank" rel="noopener noreferrer">国家能源局原文</a></p><p><b>数据来源：</b>{storage.note}</p><p><b>统计口径：</b>{storage.metric}，功率单位为亿千瓦，同时列示储能容量（亿千瓦时）。功率展示保留两位小数，表格保留原文数值；指标卡同比引用官方原文。</p><p><b>局限：</b>累计规模不代表当期新增或实际调用能力。仅录入已核对的官方确切数值，不估算缺失时点；数据经核对后更新。</p></div>
+    </article>
   </section>
 </Layout>
 <style>
+  .bids{grid-column:1/-1}.bid-scroll{max-width:100%;overflow-x:auto}.bid-chart{display:block;width:100%;min-width:720px;max-width:1000px;margin:auto}.bid-chart text{font-size:12px;fill:#63758a}.bid-scroll table{min-width:520px;font-size:13px;font-variant-numeric:tabular-nums}.bid-scroll caption{text-align:left}.policy-events{font-size:13px;line-height:1.8;padding-left:20px}.policy-events li{margin:8px 0}svg a:focus-visible{outline:2px solid #a56316}
+
   .tariff{grid-column:1/-1}.tariff-chart{display:block;width:100%;max-width:900px;margin:15px auto;height:auto}.tariff-chart text{font-size:18px;fill:#63758a;font-variant-numeric:tabular-nums}.tariff-legend{display:flex;gap:20px;flex-wrap:wrap;font-size:13px;color:#183e6b}.tariff-legend span:last-child{color:#a56316}.tariff-table{max-width:100%;overflow-x:auto}.tariff-table table{min-width:820px;font-size:13px;white-space:nowrap;font-variant-numeric:tabular-nums}.tariff-table caption{text-align:left;color:var(--muted);padding:10px 0}.tariff-table:focus-visible{outline:2px solid #183e6b}.tariff-table td,.tariff-table th{text-align:right}.tariff-table th:first-child{text-align:left}
   @media(max-width:760px){.tariff-chart text{font-size:24px}.tariff-legend{gap:8px 16px}}
 
   .storage{grid-column:1/-1}.storage-chart{display:block;width:100%;max-width:850px;margin:20px auto;height:auto}.storage-chart text{font-size:17px;fill:#63758a;font-variant-numeric:tabular-nums}.metric .storage-energy{font-size:18px;color:#183e6b}.storage-table table{table-layout:fixed}.storage-table th,.storage-table td{min-width:0;overflow-wrap:anywhere;text-align:left}.storage-table caption{text-align:left;color:var(--muted);padding:12px 0}.storage-evidence{margin-top:16px}.storage-evidence p{font-size:13px}.storage-evidence blockquote{margin-bottom:20px}
   @media(max-width:760px){.storage-table th,.storage-table td{padding:9px 5px;font-size:11px}.storage-chart text{font-size:22px}}
   .trend{min-width:0;overflow-wrap:anywhere}
-  .recent-prices table{table-layout:fixed}.recent-prices th,.recent-prices td{min-width:0;width:50%}
-  .market-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-bottom:28px}.metric,.trend{background:white;border:1px solid var(--line);border-radius:12px;padding:26px}.metric>span{font-size:14px;color:var(--muted)}.metric strong{display:block;font-size:32px;color:#183e6b;margin:18px 0 10px;font-variant-numeric:tabular-nums}.metric strong.pending{font-size:25px;color:var(--muted)}.metric small{font-size:13px;margin-left:9px;font-weight:400}.metric p{font-size:12px;color:var(--muted);margin:8px 0;line-height:1.6}.metric .change{font-size:14px}.metric .up{color:#a42e39}.metric .down{color:#147154}.market-charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.lithium{grid-column:1/-1}.price-chart{width:100%;height:auto;display:block;max-height:390px}.price-chart text{fill:#63758a;font-size:12px;font-variant-numeric:tabular-nums}.chart-placeholder{min-height:190px;display:grid;place-items:center;background:repeating-linear-gradient(to bottom,#fafbfd 0,#fafbfd 46px,#eaf0f5 47px,#fafbfd 48px);color:var(--muted);border-radius:8px;font-size:18px}.chart-notes{border-top:1px solid var(--line);margin-top:22px;padding-top:12px;font-size:12px;line-height:1.9;color:var(--muted)}.chart-notes p{margin:8px 0}.recent-prices{margin-top:18px;font-size:13px;color:var(--muted)}table{width:100%;border-collapse:collapse;margin-top:12px}th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line)}th:last-child,td:last-child{text-align:right}.section-title{flex-wrap:wrap}.section-title h2{margin:0}
-  @media(max-width:760px){.market-metrics,.market-charts{grid-template-columns:1fr}.lithium{grid-column:auto}.metric,.trend{padding:20px}.metric strong{margin-top:12px}.price-chart{min-height:190px}.price-chart text{font-size:24px}.chart-placeholder{min-height:150px}.hero{align-items:flex-start}}
+
+  .market-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-bottom:28px}.metric,.trend{background:white;border:1px solid var(--line);border-radius:12px;padding:26px}.metric>span{font-size:14px;color:var(--muted)}.metric strong{display:block;font-size:32px;color:#183e6b;margin:18px 0 10px;font-variant-numeric:tabular-nums}.metric strong.pending{font-size:25px;color:var(--muted)}.metric small{font-size:13px;margin-left:9px;font-weight:400}.metric p{font-size:12px;color:var(--muted);margin:8px 0;line-height:1.6}.metric .change{font-size:14px}.metric .up{color:#a42e39}.metric .down{color:#147154}.market-charts{display:grid;grid-template-columns:1fr;gap:24px}.chart-placeholder{min-height:190px;display:grid;place-items:center;background:repeating-linear-gradient(to bottom,#fafbfd 0,#fafbfd 46px,#eaf0f5 47px,#fafbfd 48px);color:var(--muted);border-radius:8px;font-size:18px}.chart-notes{border-top:1px solid var(--line);margin-top:22px;padding-top:12px;font-size:12px;line-height:1.9;color:var(--muted)}.chart-notes p{margin:8px 0}table{width:100%;border-collapse:collapse;margin-top:12px}th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line)}th:last-child,td:last-child{text-align:right}.section-title{flex-wrap:wrap}.section-title h2{margin:0}
+  @media(max-width:760px){.market-metrics,.market-charts{grid-template-columns:1fr}.metric,.trend{padding:20px}.metric strong{margin-top:12px}.chart-placeholder{min-height:150px}.hero{align-items:flex-start}}
 </style>

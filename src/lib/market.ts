@@ -2,6 +2,23 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 export interface PricePoint { date: string; close: number; }
+export interface BidPoint {
+  month: string; system: number | null; epc: number | null;
+  source_url: string | null; evidence: string[];
+}
+export function loadBids(root = resolve(process.env.POLICY_DATA_DIR || 'data')): { note: string; half_year_url: string; series: BidPoint[] } {
+  return JSON.parse(readFileSync(resolve(root, 'market/storage-bids.json'), 'utf8'));
+}
+export function bidChart(series: BidPoint[], key: 'system' | 'epc') {
+  let connected = false;
+  const points = series.map((p, i) => ({ ...p, value: p[key], x: 65 + i * 60, y: p[key] === null ? null : 245 - p[key]! / 1.4 * 210 }));
+  const path = points.map(p => {
+    if (p.y === null) { connected = false; return ''; }
+    const segment = `${connected ? 'L' : 'M'}${p.x},${p.y}`;
+    connected = true; return segment;
+  }).filter(Boolean).join(' ');
+  return { path, points: points.filter(p => p.value !== null) };
+}
 export interface TariffPoint {
   month: string; source_url: string; zone: string;
   prices_fen: { sharp: number; peak: number; flat: number; valley: number };

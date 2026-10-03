@@ -1,0 +1,122 @@
+{
+  "unit": "元/Wh",
+  "scope": "全国、2h；EPC不含PC；各期正文数值由元/kWh除以1000",
+  "note": "全国不完全统计，不代表广东价格；均价不含集采／框采及用户侧项目，受样本项目结构影响。历史数值按各期正文记录，版本差异或待核实项留空。反映电网侧、电源侧大型储能项目的成本，不含工商业用户侧项目。另据 CNESA 上半年报告，2026 年 1—6 月 2h 系统、EPC 中标均价分别为 0.6021、1.0404 元/Wh（半年均价，非单月值）。",
+  "half_year_url": "https://www.cnesa.org/information/detail/?column_id=58&id=8261",
+  "series": [
+    {
+      "month": "2025-09",
+      "system": 0.5959,
+      "epc": 1.0858,
+      "source_url": "https://www.cnesa.org/information/detail/?column_id=1&id=7556",
+      "evidence": [
+        "2h储能系统，均价595.9元/kWh",
+        "2h EPC，均价1085.8元/kWh"
+      ],
+      "epc_scope_evidence": "EPC（不含PC）"
+    },
+    {
+      "month": "2025-10",
+      "system": 0.5767,
+      "epc": 1.0619,
+      "source_url": "https://www.cnesa.org/policy/detail/?column_id=2&id=7603",
+      "evidence": [
+        "2h储能系统中标均价576.7元/kWh",
+        "2h EPC中标均价1061.9元/kWh"
+      ],
+      "epc_scope_evidence": "EPC（不含PC）"
+    },
+    {
+      "month": "2025-11",
+      "system": null,
+      "epc": null,
+      "source_url": null,
+      "evidence": [],
+      "epc_scope_evidence": null
+    },
+    {
+      "month": "2025-12",
+      "system": null,
+      "epc": null,
+      "source_url": null,
+      "evidence": [],
+      "epc_scope_evidence": null
+    },
+    {
+      "month": "2026-01",
+      "system": 0.5309,
+      "epc": 1.1673,
+      "source_url": "https://research.cnesa.org/report/info/?id=6694",
+      "evidence": [
+        "2h储能系统中标均价530.9元/kWh",
+        "2hEPC（不含PC）中标均价1167.3元/kWh"
+      ],
+      "epc_scope_evidence": "EPC（不含PC）"
+    },
+    {
+      "month": "2026-02",
+      "system": null,
+      "epc": null,
+      "source_url": null,
+      "evidence": [],
+      "epc_scope_evidence": null
+    },
+    {
+      "month": "2026-03",
+      "system": null,
+      "epc": null,
+      "source_url": null,
+      "evidence": [],
+      "epc_scope_evidence": null
+    },
+    {
+      "month": "2026-04",
+      "system": null,
+      "epc": null,
+      "source_url": null,
+      "evidence": [],
+      "epc_scope_evidence": null
+    },
+    {
+      "month": "2026-05",
+      "system": 0.6126,
+      "epc": 1.0442,
+      "source_url": "https://research.cnesa.org/report/info/?id=6867",
+      "evidence": [
+        "2h储能系统，均价612.6元/kWh",
+        "2h EPC，均价1044.2元/kWh"
+      ],
+      "epc_scope_evidence": "EPC（不含PC）"
+    },
+    {
+      "month": "2026-06",
+      "system": null,
+      "epc": null,
+      "source_url": null,
+      "evidence": [],
+      "epc_scope_evidence": null
+    },
+    {
+      "month": "2026-07",
+      "system": 0.6233,
+      "epc": 1.028,
+      "source_url": "https://research.cnesa.org/report/info/?id=7040",
+      "evidence": [
+        "2h储能系统中标均价623.3元/kWh",
+        "2h EPC（不含PC）中标均价1028.0元/kWh"
+      ],
+      "epc_scope_evidence": "EPC（不含PC）"
+    },
+    {
+      "month": "2026-08",
+      "system": 0.6809,
+      "epc": 1.1499,
+      "source_url": "https://www.cnesa.org/information/detail/?column_id=58&id=8576",
+      "evidence": [
+        "2h储能系统中标均价680.9元/kWh",
+        "2h EPC（不含PC）中标均价1149.9元/kWh"
+      ],
+      "epc_scope_evidence": "EPC（不含PC）"
+    }
+  ]
+}
