@@ -31,11 +31,14 @@ console.log(`Verified ${pages.length} pages, base paths, local links and all 9 t
 const market = readFileSync(join(root, 'market/index.html'), 'utf8');
 assert.ok(!market.includes('碳酸锂'));
 assert.ok(market.includes('bid-description'));
-assert.ok(market.indexOf('广东收益 ·') < market.indexOf('成本 ·'));
-assert.ok(market.indexOf('成本 ·') < market.indexOf('全国背景 ·'));
+assert.ok(market.indexOf('① 收益：') < market.indexOf('② 成本：'));
+assert.ok(market.indexOf('② 成本：') < market.indexOf('④ 背景：'));
 assert.ok(market.includes('0.6809') && market.includes('1.1499'));
 assert.ok(market.includes('政策 1') && market.includes('政策 2'));
 assert.ok(market.includes('0.8913'));
 assert.ok(market.includes('tariff-description'));
 assert.ok(market.includes('暂无官方逐日执行记录，未计算'));
 assert.equal((market.match(/>官方公告<\/a>/g) || []).length, 6);
+
+assert.ok(market.indexOf('③ 算账：') < market.indexOf('④ 背景：'));
+assert.ok(!market.includes('研究结论') && !market.includes('待撰写'));
