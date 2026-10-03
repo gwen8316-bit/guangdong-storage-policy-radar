@@ -7,6 +7,7 @@ from collector.http import now
 from collector.pipeline import RunLock
 from collector.storage import read_json, write_json, content_hash
 from .provider import DeepSeek
+from collector.dedup import group_policies
 
 DISCLAIMER = 'AI 生成，以原文为准'
 RULE_VERSION = '2026-09-29-v2'
@@ -79,27 +80,32 @@ def prepare(root, config):
     index = []
     counts = {k: 0 for k in ('直接相关', '间接相关', '无关', '未完成判断', '待核查')}
     topics = {k: 0 for k in config['topics']}
+    analyses = {pid: read_json(root / 'analysis' / (pid + '.json'), {}) for pid in policies}
+    groups = group_policies(policies, analyses)
+    canonical = {pid: g['canonical_id'] for g in groups for pid in g['member_ids']}
     for p in policies.values():
         hit = matches(p, config)
         saved = read_json(root / 'analysis' / (p['id'] + '.json'), {})
         current = saved.get('input_hash') == fingerprint(p)
         relevance = saved.get('relevance') if current else None
-        if hit:
+        if hit and canonical[p['id']] == p['id']:
             counts[relevance if relevance in ('直接相关', '间接相关', '无关') else '未完成判断'] += 1
             if current and saved.get('review_status') == '待核查':
                 counts['待核查'] += 1
             if current and saved.get('status') == 'complete':
                 for topic in saved.get('interpretation', {}).get('topics', []):
                     topics[topic] += 1
-        index.append({'id': p['id'], 'keywords': hit, 'relevance': relevance,
+        index.append({'id': p['id'], 'canonical_id': canonical[p['id']], 'keywords': hit, 'relevance': relevance,
             'status': saved.get('status', 'pending') if current and hit else ('pending' if hit else 'keyword_no_match'),
             'visible': bool(hit and current and saved.get('status') == 'complete' and relevance in ('直接相关', '间接相关'))})
-    summary = {'total': len(index), 'keyword_matches': sum(bool(i['keywords']) for i in index),
+    summary = {'total': len(groups), 'raw_total': len(index), 'merged_records': len(index) - len(groups),
+               'keyword_matches': sum(bool(i['keywords']) and i['canonical_id'] == i['id'] for i in index),
                'sample_ids': config['sample_ids'], 'rule_version': RULE_VERSION,
                'counts': counts, 'topics': topics,
                'notes': '待核查与相关性分类可重叠；主题仅统计通过校验的解读，一份政策可有多个主题。'}
     write_json(root / 'analysis-index.json', index)
     write_json(root / 'analysis-summary.json', summary)
+    write_json(root / 'policy-groups.json', groups)
     return policies, summary
 
 
@@ -132,6 +138,9 @@ def run_samples(root, config, policies, provider, all_policies=False):
         write_json(ledger_path, ledger)
         return result
     selected = sorted(policies) if all_policies else config['sample_ids']
+    analyses = {pid: read_json(root / 'analysis' / (pid + '.json'), {}) for pid in policies}
+    canonical = {pid: g['canonical_id'] for g in group_policies(policies, analyses) for pid in g['member_ids']}
+    selected = list(dict.fromkeys(canonical[pid] for pid in selected))
     for pid in selected:
         p = policies[pid]
         if not matches(p, config):

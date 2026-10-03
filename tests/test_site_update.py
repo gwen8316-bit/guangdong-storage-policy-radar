@@ -55,6 +55,16 @@ class SiteUpdateTests(unittest.TestCase):
             write_json(root / 'analysis/a.json', {'status': 'pending_review', 'error': 'Run API call limit reached'})
             self.assertEqual(analysis_errors(root), [])
 
+    def test_failed_duplicate_does_not_block_completed_canonical_policy(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            write_json(root / 'policy-groups.json', [{'canonical_id': 'a', 'member_ids': ['a', 'b']}])
+            write_json(root / 'analysis/a.json', {'status': 'complete'})
+            write_json(root / 'analysis/b.json', {'status': 'pending_review', 'error': 'old duplicate failure'})
+            self.assertEqual(analysis_errors(root), [])
+            write_json(root / 'analysis/a.json', {'status': 'pending_review', 'error': 'canonical failure'})
+            self.assertEqual(analysis_errors(root), ['a'])
+
     def test_request_limit_includes_all_attempts(self):
         config = json.loads(Path('config/analysis.json').read_text(encoding='utf-8'))
         config.update(max_calls_per_run=2)

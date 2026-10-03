@@ -1,6 +1,7 @@
 [
   {
     "id": "010bccaa3619fce00b4177b6da4ea5efbdeb768f16beb8029954c7971f9e35b5",
+    "canonical_id": "010bccaa3619fce00b4177b6da4ea5efbdeb768f16beb8029954c7971f9e35b5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -8,6 +9,7 @@
   },
   {
     "id": "0128fba50d4c94d5ac197b4712361d80472c3218dccab6cf1d97644da2fa175c",
+    "canonical_id": "0128fba50d4c94d5ac197b4712361d80472c3218dccab6cf1d97644da2fa175c",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -15,6 +17,7 @@
   },
   {
     "id": "0171bce40bdef33aabe31ade57eea472417cb84797bc372331033a2f2937a3bb",
+    "canonical_id": "0171bce40bdef33aabe31ade57eea472417cb84797bc372331033a2f2937a3bb",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -22,6 +25,7 @@
   },
   {
     "id": "039431e5657d918f04cd46dde7e235185a95097dabbba1c3ae231545265c9da0",
+    "canonical_id": "039431e5657d918f04cd46dde7e235185a95097dabbba1c3ae231545265c9da0",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -29,6 +33,7 @@
   },
   {
     "id": "046c37df4ffc0cfb58d2bd3600e04c216b6a6a20a28efc87ce7f4bccc2e15abd",
+    "canonical_id": "046c37df4ffc0cfb58d2bd3600e04c216b6a6a20a28efc87ce7f4bccc2e15abd",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -36,6 +41,7 @@
   },
   {
     "id": "05648db4a65b393c523f2f99aa9ef72035780b39357e582ebef46f839ac248df",
+    "canonical_id": "05648db4a65b393c523f2f99aa9ef72035780b39357e582ebef46f839ac248df",
     "keywords": [
       "储能",
       "电力现货",
@@ -52,6 +58,7 @@
   },
   {
     "id": "063052ce06fe7c0dcbd24ac6210e7fea49b14fdec588072a5bac728223edd192",
+    "canonical_id": "063052ce06fe7c0dcbd24ac6210e7fea49b14fdec588072a5bac728223edd192",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -59,6 +66,7 @@
   },
   {
     "id": "0701690eb21208d5ee418006e48c8a31ca76fe56c7c94badf1afc1362c24a170",
+    "canonical_id": "0701690eb21208d5ee418006e48c8a31ca76fe56c7c94badf1afc1362c24a170",
     "keywords": [
       "储能",
       "峰谷",
@@ -73,6 +81,7 @@
   },
   {
     "id": "07126a59ee55c006be3d84df75c7b2221a18addda87715bc7a2e96f1678bfdf3",
+    "canonical_id": "07126a59ee55c006be3d84df75c7b2221a18addda87715bc7a2e96f1678bfdf3",
     "keywords": [
       "储能",
       "新型储能",
@@ -84,6 +93,7 @@
   },
   {
     "id": "07e11da9f7110a49cd9233b969bbd374ef21f07727fced61bdb0f3c9a189ce4c",
+    "canonical_id": "07e11da9f7110a49cd9233b969bbd374ef21f07727fced61bdb0f3c9a189ce4c",
     "keywords": [
       "调频",
       "调峰"
@@ -94,6 +104,7 @@
   },
   {
     "id": "0863c11b714942021bd4077cedb728d72fb2b7a57ddff72c6756405b68ad90df",
+    "canonical_id": "0863c11b714942021bd4077cedb728d72fb2b7a57ddff72c6756405b68ad90df",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -101,6 +112,7 @@
   },
   {
     "id": "08df76953d010191c91625bc127d52cc7a07216d05b4b8a0d3d825ac25a171f9",
+    "canonical_id": "08df76953d010191c91625bc127d52cc7a07216d05b4b8a0d3d825ac25a171f9",
     "keywords": [
       "储能",
       "尖峰",
@@ -116,6 +128,7 @@
   },
   {
     "id": "08e118c039296bc2e1dc449177d52d4a92503352c6292ee4b068b825f33e7792",
+    "canonical_id": "08e118c039296bc2e1dc449177d52d4a92503352c6292ee4b068b825f33e7792",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -123,6 +136,7 @@
   },
   {
     "id": "0fd362b402725052f72d2c9da3b2ceab1981bb0a6f9d1f4d5fb5dce9a57208c6",
+    "canonical_id": "0fd362b402725052f72d2c9da3b2ceab1981bb0a6f9d1f4d5fb5dce9a57208c6",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -130,6 +144,7 @@
   },
   {
     "id": "115982956479e3da7b1b9f8ef86bc29458516c7563e2e960e540a529612b946d",
+    "canonical_id": "115982956479e3da7b1b9f8ef86bc29458516c7563e2e960e540a529612b946d",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -137,6 +152,7 @@
   },
   {
     "id": "124011bb981e3b9a9dda6008c606c1820b95e82867b493bd8d4a9518df574939",
+    "canonical_id": "124011bb981e3b9a9dda6008c606c1820b95e82867b493bd8d4a9518df574939",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -144,6 +160,7 @@
   },
   {
     "id": "127ac28354756301c39122acb5e51b26c66780171513dda79c81b939682b8e14",
+    "canonical_id": "127ac28354756301c39122acb5e51b26c66780171513dda79c81b939682b8e14",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -151,6 +168,7 @@
   },
   {
     "id": "12bf64467e481743102b2fd42c027ef6bf131015658117c7f7ef057232f2100a",
+    "canonical_id": "12bf64467e481743102b2fd42c027ef6bf131015658117c7f7ef057232f2100a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -158,6 +176,7 @@
   },
   {
     "id": "14524be28611a3976d122a55bbcbd1e9e289cfe945277115cf07740373c111e0",
+    "canonical_id": "14524be28611a3976d122a55bbcbd1e9e289cfe945277115cf07740373c111e0",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -165,6 +184,7 @@
   },
   {
     "id": "14817c579bb71804f01024119bf77031f4c80aafe49f97ec2219d3a11cd02c24",
+    "canonical_id": "14817c579bb71804f01024119bf77031f4c80aafe49f97ec2219d3a11cd02c24",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -172,6 +192,7 @@
   },
   {
     "id": "14888e5c10c6d51c54fc34ce972267303c23b5fa5d7421ea76eddb22c381fcd8",
+    "canonical_id": "14888e5c10c6d51c54fc34ce972267303c23b5fa5d7421ea76eddb22c381fcd8",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -179,6 +200,7 @@
   },
   {
     "id": "1508d90bd6aa4cb3c236b7538da1f955d1943b9569ce6387305d6e1cac7614d8",
+    "canonical_id": "1508d90bd6aa4cb3c236b7538da1f955d1943b9569ce6387305d6e1cac7614d8",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -186,6 +208,7 @@
   },
   {
     "id": "1637de4dae3d99d917f84c6540fba577cc601a17858fd639ee0f8f2e2625940b",
+    "canonical_id": "1637de4dae3d99d917f84c6540fba577cc601a17858fd639ee0f8f2e2625940b",
     "keywords": [
       "储能",
       "辅助服务",
@@ -200,6 +223,7 @@
   },
   {
     "id": "16bff6bd94a6c711b4964436ec70d7c14858a13d8efdb7694ab8ec8e57786c39",
+    "canonical_id": "16bff6bd94a6c711b4964436ec70d7c14858a13d8efdb7694ab8ec8e57786c39",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -207,6 +231,7 @@
   },
   {
     "id": "1742026791959844ce8f0d92861ac4e4483cf9ea0ac795792c34f007200ce3b7",
+    "canonical_id": "1742026791959844ce8f0d92861ac4e4483cf9ea0ac795792c34f007200ce3b7",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -214,6 +239,7 @@
   },
   {
     "id": "174a2a2fd91f7799fd19ac701cd8b08022b2a3b78909e74d79d7b12e84a3092c",
+    "canonical_id": "174a2a2fd91f7799fd19ac701cd8b08022b2a3b78909e74d79d7b12e84a3092c",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -221,6 +247,7 @@
   },
   {
     "id": "1780be6a92ed09eb98c59cda8b7cb5a746872fbf76d4c176ed551e244217170b",
+    "canonical_id": "1780be6a92ed09eb98c59cda8b7cb5a746872fbf76d4c176ed551e244217170b",
     "keywords": [
       "储能",
       "新型储能",
@@ -235,6 +262,7 @@
   },
   {
     "id": "1833a951c6d03c5698373467720b0daf101e2ecc7e874335204a9c91ee9025db",
+    "canonical_id": "1833a951c6d03c5698373467720b0daf101e2ecc7e874335204a9c91ee9025db",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -242,6 +270,7 @@
   },
   {
     "id": "1887b83d6472672fc2868072033d9b3c20f7e3e25aa51c796f925160a374fbe4",
+    "canonical_id": "1887b83d6472672fc2868072033d9b3c20f7e3e25aa51c796f925160a374fbe4",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -249,6 +278,7 @@
   },
   {
     "id": "19619baca48a57d0aca39eea8c9e9d1f86bc3743e8023c16ee0ce0d078e34183",
+    "canonical_id": "19619baca48a57d0aca39eea8c9e9d1f86bc3743e8023c16ee0ce0d078e34183",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -256,6 +286,7 @@
   },
   {
     "id": "19dfa408dfa74a6190f7e7acdc64626cc3cc71ed54774b949f6f1e0c89b04d26",
+    "canonical_id": "19dfa408dfa74a6190f7e7acdc64626cc3cc71ed54774b949f6f1e0c89b04d26",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -263,6 +294,7 @@
   },
   {
     "id": "1a6ca9a1f1237b4b4fd39ad3791ec975d98addc9809e642cd128ded90d707971",
+    "canonical_id": "1a6ca9a1f1237b4b4fd39ad3791ec975d98addc9809e642cd128ded90d707971",
     "keywords": [
       "储能",
       "调峰"
@@ -273,6 +305,7 @@
   },
   {
     "id": "1a9dda7583f56865d320f3f0bfd4e25778d477b28265728496c9e06583caf2e8",
+    "canonical_id": "1a9dda7583f56865d320f3f0bfd4e25778d477b28265728496c9e06583caf2e8",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -280,6 +313,7 @@
   },
   {
     "id": "1cc832d765d5dfa3cabd6a84c29e63ee4dc8f41ea388c30753023eb9ecf0ba67",
+    "canonical_id": "1cc832d765d5dfa3cabd6a84c29e63ee4dc8f41ea388c30753023eb9ecf0ba67",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -287,6 +321,7 @@
   },
   {
     "id": "1cd5a903bd7b3531fde365ae1c2d7b9ddb0ab7b16f753b32f6ba574bb3e59c61",
+    "canonical_id": "1cd5a903bd7b3531fde365ae1c2d7b9ddb0ab7b16f753b32f6ba574bb3e59c61",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -294,6 +329,7 @@
   },
   {
     "id": "1cec910e551196ff04fa7c5442e2f0afe649f8db1ddd5d6a1d1c0623d339218e",
+    "canonical_id": "1cec910e551196ff04fa7c5442e2f0afe649f8db1ddd5d6a1d1c0623d339218e",
     "keywords": [
       "电力市场"
     ],
@@ -303,6 +339,7 @@
   },
   {
     "id": "1d062c5e2559a79e0be658832203b9e35dff1a0cfba56f9f350bf10577ee14f0",
+    "canonical_id": "1d062c5e2559a79e0be658832203b9e35dff1a0cfba56f9f350bf10577ee14f0",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -310,6 +347,7 @@
   },
   {
     "id": "1d649576cfa7a18ab4cc10161fb54a96e66dee02b006dc059bdbaada16db69e6",
+    "canonical_id": "1d649576cfa7a18ab4cc10161fb54a96e66dee02b006dc059bdbaada16db69e6",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -317,6 +355,7 @@
   },
   {
     "id": "1dd81e7f1ccef5998385e6f503c844012e2a2fc41aece2f6437b618651f8e294",
+    "canonical_id": "1dd81e7f1ccef5998385e6f503c844012e2a2fc41aece2f6437b618651f8e294",
     "keywords": [
       "储能"
     ],
@@ -326,6 +365,7 @@
   },
   {
     "id": "1e069b7a0d73e4793a95672083cf0f5aeabf96cb77ddd7b9215ebe030da66fa4",
+    "canonical_id": "1e069b7a0d73e4793a95672083cf0f5aeabf96cb77ddd7b9215ebe030da66fa4",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -333,6 +373,7 @@
   },
   {
     "id": "1f8e80719d2c9762f7b1ff563e8d9ff9ff774902464a993b3b445874ccb54cb3",
+    "canonical_id": "1f8e80719d2c9762f7b1ff563e8d9ff9ff774902464a993b3b445874ccb54cb3",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -340,6 +381,7 @@
   },
   {
     "id": "214b16c57f9a9d411e0b5f2fc5c9a0d7d450bc26dc0ca0adc9a04e8a94b47caa",
+    "canonical_id": "214b16c57f9a9d411e0b5f2fc5c9a0d7d450bc26dc0ca0adc9a04e8a94b47caa",
     "keywords": [
       "储能",
       "抽水蓄能",
@@ -351,6 +393,7 @@
   },
   {
     "id": "22280a26a6b869f3820eab531b73fddddeae94afd5868edfb6b2ffec4fb73c30",
+    "canonical_id": "22280a26a6b869f3820eab531b73fddddeae94afd5868edfb6b2ffec4fb73c30",
     "keywords": [
       "容量电价",
       "电力现货",
@@ -364,6 +407,7 @@
   },
   {
     "id": "244a405b2a68bfc0f9a851a7f3c2310270522dfe8d80d292ff9e6b0ffb0e00a5",
+    "canonical_id": "244a405b2a68bfc0f9a851a7f3c2310270522dfe8d80d292ff9e6b0ffb0e00a5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -371,6 +415,7 @@
   },
   {
     "id": "246897bca1243286d2df0565f5455fa020a15dc17fbeb6b63f89561f31afe0ca",
+    "canonical_id": "246897bca1243286d2df0565f5455fa020a15dc17fbeb6b63f89561f31afe0ca",
     "keywords": [
       "储能"
     ],
@@ -380,6 +425,7 @@
   },
   {
     "id": "24de5ce77bb786dcdaa787e741f224272be2d70bdd8c914b522bf1fd86ab7173",
+    "canonical_id": "24de5ce77bb786dcdaa787e741f224272be2d70bdd8c914b522bf1fd86ab7173",
     "keywords": [
       "储能",
       "新型储能",
@@ -391,6 +437,7 @@
   },
   {
     "id": "260bef1b0ef827b4082b4630bf6a1186424e236744722d163f96841b63a783a6",
+    "canonical_id": "260bef1b0ef827b4082b4630bf6a1186424e236744722d163f96841b63a783a6",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -398,6 +445,7 @@
   },
   {
     "id": "283db71e3ddad94bd11ccab5ccafdaa3d0e7147217c1c469b1b8609fa40404a1",
+    "canonical_id": "283db71e3ddad94bd11ccab5ccafdaa3d0e7147217c1c469b1b8609fa40404a1",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -405,6 +453,7 @@
   },
   {
     "id": "28a5d249272ef848e13ed53d0e3925880fc0ea319fb271b4554ff047211cab89",
+    "canonical_id": "28a5d249272ef848e13ed53d0e3925880fc0ea319fb271b4554ff047211cab89",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -412,6 +461,7 @@
   },
   {
     "id": "293a35c37fb8038aacfc4fe3d4ec29239275b75ca645f1221c22e3840ff439fb",
+    "canonical_id": "293a35c37fb8038aacfc4fe3d4ec29239275b75ca645f1221c22e3840ff439fb",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -419,6 +469,7 @@
   },
   {
     "id": "2a1cda69070b887121c2d5642a52ff8ddbe2f95b15e728db891d4b06d73f1cc6",
+    "canonical_id": "2a1cda69070b887121c2d5642a52ff8ddbe2f95b15e728db891d4b06d73f1cc6",
     "keywords": [
       "电力市场"
     ],
@@ -428,6 +479,7 @@
   },
   {
     "id": "2c835e03196d52d76090c40000c918810d0c426159cc3b645e310fdb99b11c3e",
+    "canonical_id": "2c835e03196d52d76090c40000c918810d0c426159cc3b645e310fdb99b11c3e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -435,6 +487,7 @@
   },
   {
     "id": "2c9f1611cb30d8cd79088703a82f4c99337b01e312ac94cb0265f9132fa6442e",
+    "canonical_id": "2c9f1611cb30d8cd79088703a82f4c99337b01e312ac94cb0265f9132fa6442e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -442,6 +495,7 @@
   },
   {
     "id": "2ceeea61ddc2f95ed66a6ac82b7812366bdb44c72d6668a13e8982698ccac17f",
+    "canonical_id": "2ceeea61ddc2f95ed66a6ac82b7812366bdb44c72d6668a13e8982698ccac17f",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -449,6 +503,7 @@
   },
   {
     "id": "2d5775f81e1b0fec2c18381543adb4c9c110aa8321e8f503ece8f4fba8325b7a",
+    "canonical_id": "2d5775f81e1b0fec2c18381543adb4c9c110aa8321e8f503ece8f4fba8325b7a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -456,6 +511,7 @@
   },
   {
     "id": "2d7fb4a195704911dc096782b7860e5a7ea2c9f3b32c22a6eefe497a1bec374a",
+    "canonical_id": "2d7fb4a195704911dc096782b7860e5a7ea2c9f3b32c22a6eefe497a1bec374a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -463,6 +519,7 @@
   },
   {
     "id": "2e369c928709b056795e75c668a1dc4f85661e6d2a3f39430f7cc494b402d3d5",
+    "canonical_id": "2e369c928709b056795e75c668a1dc4f85661e6d2a3f39430f7cc494b402d3d5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -470,6 +527,7 @@
   },
   {
     "id": "2e4376bef2db499de15449570b8a61f21876cfba5acf77c777c3ef0e8cd8362f",
+    "canonical_id": "2e4376bef2db499de15449570b8a61f21876cfba5acf77c777c3ef0e8cd8362f",
     "keywords": [
       "储能",
       "新型储能",
@@ -484,6 +542,7 @@
   },
   {
     "id": "2e6658057375d2f7098707b9ec463ab140f2ab38226908c6c323511796b4147a",
+    "canonical_id": "2e6658057375d2f7098707b9ec463ab140f2ab38226908c6c323511796b4147a",
     "keywords": [
       "抽水蓄能"
     ],
@@ -493,6 +552,7 @@
   },
   {
     "id": "2f174ff2b96dfb5a06f65832c86954c52df88222f39199415e08f8f80f591e27",
+    "canonical_id": "2f174ff2b96dfb5a06f65832c86954c52df88222f39199415e08f8f80f591e27",
     "keywords": [
       "储能",
       "新型储能",
@@ -505,6 +565,7 @@
   },
   {
     "id": "2f6d588ce85a10cf87418d51bd03e6bfb68dac669f4249f74e08c6dbc81449ca",
+    "canonical_id": "2f6d588ce85a10cf87418d51bd03e6bfb68dac669f4249f74e08c6dbc81449ca",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -512,6 +573,7 @@
   },
   {
     "id": "2f712c3441dd3486061a4a2fdab4536be27f27d86a6561d87bb8fb9b5c7e93a3",
+    "canonical_id": "2f712c3441dd3486061a4a2fdab4536be27f27d86a6561d87bb8fb9b5c7e93a3",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -519,6 +581,7 @@
   },
   {
     "id": "2fa7f0fa6079652568c408f7cefab34b1955e333cdc6ae931f19645f33086172",
+    "canonical_id": "2fa7f0fa6079652568c408f7cefab34b1955e333cdc6ae931f19645f33086172",
     "keywords": [
       "储能",
       "峰谷",
@@ -532,6 +595,7 @@
   },
   {
     "id": "305444c3780b1acc8854c57faa8e52e894a2f8251b099a14e9337d7a3f679e24",
+    "canonical_id": "305444c3780b1acc8854c57faa8e52e894a2f8251b099a14e9337d7a3f679e24",
     "keywords": [
       "储能",
       "调峰",
@@ -543,6 +607,7 @@
   },
   {
     "id": "30a046494a592829b17da5585c1f795ad11c7022bbd3acacc65d7e48a00b8c16",
+    "canonical_id": "30a046494a592829b17da5585c1f795ad11c7022bbd3acacc65d7e48a00b8c16",
     "keywords": [
       "储能",
       "新能源上网电价"
@@ -553,6 +618,7 @@
   },
   {
     "id": "30adf43dc2756e2f772944d2cb96a14842dc9869296e070b65b6df7edf06f5e6",
+    "canonical_id": "30adf43dc2756e2f772944d2cb96a14842dc9869296e070b65b6df7edf06f5e6",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -560,6 +626,7 @@
   },
   {
     "id": "3166cc47aada9bb53f0af18a34350b9a90e6c3d6d994240357962f66dc66f948",
+    "canonical_id": "3166cc47aada9bb53f0af18a34350b9a90e6c3d6d994240357962f66dc66f948",
     "keywords": [
       "电力现货",
       "辅助服务",
@@ -571,6 +638,7 @@
   },
   {
     "id": "31dd5d0dbb7eb9c4e588f0af2df59a8a0705697fdbee6a53b339343b4c276a9c",
+    "canonical_id": "31dd5d0dbb7eb9c4e588f0af2df59a8a0705697fdbee6a53b339343b4c276a9c",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -578,6 +646,7 @@
   },
   {
     "id": "33194ceaca66d838eeea6e65fb00a67b816befc4c42bee5fb1d6f89405109a31",
+    "canonical_id": "33194ceaca66d838eeea6e65fb00a67b816befc4c42bee5fb1d6f89405109a31",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -585,6 +654,7 @@
   },
   {
     "id": "3614bc5869deb7a74d8df274b06213e1ac9230d0ae24f4960c1ec855937b1a97",
+    "canonical_id": "3614bc5869deb7a74d8df274b06213e1ac9230d0ae24f4960c1ec855937b1a97",
     "keywords": [
       "电力市场"
     ],
@@ -594,6 +664,7 @@
   },
   {
     "id": "3678a76d8430a37d628f84e5e1cfc25e6268773e48c18cc0e1c819125c52b3fa",
+    "canonical_id": "3678a76d8430a37d628f84e5e1cfc25e6268773e48c18cc0e1c819125c52b3fa",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -601,6 +672,7 @@
   },
   {
     "id": "36eb5ed8c2b672dd01461b0fa1238cc164c409cd99df4505dbee4f314b1c8efb",
+    "canonical_id": "36eb5ed8c2b672dd01461b0fa1238cc164c409cd99df4505dbee4f314b1c8efb",
     "keywords": [
       "电力市场"
     ],
@@ -610,6 +682,7 @@
   },
   {
     "id": "37546439c20dbb2c5c8ec8cf8fb0d314528de89c43470e31004c3eeedae1cb95",
+    "canonical_id": "37546439c20dbb2c5c8ec8cf8fb0d314528de89c43470e31004c3eeedae1cb95",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -617,6 +690,7 @@
   },
   {
     "id": "3760b9cc6e46459b6d122ed7123034c96bde69d9ca5ca2aff8b5d5aec95d3a6a",
+    "canonical_id": "3760b9cc6e46459b6d122ed7123034c96bde69d9ca5ca2aff8b5d5aec95d3a6a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -624,6 +698,7 @@
   },
   {
     "id": "385b93a6ab0d6376c13a642bfa37d3f1033d7038c024b48c0937a8542b9f09bd",
+    "canonical_id": "385b93a6ab0d6376c13a642bfa37d3f1033d7038c024b48c0937a8542b9f09bd",
     "keywords": [
       "储能",
       "代理购电"
@@ -634,6 +709,7 @@
   },
   {
     "id": "389ff516059582fd470cb9edd46dcf8853e9a7c2e5edec8a0db42d12c017c159",
+    "canonical_id": "389ff516059582fd470cb9edd46dcf8853e9a7c2e5edec8a0db42d12c017c159",
     "keywords": [
       "新能源上网电价"
     ],
@@ -643,6 +719,7 @@
   },
   {
     "id": "38c87b44b3b42588e5d834c780576c275db220a591777c0f90b625a9d95fe87d",
+    "canonical_id": "38c87b44b3b42588e5d834c780576c275db220a591777c0f90b625a9d95fe87d",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -650,6 +727,7 @@
   },
   {
     "id": "3922b6092a3a1628ee75117b46a6355d77acbc60d9fab4d786a9936aa9369114",
+    "canonical_id": "3922b6092a3a1628ee75117b46a6355d77acbc60d9fab4d786a9936aa9369114",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -657,6 +735,7 @@
   },
   {
     "id": "3a59861937cee9220e661616f38bb647c5c6aa44e6868156a70e3c66310c17a2",
+    "canonical_id": "3a59861937cee9220e661616f38bb647c5c6aa44e6868156a70e3c66310c17a2",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -664,6 +743,7 @@
   },
   {
     "id": "3b0ffb7db4e5feca7d6a1d92a9f50d227bfa5802f1f416f681d35aa698275619",
+    "canonical_id": "3b0ffb7db4e5feca7d6a1d92a9f50d227bfa5802f1f416f681d35aa698275619",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -671,6 +751,7 @@
   },
   {
     "id": "3be1460c499006dc1382421899afb016970a7b33f2b9e48f6435c88a0f11a5a9",
+    "canonical_id": "3be1460c499006dc1382421899afb016970a7b33f2b9e48f6435c88a0f11a5a9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -678,6 +759,7 @@
   },
   {
     "id": "3da33e1f6712e253f175acf203d3914c93294deda0e9673ea63c9eb01d4dee8f",
+    "canonical_id": "3da33e1f6712e253f175acf203d3914c93294deda0e9673ea63c9eb01d4dee8f",
     "keywords": [
       "储能",
       "新型储能",
@@ -691,6 +773,7 @@
   },
   {
     "id": "3ded72d74048d59a72e882a6551b60ad917e76ef438a968daa91b53e404e8996",
+    "canonical_id": "3ded72d74048d59a72e882a6551b60ad917e76ef438a968daa91b53e404e8996",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -698,6 +781,7 @@
   },
   {
     "id": "3e0438b7178838f784c58a713afd2f9af9e98712a13b950037ad2cf7bd84c5c4",
+    "canonical_id": "3e0438b7178838f784c58a713afd2f9af9e98712a13b950037ad2cf7bd84c5c4",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -705,6 +789,7 @@
   },
   {
     "id": "3e61ca26306e95744e1e8d2e9d3a22dc4c79022694f3fb8a27b1de69d0d26072",
+    "canonical_id": "3e61ca26306e95744e1e8d2e9d3a22dc4c79022694f3fb8a27b1de69d0d26072",
     "keywords": [
       "储能",
       "虚拟电厂",
@@ -716,6 +801,7 @@
   },
   {
     "id": "3e98b37ef8d2d5f398a1f081a943018f5b3bf3517df3a45720304576489d61bc",
+    "canonical_id": "3e98b37ef8d2d5f398a1f081a943018f5b3bf3517df3a45720304576489d61bc",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -723,6 +809,7 @@
   },
   {
     "id": "3ed670ee7f1b207b080f00e357c3a4d4eacda817c88438600352b62b765d5a32",
+    "canonical_id": "3ed670ee7f1b207b080f00e357c3a4d4eacda817c88438600352b62b765d5a32",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -730,6 +817,7 @@
   },
   {
     "id": "40ad84adb9898e161bff1d651778691ab8c3b0ccba5b0c12f4f1c901582287a9",
+    "canonical_id": "40ad84adb9898e161bff1d651778691ab8c3b0ccba5b0c12f4f1c901582287a9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -737,6 +825,7 @@
   },
   {
     "id": "40fcbad5721a71d13ea5efbad3d9ba4e26367eb10fa3e08d5f1e1723e2ca3d2f",
+    "canonical_id": "40fcbad5721a71d13ea5efbad3d9ba4e26367eb10fa3e08d5f1e1723e2ca3d2f",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -744,6 +833,7 @@
   },
   {
     "id": "4126de88e98136e9a7e5168078bb7d99cfe1e830f2352d349e728d597bb22d5b",
+    "canonical_id": "4126de88e98136e9a7e5168078bb7d99cfe1e830f2352d349e728d597bb22d5b",
     "keywords": [
       "储能"
     ],
@@ -753,6 +843,7 @@
   },
   {
     "id": "416e57fac2268f3057335d10e7f65c161f12556437b8bafd56403ec2b611f4fd",
+    "canonical_id": "416e57fac2268f3057335d10e7f65c161f12556437b8bafd56403ec2b611f4fd",
     "keywords": [
       "电力市场"
     ],
@@ -762,6 +853,7 @@
   },
   {
     "id": "427a7947d620cfed46ff5fd559fae1aac88129a2f31d96bbe7dceba2014fe6e5",
+    "canonical_id": "427a7947d620cfed46ff5fd559fae1aac88129a2f31d96bbe7dceba2014fe6e5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -769,6 +861,7 @@
   },
   {
     "id": "4291047cce61e1184c365cb756ba5bced5e6bd0f711f07b2028cbf8a763449d9",
+    "canonical_id": "4291047cce61e1184c365cb756ba5bced5e6bd0f711f07b2028cbf8a763449d9",
     "keywords": [
       "辅助服务",
       "需求响应",
@@ -781,6 +874,7 @@
   },
   {
     "id": "43db2277e7fb7f3b5f4c13b28f94e2d1cd4c49a352b0a3e11e32f83561836a0e",
+    "canonical_id": "43db2277e7fb7f3b5f4c13b28f94e2d1cd4c49a352b0a3e11e32f83561836a0e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -788,6 +882,7 @@
   },
   {
     "id": "4429a17643ed92d2a28aca6c76f3b70415cf99cdbdff17824e1e5d9538989402",
+    "canonical_id": "4429a17643ed92d2a28aca6c76f3b70415cf99cdbdff17824e1e5d9538989402",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -795,6 +890,7 @@
   },
   {
     "id": "4512d1804f943c7433c6a05e1fdd7f66e0d5fdc7afcc04334f01f6c113cce6f9",
+    "canonical_id": "4512d1804f943c7433c6a05e1fdd7f66e0d5fdc7afcc04334f01f6c113cce6f9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -802,6 +898,7 @@
   },
   {
     "id": "4575cad63375588c81e4a5e0696aae683958286d89852c2f77dae4e0deab63d4",
+    "canonical_id": "4575cad63375588c81e4a5e0696aae683958286d89852c2f77dae4e0deab63d4",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -809,6 +906,7 @@
   },
   {
     "id": "47bfb1bb6930140ed1e4cde1e693ff8540219043c5c86c303dd0e704ac79e26b",
+    "canonical_id": "47bfb1bb6930140ed1e4cde1e693ff8540219043c5c86c303dd0e704ac79e26b",
     "keywords": [
       "两个细则"
     ],
@@ -818,6 +916,7 @@
   },
   {
     "id": "493c8601010d81df2840921c29623d468ebba17a4c8dc7cedd870b08721214d5",
+    "canonical_id": "493c8601010d81df2840921c29623d468ebba17a4c8dc7cedd870b08721214d5",
     "keywords": [
       "抽水蓄能"
     ],
@@ -827,6 +926,7 @@
   },
   {
     "id": "4b0c7b1e9aae6e832cc182d9ea47e12e6e8baf1d95f9c739b96a878355819382",
+    "canonical_id": "4b0c7b1e9aae6e832cc182d9ea47e12e6e8baf1d95f9c739b96a878355819382",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -834,6 +934,7 @@
   },
   {
     "id": "4c57f699a552357e7142dc0f424e4abba1062eda641cfab1566cd64f3493970e",
+    "canonical_id": "4c57f699a552357e7142dc0f424e4abba1062eda641cfab1566cd64f3493970e",
     "keywords": [
       "储能"
     ],
@@ -843,6 +944,7 @@
   },
   {
     "id": "4cd5d4ae6296939e2db05d01ce16e16080b683b31beadfe1b048308b5d9b2784",
+    "canonical_id": "4cd5d4ae6296939e2db05d01ce16e16080b683b31beadfe1b048308b5d9b2784",
     "keywords": [
       "储能",
       "辅助服务",
@@ -854,6 +956,7 @@
   },
   {
     "id": "4cffc119996cd2b08e773bd8270005cd4ec782b20a209e759ec871b1e50ae6ae",
+    "canonical_id": "4cffc119996cd2b08e773bd8270005cd4ec782b20a209e759ec871b1e50ae6ae",
     "keywords": [
       "储能",
       "辅助服务",
@@ -870,6 +973,7 @@
   },
   {
     "id": "4d786f3514d5a1f5b5c06e5da0381b747237aef794ed4cdc0ce0b31f0e7dd6e9",
+    "canonical_id": "4d786f3514d5a1f5b5c06e5da0381b747237aef794ed4cdc0ce0b31f0e7dd6e9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -877,6 +981,7 @@
   },
   {
     "id": "4ee657b3122da0ba093d0dcf6f7941f30c862447a6a2a648bf0d8bdc84df8d0d",
+    "canonical_id": "4ee657b3122da0ba093d0dcf6f7941f30c862447a6a2a648bf0d8bdc84df8d0d",
     "keywords": [
       "储能"
     ],
@@ -886,6 +991,7 @@
   },
   {
     "id": "4f933db80a35bc94f7405cb2b4d44cbfdb1eca05c24ddbba767254afcae5eed5",
+    "canonical_id": "4f933db80a35bc94f7405cb2b4d44cbfdb1eca05c24ddbba767254afcae5eed5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -893,6 +999,7 @@
   },
   {
     "id": "4fc2036a77bdb85685a528bb77006e92813e52c2cd8098ee01354e7d7e117c16",
+    "canonical_id": "4fc2036a77bdb85685a528bb77006e92813e52c2cd8098ee01354e7d7e117c16",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -900,6 +1007,7 @@
   },
   {
     "id": "50febcb4d7bd98519bd41774beeee5a0909f7f9808b3b6f9a258563d908434b1",
+    "canonical_id": "50febcb4d7bd98519bd41774beeee5a0909f7f9808b3b6f9a258563d908434b1",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -907,6 +1015,7 @@
   },
   {
     "id": "538e1826b1e0f464d052a7ac708a5ccde0d13fa720b65520b0e4474c1c7ea8c0",
+    "canonical_id": "538e1826b1e0f464d052a7ac708a5ccde0d13fa720b65520b0e4474c1c7ea8c0",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -914,6 +1023,7 @@
   },
   {
     "id": "539cde59eac8087d1ee1850a679f9c4e9e4431dd0f695290ba7a4bc404f401ab",
+    "canonical_id": "539cde59eac8087d1ee1850a679f9c4e9e4431dd0f695290ba7a4bc404f401ab",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -921,6 +1031,7 @@
   },
   {
     "id": "543f9f911ad08570e2b8e780d2c995cf2286640f019e866c0472cd770444ba40",
+    "canonical_id": "543f9f911ad08570e2b8e780d2c995cf2286640f019e866c0472cd770444ba40",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -928,6 +1039,7 @@
   },
   {
     "id": "54dedeb34c0c838038aa29ed8747bc88482f55d02ac4793d6cbcd368d074393e",
+    "canonical_id": "54dedeb34c0c838038aa29ed8747bc88482f55d02ac4793d6cbcd368d074393e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -935,6 +1047,7 @@
   },
   {
     "id": "55a8eceb65c8233fafd530b311e6979722353b18103036251891b122d5cf5224",
+    "canonical_id": "55a8eceb65c8233fafd530b311e6979722353b18103036251891b122d5cf5224",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -942,6 +1055,7 @@
   },
   {
     "id": "561719bd092f6bbd4ed94602c7fb046109f8c5ec5dc609d951e838f6155e44ce",
+    "canonical_id": "561719bd092f6bbd4ed94602c7fb046109f8c5ec5dc609d951e838f6155e44ce",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -949,6 +1063,7 @@
   },
   {
     "id": "58173a121bca04eb7501054cb371c82dc2d9d127442d59dfb950db6847e82273",
+    "canonical_id": "58173a121bca04eb7501054cb371c82dc2d9d127442d59dfb950db6847e82273",
     "keywords": [
       "储能",
       "电力现货",
@@ -961,6 +1076,7 @@
   },
   {
     "id": "599d93b03c9487d0f6fa641e663e5294f9363b5256480a3292abecb33fcbf09d",
+    "canonical_id": "599d93b03c9487d0f6fa641e663e5294f9363b5256480a3292abecb33fcbf09d",
     "keywords": [
       "储能"
     ],
@@ -970,6 +1086,7 @@
   },
   {
     "id": "5a44af9d8b09c78b00746e4f92d8e5593cb160d90dfa1abb3fb618dc87260120",
+    "canonical_id": "5a44af9d8b09c78b00746e4f92d8e5593cb160d90dfa1abb3fb618dc87260120",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -977,6 +1094,7 @@
   },
   {
     "id": "5a480b27bd095d0c17ea87fdf377c5f525d1b1b00062045ac1d14a2126446432",
+    "canonical_id": "5a480b27bd095d0c17ea87fdf377c5f525d1b1b00062045ac1d14a2126446432",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -984,6 +1102,7 @@
   },
   {
     "id": "5a59f514a59eb0774e413cb16397c4ba675754174a7c10f863c3386d7d453728",
+    "canonical_id": "5a59f514a59eb0774e413cb16397c4ba675754174a7c10f863c3386d7d453728",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -991,6 +1110,7 @@
   },
   {
     "id": "5b99ca51e602f6080f357a010a7e153bfc14105e573720ce9341107cbd3d8e81",
+    "canonical_id": "5b99ca51e602f6080f357a010a7e153bfc14105e573720ce9341107cbd3d8e81",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -998,6 +1118,7 @@
   },
   {
     "id": "5be29636132989ec94e956d30522be65e62a86d544f0ea82ec9b8b4b6de4ee8a",
+    "canonical_id": "5be29636132989ec94e956d30522be65e62a86d544f0ea82ec9b8b4b6de4ee8a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1005,6 +1126,7 @@
   },
   {
     "id": "5bf2855c9a432d632e3328aa284357d17fcf76586f7b408eba29f0cb4e4036c3",
+    "canonical_id": "5bf2855c9a432d632e3328aa284357d17fcf76586f7b408eba29f0cb4e4036c3",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1012,6 +1134,7 @@
   },
   {
     "id": "5c16409517ec9b0f78dd104d2360419763e838f75bb7c308b3521c77b3efd735",
+    "canonical_id": "5c16409517ec9b0f78dd104d2360419763e838f75bb7c308b3521c77b3efd735",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1019,6 +1142,7 @@
   },
   {
     "id": "5c48da7b652fcdfe3c9edcb297b43da2e0f2d06c49a6f7874504e52d8557bf2a",
+    "canonical_id": "5c48da7b652fcdfe3c9edcb297b43da2e0f2d06c49a6f7874504e52d8557bf2a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1026,6 +1150,7 @@
   },
   {
     "id": "5ccbcbe751e0a540add535a82775c2481d89f48d668283027ac45b433259dc08",
+    "canonical_id": "5ccbcbe751e0a540add535a82775c2481d89f48d668283027ac45b433259dc08",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1033,6 +1158,7 @@
   },
   {
     "id": "5ce0eabb510152ade061734ffc2bcc3d2bb14486914a6c542db235f2e0bfcf8f",
+    "canonical_id": "5ce0eabb510152ade061734ffc2bcc3d2bb14486914a6c542db235f2e0bfcf8f",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1040,6 +1166,7 @@
   },
   {
     "id": "5d5f6e6d0af22b52b337ec0368133a2ee94e5a783dfc62cb68afc6cd8dd6a5bc",
+    "canonical_id": "5d5f6e6d0af22b52b337ec0368133a2ee94e5a783dfc62cb68afc6cd8dd6a5bc",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1047,6 +1174,7 @@
   },
   {
     "id": "5ea0312492e49d3eb386ce38dbfda05de6c15d9516761be8ce80d4bf929f0c54",
+    "canonical_id": "5ea0312492e49d3eb386ce38dbfda05de6c15d9516761be8ce80d4bf929f0c54",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1054,6 +1182,7 @@
   },
   {
     "id": "5eaf4a56a60140e57e66cbc88d5c4e3d918581a9bac8676f1cf4d64f02b8c40a",
+    "canonical_id": "5eaf4a56a60140e57e66cbc88d5c4e3d918581a9bac8676f1cf4d64f02b8c40a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1061,6 +1190,7 @@
   },
   {
     "id": "5fdeebf0cb49c28d29cda004178f9ca47a2b02a2db85b6a959834039b9e02f04",
+    "canonical_id": "5fdeebf0cb49c28d29cda004178f9ca47a2b02a2db85b6a959834039b9e02f04",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1068,6 +1198,7 @@
   },
   {
     "id": "6001a3c084e77bf0dff3a3a5c54ff9d26d90fe09e7f2134c264f6085267bf5f9",
+    "canonical_id": "6001a3c084e77bf0dff3a3a5c54ff9d26d90fe09e7f2134c264f6085267bf5f9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1075,6 +1206,7 @@
   },
   {
     "id": "60b0457d1f037e8d8ebcfa66626f3665aaa044e2260d1f74bb7c0ec72f54dcc7",
+    "canonical_id": "60b0457d1f037e8d8ebcfa66626f3665aaa044e2260d1f74bb7c0ec72f54dcc7",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1082,6 +1214,7 @@
   },
   {
     "id": "612b8d29b2105c0e14354509f3bf796ae92751e47c2ec9fbecde4b85b4e50f9e",
+    "canonical_id": "612b8d29b2105c0e14354509f3bf796ae92751e47c2ec9fbecde4b85b4e50f9e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1089,6 +1222,7 @@
   },
   {
     "id": "63a04970ece7caa7f590fa4911495a42f7ce7ae7d3091963a56f76f27a28bf09",
+    "canonical_id": "63a04970ece7caa7f590fa4911495a42f7ce7ae7d3091963a56f76f27a28bf09",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1096,6 +1230,7 @@
   },
   {
     "id": "6433fa449e0a6de7b57acf6aac87822529b6ec1215352d9d437b2bc0ab52ac9e",
+    "canonical_id": "6433fa449e0a6de7b57acf6aac87822529b6ec1215352d9d437b2bc0ab52ac9e",
     "keywords": [
       "储能",
       "新型储能",
@@ -1108,6 +1243,7 @@
   },
   {
     "id": "6445024023e6f829e7e5580d167b7f188fffa1f8ce13dd5d1014707c3944c14b",
+    "canonical_id": "6445024023e6f829e7e5580d167b7f188fffa1f8ce13dd5d1014707c3944c14b",
     "keywords": [
       "储能"
     ],
@@ -1117,6 +1253,7 @@
   },
   {
     "id": "6769575ed40bdbd0521dc262d9f138ef568ad83fd4b238a98495f5e40c84d001",
+    "canonical_id": "6769575ed40bdbd0521dc262d9f138ef568ad83fd4b238a98495f5e40c84d001",
     "keywords": [
       "容量补偿",
       "电力现货",
@@ -1130,6 +1267,7 @@
   },
   {
     "id": "696d7185509cca989135651c7205d24a0355b61a5a84ae4a643a23349adf9987",
+    "canonical_id": "696d7185509cca989135651c7205d24a0355b61a5a84ae4a643a23349adf9987",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1137,6 +1275,7 @@
   },
   {
     "id": "6a8f58e599537d8a51b8a434dad190d9b5ba47b001525f96833476f8dcd9f6e2",
+    "canonical_id": "6a8f58e599537d8a51b8a434dad190d9b5ba47b001525f96833476f8dcd9f6e2",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1144,6 +1283,7 @@
   },
   {
     "id": "6a97eef2e4c241f1c8e41e82f7a0e4af90428167ac30c8e1a01c894c0322045e",
+    "canonical_id": "6a97eef2e4c241f1c8e41e82f7a0e4af90428167ac30c8e1a01c894c0322045e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1151,6 +1291,7 @@
   },
   {
     "id": "6b4ca67e87f9fbffe10c400992a794fca0cb212f8d1d1046337ec38ed7c299ed",
+    "canonical_id": "6b4ca67e87f9fbffe10c400992a794fca0cb212f8d1d1046337ec38ed7c299ed",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1158,6 +1299,7 @@
   },
   {
     "id": "6cc93a2630d2777f9ab4fe10a6f594fbae618d22afc989a64b677dbc6e9db2ea",
+    "canonical_id": "6cc93a2630d2777f9ab4fe10a6f594fbae618d22afc989a64b677dbc6e9db2ea",
     "keywords": [
       "储能",
       "新型储能",
@@ -1170,6 +1312,7 @@
   },
   {
     "id": "6d19df03acd861a969464e903cea569651c791240a7e7d5d4d482382b2825cd0",
+    "canonical_id": "6d19df03acd861a969464e903cea569651c791240a7e7d5d4d482382b2825cd0",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1177,6 +1320,7 @@
   },
   {
     "id": "6e06cadd0745ab4ec8785388e8e37edf3c1f86b43298746941993b70864d3b52",
+    "canonical_id": "6e06cadd0745ab4ec8785388e8e37edf3c1f86b43298746941993b70864d3b52",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1184,6 +1328,7 @@
   },
   {
     "id": "6ec60a9e3ce2972a47d1ac975eac419a866b1e8eb66ae2db8d01a94aa3ec1346",
+    "canonical_id": "6ec60a9e3ce2972a47d1ac975eac419a866b1e8eb66ae2db8d01a94aa3ec1346",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1191,6 +1336,7 @@
   },
   {
     "id": "7021d8dc51c80c7b49ee834cd924d205293d2aaf80e337535ea9b16841a384eb",
+    "canonical_id": "7021d8dc51c80c7b49ee834cd924d205293d2aaf80e337535ea9b16841a384eb",
     "keywords": [
       "储能",
       "新型储能",
@@ -1207,6 +1353,7 @@
   },
   {
     "id": "703e56dadb133b1e55f0aa98fe3f661fed482adba1d31fd240ab20884eee3270",
+    "canonical_id": "703e56dadb133b1e55f0aa98fe3f661fed482adba1d31fd240ab20884eee3270",
     "keywords": [
       "电力市场"
     ],
@@ -1216,6 +1363,7 @@
   },
   {
     "id": "714cb3fc8d764bfa2a6fa99db249162e82fff677912c7f2f032ea4b120c285ea",
+    "canonical_id": "714cb3fc8d764bfa2a6fa99db249162e82fff677912c7f2f032ea4b120c285ea",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1223,6 +1371,7 @@
   },
   {
     "id": "7171bf12853709f34e3cd8514b19c682f58df2b96c5966b5c5a368b4da5f8029",
+    "canonical_id": "7171bf12853709f34e3cd8514b19c682f58df2b96c5966b5c5a368b4da5f8029",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1230,6 +1379,7 @@
   },
   {
     "id": "718edc3e7fe920e17cf8ebcb63e0f7647b9d4bcca5b50cbedd79ffe56c35e475",
+    "canonical_id": "718edc3e7fe920e17cf8ebcb63e0f7647b9d4bcca5b50cbedd79ffe56c35e475",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1237,6 +1387,7 @@
   },
   {
     "id": "72ae73c0617e7238d9e83d337b5da5e243a4c8526e9258c6c8f9e4542b96154e",
+    "canonical_id": "72ae73c0617e7238d9e83d337b5da5e243a4c8526e9258c6c8f9e4542b96154e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1244,6 +1395,7 @@
   },
   {
     "id": "72c8078da8f375a81852e886da0a0940da6b7fe84fa9a27746539d21d161aecc",
+    "canonical_id": "72c8078da8f375a81852e886da0a0940da6b7fe84fa9a27746539d21d161aecc",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1251,6 +1403,7 @@
   },
   {
     "id": "7338f0a0c648c9784f897ade0ee8cc711a6c6799a7b3958500dd18773ced88dd",
+    "canonical_id": "7338f0a0c648c9784f897ade0ee8cc711a6c6799a7b3958500dd18773ced88dd",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1258,6 +1411,7 @@
   },
   {
     "id": "73cdb0751583059640182229222ea9e1f81cbc30371f7a8cb99b7f95e05e7906",
+    "canonical_id": "73cdb0751583059640182229222ea9e1f81cbc30371f7a8cb99b7f95e05e7906",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1265,6 +1419,7 @@
   },
   {
     "id": "7419fd7b7ff05c9ce0c0ff97e62aa89777b59773d1c4b76e9dda5789f317c055",
+    "canonical_id": "7419fd7b7ff05c9ce0c0ff97e62aa89777b59773d1c4b76e9dda5789f317c055",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1272,6 +1427,7 @@
   },
   {
     "id": "74cbb4ad790ea0536642a79d75af1d449049f40af351d73f37fbeeab22988ce0",
+    "canonical_id": "74cbb4ad790ea0536642a79d75af1d449049f40af351d73f37fbeeab22988ce0",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1279,6 +1435,7 @@
   },
   {
     "id": "761de73adbaaec722da3d3a13c0804108ad7ef63a5d88df9968bf714360de1b5",
+    "canonical_id": "761de73adbaaec722da3d3a13c0804108ad7ef63a5d88df9968bf714360de1b5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1286,6 +1443,7 @@
   },
   {
     "id": "76a69702618dcfc0666b4e29dba25fafbb98af671d6c57bef32226affb67caa8",
+    "canonical_id": "76a69702618dcfc0666b4e29dba25fafbb98af671d6c57bef32226affb67caa8",
     "keywords": [
       "新能源上网电价"
     ],
@@ -1295,6 +1453,7 @@
   },
   {
     "id": "7744224025dbd47dd092e30b10e125f72c34ad94adf9ac795dadbd80f9115d03",
+    "canonical_id": "7744224025dbd47dd092e30b10e125f72c34ad94adf9ac795dadbd80f9115d03",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1302,6 +1461,7 @@
   },
   {
     "id": "778edaa83f4d24c05ed61d6d97e1fedfd1410a09abd90856df27615b927610f8",
+    "canonical_id": "778edaa83f4d24c05ed61d6d97e1fedfd1410a09abd90856df27615b927610f8",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1309,6 +1469,7 @@
   },
   {
     "id": "77f390d104d4c845f60372764d901fd4cc15957622b7ffacb80157c683e44754",
+    "canonical_id": "77f390d104d4c845f60372764d901fd4cc15957622b7ffacb80157c683e44754",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1316,6 +1477,7 @@
   },
   {
     "id": "78026659c80755e960df93cb861a979f11a298c03fe7d78602acaab0c57c49ae",
+    "canonical_id": "78026659c80755e960df93cb861a979f11a298c03fe7d78602acaab0c57c49ae",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1323,6 +1485,7 @@
   },
   {
     "id": "7814bc84ecd701f935a89d313056ccb2aabb75f7ce1564aeb3333a05f4fbb96b",
+    "canonical_id": "7814bc84ecd701f935a89d313056ccb2aabb75f7ce1564aeb3333a05f4fbb96b",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1330,6 +1493,7 @@
   },
   {
     "id": "782735c0e2984e9022bdc555739ba9a4915471fa415be829ba839e54bf98d712",
+    "canonical_id": "782735c0e2984e9022bdc555739ba9a4915471fa415be829ba839e54bf98d712",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1337,6 +1501,7 @@
   },
   {
     "id": "783e34579d9ea3d261875019088cb172f46782564a5b7adf5e35cd38b6babf95",
+    "canonical_id": "783e34579d9ea3d261875019088cb172f46782564a5b7adf5e35cd38b6babf95",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1344,6 +1509,7 @@
   },
   {
     "id": "79454d5adab555164e1e9e0d2287dc4ea59217569c2eb6e0f539731cf476a50d",
+    "canonical_id": "79454d5adab555164e1e9e0d2287dc4ea59217569c2eb6e0f539731cf476a50d",
     "keywords": [
       "储能"
     ],
@@ -1353,6 +1519,7 @@
   },
   {
     "id": "795b1cb333fb0a0e50ad09129206eddbe725c2844764fe37ca10b4a52050266b",
+    "canonical_id": "795b1cb333fb0a0e50ad09129206eddbe725c2844764fe37ca10b4a52050266b",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1360,6 +1527,7 @@
   },
   {
     "id": "79b4d694f568a3cdc5caaa3f5a37384bec75799da8a55423ff245a7045fada92",
+    "canonical_id": "79b4d694f568a3cdc5caaa3f5a37384bec75799da8a55423ff245a7045fada92",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1367,6 +1535,7 @@
   },
   {
     "id": "7acda350df8358a7ae0d54e60716ac5bc884157c4c96c43d8598c929fc17a870",
+    "canonical_id": "7acda350df8358a7ae0d54e60716ac5bc884157c4c96c43d8598c929fc17a870",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1374,6 +1543,7 @@
   },
   {
     "id": "7b9a03dd4d10a70dc81b314d7537cdf092493b102b76c39838664cc38e3b5606",
+    "canonical_id": "7b9a03dd4d10a70dc81b314d7537cdf092493b102b76c39838664cc38e3b5606",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1381,6 +1551,7 @@
   },
   {
     "id": "7c44d800c994a38efa17197adad87a144172e7d60c5a4c53607e5d6650a6761a",
+    "canonical_id": "7c44d800c994a38efa17197adad87a144172e7d60c5a4c53607e5d6650a6761a",
     "keywords": [
       "储能",
       "新型储能",
@@ -1393,6 +1564,7 @@
   },
   {
     "id": "7d732de0579bad5df61c873e96bab3dd14aec9efa8caa9b83746ec46d931608c",
+    "canonical_id": "7d732de0579bad5df61c873e96bab3dd14aec9efa8caa9b83746ec46d931608c",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1400,6 +1572,7 @@
   },
   {
     "id": "7e11bc3ca92d00c5246b8afec78f12399e9c7fa3401a4cb9027326cffb899d80",
+    "canonical_id": "7e11bc3ca92d00c5246b8afec78f12399e9c7fa3401a4cb9027326cffb899d80",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1407,6 +1580,7 @@
   },
   {
     "id": "7e4998f111b2fefc1bbc2f218d288f9e141e110eae51f5ba290f5947a69249a1",
+    "canonical_id": "7e4998f111b2fefc1bbc2f218d288f9e141e110eae51f5ba290f5947a69249a1",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1414,6 +1588,7 @@
   },
   {
     "id": "7f33268129cc1be0ab3f224bce7d5edf7553ea49b13dc25254f95d5481085a0c",
+    "canonical_id": "7f33268129cc1be0ab3f224bce7d5edf7553ea49b13dc25254f95d5481085a0c",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1421,6 +1596,7 @@
   },
   {
     "id": "7f5379485ec2614744517339d96d2e7a9ccd9bbc10243d0a06f2f272d382c647",
+    "canonical_id": "7f5379485ec2614744517339d96d2e7a9ccd9bbc10243d0a06f2f272d382c647",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1428,6 +1604,7 @@
   },
   {
     "id": "7f5706457f78a54e43c67cf821d6d26620e36114fb0be309fa88c1ecfedff994",
+    "canonical_id": "7f5706457f78a54e43c67cf821d6d26620e36114fb0be309fa88c1ecfedff994",
     "keywords": [
       "电力市场"
     ],
@@ -1437,6 +1614,7 @@
   },
   {
     "id": "7f6dd7afcc0677f5ea76a0199342f7f1e978734b942039bcfa943d9a23c86534",
+    "canonical_id": "7f6dd7afcc0677f5ea76a0199342f7f1e978734b942039bcfa943d9a23c86534",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1444,6 +1622,7 @@
   },
   {
     "id": "7f8fcc5eb9df47bfa016e12e154d364f60e56ccd90d81daaf4762497c6ca7e68",
+    "canonical_id": "7f8fcc5eb9df47bfa016e12e154d364f60e56ccd90d81daaf4762497c6ca7e68",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1451,6 +1630,7 @@
   },
   {
     "id": "7fbe251d5acb0ffa7bfd48d724525441de16ccfa30a678784e060db66fdd8544",
+    "canonical_id": "7fbe251d5acb0ffa7bfd48d724525441de16ccfa30a678784e060db66fdd8544",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1458,6 +1638,7 @@
   },
   {
     "id": "7fd499dc12fd9f8457e066b96b16f2626ab56a8014dfcc01242f072556e5cc71",
+    "canonical_id": "7fd499dc12fd9f8457e066b96b16f2626ab56a8014dfcc01242f072556e5cc71",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1465,6 +1646,7 @@
   },
   {
     "id": "801825a4bce123ff98ba59594b5c81d915c33611fb7f5ac1a41d3deedf0ea5de",
+    "canonical_id": "801825a4bce123ff98ba59594b5c81d915c33611fb7f5ac1a41d3deedf0ea5de",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1472,6 +1654,7 @@
   },
   {
     "id": "802f465d0e87f15469e64c9328fe4860ca553542d40bdfd1fa0eaa43944f00bc",
+    "canonical_id": "802f465d0e87f15469e64c9328fe4860ca553542d40bdfd1fa0eaa43944f00bc",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1479,6 +1662,7 @@
   },
   {
     "id": "80a7a973d600692fb2e7dd184578e0d62d3970a0b599792836be38182f3e7a88",
+    "canonical_id": "80a7a973d600692fb2e7dd184578e0d62d3970a0b599792836be38182f3e7a88",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1486,6 +1670,7 @@
   },
   {
     "id": "81946e24432bfb559ae4e350a3f12f481c51f937df37a6abe7c95ebecda50886",
+    "canonical_id": "81946e24432bfb559ae4e350a3f12f481c51f937df37a6abe7c95ebecda50886",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1493,6 +1678,7 @@
   },
   {
     "id": "8260ff03c45a7158f0d61a6900c85d3b568be1fa616513ae14f19c734065a387",
+    "canonical_id": "8260ff03c45a7158f0d61a6900c85d3b568be1fa616513ae14f19c734065a387",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1500,6 +1686,7 @@
   },
   {
     "id": "8373991ab194f011c123920ae4841d2d0de48b083bbf35de8576e4f810e69382",
+    "canonical_id": "8373991ab194f011c123920ae4841d2d0de48b083bbf35de8576e4f810e69382",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1507,6 +1694,7 @@
   },
   {
     "id": "838a3f8139f4e5101c1cdd4f53f9fd934491b61968cbc00789b217dd85de4ab2",
+    "canonical_id": "838a3f8139f4e5101c1cdd4f53f9fd934491b61968cbc00789b217dd85de4ab2",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1514,6 +1702,7 @@
   },
   {
     "id": "83c077367260c44f13114a7ae54ff437fea4bd6d0fba61ced88456e9ae85c7bc",
+    "canonical_id": "83c077367260c44f13114a7ae54ff437fea4bd6d0fba61ced88456e9ae85c7bc",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1521,6 +1710,7 @@
   },
   {
     "id": "848844f1765fd610d53462ef179f940740368dd7c2f85e1f19b2ca0aa872e919",
+    "canonical_id": "848844f1765fd610d53462ef179f940740368dd7c2f85e1f19b2ca0aa872e919",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1528,6 +1718,7 @@
   },
   {
     "id": "84946408b080f5f38f2b5404418029421d86972190d8e29079ad3009d1fc54d1",
+    "canonical_id": "84946408b080f5f38f2b5404418029421d86972190d8e29079ad3009d1fc54d1",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1535,6 +1726,7 @@
   },
   {
     "id": "850897bbff8fee5d7be4f0bfb1460a17f7b8ec5d32c7723dfc4359911ec8471d",
+    "canonical_id": "850897bbff8fee5d7be4f0bfb1460a17f7b8ec5d32c7723dfc4359911ec8471d",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1542,6 +1734,7 @@
   },
   {
     "id": "857deb5717605a0212951b697ba8dfd1728037d805f95c9d8749bd68485ae0ac",
+    "canonical_id": "857deb5717605a0212951b697ba8dfd1728037d805f95c9d8749bd68485ae0ac",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1549,6 +1742,7 @@
   },
   {
     "id": "85926072b9aae954d4917dc92e26831b3526a939e285244a46c0a9438088935c",
+    "canonical_id": "85926072b9aae954d4917dc92e26831b3526a939e285244a46c0a9438088935c",
     "keywords": [
       "调峰"
     ],
@@ -1558,6 +1752,7 @@
   },
   {
     "id": "85a86c2a69e185aad5e7d6d0a97c14fba347614583244f6f8eb3ac76690e1bdc",
+    "canonical_id": "85a86c2a69e185aad5e7d6d0a97c14fba347614583244f6f8eb3ac76690e1bdc",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1565,6 +1760,7 @@
   },
   {
     "id": "88108cb48b5a0c31d2fad2bc3141dc27935bea2c99230d278b202cdec8aaf60a",
+    "canonical_id": "88108cb48b5a0c31d2fad2bc3141dc27935bea2c99230d278b202cdec8aaf60a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1572,6 +1768,7 @@
   },
   {
     "id": "883ee43924e070f9ce6eb2e8595430b699a92b7fa84e7a435cc3d8fdd00dec86",
+    "canonical_id": "883ee43924e070f9ce6eb2e8595430b699a92b7fa84e7a435cc3d8fdd00dec86",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1579,6 +1776,7 @@
   },
   {
     "id": "889d80b445ea77999c202794693553f29607d2287f16118fbe67aa0cf28a5ec2",
+    "canonical_id": "889d80b445ea77999c202794693553f29607d2287f16118fbe67aa0cf28a5ec2",
     "keywords": [
       "储能"
     ],
@@ -1588,6 +1786,7 @@
   },
   {
     "id": "8c4efe176ae87a32a6fd83692873bd9452aea3dc8c38f64524965144912bbbac",
+    "canonical_id": "8c4efe176ae87a32a6fd83692873bd9452aea3dc8c38f64524965144912bbbac",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1595,6 +1794,7 @@
   },
   {
     "id": "8c805060efbe974f4bf37c778eaf284cb268842383deaefc525408975f10fd32",
+    "canonical_id": "8c805060efbe974f4bf37c778eaf284cb268842383deaefc525408975f10fd32",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1602,6 +1802,7 @@
   },
   {
     "id": "8c819933e8e8192d49903ac9d3e49de051948eccda3b246f8cde376ddc483895",
+    "canonical_id": "8c819933e8e8192d49903ac9d3e49de051948eccda3b246f8cde376ddc483895",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1609,6 +1810,7 @@
   },
   {
     "id": "8c95153279e883e985f64772a27ef4ef8a38d15aaf03d062c6082cac8d8fdc1c",
+    "canonical_id": "8c95153279e883e985f64772a27ef4ef8a38d15aaf03d062c6082cac8d8fdc1c",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1616,6 +1818,7 @@
   },
   {
     "id": "8f361a237bf40a03d5ca0dd7da184c5cc6f6dd1d6d28f2b936b9e4e6d59b7127",
+    "canonical_id": "8f361a237bf40a03d5ca0dd7da184c5cc6f6dd1d6d28f2b936b9e4e6d59b7127",
     "keywords": [
       "储能"
     ],
@@ -1625,6 +1828,7 @@
   },
   {
     "id": "8fd21b1e35eb613e165fa0877e104dc876b6b552adafe7ec5ea3c79f5efe9c4a",
+    "canonical_id": "8fd21b1e35eb613e165fa0877e104dc876b6b552adafe7ec5ea3c79f5efe9c4a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1632,6 +1836,7 @@
   },
   {
     "id": "90342f743d37292eefa527db40c8787ccfec69bddc607dc69ee7273fc72950bb",
+    "canonical_id": "90342f743d37292eefa527db40c8787ccfec69bddc607dc69ee7273fc72950bb",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1639,6 +1844,7 @@
   },
   {
     "id": "910c5c08397c839df7112b314c8bc8fb548c60144a6a5ea2ce9555b999bf1043",
+    "canonical_id": "910c5c08397c839df7112b314c8bc8fb548c60144a6a5ea2ce9555b999bf1043",
     "keywords": [
       "储能",
       "电力市场"
@@ -1649,6 +1855,7 @@
   },
   {
     "id": "912a1cf3a3355cafeee83eafba987cd22279db24390428f2f881e87f42cce294",
+    "canonical_id": "912a1cf3a3355cafeee83eafba987cd22279db24390428f2f881e87f42cce294",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1656,6 +1863,7 @@
   },
   {
     "id": "91ba946ba755ad16e7c9a2ac62ce1335974386e5211496e9e135feee477f9b70",
+    "canonical_id": "91ba946ba755ad16e7c9a2ac62ce1335974386e5211496e9e135feee477f9b70",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1663,6 +1871,7 @@
   },
   {
     "id": "922a2f785162f4422316b99f3051f4ee284d807ebdbfa7afd9c27730f83933e9",
+    "canonical_id": "922a2f785162f4422316b99f3051f4ee284d807ebdbfa7afd9c27730f83933e9",
     "keywords": [
       "储能",
       "电力市场"
@@ -1673,6 +1882,7 @@
   },
   {
     "id": "923b217a55979e32c766c76829b17af3872e816d4f70a20801688b9d26e612c9",
+    "canonical_id": "923b217a55979e32c766c76829b17af3872e816d4f70a20801688b9d26e612c9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1680,6 +1890,7 @@
   },
   {
     "id": "93cebbc88ba80498b8915d9dc44225b353657ee2383cb418d01528e2e46528eb",
+    "canonical_id": "93cebbc88ba80498b8915d9dc44225b353657ee2383cb418d01528e2e46528eb",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1687,6 +1898,7 @@
   },
   {
     "id": "950f1a508eb92af8512c5b8b5571c6c7cefa9ffb04f6fb0c270a89d04e1748fd",
+    "canonical_id": "950f1a508eb92af8512c5b8b5571c6c7cefa9ffb04f6fb0c270a89d04e1748fd",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1694,6 +1906,7 @@
   },
   {
     "id": "959359c161c6089221dc46800c8d5d9470906d0ab419c62ca3d1f223e968a29f",
+    "canonical_id": "959359c161c6089221dc46800c8d5d9470906d0ab419c62ca3d1f223e968a29f",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1701,6 +1914,7 @@
   },
   {
     "id": "959f035fe9db9c173e515933e8f8a9d9e4d72ffe0d139420bc29e97092f9cd8b",
+    "canonical_id": "959f035fe9db9c173e515933e8f8a9d9e4d72ffe0d139420bc29e97092f9cd8b",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1708,6 +1922,7 @@
   },
   {
     "id": "95e4a9e720471f79e843088cbfa55394fe10fb2c1af2c95472497b22c209ac47",
+    "canonical_id": "95e4a9e720471f79e843088cbfa55394fe10fb2c1af2c95472497b22c209ac47",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1715,6 +1930,7 @@
   },
   {
     "id": "9661758a0f4da8c9c6622a93930ca7e3e55177ae306ac8c4e4420e2b20e9eaba",
+    "canonical_id": "9661758a0f4da8c9c6622a93930ca7e3e55177ae306ac8c4e4420e2b20e9eaba",
     "keywords": [
       "抽水蓄能"
     ],
@@ -1724,6 +1940,7 @@
   },
   {
     "id": "97595b27180361dfd3513b9e8cb0fb0585f8dc52f0743fc7db4e715ab29a9188",
+    "canonical_id": "97595b27180361dfd3513b9e8cb0fb0585f8dc52f0743fc7db4e715ab29a9188",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1731,6 +1948,7 @@
   },
   {
     "id": "97ebb00995ab58a82cda7b0c6643a0dcbe0a0314cbae8b2de3b707187bb72a31",
+    "canonical_id": "97ebb00995ab58a82cda7b0c6643a0dcbe0a0314cbae8b2de3b707187bb72a31",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1738,6 +1956,7 @@
   },
   {
     "id": "980109c1aa075802b04437fa188b8fbf0c9e238bc4f6329c5b1e7ac9f1b04594",
+    "canonical_id": "980109c1aa075802b04437fa188b8fbf0c9e238bc4f6329c5b1e7ac9f1b04594",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1745,6 +1964,7 @@
   },
   {
     "id": "985e72e2fdbd77f3936a796b0508eb281376affe6d4e5e89bc459fa2a1cd4b04",
+    "canonical_id": "985e72e2fdbd77f3936a796b0508eb281376affe6d4e5e89bc459fa2a1cd4b04",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1752,6 +1972,7 @@
   },
   {
     "id": "9922083d2f342e10fa77b3226c70e7eec366f4232e7d99c2e52ed2d228fcf395",
+    "canonical_id": "9922083d2f342e10fa77b3226c70e7eec366f4232e7d99c2e52ed2d228fcf395",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1759,6 +1980,7 @@
   },
   {
     "id": "9aaf691b6357f7e73b27651413dad63ec55515c02a0537e4c0d9de36f3c1a3a9",
+    "canonical_id": "9aaf691b6357f7e73b27651413dad63ec55515c02a0537e4c0d9de36f3c1a3a9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1766,6 +1988,7 @@
   },
   {
     "id": "9b324295bed22f6b53bb4d42fa2d97698d15c8cdccdbe4d7ef280c381516957a",
+    "canonical_id": "9b324295bed22f6b53bb4d42fa2d97698d15c8cdccdbe4d7ef280c381516957a",
     "keywords": [
       "储能"
     ],
@@ -1775,6 +1998,7 @@
   },
   {
     "id": "9bfe75ef6a4b24bd0778f91dd69d71834db0fa693f4d40fba6d1a624711ed55b",
+    "canonical_id": "9bfe75ef6a4b24bd0778f91dd69d71834db0fa693f4d40fba6d1a624711ed55b",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1782,6 +2006,7 @@
   },
   {
     "id": "9c174b4cb5eb3a970112ef8bbf50578e0657fad3e2ee740b8646b3685988fb9a",
+    "canonical_id": "9c174b4cb5eb3a970112ef8bbf50578e0657fad3e2ee740b8646b3685988fb9a",
     "keywords": [
       "储能",
       "新型储能",
@@ -1796,6 +2021,7 @@
   },
   {
     "id": "9db1eb3736140d8b96fcc59e85edd5eaca9e70376a13155b2a458328b9ef4f2c",
+    "canonical_id": "9db1eb3736140d8b96fcc59e85edd5eaca9e70376a13155b2a458328b9ef4f2c",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1803,6 +2029,7 @@
   },
   {
     "id": "9e54851cb4247cb3447b36447179415249dc677f3faed818c93bca98e5a4eda5",
+    "canonical_id": "9e54851cb4247cb3447b36447179415249dc677f3faed818c93bca98e5a4eda5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1810,6 +2037,7 @@
   },
   {
     "id": "9fa66c4b154d398bc431af3c60637965e64dceba24fbe8fca4b56215b78184e0",
+    "canonical_id": "9fa66c4b154d398bc431af3c60637965e64dceba24fbe8fca4b56215b78184e0",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1817,6 +2045,7 @@
   },
   {
     "id": "a065855839abb76297de0b73e903fe2f5228b42a5928e6571b7a95929229c9b2",
+    "canonical_id": "a065855839abb76297de0b73e903fe2f5228b42a5928e6571b7a95929229c9b2",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1824,6 +2053,7 @@
   },
   {
     "id": "a15b22b6014750b9a069d843e06bbc062d46006e2a8b649730a6f6e64220db8c",
+    "canonical_id": "a15b22b6014750b9a069d843e06bbc062d46006e2a8b649730a6f6e64220db8c",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1831,6 +2061,7 @@
   },
   {
     "id": "a186e373fd8f6d7cde257fb90146436fcc1b246aad67b861061b94877ae1913b",
+    "canonical_id": "a186e373fd8f6d7cde257fb90146436fcc1b246aad67b861061b94877ae1913b",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1838,6 +2069,7 @@
   },
   {
     "id": "a3841113a3d6ef0732003ce5b0ad57a45c8307f993d96ee7e65f4a563fa8f492",
+    "canonical_id": "a3841113a3d6ef0732003ce5b0ad57a45c8307f993d96ee7e65f4a563fa8f492",
     "keywords": [
       "储能",
       "辅助服务",
@@ -1851,6 +2083,7 @@
   },
   {
     "id": "a398a66ec9b5e732ac140927525859b04d9b6363200d6ce90f26d0821b78488b",
+    "canonical_id": "a398a66ec9b5e732ac140927525859b04d9b6363200d6ce90f26d0821b78488b",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1858,6 +2091,7 @@
   },
   {
     "id": "a4ab46bf69a9ba0565ad904b56f6abc24c2be8530eab2846a80e6a96714dc416",
+    "canonical_id": "a4ab46bf69a9ba0565ad904b56f6abc24c2be8530eab2846a80e6a96714dc416",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1865,6 +2099,7 @@
   },
   {
     "id": "a6820a947b76d6df78ef75efa7c59c936c5430e0c1e90bcc11a2a9d3f0bedc7f",
+    "canonical_id": "a6820a947b76d6df78ef75efa7c59c936c5430e0c1e90bcc11a2a9d3f0bedc7f",
     "keywords": [
       "储能",
       "新型储能",
@@ -1876,6 +2111,7 @@
   },
   {
     "id": "a7a70552fbe900d61e5d347458e3ccd51c8fb13a4c138a150ad2f6e943b1edeb",
+    "canonical_id": "a7a70552fbe900d61e5d347458e3ccd51c8fb13a4c138a150ad2f6e943b1edeb",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1883,6 +2119,7 @@
   },
   {
     "id": "aa3b42854d8729a748304abd53c2646f22c3c13fac4cb86830c7eb42ab372409",
+    "canonical_id": "aa3b42854d8729a748304abd53c2646f22c3c13fac4cb86830c7eb42ab372409",
     "keywords": [
       "储能",
       "新型储能",
@@ -1894,6 +2131,7 @@
   },
   {
     "id": "aac677bd109387ab54234342ba6513487605ff652a7b51692ef5570889ab58b6",
+    "canonical_id": "aac677bd109387ab54234342ba6513487605ff652a7b51692ef5570889ab58b6",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1901,6 +2139,7 @@
   },
   {
     "id": "ab29c26c61c8fa65e7e1d21659cff377403b381b719aa683bbd7e73f1c7bd1bb",
+    "canonical_id": "ab29c26c61c8fa65e7e1d21659cff377403b381b719aa683bbd7e73f1c7bd1bb",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1908,6 +2147,7 @@
   },
   {
     "id": "ab84a4e9caaccb1465fc2b39b3ed850747b009b445fdb656deaff35697f0678b",
+    "canonical_id": "ab84a4e9caaccb1465fc2b39b3ed850747b009b445fdb656deaff35697f0678b",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1915,6 +2155,7 @@
   },
   {
     "id": "ab8ff787dafcab3d46fce729ada18f4567618a87e736485ef3f8520fe95f313e",
+    "canonical_id": "ab8ff787dafcab3d46fce729ada18f4567618a87e736485ef3f8520fe95f313e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1922,6 +2163,7 @@
   },
   {
     "id": "ad2c9522252466775e6c7d4c1b88fba0035587fc6b2d7d00ea4560844e5cfe9a",
+    "canonical_id": "ad2c9522252466775e6c7d4c1b88fba0035587fc6b2d7d00ea4560844e5cfe9a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1929,6 +2171,7 @@
   },
   {
     "id": "ad3ef89d9f9fe59cd0c9320c70c581b812b89e52d32ceff69217d1ffa3e45d4a",
+    "canonical_id": "ad3ef89d9f9fe59cd0c9320c70c581b812b89e52d32ceff69217d1ffa3e45d4a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1936,6 +2179,7 @@
   },
   {
     "id": "aee1eaf88f2de70f9098dfa7dfc488152c9597d49e28d76fc7e3524ebd878ef5",
+    "canonical_id": "aee1eaf88f2de70f9098dfa7dfc488152c9597d49e28d76fc7e3524ebd878ef5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1943,6 +2187,7 @@
   },
   {
     "id": "b07a1f3ec7fcb854381cd68b96e7cfb51e0a2a904b8be91b60d40fcad5b40f4f",
+    "canonical_id": "b07a1f3ec7fcb854381cd68b96e7cfb51e0a2a904b8be91b60d40fcad5b40f4f",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1950,6 +2195,7 @@
   },
   {
     "id": "b118f5fbdb0e929d44456ae066c6e0469a3639f18d79056529e193f46b51d62c",
+    "canonical_id": "b118f5fbdb0e929d44456ae066c6e0469a3639f18d79056529e193f46b51d62c",
     "keywords": [
       "容量电价",
       "电力现货",
@@ -1963,6 +2209,7 @@
   },
   {
     "id": "b236ca5e5dffa0fd189bc705d7a4c3bf53c6cfb3bd18751d55e58f0c49da0cb9",
+    "canonical_id": "b236ca5e5dffa0fd189bc705d7a4c3bf53c6cfb3bd18751d55e58f0c49da0cb9",
     "keywords": [
       "储能",
       "新型储能"
@@ -1973,6 +2220,7 @@
   },
   {
     "id": "b45b052103f582e188e8b48f1df4fd9ad26570b3b451479284068e61817d5bfc",
+    "canonical_id": "b45b052103f582e188e8b48f1df4fd9ad26570b3b451479284068e61817d5bfc",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1980,6 +2228,7 @@
   },
   {
     "id": "b47e60cb21d75cd577f06d83e775d651ef5293ed30e809e8b6ff3273d0d88850",
+    "canonical_id": "b47e60cb21d75cd577f06d83e775d651ef5293ed30e809e8b6ff3273d0d88850",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -1987,6 +2236,7 @@
   },
   {
     "id": "b5b062067c8c63f2eef27bf8cf6e733333293a9f5b96c912552d1f3472d3e81d",
+    "canonical_id": "b5b062067c8c63f2eef27bf8cf6e733333293a9f5b96c912552d1f3472d3e81d",
     "keywords": [
       "抽水蓄能"
     ],
@@ -1996,6 +2246,7 @@
   },
   {
     "id": "b5d50ca95eac4bdbd946b43cccb5c462db199546393dc1c87d48be748ed069cf",
+    "canonical_id": "b5d50ca95eac4bdbd946b43cccb5c462db199546393dc1c87d48be748ed069cf",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2003,6 +2254,7 @@
   },
   {
     "id": "b6ea8eadd8d0e65cb5bccf39476c55eee39023cc0a67ed9b64dda7e2c36d8beb",
+    "canonical_id": "b6ea8eadd8d0e65cb5bccf39476c55eee39023cc0a67ed9b64dda7e2c36d8beb",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2010,6 +2262,7 @@
   },
   {
     "id": "b731116b664116281229e8ad8d9ced07b4b382d87757a753d881d0fa0cd7b326",
+    "canonical_id": "b731116b664116281229e8ad8d9ced07b4b382d87757a753d881d0fa0cd7b326",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2017,6 +2270,7 @@
   },
   {
     "id": "b7a2aa4aac71275e2d4e4d0d04eeb8d7dfc35878e0f5c6fd47275d25f8f80b0a",
+    "canonical_id": "b7a2aa4aac71275e2d4e4d0d04eeb8d7dfc35878e0f5c6fd47275d25f8f80b0a",
     "keywords": [
       "储能",
       "调峰"
@@ -2027,6 +2281,7 @@
   },
   {
     "id": "b7b5944c3d91fe65b836283f7bc8f4fbe55c08572f5161b064a9b657e277024d",
+    "canonical_id": "b7b5944c3d91fe65b836283f7bc8f4fbe55c08572f5161b064a9b657e277024d",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2034,6 +2289,7 @@
   },
   {
     "id": "b8682dd3973d8adc21f423bf3ce657d004fc262629352d3223e7ce1e58a6bc43",
+    "canonical_id": "b8682dd3973d8adc21f423bf3ce657d004fc262629352d3223e7ce1e58a6bc43",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2041,6 +2297,7 @@
   },
   {
     "id": "b8ea2730daf556ff22862c06c3002261d16c4463c70f0db12bc554187335fd08",
+    "canonical_id": "b8ea2730daf556ff22862c06c3002261d16c4463c70f0db12bc554187335fd08",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2048,6 +2305,7 @@
   },
   {
     "id": "b9c0179ee20ca057efed09b4bbcb1dddd544b8ce83d80828fad1b850aa0090bb",
+    "canonical_id": "b9c0179ee20ca057efed09b4bbcb1dddd544b8ce83d80828fad1b850aa0090bb",
     "keywords": [
       "储能",
       "新型储能",
@@ -2059,6 +2317,7 @@
   },
   {
     "id": "ba88891f30df48309534fc420fa0f2769527302a2e0f0a63fddec13e91963a32",
+    "canonical_id": "ba88891f30df48309534fc420fa0f2769527302a2e0f0a63fddec13e91963a32",
     "keywords": [
       "电力现货",
       "电力市场"
@@ -2069,6 +2328,7 @@
   },
   {
     "id": "bbedcd711ae8a25e0a493884fda7a4252f034ebe2dce561f1694e95e83ad9d01",
+    "canonical_id": "bbedcd711ae8a25e0a493884fda7a4252f034ebe2dce561f1694e95e83ad9d01",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2076,6 +2336,7 @@
   },
   {
     "id": "bda689559559f6b9b724dec486889fc919a391ec016c2195ae7c6e875fed28ec",
+    "canonical_id": "bda689559559f6b9b724dec486889fc919a391ec016c2195ae7c6e875fed28ec",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2083,6 +2344,7 @@
   },
   {
     "id": "bdcee94c6fa58dbf82865c7d1646d73afe05f5fa3dec41d2c3ef43ce378bb767",
+    "canonical_id": "bdcee94c6fa58dbf82865c7d1646d73afe05f5fa3dec41d2c3ef43ce378bb767",
     "keywords": [
       "电力市场"
     ],
@@ -2092,6 +2354,7 @@
   },
   {
     "id": "be1f48662aaf52e9099b3d5c70a54427f5f8e2e17681206c7c8efeb72b20d5e1",
+    "canonical_id": "be1f48662aaf52e9099b3d5c70a54427f5f8e2e17681206c7c8efeb72b20d5e1",
     "keywords": [
       "储能",
       "新型储能"
@@ -2102,6 +2365,7 @@
   },
   {
     "id": "bf0ccaeeeb6127cec995983d1a323ed81c72f8119f38c817abad9bba7cc220a9",
+    "canonical_id": "bf0ccaeeeb6127cec995983d1a323ed81c72f8119f38c817abad9bba7cc220a9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2109,6 +2373,7 @@
   },
   {
     "id": "bf722fce678ca22ffdcaf90942963588ee2bac37048ef32bbdbe2653896081da",
+    "canonical_id": "bf722fce678ca22ffdcaf90942963588ee2bac37048ef32bbdbe2653896081da",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2116,6 +2381,7 @@
   },
   {
     "id": "c0df3330128a458253f6904bb238d197a752617f2badd6a7d574d577c216b31f",
+    "canonical_id": "c0df3330128a458253f6904bb238d197a752617f2badd6a7d574d577c216b31f",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2123,6 +2389,7 @@
   },
   {
     "id": "c0f45d6ae0491f3914d1998a6d82dca2445c6a9d5c524af0d47005cf4df813d3",
+    "canonical_id": "c0f45d6ae0491f3914d1998a6d82dca2445c6a9d5c524af0d47005cf4df813d3",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2130,6 +2397,7 @@
   },
   {
     "id": "c1cf31312fa1ae1a53a1d37314da0d4251a476ec61a1c7e5271b7ed045d9c62d",
+    "canonical_id": "c1cf31312fa1ae1a53a1d37314da0d4251a476ec61a1c7e5271b7ed045d9c62d",
     "keywords": [
       "储能"
     ],
@@ -2139,6 +2407,7 @@
   },
   {
     "id": "c234358df69481bab38bb98ad9be81d7f92475e01f2bcf2609dab5a68e857c23",
+    "canonical_id": "c234358df69481bab38bb98ad9be81d7f92475e01f2bcf2609dab5a68e857c23",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2146,6 +2415,7 @@
   },
   {
     "id": "c2a4e75917935f4b43bd483b05cf23f14447746e1ac3620d0803596a9c9108c3",
+    "canonical_id": "857deb5717605a0212951b697ba8dfd1728037d805f95c9d8749bd68485ae0ac",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2153,6 +2423,7 @@
   },
   {
     "id": "c46ee76cecd883b32af4dc99bbaf493e4710586603fb642d92874823acd78c55",
+    "canonical_id": "c46ee76cecd883b32af4dc99bbaf493e4710586603fb642d92874823acd78c55",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2160,6 +2431,7 @@
   },
   {
     "id": "c47e86afc5ce5663919ee34f4dddde6565f30da287f1a2df0248911e365883f6",
+    "canonical_id": "c47e86afc5ce5663919ee34f4dddde6565f30da287f1a2df0248911e365883f6",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2167,6 +2439,7 @@
   },
   {
     "id": "c4c25f6fbdecc0048b8ce7d69ec647d6014f6d28476c3678750c6a598da40bed",
+    "canonical_id": "c4c25f6fbdecc0048b8ce7d69ec647d6014f6d28476c3678750c6a598da40bed",
     "keywords": [
       "电力市场"
     ],
@@ -2176,6 +2449,7 @@
   },
   {
     "id": "c5cbe6988e4e59789eb080858dbc0c198876fe42b7db29abb6c1778a4175f22e",
+    "canonical_id": "c5cbe6988e4e59789eb080858dbc0c198876fe42b7db29abb6c1778a4175f22e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2183,6 +2457,7 @@
   },
   {
     "id": "c6fa77b4b3e873eb48943064ddd6fa3936000657aab34f583b7e8cf89b65d5e1",
+    "canonical_id": "c6fa77b4b3e873eb48943064ddd6fa3936000657aab34f583b7e8cf89b65d5e1",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2190,6 +2465,7 @@
   },
   {
     "id": "c73dba9311ca131611a5d544c9100b5eee1c3d1012855466856825b37db3010a",
+    "canonical_id": "c73dba9311ca131611a5d544c9100b5eee1c3d1012855466856825b37db3010a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2197,6 +2473,7 @@
   },
   {
     "id": "c7814ca6eb947172b0d67229303db3f0a146a8b758f9b7b7243db498fcf4236f",
+    "canonical_id": "c7814ca6eb947172b0d67229303db3f0a146a8b758f9b7b7243db498fcf4236f",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2204,6 +2481,7 @@
   },
   {
     "id": "c801ad02ef06e53a083ace3b9478f0f7a7d8fa338cf4bee4e12482dfe6b1dea9",
+    "canonical_id": "c801ad02ef06e53a083ace3b9478f0f7a7d8fa338cf4bee4e12482dfe6b1dea9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2211,6 +2489,7 @@
   },
   {
     "id": "c92a99b8b3091d7aa30ef4b88c9022fbd81cfb08637b5c7ab00bd02a9b8e5990",
+    "canonical_id": "c92a99b8b3091d7aa30ef4b88c9022fbd81cfb08637b5c7ab00bd02a9b8e5990",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2218,6 +2497,7 @@
   },
   {
     "id": "cab2ce39d8409b010b46b663eacb9b4a43d5284e36e3f2d21f9e6dba797c17d5",
+    "canonical_id": "cab2ce39d8409b010b46b663eacb9b4a43d5284e36e3f2d21f9e6dba797c17d5",
     "keywords": [
       "储能",
       "新型储能"
@@ -2228,6 +2508,7 @@
   },
   {
     "id": "ccbbc8b43a22c8215c40c17784f136815fa597b56eeadc860b5e3329816f3a5b",
+    "canonical_id": "ccbbc8b43a22c8215c40c17784f136815fa597b56eeadc860b5e3329816f3a5b",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2235,6 +2516,7 @@
   },
   {
     "id": "cd38f31286d3fa107b7b94323131117af73d03e0ca3b08b6303ed6b405136f1e",
+    "canonical_id": "cd38f31286d3fa107b7b94323131117af73d03e0ca3b08b6303ed6b405136f1e",
     "keywords": [
       "虚拟电厂",
       "电力市场"
@@ -2245,6 +2527,7 @@
   },
   {
     "id": "cd4bc347c84b770b855ccef26c9ac54ae8331f40a31ffd8600d3813bd7736259",
+    "canonical_id": "cd4bc347c84b770b855ccef26c9ac54ae8331f40a31ffd8600d3813bd7736259",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2252,6 +2535,7 @@
   },
   {
     "id": "cd5616db3e005aa3ae61b13adfba53b459cf227f47203331724ae9197277a43c",
+    "canonical_id": "cd5616db3e005aa3ae61b13adfba53b459cf227f47203331724ae9197277a43c",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2259,6 +2543,7 @@
   },
   {
     "id": "cf06abf2bbaf48e29293d3b2a91d8e4e86d2503360abab513071a46f3b1a6714",
+    "canonical_id": "cf06abf2bbaf48e29293d3b2a91d8e4e86d2503360abab513071a46f3b1a6714",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2266,6 +2551,7 @@
   },
   {
     "id": "cfa5b5920af69e8a6e2089107f7ff66c707adbd46d65d8829547239137ea4961",
+    "canonical_id": "cfa5b5920af69e8a6e2089107f7ff66c707adbd46d65d8829547239137ea4961",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2273,6 +2559,7 @@
   },
   {
     "id": "cfceddb25f39178b561b2a8527a47b9bff19794835008e6223971d75becd4aa9",
+    "canonical_id": "cfceddb25f39178b561b2a8527a47b9bff19794835008e6223971d75becd4aa9",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2280,6 +2567,7 @@
   },
   {
     "id": "d05b093381ced5791895339826b8263c06c7138fd01f937afe59bf2f335a90ab",
+    "canonical_id": "d05b093381ced5791895339826b8263c06c7138fd01f937afe59bf2f335a90ab",
     "keywords": [
       "储能",
       "新型储能"
@@ -2290,6 +2578,7 @@
   },
   {
     "id": "d0d0e7f8eb6db0a2e965358ba038837b4e011d045edf2088b3e64275737f0e2f",
+    "canonical_id": "d0d0e7f8eb6db0a2e965358ba038837b4e011d045edf2088b3e64275737f0e2f",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2297,6 +2586,7 @@
   },
   {
     "id": "d1f2a05d26ad844a21c284e91b3a7e705fffd13e371e640a852e874a5ece591d",
+    "canonical_id": "d1f2a05d26ad844a21c284e91b3a7e705fffd13e371e640a852e874a5ece591d",
     "keywords": [
       "储能",
       "新型储能"
@@ -2307,6 +2597,7 @@
   },
   {
     "id": "d29e97d41a56fbdeec44789ed092afc26940bb42603d835c59946c2233f341af",
+    "canonical_id": "d29e97d41a56fbdeec44789ed092afc26940bb42603d835c59946c2233f341af",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2314,6 +2605,7 @@
   },
   {
     "id": "d3b6b91eea5021c6fe52cb6829c26c3653869691d4bd6d2c9fa35715bec1ba8d",
+    "canonical_id": "d3b6b91eea5021c6fe52cb6829c26c3653869691d4bd6d2c9fa35715bec1ba8d",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2321,6 +2613,7 @@
   },
   {
     "id": "d5057b118c5333bfbbe5771f9569cfdd2cb725e43bcec8ed1fc764111ea41a82",
+    "canonical_id": "d5057b118c5333bfbbe5771f9569cfdd2cb725e43bcec8ed1fc764111ea41a82",
     "keywords": [
       "储能",
       "新型储能",
@@ -2337,6 +2630,7 @@
   },
   {
     "id": "d54469afdefd7376d490377f4704ff62f64f4a6e73349e744f856e9cc30d7de4",
+    "canonical_id": "d54469afdefd7376d490377f4704ff62f64f4a6e73349e744f856e9cc30d7de4",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2344,6 +2638,7 @@
   },
   {
     "id": "d590b8ceb69985d416b627b7e0f5478e29759cb33d13bad777abe87e5e1b2c6a",
+    "canonical_id": "d590b8ceb69985d416b627b7e0f5478e29759cb33d13bad777abe87e5e1b2c6a",
     "keywords": [
       "电力市场"
     ],
@@ -2353,6 +2648,7 @@
   },
   {
     "id": "d59fb7b931648d65a066d7bea3765dc97ced8f60404dca3ef5937d0756be8063",
+    "canonical_id": "d59fb7b931648d65a066d7bea3765dc97ced8f60404dca3ef5937d0756be8063",
     "keywords": [
       "电力市场"
     ],
@@ -2362,6 +2658,7 @@
   },
   {
     "id": "d5be65db09220d6d0e45f32901f54d7ea37bfd05c82474c290453e5cf0d7edae",
+    "canonical_id": "d5be65db09220d6d0e45f32901f54d7ea37bfd05c82474c290453e5cf0d7edae",
     "keywords": [
       "储能",
       "新型储能",
@@ -2377,6 +2674,7 @@
   },
   {
     "id": "d5c8afd90f4d28b404666ac49fa6dc7186a95e004de169281ded5530c57f23b0",
+    "canonical_id": "d5c8afd90f4d28b404666ac49fa6dc7186a95e004de169281ded5530c57f23b0",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2384,6 +2682,7 @@
   },
   {
     "id": "d63f1abb5f1563be6f066f6b92e8cb0ec83450c47de401cac99a30e32da00975",
+    "canonical_id": "d63f1abb5f1563be6f066f6b92e8cb0ec83450c47de401cac99a30e32da00975",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2391,6 +2690,7 @@
   },
   {
     "id": "d648b7f957b3beb23311120376d970814c6a0dfe902f944840c28e69d50e2477",
+    "canonical_id": "d648b7f957b3beb23311120376d970814c6a0dfe902f944840c28e69d50e2477",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2398,6 +2698,7 @@
   },
   {
     "id": "d76a419a1cef4c5ae61f83a4648f6b931ffc9e92f2e6fa6a9d353736f86929e6",
+    "canonical_id": "d76a419a1cef4c5ae61f83a4648f6b931ffc9e92f2e6fa6a9d353736f86929e6",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2405,6 +2706,7 @@
   },
   {
     "id": "d8c170c648718a3daf6be67fc3e5a388990a656eaf6c81b22ebec382fda7fead",
+    "canonical_id": "d8c170c648718a3daf6be67fc3e5a388990a656eaf6c81b22ebec382fda7fead",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2412,6 +2714,7 @@
   },
   {
     "id": "da01f4cd995f87f5be135d481852bd0e4d1cb6aa315b19bbc13e10d58692a1bd",
+    "canonical_id": "da01f4cd995f87f5be135d481852bd0e4d1cb6aa315b19bbc13e10d58692a1bd",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2419,6 +2722,7 @@
   },
   {
     "id": "daa04408cced84f349606e62fca1a5de0f0935a4cdcc87e752d72b850dcb6b74",
+    "canonical_id": "daa04408cced84f349606e62fca1a5de0f0935a4cdcc87e752d72b850dcb6b74",
     "keywords": [
       "调频",
       "调峰",
@@ -2430,6 +2734,7 @@
   },
   {
     "id": "dac9a337485cc34df2c870c53aaee29af06aca4dcc97d07588c9271e9abecc25",
+    "canonical_id": "dac9a337485cc34df2c870c53aaee29af06aca4dcc97d07588c9271e9abecc25",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2437,6 +2742,7 @@
   },
   {
     "id": "dc87f1b3cf78d205fe6299ab8990a77ba73d8b8874747cfec77a198cba74b387",
+    "canonical_id": "dc87f1b3cf78d205fe6299ab8990a77ba73d8b8874747cfec77a198cba74b387",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2444,6 +2750,7 @@
   },
   {
     "id": "ddd205bbe36d6998a6cf38b2245fbd97017d856fac3dda8452a4f8c7ffb819d7",
+    "canonical_id": "ddd205bbe36d6998a6cf38b2245fbd97017d856fac3dda8452a4f8c7ffb819d7",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2451,6 +2758,7 @@
   },
   {
     "id": "dded3c44a6f9eb4abeeb12251900470aa457545a99e5e0360d2df517d88fe501",
+    "canonical_id": "dded3c44a6f9eb4abeeb12251900470aa457545a99e5e0360d2df517d88fe501",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2458,6 +2766,7 @@
   },
   {
     "id": "de1d91dd63f61fa2b62d14f7f934a23469e290fc8cbb0eb2db14f5f37a15a7ea",
+    "canonical_id": "de1d91dd63f61fa2b62d14f7f934a23469e290fc8cbb0eb2db14f5f37a15a7ea",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2465,6 +2774,7 @@
   },
   {
     "id": "de3d568278f1feba424bb77507d1feec104cf7f04b3ac6be41a0d30e8cb28166",
+    "canonical_id": "de3d568278f1feba424bb77507d1feec104cf7f04b3ac6be41a0d30e8cb28166",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2472,6 +2782,7 @@
   },
   {
     "id": "de5ccd28d082f29b4f3b41e00ff045d717359ca3fafce588d6d60885cd3d4df1",
+    "canonical_id": "de5ccd28d082f29b4f3b41e00ff045d717359ca3fafce588d6d60885cd3d4df1",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2479,6 +2790,7 @@
   },
   {
     "id": "df2d15a1ed338dfbcd77f5f68b7acefd0411a8cdfb7a114165ea9424f6252709",
+    "canonical_id": "df2d15a1ed338dfbcd77f5f68b7acefd0411a8cdfb7a114165ea9424f6252709",
     "keywords": [
       "峰谷",
       "虚拟电厂",
@@ -2490,6 +2802,7 @@
   },
   {
     "id": "dfb5a800c8f2e1e700ad635cbdef12ba98be074a0d1fc6285f71d4dc010bd8eb",
+    "canonical_id": "dfb5a800c8f2e1e700ad635cbdef12ba98be074a0d1fc6285f71d4dc010bd8eb",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2497,6 +2810,7 @@
   },
   {
     "id": "e18de966ce76fe2176564370a8ca46abfad42b49ac241a0cff752eba907e6da2",
+    "canonical_id": "e18de966ce76fe2176564370a8ca46abfad42b49ac241a0cff752eba907e6da2",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2504,6 +2818,7 @@
   },
   {
     "id": "e2014653e3a8b81bcd59c1d5aee4e01b0726410578abb0c54a631d95378d1e4b",
+    "canonical_id": "e2014653e3a8b81bcd59c1d5aee4e01b0726410578abb0c54a631d95378d1e4b",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2511,6 +2826,7 @@
   },
   {
     "id": "e21bceab6e918a6d3f90e99ea9da356e8eb974d045f8fc53be23b24860f92a48",
+    "canonical_id": "e21bceab6e918a6d3f90e99ea9da356e8eb974d045f8fc53be23b24860f92a48",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2518,6 +2834,7 @@
   },
   {
     "id": "e3274db22632fb9613ee4ffa8892969d46bfd4fd685afa3ff76f340756f6e07a",
+    "canonical_id": "e3274db22632fb9613ee4ffa8892969d46bfd4fd685afa3ff76f340756f6e07a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2525,6 +2842,7 @@
   },
   {
     "id": "e455fb9cfa0841fd6e103d408a360253a855cd8a320a86913a320bf5cfa4b6e7",
+    "canonical_id": "e455fb9cfa0841fd6e103d408a360253a855cd8a320a86913a320bf5cfa4b6e7",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2532,6 +2850,7 @@
   },
   {
     "id": "e49b88fd22f4996eee3b6772fcde55dbb46ed1fc5d752efbde7701a2e09fd484",
+    "canonical_id": "e49b88fd22f4996eee3b6772fcde55dbb46ed1fc5d752efbde7701a2e09fd484",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2539,6 +2858,7 @@
   },
   {
     "id": "e4e33220f5ce96d0c7a4f6611840ea676b21e6149294fff81f0b8f4448dde713",
+    "canonical_id": "e4e33220f5ce96d0c7a4f6611840ea676b21e6149294fff81f0b8f4448dde713",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2546,6 +2866,7 @@
   },
   {
     "id": "e653070a49dfdd9e3475a594de37b3d8ccb05811e3f12bb7a1880adca9e12768",
+    "canonical_id": "e653070a49dfdd9e3475a594de37b3d8ccb05811e3f12bb7a1880adca9e12768",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2553,6 +2874,7 @@
   },
   {
     "id": "e7625c946d8a219e79ef15019df1051736b852992dd415f3c512a8855dd51246",
+    "canonical_id": "e7625c946d8a219e79ef15019df1051736b852992dd415f3c512a8855dd51246",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2560,6 +2882,7 @@
   },
   {
     "id": "e81e05409ab7c66671ea548d8c705c947cdfc48df409151cc4c128d7818e6604",
+    "canonical_id": "e81e05409ab7c66671ea548d8c705c947cdfc48df409151cc4c128d7818e6604",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2567,6 +2890,7 @@
   },
   {
     "id": "ea756a82b59020ffbdc980a98272f1b8a0ad64ffa47c2178e292127267581023",
+    "canonical_id": "ea756a82b59020ffbdc980a98272f1b8a0ad64ffa47c2178e292127267581023",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2574,6 +2898,7 @@
   },
   {
     "id": "ec374ddc3de2f1288b711ddc83fac35c6f40565613f00012112de9cd95a2684c",
+    "canonical_id": "ec374ddc3de2f1288b711ddc83fac35c6f40565613f00012112de9cd95a2684c",
     "keywords": [
       "新能源上网电价"
     ],
@@ -2583,6 +2908,7 @@
   },
   {
     "id": "ecef2f78c6034bb5cb813342ce84e477216aafd2a5b9acff70eba4f43dec2484",
+    "canonical_id": "ecef2f78c6034bb5cb813342ce84e477216aafd2a5b9acff70eba4f43dec2484",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2590,6 +2916,7 @@
   },
   {
     "id": "ed250510d113482bc07924450de54a0beec629d9117cc6273c2d08f943e80a50",
+    "canonical_id": "ed250510d113482bc07924450de54a0beec629d9117cc6273c2d08f943e80a50",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2597,6 +2924,7 @@
   },
   {
     "id": "ed2bf7b0843e8a0765a77ce487e4f1afb46342d4df5fa8517bfa73bc6aadc115",
+    "canonical_id": "3da33e1f6712e253f175acf203d3914c93294deda0e9673ea63c9eb01d4dee8f",
     "keywords": [
       "储能",
       "新型储能",
@@ -2610,6 +2938,7 @@
   },
   {
     "id": "ed6084ddfa27f617135aed585cc230c4832a70335c77e3cde07f68a36c597c25",
+    "canonical_id": "ed6084ddfa27f617135aed585cc230c4832a70335c77e3cde07f68a36c597c25",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2617,6 +2946,7 @@
   },
   {
     "id": "ed7780fe911da96f0ef19f91aae254b4496e5b20caccb62c1438b15dbbbd435f",
+    "canonical_id": "ed7780fe911da96f0ef19f91aae254b4496e5b20caccb62c1438b15dbbbd435f",
     "keywords": [
       "储能",
       "新型储能",
@@ -2630,6 +2960,7 @@
   },
   {
     "id": "ee14fb4557bfadc161171e2629c342df257a498106593849674302a7e0f04d1d",
+    "canonical_id": "ee14fb4557bfadc161171e2629c342df257a498106593849674302a7e0f04d1d",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2637,6 +2968,7 @@
   },
   {
     "id": "eec49e5f1d435994f823defee1158dfb48f77b9b5500634260c3395fe725df17",
+    "canonical_id": "eec49e5f1d435994f823defee1158dfb48f77b9b5500634260c3395fe725df17",
     "keywords": [
       "电力现货",
       "电力市场"
@@ -2647,6 +2979,7 @@
   },
   {
     "id": "f0d5d5c0ef5187003810f3e5b520979217db635953498dd8cbad3732576d14ad",
+    "canonical_id": "f0d5d5c0ef5187003810f3e5b520979217db635953498dd8cbad3732576d14ad",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2654,6 +2987,7 @@
   },
   {
     "id": "f1fb9cea0b3096ee4a179de5582de1f68e2e431e0e6e9ba2c05a20e4aaf7f8a5",
+    "canonical_id": "f1fb9cea0b3096ee4a179de5582de1f68e2e431e0e6e9ba2c05a20e4aaf7f8a5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2661,6 +2995,7 @@
   },
   {
     "id": "f28d5b461703dac8ce09a6a104c5de0e8eb56ed34220e555f97a890aef796d79",
+    "canonical_id": "f28d5b461703dac8ce09a6a104c5de0e8eb56ed34220e555f97a890aef796d79",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2668,6 +3003,7 @@
   },
   {
     "id": "f2ce3f9db7a86f8541ee1e37246be12506dfd12c7a2ab59b1638b6c7d6cb0ff0",
+    "canonical_id": "f2ce3f9db7a86f8541ee1e37246be12506dfd12c7a2ab59b1638b6c7d6cb0ff0",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2675,6 +3011,7 @@
   },
   {
     "id": "f303389b1221b80f04bef546d10fb94c6c6270b34f8110027120b42772a108e5",
+    "canonical_id": "f303389b1221b80f04bef546d10fb94c6c6270b34f8110027120b42772a108e5",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2682,6 +3019,7 @@
   },
   {
     "id": "f327de51a25d0b8a606925c0b3318e2edb95a24a76bf4acea5fdcdb2673ca401",
+    "canonical_id": "f327de51a25d0b8a606925c0b3318e2edb95a24a76bf4acea5fdcdb2673ca401",
     "keywords": [
       "储能",
       "新型储能",
@@ -2693,6 +3031,7 @@
   },
   {
     "id": "f3a816c0468b4000f429502f3d969cc2df5e6460ca42e2818988474358d40355",
+    "canonical_id": "f3a816c0468b4000f429502f3d969cc2df5e6460ca42e2818988474358d40355",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2700,6 +3039,7 @@
   },
   {
     "id": "f56366af700fdbba6c13e87065b8f2e8a642b07ca8e432d3951250b05b00d8a1",
+    "canonical_id": "f56366af700fdbba6c13e87065b8f2e8a642b07ca8e432d3951250b05b00d8a1",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2707,6 +3047,7 @@
   },
   {
     "id": "f5dd71162aca5c333c2963fa75c777f2848740db790f684f84e949f916789af4",
+    "canonical_id": "f5dd71162aca5c333c2963fa75c777f2848740db790f684f84e949f916789af4",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2714,6 +3055,7 @@
   },
   {
     "id": "f6fbf070a11664c0b65310d0942b4413ea5c250c48f6024a18c702c2cf230bf9",
+    "canonical_id": "5eaf4a56a60140e57e66cbc88d5c4e3d918581a9bac8676f1cf4d64f02b8c40a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2721,6 +3063,7 @@
   },
   {
     "id": "f838069ca0d9d7cb5519380ec33e4b0c39a534f3d2366791ed42e554cc770817",
+    "canonical_id": "f838069ca0d9d7cb5519380ec33e4b0c39a534f3d2366791ed42e554cc770817",
     "keywords": [
       "储能",
       "新型储能"
@@ -2731,6 +3074,7 @@
   },
   {
     "id": "f8861f03daa6d3b82d1c51819cd43e5e287f5be0a46d01db101c181969d4812f",
+    "canonical_id": "f8861f03daa6d3b82d1c51819cd43e5e287f5be0a46d01db101c181969d4812f",
     "keywords": [
       "抽水蓄能"
     ],
@@ -2740,6 +3084,7 @@
   },
   {
     "id": "f938f77ca46ee1c61c9139e23d4855aa1fc4bc91f26c040c058e4326d6514fe6",
+    "canonical_id": "f938f77ca46ee1c61c9139e23d4855aa1fc4bc91f26c040c058e4326d6514fe6",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2747,6 +3092,7 @@
   },
   {
     "id": "fa067d7639333fbb09240f15378903eb2ea996072c1d40b12fc25e61d064a84f",
+    "canonical_id": "fa067d7639333fbb09240f15378903eb2ea996072c1d40b12fc25e61d064a84f",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2754,6 +3100,7 @@
   },
   {
     "id": "fa42142e76dc440343da2190f09d48c4d32ce6379ad3fd612ad4ddb07a46d40a",
+    "canonical_id": "fa42142e76dc440343da2190f09d48c4d32ce6379ad3fd612ad4ddb07a46d40a",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2761,6 +3108,7 @@
   },
   {
     "id": "fa773cdeb2d06d69ed469cb74276179399f4ecaef2e8ecfbe15f1d1eb3d7cd50",
+    "canonical_id": "fa773cdeb2d06d69ed469cb74276179399f4ecaef2e8ecfbe15f1d1eb3d7cd50",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2768,6 +3116,7 @@
   },
   {
     "id": "fa8a238e65ed974852a876f057fed60055394e6541894d34bae86b12c8c0518e",
+    "canonical_id": "fa8a238e65ed974852a876f057fed60055394e6541894d34bae86b12c8c0518e",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2775,6 +3124,7 @@
   },
   {
     "id": "fc357f346f7bef53ae89b85580821ea878a73692312fd60f6d6569a755bb17c7",
+    "canonical_id": "fc357f346f7bef53ae89b85580821ea878a73692312fd60f6d6569a755bb17c7",
     "keywords": [
       "辅助服务",
       "电力市场"
@@ -2785,6 +3135,7 @@
   },
   {
     "id": "fd4e4a4242b589c830aa3516a5753b099162325a15fa77385934c5f06f861d44",
+    "canonical_id": "fd4e4a4242b589c830aa3516a5753b099162325a15fa77385934c5f06f861d44",
     "keywords": [
       "储能",
       "新型储能",
@@ -2797,6 +3148,7 @@
   },
   {
     "id": "fda60824157cb93714ad4b88e1f654c57a91024b4400f7a90cd2cfccb76a41ef",
+    "canonical_id": "1dd81e7f1ccef5998385e6f503c844012e2a2fc41aece2f6437b618651f8e294",
     "keywords": [
       "储能"
     ],
@@ -2806,6 +3158,7 @@
   },
   {
     "id": "fde6ab4ed5ab29c529741c3643ee35f6342c929be1adc8e7748b722adc4a5478",
+    "canonical_id": "fde6ab4ed5ab29c529741c3643ee35f6342c929be1adc8e7748b722adc4a5478",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2813,6 +3166,7 @@
   },
   {
     "id": "fe10ffb6bf743afacca6a333369128ba2832c60207351b6e089911d2eddafdac",
+    "canonical_id": "fe10ffb6bf743afacca6a333369128ba2832c60207351b6e089911d2eddafdac",
     "keywords": [
       "储能",
       "新型储能",
@@ -2827,6 +3181,7 @@
   },
   {
     "id": "fed24a9847ef1524720b17b71ec28dc0f01cf60886ede63adefd91f542b4d451",
+    "canonical_id": "fed24a9847ef1524720b17b71ec28dc0f01cf60886ede63adefd91f542b4d451",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2834,6 +3189,7 @@
   },
   {
     "id": "fef526e4e44a17f463471ba2e9e7b2b9eb656724849ca01a5f8000648a5458ab",
+    "canonical_id": "fef526e4e44a17f463471ba2e9e7b2b9eb656724849ca01a5f8000648a5458ab",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",
@@ -2841,6 +3197,7 @@
   },
   {
     "id": "ff8a812fae9fb73abaa8ee4af71887f8c5b21df78a87e16bbb30f7201da02ea7",
+    "canonical_id": "ff8a812fae9fb73abaa8ee4af71887f8c5b21df78a87e16bbb30f7201da02ea7",
     "keywords": [],
     "relevance": null,
     "status": "keyword_no_match",

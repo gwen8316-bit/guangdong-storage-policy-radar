@@ -53,8 +53,10 @@ def analysis_errors(candidate):
     # Budget deferral is expected with the daily cap. Provider/validation failures
     # reject the snapshot; the current site and its data remain untouched.
     deferred = {'Run API call limit reached', 'Monthly reserved budget reached'}
+    groups = read_json(candidate / 'policy-groups.json', [])
+    aliases = {pid for g in groups for pid in g['member_ids'] if pid != g['canonical_id']}
     return [p.stem for p in (candidate / 'analysis').glob('*.json')
-            if (item := read_json(p, {})).get('status') == 'pending_review'
+            if p.stem not in aliases and (item := read_json(p, {})).get('status') == 'pending_review'
             and item.get('error') not in deferred]
 
 

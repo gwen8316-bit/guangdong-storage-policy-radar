@@ -8,6 +8,8 @@
 
 ## 结构
 
+跨网址去重由 `collector/dedup.py` 分组，在日常 `python -m analysis` 的分析前后重建映射。`src/lib/data.ts` 只展示保留记录，汇总全部来源机构与栏目；详情列出每个原网址及对应栏目。原始文件、相关性判断和解读均不改写。统计卡片、主题分布、列表和推荐统一使用去重后的政策。首页动态仍沿用原有规则，本次未增加解读状态筛选。
+
 - `src/lib/data.ts`：构建时读取 JSON，核对输入哈希，日期口径与发布机构显示。
 - `src/lib/filter.ts`：浏览器端组合筛选；仅搜索标题与摘要。
 - `src/components/PolicyCard.astro`：首页与政策库共用卡片。

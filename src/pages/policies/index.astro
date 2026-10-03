@@ -25,7 +25,7 @@ const issuers = [...new Set(entries.map(e => issuerName(e.policy)))].sort();
     <noscript><p class="notice">当前显示全部已收录政策；启用 JavaScript 后可筛选和分页。</p></noscript>
     <div id="policy-list">{entries.map(entry => <PolicyCard entry={entry} searchable />)}</div>
     <p id="empty" class="empty" hidden>没有符合条件的政策。请调整关键词或筛选条件。</p><div id="pagination" class="pagination" hidden><button id="prev" class="secondary">上一页</button><span id="page-info" aria-live="polite"></span><button id="next" class="secondary">下一页</button></div>
-    <p class="fine">原始采集 {data.policies.length} 份，关键词命中 {data.summary.keyword_matches} 份。展示直接或间接相关的政策；解读未完成的条目保留待核查标记。AI 生成，以原文为准。</p>
+    <p class="fine">去重后收录 {data.policies.length} 份，关键词命中 {data.summary.keyword_matches} 份。展示直接或间接相关的政策；解读未完成的条目保留待核查标记。AI 生成，以原文为准。</p>
   </section></section>
 </Layout>
 <script>
