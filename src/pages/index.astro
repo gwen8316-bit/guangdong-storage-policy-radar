@@ -8,6 +8,7 @@ const distribution = data.taxonomy.topics.map(topic => ({ topic, count: data.ent
 const max = Math.max(1, ...distribution.map(t => t.count));
 ---
 <Layout title="首页">
+  <form class="home-search" action={link('policies/')} role="search"><span aria-hidden="true">⌕</span><input name="q" type="search" aria-label="搜索政策" placeholder="搜索政策、主题关键词，如：容量电价" /><button type="submit" aria-label="搜索政策">↗</button></form>
   <section class="hero home-hero"><div><p class="eyebrow">POLICY INTELLIGENCE / 广东 · 储能 · 政策</p><h1>广东储能政策雷达</h1><p class="subtitle">自动追踪国家及广东省储能相关政策，AI 辅助解读</p><p class="update">数据更新于：<time>{formatTime(data.updatedAt)}</time></p></div><a class="button" href={link('policies/')}>浏览政策库 →</a></section>
   <section class="metrics" aria-label="政策统计"><div><span>收录政策总数</span><strong>{data.policies.length}<small>份</small></strong></div><div><span>储能相关政策数</span><strong>{data.entries.length}<small>份</small></strong></div><div><span>近 30 天新增相关政策数</span><strong>{recentCount(data.entries)}<small>份</small></strong></div><div><span>覆盖信源数</span><strong>{new Set(data.columns.map(c => c.source_id)).size}<small>个机构 / {data.columns.length} 个栏目</small></strong></div></section>
   <p class="fine stat-note">收录总数为去重后的政策数；相关政策包含直接与间接相关。近 30 天按政策日期统计，缺少发布日期时使用列表日期，范围截至本次构建日。</p>
