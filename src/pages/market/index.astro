@@ -35,7 +35,6 @@ const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(
   </section>
   <section class="market-charts" aria-label="市场趋势">
     <article class="trend tariff"><div class="section-title"><h2>① 收益：广东峰谷价差</h2><span class="fine">2026 年 5—10 月 · 元/千瓦时</span></div>
-      <p class="takeaway"><b>看点：</b>7—9 月尖峰执行期间，尖峰−低谷价差均超过 1.1 元/千瓦时。</p>
       <p class="tariff-legend"><span>● ━ 高峰−低谷</span><span>◆ 尖峰−低谷（7—9 月）</span></p>
       <div class="chart-viewport" tabindex="0" role="region" aria-label="峰谷价差图，可横向滚动"><svg class="tariff-chart" viewBox="0 0 680 300" role="img" aria-labelledby="tariff-title tariff-description">
         <title id="tariff-title">广东六个月峰谷价差</title><desc id="tariff-description">主线为高峰减低谷价差，10 月为 0.8913 元/千瓦时；菱形辅助点仅展示 7、8、9 月尖峰减低谷价差。纵轴从 0.7 起，完整数据见下表。</desc>
@@ -44,6 +43,7 @@ const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(
         <path d={tariffPath} fill="none" stroke="#282437" stroke-width="3" vector-effect="non-scaling-stroke"/>
         {tariffPoints.map(p => <g><circle cx={p.x} cy={tariffY(p.peakSpread)} r="5" fill="#282437"><title>{p.month} 高峰−低谷：{p.peakSpread.toFixed(4)} 元/千瓦时</title></circle><text x={p.x} y="285" text-anchor="middle">{p.month.slice(5)} 月</text>{p.sharpSpread !== null && <path d={`M${p.x},${tariffY(p.sharpSpread)-7} l7,7 l-7,7 l-7,-7 Z`} fill="#9c83c5"><title>{p.month} 尖峰−低谷：{p.sharpSpread.toFixed(4)} 元/千瓦时</title></path>}</g>)}
       </svg></div>
+      <p class="chart-caption">图表注释：7—9 月尖峰执行期间，尖峰−低谷价差均超过 1.1 元/千瓦时。</p>
       <p class="chart-scroll-hint">左右滑动查看完整图表</p>
       <p class="fine">浅色阴影（7—9 月）：尖峰整月执行期（依据广东分时电价政策）。</p>
       <details class="data-details"><summary>数据与口径</summary>
@@ -53,16 +53,15 @@ const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(
       </details>
     </article>
     <article class="trend bids"><div class="section-title"><h2>② 成本：全国 2h 储能系统与 EPC 中标均价</h2><span class="fine">2025 年 9 月—2026 年 8 月 · 元/Wh</span></div>
-      <p class="takeaway"><b>看点：</b>{latestBid.month}，2h 系统与 EPC 中标均价分别为 {latestBid.system?.toFixed(4)}、{latestBid.epc?.toFixed(4)} 元/Wh。</p>
       <p class="tariff-legend"><span>● ━ 2h 储能系统</span><span>◆ ━ 2h EPC（不含 PC）</span></p>
       <div class="bid-scroll" role="region" aria-label="中标均价趋势，可横向滚动" tabindex="0">
-      <svg class="bid-chart" viewBox="0 0 790 305" aria-labelledby="bid-title bid-description">
+      <svg class="bid-chart" viewBox="0 0 790 340" aria-labelledby="bid-title bid-description">
         <title id="bid-title">全国 2h 系统与 EPC 中标均价</title><desc id="bid-description">12 个月中 6 个月有数据，缺失月份断开连线；1 月、5 月为孤立数据点。点击数据点打开 CNESA 原文，完整数值与出处见下表。</desc>
         {[0,0.35,0.7,1.05,1.4].map(v => <g><line x1="65" x2="725" y1={245-v/1.4*210} y2={245-v/1.4*210} stroke="#e9e4f1"/><text x="52" y={250-v/1.4*210} text-anchor="end">{v.toFixed(2)}</text></g>)}
         {bidSeries.map(series => <g><path d={series.path} fill="none" stroke={series.color} stroke-width="2.5"/>{series.points.map(p => <a href={p.source_url!} target="_blank" rel="noopener noreferrer" aria-label={`${p.month} ${series.label} ${p.value!.toFixed(4)} 元/Wh，查看 CNESA 原文`}><title>{p.month} · {series.label}：{p.value!.toFixed(4)} 元/Wh · 原文：{p.source_url}</title><circle cx={p.x} cy={p.y!} r="13" fill="transparent"/>{series.key === 'system' ? <circle cx={p.x} cy={p.y!} r="5" fill={series.color}/> : <path d={`M${p.x},${p.y!-7} l7,7 l-7,7 l-7,-7 Z`} fill={series.color}/>}</a>)}</g>)}
-        {bids.series.map((p,i) => <text x={65+i*60} y="278" text-anchor="middle">{p.month.slice(5)} 月</text>)}
-      <text x="65" y="303">2025</text><text x="305" y="303">2026</text>
+        {bids.series.map((p,i) => <text class="bid-date" x={65+i*60} y="276" text-anchor="end" transform={`rotate(-40 ${65+i*60} 276)`}>{p.month}</text>)}
       </svg></div>
+      <p class="chart-caption">图表注释：{latestBid.month}，2h 系统与 EPC 中标均价分别为 {latestBid.system?.toFixed(4)}、{latestBid.epc?.toFixed(4)} 元/Wh。</p>
       <p class="chart-scroll-hint">左右滑动查看完整图表</p>
       <p class="fine">缺失月份留空并断线；圆点为系统，菱形为 EPC。悬停查看数值与原文链接，点击数据点打开原文；手机端也可查阅下表。</p>
       <details class="data-details"><summary>数据与口径</summary>
@@ -73,7 +72,6 @@ const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(
     </article>
     <RevenueCalculator />
     <article class="trend storage"><div class="section-title"><h2>④ 背景：全国新型储能累计装机</h2><span class="fine">半年度 · 功率（亿千瓦）</span></div>
-      <p class="takeaway"><b>看点：</b>截至 {latestStorage.date}，全国累计装机 {latestStorage.power.toFixed(2)} 亿千瓦 / {latestStorage.energy.toFixed(2)} 亿千瓦时，<a href={latestStorage.source_url} target="_blank" rel="noopener noreferrer">{latestStorage.official_yoy}</a>（官方公布）。</p>
       <div class="chart-viewport" tabindex="0" role="region" aria-label="装机趋势图，可横向滚动"><svg class="storage-chart" viewBox="0 0 600 295" role="img" aria-labelledby="storage-title storage-description">
         <title id="storage-title">全国新型储能累计装机规模半年度趋势</title><desc id="storage-description">2024 年底至 2026 年 6 月底四个半年度累计值，功率分别为 0.74、0.95、1.36、1.53 亿千瓦。原文精度、储能容量与出处见下表。</desc>
         {[0, 1, 2, 3, 4].map(i => <g><line x1="100" x2="520" y1={235 - i * 46.25} y2={235 - i * 46.25} stroke="#e9e4f1"/><text x="55" y={241 - i * 46.25} text-anchor="end">{(storageMax * i / 4).toFixed(2)}</text></g>)}
@@ -81,6 +79,7 @@ const tariffPath = tariffPoints.map((p, i) => `${i ? 'L' : 'M'}${p.x},${tariffY(
         <path d={storagePath} fill="none" stroke="#282437" stroke-width="3" vector-effect="non-scaling-stroke"/>
         {storagePoints.map(p => <g><circle cx={p.x} cy={p.y} r="6" fill="#282437"><title>{p.label}：{p.original_power} / {p.original_energy}</title></circle><text x={p.x} y={p.y - 16} text-anchor="middle">{p.power.toFixed(2)}</text><text x={p.x} y="273" text-anchor="middle">{p.date.slice(0, 7)}</text></g>)}
       </svg></div>
+      <p class="chart-caption">图表注释：截至 {latestStorage.date}，全国累计装机 {latestStorage.power.toFixed(2)} 亿千瓦 / {latestStorage.energy.toFixed(2)} 亿千瓦时，<a href={latestStorage.source_url} target="_blank" rel="noopener noreferrer">{latestStorage.official_yoy}</a>（官方公布）。</p>
       <p class="chart-scroll-hint">左右滑动查看完整图表</p>
       <details class="data-details"><summary>数据与口径</summary>
       <ul class="policy-events">{events.map((e, i) => <li><a href={link(`policies/${e.policy.id}/`)}>政策 {i + 1} · {e.date} · {e.policy.title}</a></li>)}</ul>
