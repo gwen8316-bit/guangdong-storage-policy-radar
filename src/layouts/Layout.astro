@@ -8,11 +8,11 @@ const path = Astro.url.pathname;
 ---
 <!doctype html>
 <html lang="zh-CN">
-  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width" /><meta name="description" content="自动追踪国家及广东省储能相关政策，AI 辅助解读。" /><title>{title} · 广东储能政策雷达</title></head>
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width" /><meta name="description" content="自动追踪国家及广东省储能相关政策，AI 辅助解读。" /><title>{title} · 广东储能政策监测平台</title></head>
   <body>
     <a class="skip" href="#main">跳到主要内容</a>
-    <header class="topbar"><a class="brand" href={link()}><span class="mark" aria-hidden="true">G<span>·</span></span><span>广东储能政策雷达<small>GUANGDONG ENERGY STORAGE</small></span></a><nav aria-label="主导航"><a href={link()} aria-current={path === link() ? 'page' : undefined}>首页</a><a href={link('policies/')} aria-current={path.startsWith(link('policies/')) ? 'page' : undefined}>政策库</a><a href={link('market/')} aria-current={path.startsWith(link('market/')) ? 'page' : undefined}>市场看板</a><a href={link('#about')}>关于</a></nav></header>
+    <header class="topbar"><a class="brand" href={link()}><span class="mark" aria-hidden="true">G<span>·</span></span><span>广东储能政策监测平台<small>Guangdong Energy Storage Policy Monitor</small></span></a><nav aria-label="主导航"><a href={link()} aria-current={path === link() ? 'page' : undefined}>首页</a><a href={link('policies/')} aria-current={path.startsWith(link('policies/')) ? 'page' : undefined}>政策库</a><a href={link('market/')} aria-current={path.startsWith(link('market/')) ? 'page' : undefined}>市场看板</a><a href={link('#about')}>关于</a></nav></header>
     <main id="main"><slot /></main>
-    <footer><span>广东储能政策雷达</span><span>AI 生成，以原文为准 · 时间均为北京时间</span></footer>
+    <footer><span>广东储能政策监测平台</span><span>AI 生成，以原文为准 · 时间均为北京时间</span></footer>
   </body>
 </html>

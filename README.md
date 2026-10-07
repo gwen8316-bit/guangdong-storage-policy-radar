@@ -1,8 +1,10 @@
-# 广东储能政策雷达
+# 广东储能政策监测平台
+
+Guangdong Energy Storage Policy Monitor
 
 自动追踪国家及广东省储能相关政策，AI 辅助解读。个人政策研究与自动化求职展示项目：Python 采集与分析，JSON 存储，Astro 静态前端，GitHub Actions 自动更新，GitHub Pages 发布。
 
-**网站：[广东储能政策雷达](https://gwen8316-bit.github.io/guangdong-storage-policy-radar/)**
+**网站：[广东储能政策监测平台](https://gwen8316-bit.github.io/guangdong-storage-policy-radar/)**
 
 ## 页面
 
